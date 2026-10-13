@@ -1,0 +1,22 @@
+{
+  "date":"2026-10-13",
+  "timezone":"Asia/Hong_Kong",
+  "repository":"https://github.com/RintaroMasaoka/higher-central-charge",
+  "site":"https://rintaromasaoka.github.io/higher-central-charge/",
+  "visibility":"public",
+  "deployed_source":"f19f3917f24ed326fdb9f461646d794896733a24",
+  "actions_run":38379572025,
+  "deployment_id":7035407279,
+  "actions_conclusion":"success",
+  "remote_browser_checks":{
+    "combinations":24,
+    "routes":["overview","observable","derivation","applications","boundary","references"],
+    "widths":[1440,390],
+    "themes":["light","dark"],
+    "errors":[],
+    "interactions":["chapter navigation","details","direct disclosure fragment","theme persistence","reference pin","Escape","reference destination"],
+    "math_fonts_and_images":"loaded",
+    "results":"browser-results.json"
+  },
+  "verification_boundary":"Visible-prefix reader 38 PASS; source audit and Japanese naming gates retain unresolved decisions. Numerical simulations not reproduced. Later report-only commits do not change deployed manuscript or implementation."
+}
