@@ -13,5 +13,5 @@
     {"id":"boundary","section":"5","title":"境界にギャップを開ける条件","description":"必要条件とAbelian相の判定","plainTitle":"境界にギャップを開ける条件","plainDescription":"高次中心電荷による境界の障害と有限検査。","file":"content/boundary.md"},
     {"id":"references","section":"文献","title":"原典と参照箇所","description":"文献情報","plainTitle":"原典と参照箇所","plainDescription":"原典の使用版と各章の対応。","file":"content/references.md"}
   ],
-  "publication":{"provider":"github-pages","projectId":"RintaroMasaoka/higher-central-charge","url":null,"visibility":"public"}
+  "publication":{"provider":"github-pages","projectId":"RintaroMasaoka/higher-central-charge","url":"https://rintaromasaoka.github.io/higher-central-charge/","visibility":"public"}
 }
