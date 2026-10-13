@@ -1,0 +1,7 @@
+# Coordinator Reconciliation
+
+Frozen independent inventory enumeration.md SHA256 4570967cd0adac5682fc3db0de26fd30551eaba38f8cb9783347f2932f795823 retained unchanged. Original semantic denominator: 54 roots in main.tex 172-234. Coordinator later supplied comparison requesting D01 characterization/index separation; D02 sum/phase/nonzero separation; M07 phase/amplitude separation; A10 tensor trace/normalization separation; A19 S coefficient/dominance separation. These are separate warrant tasks under original root IDs with distinct joins. A20 chart direction, A21 nonzero coefficient and M13 independent actual central-charge prerequisites are now explicit. No denominator inflation from task splits.
+
+This comparison is coordinator reconciliation of an independently frozen inventory, not a new independent decision review. No full acceptance is claimed: audience-dependent availability remains unknown beyond character familiarity, external foundations remain conditional, notation status is partial, and COVERAGE remains unknown pending coordinator acceptance of this comparison.
+
+Local witness correction: first version of evidence item 5 reversed the Mobius mapping direction. ST^n S acts on transformed tau_prime to yield original tau. Corrected explicitly in evidence file and ledger; raw source and frozen inventory unchanged. No challenged independent verdict is reused as fresh independent acceptance.

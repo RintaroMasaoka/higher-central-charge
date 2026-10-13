@@ -1,0 +1,10 @@
+{
+  "source": "content/observable.md",
+  "sha256": "149ce3d1f3a3f1c861a8155c05778ae365ff9e9815ce811319c2468983efcdd6",
+  "removed": {
+    "disclosures": 1,
+    "mathHints": 0,
+    "stepPopups": 0
+  },
+  "units": 31
+}

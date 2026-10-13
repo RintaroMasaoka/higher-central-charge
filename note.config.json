@@ -1,0 +1,17 @@
+{
+  "specVersion": "1.0.0",
+  "id": "higher-central-charge",
+  "title": "高次中心電荷と部分回転",
+  "description": "単一の波動関数から高次中心電荷を読み取る方法と、境界のギャップ形成条件を学ぶ。",
+  "language": "ja",
+  "source": {"title":"Extracting higher central charge from a single wave function", "authors":["Ryohei Kobayashi","Taige Wang","Tomohiro Soejima","Roger S. K. Mong","Shinsei Ryu"], "locator":"arXiv:2303.04822v4, main text and Supplemental Materials"},
+  "chapters": [
+    {"id":"overview","section":"1","title":"境界の問いと高次中心電荷","description":"エニオンのデータと境界の障害","plainTitle":"境界の問いと高次中心電荷","plainDescription":"高次中心電荷の定義と計算例。","file":"content/overview.md"},
+    {"id":"observable","section":"2","title":"波動関数の部分回転","description":"期待値とSchmidt分解","plainTitle":"波動関数の部分回転","plainDescription":"部分回転を波動関数から評価する。","file":"content/observable.md"},
+    {"id":"derivation","section":"3","title":"境界CFTによる導出","description":"指標のモジュラー変換","plainTitle":"境界CFTによる導出","plainDescription":"部分回転の位相に高次中心電荷が現れる理由。","file":"content/derivation.md"},
+    {"id":"applications","section":"4","title":"セクターと数値評価","description":"一般化とMPS","plainTitle":"セクターと数値評価","plainDescription":"一般のセクター、MPS、数値計算の条件。","file":"content/applications.md"},
+    {"id":"boundary","section":"5","title":"境界にギャップを開ける条件","description":"必要条件とAbelian相の判定","plainTitle":"境界にギャップを開ける条件","plainDescription":"高次中心電荷による境界の障害と有限検査。","file":"content/boundary.md"},
+    {"id":"references","section":"文献","title":"原典と参照箇所","description":"文献情報","plainTitle":"原典と参照箇所","plainDescription":"原典の使用版と各章の対応。","file":"content/references.md"}
+  ],
+  "publication":{"provider":"github-pages","projectId":"RintaroMasaoka/higher-central-charge","url":null,"visibility":"public"}
+}

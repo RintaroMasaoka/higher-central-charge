@@ -1,0 +1,53 @@
+# 文献と式の対応
+
+## 原論文
+
+<a id="ref-primary"></a>
+
+Ryohei Kobayashi, Taige Wang, Tomohiro Soejima, Roger S. K. Mong, Shinsei Ryu, *Extracting higher central charge from a single wave function*, [arXiv:2303.04822v3](https://arxiv.org/abs/2303.04822v3)。本ノートはプロジェクトに保存した `main.tex` と `supp_mat.tex` を参照している。
+
+導入の境界問題は Introduction、$\zeta_n$ の定義は本文式 (1)、部分回転の主結果は式 (2)、幾何は Fig. 1 を参照する。本ノート中の式には原論文の式番号を付けていない。
+
+## Character 計算
+
+<a id="ref-derivation-source"></a>
+
+原論文の Analytic derivation、式 (3) の character の比、式 (4) の左境界の真空近似、式 (5) の右境界の modular 変換が本ノートの導出に対応する。原論文式 (3) の後に記された運動量の符号と、同式の character の実部には、標準的な $e^{2\pi i\tau(L_0-c/24)}$ の定義で符号の不一致がある。本ノートは character の引数を採用し、$e^{+iP\delta y}$ に対する $P_l=+H_l/v$、$P_r=-H_r/v$ を明示して計算を揃えた。
+
+## エンタングルメント境界
+
+<a id="ref-edge"></a>
+
+本文 Analytic derivation の cut-and-glue の仮定と、補足資料 *Relationship between Entanglement spectrum and edge theory in non-chiral topological phases*。補足は、Ishibashi 境界状態を A/B の基底に分け、B のトレースが A の熱密度行列を与える構成を説明する。エンタングルメント Hamiltonian の摂動を無視する近似は本文でも明示されている。
+
+## セクターの一般化
+
+<a id="ref-sectors"></a>
+
+本文式 (6)、(7)、および補足 *Partial rotation of a cylinder in a twisted sector*。本文の $\zeta_{n,a}$ は和そのものの名称であり、規格化された位相 $\zeta_n$ とは定義が異なる。
+
+## MPS と実空間切断
+
+<a id="ref-mps"></a>
+
+本文 Numerical results の Laughlin 状態の説明、および補足 *Evaluating the action of partial rotation of an MPS wave function*。特に *Partially rotate an MPS*、*Matching iMPS momentum labels to CFT momentums*、*Orbital cut v.s. real-space cut* を参照する。本ノートの Schmidt 分解では係数を $\lambda_\alpha$、確率を $\lambda_\alpha^2$ とする。補足にある一部の Schmidt 分解の $\lambda_\alpha^2$ 表記は、規格化した分解の係数としては採用していない。
+
+## 数値結果
+
+<a id="ref-numerics"></a>
+
+原論文 Fig. 2（Kitaev model）、Fig. 3（ボソン Laughlin 状態）、Table I（位相の予測）。補足 *Extracting higher central charge of the Kitaev honeycomb model* と *Extracting higher central charge of the $\nu=1/2$ bosonic Laughlin state*、特に *Numerical performance of partial rotation* を参照する。数値の再現は本ノートの対象に含めていない。
+
+## Momentum Polarization
+
+<a id="ref-momentum"></a>
+
+本文式 (8)、補足 *Interpolating between higher central charge and momentum polarization*、および *Extracting higher central charge from scratch* の量子 Hall 系の Hall 粘性を含む式を参照する。微小角の近似と固定 $n$ の近似は、異なる長さの条件を用いる。
+
+## 境界の判定条件
+
+<a id="ref-criteria"></a>
+
+本文 *Definition and properties of higher central charge* と補足 *Complete determination of edge gappability for bosonic Abelian phases* が、整数の条件と有限の測定手順の直接の出典である。論文は higher central charge の必要条件について Ng らの結果、Abelian の十分条件について Kaidi らの結果を用いる。本ノートはこれらの分類定理を再証明せず、ボソンのエニオン理論に適用する条件を述べた上で使う。
+
+補足の $n=2\mathcal D^2$ での中心電荷抽出について、本ノートは指数関数の位相の周期を明示し、実際の $c_-=0$ の確認を独立の入力としている。エニオンの和が与える $c_-\pmod8$ と、物理的な相の実際の $c_-$ は区別する。

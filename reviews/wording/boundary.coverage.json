@@ -1,0 +1,2131 @@
+{
+  "input_sha256": "47d9aa57ca6a4781d1e0fe33cf11fd1b4fc2d6f16a0037286b4b632d7f01da63",
+  "review_lines": [
+    1,
+    96
+  ],
+  "projection": {
+    "source": "/Users/rintaromasaoka/Desktop/Learning/Study/Higher-central-charge/content/boundary.md",
+    "source_sha256": "6707fc4f1f974c455d952e37f223328b133e2a34e8d8a1b3558762fdda2c9a31",
+    "method": "Replace whole-line reference comments by empty lines and HTML tag markup by equal-width spaces; preserve line/column coordinates. Markdown text, image alt text and details/summary prose retained."
+  },
+  "manual_sweep": {
+    "completed": true,
+    "reviewed_lines": [
+      1,
+      96
+    ]
+  },
+  "dispositions": [
+    {
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "reason": "したがって: Japanese grammatical connective or copula したがって; not used to replace a disciplinary concept name.",
+      "occurrences": [
+        {
+          "line": 29,
+          "column": 122
+        },
+        {
+          "line": 55,
+          "column": 108
+        },
+        {
+          "line": 81,
+          "column": 190
+        }
+      ],
+      "candidate_id": "s19",
+      "surface": "したがって"
+    },
+    {
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "reason": "であり: Japanese grammatical connective or copula であり; not used to replace a disciplinary concept name.",
+      "occurrences": [
+        {
+          "line": 43,
+          "column": 121
+        },
+        {
+          "line": 55,
+          "column": 157
+        },
+        {
+          "line": 73,
+          "column": 24
+        }
+      ],
+      "candidate_id": "s37",
+      "surface": "であり"
+    },
+    {
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "reason": "である: Japanese grammatical connective or copula である; not used to replace a disciplinary concept name.",
+      "occurrences": [
+        {
+          "line": 3,
+          "column": 95
+        },
+        {
+          "line": 15,
+          "column": 4
+        },
+        {
+          "line": 35,
+          "column": 269
+        },
+        {
+          "line": 43,
+          "column": 29
+        },
+        {
+          "line": 43,
+          "column": 256
+        },
+        {
+          "line": 55,
+          "column": 221
+        },
+        {
+          "line": 60,
+          "column": 40
+        },
+        {
+          "line": 73,
+          "column": 58
+        },
+        {
+          "line": 81,
+          "column": 53
+        },
+        {
+          "line": 81,
+          "column": 130
+        },
+        {
+          "line": 85,
+          "column": 22
+        },
+        {
+          "line": 87,
+          "column": 60
+        },
+        {
+          "line": 94,
+          "column": 128
+        }
+      ],
+      "candidate_id": "s38",
+      "surface": "である"
+    },
+    {
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "reason": "として: Japanese grammatical connective or copula として; not used to replace a disciplinary concept name.",
+      "occurrences": [
+        {
+          "line": 27,
+          "column": 66
+        },
+        {
+          "line": 31,
+          "column": 61
+        },
+        {
+          "line": 73,
+          "column": 37
+        }
+      ],
+      "candidate_id": "s51",
+      "surface": "として"
+    },
+    {
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "reason": "となる: Japanese grammatical connective or copula となる; not used to replace a disciplinary concept name.",
+      "occurrences": [
+        {
+          "line": 7,
+          "column": 85
+        },
+        {
+          "line": 17,
+          "column": 113
+        },
+        {
+          "line": 27,
+          "column": 45
+        },
+        {
+          "line": 35,
+          "column": 120
+        },
+        {
+          "line": 43,
+          "column": 179
+        },
+        {
+          "line": 60,
+          "column": 100
+        },
+        {
+          "line": 60,
+          "column": 151
+        },
+        {
+          "line": 81,
+          "column": 70
+        }
+      ],
+      "candidate_id": "s54",
+      "surface": "となる"
+    },
+    {
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "reason": "なので: Japanese grammatical connective or copula なので; not used to replace a disciplinary concept name.",
+      "occurrences": [
+        {
+          "line": 29,
+          "column": 100
+        },
+        {
+          "line": 35,
+          "column": 87
+        },
+        {
+          "line": 60,
+          "column": 17
+        },
+        {
+          "line": 66,
+          "column": 61
+        }
+      ],
+      "candidate_id": "s58",
+      "surface": "なので"
+    },
+    {
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "reason": "になる: Japanese grammatical connective or copula になる; not used to replace a disciplinary concept name.",
+      "occurrences": [
+        {
+          "line": 31,
+          "column": 96
+        },
+        {
+          "line": 55,
+          "column": 127
+        },
+        {
+          "line": 85,
+          "column": 73
+        }
+      ],
+      "candidate_id": "s63",
+      "surface": "になる"
+    },
+    {
+      "role": "disciplinary_name",
+      "impact": "high",
+      "referent": "anyon",
+      "decision": "KEEP",
+      "reason": "Both experimental and theoretical physics use エニオン; 任意子 not supported as preferable for this physics reader and アニオン risks ion terminology.",
+      "comparison": {
+        "current": "エニオン",
+        "english_or_not_applicable": "anyon",
+        "alternatives_or_not_applicable": [
+          "エニオン粒子",
+          "任意子",
+          "アニオン"
+        ],
+        "audience_reason": "Both experimental and theoretical physics use エニオン; 任意子 not supported as preferable for this physics reader and アニオン risks ion terminology."
+      },
+      "evidence_sources": [
+        {
+          "locator": "https://hashisaka.issp.u-tokyo.ac.jp/anyon.html",
+          "title": "エニオンの動的制御による情報技術の開拓",
+          "genre": "University of Tokyo ISSP research program statement",
+          "community": "fractional quantum Hall / anyon experiments",
+          "usage": "two-dimensional FQH quasiparticle with braiding"
+        },
+        {
+          "locator": "https://www2.yukawa.kyoto-u.ac.jp/~qischool2019/kato.pdf",
+          "title": "量子情報的観点からみた量子多体系の物理",
+          "genre": "2019 基研量子情報スクール lecture",
+          "community": "quantum information / topological phases",
+          "checked_pages": [
+            34
+          ],
+          "usage": "anyon fusion a x b and quantum dimension"
+        }
+      ],
+      "occurrences": [
+        {
+          "line": 3,
+          "column": 20
+        },
+        {
+          "line": 31,
+          "column": 70
+        },
+        {
+          "line": 66,
+          "column": 65
+        },
+        {
+          "line": 81,
+          "column": 4
+        },
+        {
+          "line": 81,
+          "column": 134
+        }
+      ],
+      "candidate_id": "s89",
+      "surface": "エニオン"
+    },
+    {
+      "role": "disciplinary_name",
+      "impact": "high",
+      "referent": "bosonic anyon theory",
+      "decision": "UNVERIFIED",
+      "reason": "Full-source reading identifies エニオン理論 as a handle for the stated scientific object or operation; no preference verdict follows from technical correctness alone.",
+      "uncertainty_reason": "Independent Japanese naming comparison for エニオン理論 not completed.",
+      "missing_evidence": "Two same-referent Japanese physics sources or explicit project terminology authority for エニオン理論.",
+      "blocks_whole_range_pass": true,
+      "occurrences": [
+        {
+          "line": 21,
+          "column": 14
+        },
+        {
+          "line": 27,
+          "column": 23
+        },
+        {
+          "line": 43,
+          "column": 41
+        }
+      ],
+      "candidate_id": "s91",
+      "surface": "エニオン理論"
+    },
+    {
+      "role": "disciplinary_name",
+      "impact": "high",
+      "referent": "spectral energy gap",
+      "decision": "UNVERIFIED",
+      "reason": "Full-source reading identifies ギャップ as a handle for the stated scientific object or operation; no preference verdict follows from technical correctness alone.",
+      "uncertainty_reason": "Independent Japanese naming comparison for ギャップ not completed.",
+      "missing_evidence": "Two same-referent Japanese physics sources or explicit project terminology authority for ギャップ.",
+      "blocks_whole_range_pass": true,
+      "occurrences": [
+        {
+          "line": 1,
+          "column": 6
+        },
+        {
+          "line": 7,
+          "column": 98
+        },
+        {
+          "line": 27,
+          "column": 30
+        },
+        {
+          "line": 81,
+          "column": 178
+        },
+        {
+          "line": 89,
+          "column": 166
+        }
+      ],
+      "candidate_id": "s96",
+      "surface": "ギャップ"
+    },
+    {
+      "role": "disciplinary_name",
+      "impact": "high",
+      "referent": "boson statistics",
+      "decision": "UNVERIFIED",
+      "reason": "Full-source reading identifies ボソン as a handle for the stated scientific object or operation; no preference verdict follows from technical correctness alone.",
+      "uncertainty_reason": "Independent Japanese naming comparison for ボソン not completed.",
+      "missing_evidence": "Two same-referent Japanese physics sources or explicit project terminology authority for ボソン.",
+      "blocks_whole_range_pass": true,
+      "occurrences": [
+        {
+          "line": 3,
+          "column": 84
+        },
+        {
+          "line": 21,
+          "column": 10
+        },
+        {
+          "line": 87,
+          "column": 4
+        }
+      ],
+      "candidate_id": "s100",
+      "surface": "ボソン"
+    },
+    {
+      "role": "ordinary_syntax",
+      "impact": "high",
+      "reason": "一: number one; not used to replace a disciplinary concept name.",
+      "occurrences": [
+        {
+          "line": 15,
+          "column": 47
+        },
+        {
+          "line": 73,
+          "column": 10
+        },
+        {
+          "line": 89,
+          "column": 92
+        }
+      ],
+      "candidate_id": "s101",
+      "surface": "一"
+    },
+    {
+      "role": "disciplinary_name",
+      "impact": "high",
+      "referent": "CFT central charge",
+      "decision": "UNVERIFIED",
+      "reason": "Full-source reading identifies 中心電荷 as a handle for the stated scientific object or operation; no preference verdict follows from technical correctness alone.",
+      "uncertainty_reason": "Independent Japanese naming comparison for 中心電荷 not completed.",
+      "missing_evidence": "Two same-referent Japanese physics sources or explicit project terminology authority for 中心電荷.",
+      "blocks_whole_range_pass": true,
+      "occurrences": [
+        {
+          "line": 3,
+          "column": 7
+        },
+        {
+          "line": 17,
+          "column": 53
+        },
+        {
+          "line": 31,
+          "column": 49
+        },
+        {
+          "line": 31,
+          "column": 79
+        },
+        {
+          "line": 53,
+          "column": 17
+        },
+        {
+          "line": 64,
+          "column": 4
+        }
+      ],
+      "candidate_id": "s109",
+      "surface": "中心電荷"
+    },
+    {
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "reason": "互: coprimality relation fragment; not used to replace a disciplinary concept name.",
+      "occurrences": [
+        {
+          "line": 15,
+          "column": 84
+        },
+        {
+          "line": 29,
+          "column": 54
+        },
+        {
+          "line": 29,
+          "column": 150
+        },
+        {
+          "line": 55,
+          "column": 153
+        },
+        {
+          "line": 55,
+          "column": 183
+        },
+        {
+          "line": 92,
+          "column": 16
+        }
+      ],
+      "candidate_id": "s113",
+      "surface": "互"
+    },
+    {
+      "role": "disciplinary_name",
+      "impact": "high",
+      "referent": "complex phase",
+      "decision": "UNVERIFIED",
+      "reason": "Full-source reading identifies 位相 as a handle for the stated scientific object or operation; no preference verdict follows from technical correctness alone.",
+      "uncertainty_reason": "Independent Japanese naming comparison for 位相 not completed.",
+      "missing_evidence": "Two same-referent Japanese physics sources or explicit project terminology authority for 位相.",
+      "blocks_whole_range_pass": true,
+      "occurrences": [
+        {
+          "line": 3,
+          "column": 12
+        },
+        {
+          "line": 3,
+          "column": 27
+        },
+        {
+          "line": 3,
+          "column": 41
+        },
+        {
+          "line": 15,
+          "column": 103
+        },
+        {
+          "line": 17,
+          "column": 24
+        },
+        {
+          "line": 17,
+          "column": 97
+        },
+        {
+          "line": 53,
+          "column": 34
+        },
+        {
+          "line": 55,
+          "column": 199
+        },
+        {
+          "line": 60,
+          "column": 213
+        },
+        {
+          "line": 64,
+          "column": 15
+        },
+        {
+          "line": 73,
+          "column": 48
+        },
+        {
+          "line": 79,
+          "column": 5
+        },
+        {
+          "line": 81,
+          "column": 59
+        },
+        {
+          "line": 81,
+          "column": 202
+        },
+        {
+          "line": 85,
+          "column": 38
+        },
+        {
+          "line": 89,
+          "column": 89
+        },
+        {
+          "line": 89,
+          "column": 125
+        },
+        {
+          "line": 92,
+          "column": 27
+        }
+      ],
+      "candidate_id": "s116",
+      "surface": "位相"
+    },
+    {
+      "role": "ordinary_syntax",
+      "impact": "high",
+      "reason": "使: verb stem use; not used to replace a disciplinary concept name.",
+      "occurrences": [
+        {
+          "line": 5,
+          "column": 9
+        },
+        {
+          "line": 15,
+          "column": 30
+        },
+        {
+          "line": 17,
+          "column": 5
+        },
+        {
+          "line": 31,
+          "column": 38
+        }
+      ],
+      "candidate_id": "s117",
+      "surface": "使"
+    },
+    {
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "reason": "全: all quantifier; not used to replace a disciplinary concept name.",
+      "occurrences": [
+        {
+          "line": 7,
+          "column": 40
+        },
+        {
+          "line": 27,
+          "column": 5
+        },
+        {
+          "line": 35,
+          "column": 75
+        },
+        {
+          "line": 55,
+          "column": 81
+        },
+        {
+          "line": 55,
+          "column": 188
+        },
+        {
+          "line": 81,
+          "column": 146
+        },
+        {
+          "line": 87,
+          "column": 132
+        },
+        {
+          "line": 89,
+          "column": 122
+        }
+      ],
+      "candidate_id": "s125",
+      "surface": "全"
+    },
+    {
+      "role": "ordinary_syntax",
+      "impact": "high",
+      "reason": "判定: decision action; not used to replace a disciplinary concept name.",
+      "occurrences": [
+        {
+          "line": 1,
+          "column": 11
+        },
+        {
+          "line": 31,
+          "column": 35
+        },
+        {
+          "line": 92,
+          "column": 56
+        }
+      ],
+      "candidate_id": "s134",
+      "surface": "判定"
+    },
+    {
+      "role": "ordinary_syntax",
+      "impact": "high",
+      "reason": "十分条件: logical sufficient condition; not used to replace a disciplinary concept name.",
+      "occurrences": [
+        {
+          "line": 19,
+          "column": 16
+        },
+        {
+          "line": 29,
+          "column": 179
+        },
+        {
+          "line": 89,
+          "column": 115
+        },
+        {
+          "line": 94,
+          "column": 57
+        },
+        {
+          "line": 94,
+          "column": 88
+        }
+      ],
+      "candidate_id": "s141",
+      "surface": "十分条件"
+    },
+    {
+      "role": "ordinary_syntax",
+      "impact": "high",
+      "reason": "合: verb combine fragment; not used to replace a disciplinary concept name.",
+      "occurrences": [
+        {
+          "line": 3,
+          "column": 129
+        },
+        {
+          "line": 31,
+          "column": 28
+        },
+        {
+          "line": 79,
+          "column": 42
+        }
+      ],
+      "candidate_id": "s151",
+      "surface": "合"
+    },
+    {
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "reason": "含: verb include fragment; not used to replace a disciplinary concept name.",
+      "occurrences": [
+        {
+          "line": 29,
+          "column": 117
+        },
+        {
+          "line": 35,
+          "column": 110
+        },
+        {
+          "line": 85,
+          "column": 86
+        }
+      ],
+      "candidate_id": "s154",
+      "surface": "含"
+    },
+    {
+      "role": "ordinary_syntax",
+      "impact": "high",
+      "reason": "周長: circumference L description; not used to replace a disciplinary concept name.",
+      "occurrences": [
+        {
+          "line": 83,
+          "column": 10
+        },
+        {
+          "line": 85,
+          "column": 94
+        },
+        {
+          "line": 87,
+          "column": 113
+        }
+      ],
+      "candidate_id": "s156",
+      "surface": "周長"
+    },
+    {
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "reason": "和: sum of displayed summands; not used to replace a disciplinary concept name.",
+      "occurrences": [
+        {
+          "line": 3,
+          "column": 25
+        },
+        {
+          "line": 55,
+          "column": 120
+        },
+        {
+          "line": 66,
+          "column": 70
+        }
+      ],
+      "candidate_id": "s157",
+      "surface": "和"
+    },
+    {
+      "role": "ordinary_syntax",
+      "impact": "high",
+      "reason": "場合: case connective; not used to replace a disciplinary concept name.",
+      "occurrences": [
+        {
+          "line": 17,
+          "column": 84
+        },
+        {
+          "line": 33,
+          "column": 29
+        },
+        {
+          "line": 94,
+          "column": 84
+        }
+      ],
+      "candidate_id": "s161",
+      "surface": "場合"
+    },
+    {
+      "role": "disciplinary_name",
+      "impact": "high",
+      "referent": "physical or entanglement boundary",
+      "decision": "UNVERIFIED",
+      "reason": "Full-source reading identifies 境界 as a handle for the stated scientific object or operation; no preference verdict follows from technical correctness alone.",
+      "uncertainty_reason": "Independent Japanese naming comparison for 境界 not completed.",
+      "missing_evidence": "Two same-referent Japanese physics sources or explicit project terminology authority for 境界.",
+      "blocks_whole_range_pass": true,
+      "occurrences": [
+        {
+          "line": 1,
+          "column": 3
+        },
+        {
+          "line": 3,
+          "column": 45
+        },
+        {
+          "line": 3,
+          "column": 93
+        },
+        {
+          "line": 7,
+          "column": 106
+        },
+        {
+          "line": 15,
+          "column": 73
+        },
+        {
+          "line": 27,
+          "column": 38
+        },
+        {
+          "line": 31,
+          "column": 32
+        },
+        {
+          "line": 81,
+          "column": 174
+        },
+        {
+          "line": 89,
+          "column": 174
+        },
+        {
+          "line": 92,
+          "column": 53
+        }
+      ],
+      "candidate_id": "s162",
+      "surface": "境界"
+    },
+    {
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "reason": "定理: cited theorem category; not used to replace a disciplinary concept name.",
+      "occurrences": [
+        {
+          "line": 15,
+          "column": 109
+        },
+        {
+          "line": 27,
+          "column": 95
+        },
+        {
+          "line": 94,
+          "column": 65
+        }
+      ],
+      "candidate_id": "s173",
+      "surface": "定理"
+    },
+    {
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "reason": "実際: actual-value modifier; not used to replace a disciplinary concept name.",
+      "occurrences": [
+        {
+          "line": 3,
+          "column": 99
+        },
+        {
+          "line": 31,
+          "column": 15
+        },
+        {
+          "line": 81,
+          "column": 217
+        },
+        {
+          "line": 89,
+          "column": 11
+        },
+        {
+          "line": 89,
+          "column": 135
+        },
+        {
+          "line": 94,
+          "column": 110
+        }
+      ],
+      "candidate_id": "s176",
+      "surface": "実際"
+    },
+    {
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "reason": "対: relation fragment; not used to replace a disciplinary concept name.",
+      "occurrences": [
+        {
+          "line": 27,
+          "column": 2
+        },
+        {
+          "line": 31,
+          "column": 7
+        },
+        {
+          "line": 45,
+          "column": 78
+        },
+        {
+          "line": 94,
+          "column": 42
+        }
+      ],
+      "candidate_id": "s177",
+      "surface": "対"
+    },
+    {
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "reason": "得: verb obtain stem; not used to replace a disciplinary concept name.",
+      "occurrences": [
+        {
+          "line": 15,
+          "column": 67
+        },
+        {
+          "line": 15,
+          "column": 97
+        },
+        {
+          "line": 73,
+          "column": 2
+        },
+        {
+          "line": 89,
+          "column": 103
+        }
+      ],
+      "candidate_id": "s181",
+      "surface": "得"
+    },
+    {
+      "role": "ordinary_syntax",
+      "impact": "high",
+      "reason": "必要: necessity adjective; not used to replace a disciplinary concept name.",
+      "occurrences": [
+        {
+          "line": 3,
+          "column": 133
+        },
+        {
+          "line": 15,
+          "column": 2
+        },
+        {
+          "line": 31,
+          "column": 94
+        },
+        {
+          "line": 35,
+          "column": 267
+        },
+        {
+          "line": 55,
+          "column": 210
+        },
+        {
+          "line": 60,
+          "column": 210
+        },
+        {
+          "line": 73,
+          "column": 56
+        },
+        {
+          "line": 79,
+          "column": 46
+        },
+        {
+          "line": 85,
+          "column": 71
+        },
+        {
+          "line": 85,
+          "column": 91
+        },
+        {
+          "line": 94,
+          "column": 93
+        },
+        {
+          "line": 94,
+          "column": 126
+        }
+      ],
+      "candidate_id": "s182",
+      "surface": "必要"
+    },
+    {
+      "role": "ordinary_syntax",
+      "impact": "high",
+      "reason": "必要条件: logical necessary condition; not used to replace a disciplinary concept name.",
+      "occurrences": [
+        {
+          "line": 5,
+          "column": 12
+        },
+        {
+          "line": 94,
+          "column": 9
+        },
+        {
+          "line": 94,
+          "column": 52
+        }
+      ],
+      "candidate_id": "s184",
+      "surface": "必要条件"
+    },
+    {
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "reason": "情報: information word; not used to replace a disciplinary concept name.",
+      "occurrences": [
+        {
+          "line": 31,
+          "column": 91
+        },
+        {
+          "line": 73,
+          "column": 53
+        },
+        {
+          "line": 79,
+          "column": 37
+        }
+      ],
+      "candidate_id": "s185",
+      "surface": "情報"
+    },
+    {
+      "role": "disciplinary_name",
+      "impact": "high",
+      "referent": "Frobenius-Schur exponent or prime-factor exponent",
+      "decision": "UNVERIFIED",
+      "reason": "Full-source reading identifies 指数 as a handle for the stated scientific object or operation; no preference verdict follows from technical correctness alone.",
+      "uncertainty_reason": "Independent Japanese naming comparison for 指数 not completed.",
+      "missing_evidence": "Two same-referent Japanese physics sources or explicit project terminology authority for 指数.",
+      "blocks_whole_range_pass": true,
+      "occurrences": [
+        {
+          "line": 7,
+          "column": 17
+        },
+        {
+          "line": 43,
+          "column": 27
+        },
+        {
+          "line": 43,
+          "column": 102
+        }
+      ],
+      "candidate_id": "s188",
+      "surface": "指数"
+    },
+    {
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "reason": "整数: ordinary mathematical integer; not used to replace a disciplinary concept name.",
+      "occurrences": [
+        {
+          "line": 21,
+          "column": 27
+        },
+        {
+          "line": 29,
+          "column": 1
+        },
+        {
+          "line": 35,
+          "column": 260
+        },
+        {
+          "line": 89,
+          "column": 39
+        }
+      ],
+      "candidate_id": "s195",
+      "surface": "整数"
+    },
+    {
+      "role": "ordinary_syntax",
+      "impact": "high",
+      "reason": "条件: stated condition; not used to replace a disciplinary concept name.",
+      "occurrences": [
+        {
+          "line": 1,
+          "column": 15
+        },
+        {
+          "line": 15,
+          "column": 10
+        },
+        {
+          "line": 29,
+          "column": 4
+        },
+        {
+          "line": 29,
+          "column": 113
+        },
+        {
+          "line": 89,
+          "column": 79
+        }
+      ],
+      "candidate_id": "s206",
+      "surface": "条件"
+    },
+    {
+      "role": "ordinary_syntax",
+      "impact": "high",
+      "reason": "決: verb determine fragment; not used to replace a disciplinary concept name.",
+      "occurrences": [
+        {
+          "line": 31,
+          "column": 64
+        },
+        {
+          "line": 64,
+          "column": 9
+        },
+        {
+          "line": 73,
+          "column": 43
+        }
+      ],
+      "candidate_id": "s213",
+      "surface": "決"
+    },
+    {
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "reason": "測定: measurement action; not used to replace a disciplinary concept name.",
+      "occurrences": [
+        {
+          "line": 17,
+          "column": 1
+        },
+        {
+          "line": 85,
+          "column": 6
+        },
+        {
+          "line": 94,
+          "column": 3
+        }
+      ],
+      "candidate_id": "s216",
+      "surface": "測定"
+    },
+    {
+      "role": "ordinary_syntax",
+      "impact": "high",
+      "reason": "用: verb use stem; not used to replace a disciplinary concept name.",
+      "occurrences": [
+        {
+          "line": 27,
+          "column": 69
+        },
+        {
+          "line": 43,
+          "column": 237
+        },
+        {
+          "line": 45,
+          "column": 6
+        },
+        {
+          "line": 94,
+          "column": 68
+        }
+      ],
+      "candidate_id": "s221",
+      "surface": "用"
+    },
+    {
+      "role": "disciplinary_name",
+      "impact": "high",
+      "referent": "topological phase",
+      "decision": "UNVERIFIED",
+      "reason": "Full-source reading identifies 相 as a handle for the stated scientific object or operation; no preference verdict follows from technical correctness alone.",
+      "uncertainty_reason": "Independent Japanese naming comparison for 相 not completed.",
+      "missing_evidence": "Two same-referent Japanese physics sources or explicit project terminology authority for 相.",
+      "blocks_whole_range_pass": true,
+      "occurrences": [
+        {
+          "line": 3,
+          "column": 88
+        },
+        {
+          "line": 5,
+          "column": 7
+        },
+        {
+          "line": 15,
+          "column": 27
+        },
+        {
+          "line": 19,
+          "column": 13
+        },
+        {
+          "line": 31,
+          "column": 5
+        },
+        {
+          "line": 81,
+          "column": 80
+        },
+        {
+          "line": 81,
+          "column": 100
+        },
+        {
+          "line": 92,
+          "column": 51
+        },
+        {
+          "line": 94,
+          "column": 40
+        }
+      ],
+      "candidate_id": "s224",
+      "surface": "相"
+    },
+    {
+      "role": "disciplinary_name",
+      "impact": "high",
+      "referent": "trivial topological sector",
+      "decision": "UNVERIFIED",
+      "reason": "Full-source reading identifies 真空 as a handle for the stated scientific object or operation; no preference verdict follows from technical correctness alone.",
+      "uncertainty_reason": "Independent Japanese naming comparison for 真空 not completed.",
+      "missing_evidence": "Two same-referent Japanese physics sources or explicit project terminology authority for 真空.",
+      "blocks_whole_range_pass": true,
+      "occurrences": [
+        {
+          "line": 3,
+          "column": 90
+        },
+        {
+          "line": 35,
+          "column": 107
+        },
+        {
+          "line": 81,
+          "column": 170
+        }
+      ],
+      "candidate_id": "s225",
+      "surface": "真空"
+    },
+    {
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "reason": "確定: determine action; not used to replace a disciplinary concept name.",
+      "occurrences": [
+        {
+          "line": 17,
+          "column": 78
+        },
+        {
+          "line": 89,
+          "column": 47
+        },
+        {
+          "line": 89,
+          "column": 148
+        }
+      ],
+      "candidate_id": "s230",
+      "surface": "確定"
+    },
+    {
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "reason": "確認: self-check/action; not used to replace a disciplinary concept name.",
+      "occurrences": [
+        {
+          "line": 3,
+          "column": 112
+        },
+        {
+          "line": 3,
+          "column": 126
+        },
+        {
+          "line": 17,
+          "column": 49
+        },
+        {
+          "line": 81,
+          "column": 230
+        },
+        {
+          "line": 89,
+          "column": 22
+        },
+        {
+          "line": 92,
+          "column": 10
+        },
+        {
+          "line": 94,
+          "column": 123
+        }
+      ],
+      "candidate_id": "s231",
+      "surface": "確認"
+    },
+    {
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "reason": "素: coprimality fragment; not used to replace a disciplinary concept name.",
+      "occurrences": [
+        {
+          "line": 15,
+          "column": 87
+        },
+        {
+          "line": 29,
+          "column": 57
+        },
+        {
+          "line": 29,
+          "column": 153
+        },
+        {
+          "line": 55,
+          "column": 156
+        },
+        {
+          "line": 55,
+          "column": 186
+        },
+        {
+          "line": 92,
+          "column": 19
+        }
+      ],
+      "candidate_id": "s237",
+      "surface": "素"
+    },
+    {
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "reason": "補正: phase compensation action; not used to replace a disciplinary concept name.",
+      "occurrences": [
+        {
+          "line": 3,
+          "column": 15
+        },
+        {
+          "line": 17,
+          "column": 61
+        },
+        {
+          "line": 53,
+          "column": 25
+        },
+        {
+          "line": 89,
+          "column": 85
+        }
+      ],
+      "candidate_id": "s245",
+      "surface": "補正"
+    },
+    {
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "reason": "補足: supplementary source reference; not used to replace a disciplinary concept name.",
+      "occurrences": [
+        {
+          "line": 31,
+          "column": 131
+        },
+        {
+          "line": 43,
+          "column": 234
+        },
+        {
+          "line": 87,
+          "column": 1
+        },
+        {
+          "line": 87,
+          "column": 165
+        }
+      ],
+      "candidate_id": "s246",
+      "surface": "補足"
+    },
+    {
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "reason": "覆: verb cover stem; not used to replace a disciplinary concept name.",
+      "occurrences": [
+        {
+          "line": 35,
+          "column": 56
+        },
+        {
+          "line": 55,
+          "column": 194
+        },
+        {
+          "line": 60,
+          "column": 216
+        },
+        {
+          "line": 89,
+          "column": 120
+        },
+        {
+          "line": 94,
+          "column": 103
+        }
+      ],
+      "candidate_id": "s249",
+      "surface": "覆"
+    },
+    {
+      "role": "disciplinary_name",
+      "impact": "high",
+      "referent": "rotation angle",
+      "decision": "UNVERIFIED",
+      "reason": "Full-source reading identifies 角度 as a handle for the stated scientific object or operation; no preference verdict follows from technical correctness alone.",
+      "uncertainty_reason": "Independent Japanese naming comparison for 角度 not completed.",
+      "missing_evidence": "Two same-referent Japanese physics sources or explicit project terminology authority for 角度.",
+      "blocks_whole_range_pass": true,
+      "occurrences": [
+        {
+          "line": 73,
+          "column": 13
+        },
+        {
+          "line": 81,
+          "column": 43
+        },
+        {
+          "line": 87,
+          "column": 135
+        }
+      ],
+      "candidate_id": "s253",
+      "surface": "角度"
+    },
+    {
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "reason": "調: verb investigate stem; not used to replace a disciplinary concept name.",
+      "occurrences": [
+        {
+          "line": 53,
+          "column": 37
+        },
+        {
+          "line": 89,
+          "column": 73
+        },
+        {
+          "line": 94,
+          "column": 6
+        }
+      ],
+      "candidate_id": "s261",
+      "surface": "調"
+    },
+    {
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "reason": "選: verb choose stem; not used to replace a disciplinary concept name.",
+      "occurrences": [
+        {
+          "line": 53,
+          "column": 14
+        },
+        {
+          "line": 55,
+          "column": 134
+        },
+        {
+          "line": 58,
+          "column": 40
+        },
+        {
+          "line": 60,
+          "column": 83
+        },
+        {
+          "line": 60,
+          "column": 139
+        }
+      ],
+      "candidate_id": "s270",
+      "surface": "選"
+    },
+    {
+      "role": "disciplinary_name",
+      "impact": "high",
+      "referent": "partial rotation of a cylinder",
+      "decision": "UNVERIFIED",
+      "reason": "Full-source reading identifies 部分回転 as a handle for the stated scientific object or operation; no preference verdict follows from technical correctness alone.",
+      "uncertainty_reason": "Independent Japanese naming comparison for 部分回転 not completed.",
+      "missing_evidence": "Two same-referent Japanese physics sources or explicit project terminology authority for 部分回転.",
+      "blocks_whole_range_pass": true,
+      "occurrences": [
+        {
+          "line": 3,
+          "column": 1
+        },
+        {
+          "line": 35,
+          "column": 35
+        },
+        {
+          "line": 53,
+          "column": 29
+        },
+        {
+          "line": 89,
+          "column": 56
+        }
+      ],
+      "candidate_id": "s272",
+      "surface": "部分回転"
+    },
+    {
+      "role": "disciplinary_name",
+      "impact": "high",
+      "referent": "prime-power anyon subtheory",
+      "decision": "UNVERIFIED",
+      "reason": "Full-source reading identifies 部分理論 as a handle for the stated scientific object or operation; no preference verdict follows from technical correctness alone.",
+      "uncertainty_reason": "Independent Japanese naming comparison for 部分理論 not completed.",
+      "missing_evidence": "Two same-referent Japanese physics sources or explicit project terminology authority for 部分理論.",
+      "blocks_whole_range_pass": true,
+      "occurrences": [
+        {
+          "line": 43,
+          "column": 66
+        },
+        {
+          "line": 55,
+          "column": 55
+        },
+        {
+          "line": 55,
+          "column": 115
+        },
+        {
+          "line": 55,
+          "column": 137
+        },
+        {
+          "line": 55,
+          "column": 205
+        },
+        {
+          "line": 60,
+          "column": 205
+        }
+      ],
+      "candidate_id": "s273",
+      "surface": "部分理論"
+    },
+    {
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "reason": "開: verb open stem; not used to replace a disciplinary concept name.",
+      "occurrences": [
+        {
+          "line": 7,
+          "column": 103
+        },
+        {
+          "line": 27,
+          "column": 35
+        },
+        {
+          "line": 81,
+          "column": 183
+        },
+        {
+          "line": 89,
+          "column": 171
+        }
+      ],
+      "candidate_id": "s275",
+      "surface": "開"
+    },
+    {
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "reason": "障害: obstruction claim word rather than a substitute object name; not used to replace a disciplinary concept name.",
+      "occurrences": [
+        {
+          "line": 3,
+          "column": 123
+        },
+        {
+          "line": 15,
+          "column": 77
+        },
+        {
+          "line": 15,
+          "column": 114
+        },
+        {
+          "line": 35,
+          "column": 53
+        },
+        {
+          "line": 89,
+          "column": 100
+        }
+      ],
+      "candidate_id": "s279",
+      "surface": "障害"
+    },
+    {
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "reason": "集合: stated finite set; not used to replace a disciplinary concept name.",
+      "occurrences": [
+        {
+          "line": 21,
+          "column": 30
+        },
+        {
+          "line": 60,
+          "column": 157
+        },
+        {
+          "line": 60,
+          "column": 188
+        },
+        {
+          "line": 85,
+          "column": 17
+        }
+      ],
+      "candidate_id": "s280",
+      "surface": "集合"
+    },
+    {
+      "role": "explanatory_gloss",
+      "impact": "high",
+      "referent": "境界のギャップを判定する条件",
+      "decision": "UNVERIFIED",
+      "reason": "Full-source reading identifies 境界のギャップを判定する条件 as a handle for the stated scientific object or operation; no preference verdict follows from technical correctness alone.",
+      "uncertainty_reason": "Independent Japanese naming comparison for 境界のギャップを判定する条件 not completed.",
+      "missing_evidence": "Two same-referent Japanese physics sources or explicit project terminology authority for 境界のギャップを判定する条件.",
+      "blocks_whole_range_pass": true,
+      "occurrences": [
+        {
+          "line": 1,
+          "column": 1
+        }
+      ],
+      "candidate_id": "h1",
+      "surface": "境界のギャップを判定する条件"
+    },
+    {
+      "role": "explanatory_gloss",
+      "impact": "high",
+      "referent": "一般の相で使える必要条件",
+      "decision": "UNVERIFIED",
+      "reason": "Full-source reading identifies 一般の相で使える必要条件 as a handle for the stated scientific object or operation; no preference verdict follows from technical correctness alone.",
+      "uncertainty_reason": "Independent Japanese naming comparison for 一般の相で使える必要条件 not completed.",
+      "missing_evidence": "Two same-referent Japanese physics sources or explicit project terminology authority for 一般の相で使える必要条件.",
+      "blocks_whole_range_pass": true,
+      "occurrences": [
+        {
+          "line": 5,
+          "column": 1
+        }
+      ],
+      "candidate_id": "h2",
+      "surface": "一般の相で使える必要条件"
+    },
+    {
+      "role": "explanatory_gloss",
+      "impact": "high",
+      "referent": "Abelian な相での十分条件",
+      "decision": "UNVERIFIED",
+      "reason": "Full-source reading identifies Abelian な相での十分条件 as a handle for the stated scientific object or operation; no preference verdict follows from technical correctness alone.",
+      "uncertainty_reason": "Independent Japanese naming comparison for Abelian な相での十分条件 not completed.",
+      "missing_evidence": "Two same-referent Japanese physics sources or explicit project terminology authority for Abelian な相での十分条件.",
+      "blocks_whole_range_pass": true,
+      "occurrences": [
+        {
+          "line": 19,
+          "column": 1
+        }
+      ],
+      "candidate_id": "h3",
+      "surface": "Abelian な相での十分条件"
+    },
+    {
+      "role": "explanatory_gloss",
+      "impact": "high",
+      "referent": "$N_{\\mathrm{FS}}$ を先に知らない場合",
+      "decision": "UNVERIFIED",
+      "reason": "Full-source reading identifies $N_{\\mathrm{FS}}$ を先に知らない場合 as a handle for the stated scientific object or operation; no preference verdict follows from technical correctness alone.",
+      "uncertainty_reason": "Independent Japanese naming comparison for $N_{\\mathrm{FS}}$ を先に知らない場合 not completed.",
+      "missing_evidence": "Two same-referent Japanese physics sources or explicit project terminology authority for $N_{\\mathrm{FS}}$ を先に知らない場合.",
+      "blocks_whole_range_pass": true,
+      "occurrences": [
+        {
+          "line": 33,
+          "column": 1
+        }
+      ],
+      "candidate_id": "h4",
+      "surface": "$N_{\\mathrm{FS}}$ を先に知らない場合"
+    },
+    {
+      "role": "explanatory_gloss",
+      "impact": "high",
+      "referent": "中心電荷を決めるときの位相の周期",
+      "decision": "UNVERIFIED",
+      "reason": "Full-source reading identifies 中心電荷を決めるときの位相の周期 as a handle for the stated scientific object or operation; no preference verdict follows from technical correctness alone.",
+      "uncertainty_reason": "Independent Japanese naming comparison for 中心電荷を決めるときの位相の周期 not completed.",
+      "missing_evidence": "Two same-referent Japanese physics sources or explicit project terminology authority for 中心電荷を決めるときの位相の周期.",
+      "blocks_whole_range_pass": true,
+      "occurrences": [
+        {
+          "line": 64,
+          "column": 1
+        }
+      ],
+      "candidate_id": "h5",
+      "surface": "中心電荷を決めるときの位相の周期"
+    },
+    {
+      "role": "explanatory_gloss",
+      "impact": "high",
+      "referent": "有限の手順と周長の費用",
+      "decision": "UNVERIFIED",
+      "reason": "Full-source reading identifies 有限の手順と周長の費用 as a handle for the stated scientific object or operation; no preference verdict follows from technical correctness alone.",
+      "uncertainty_reason": "Independent Japanese naming comparison for 有限の手順と周長の費用 not completed.",
+      "missing_evidence": "Two same-referent Japanese physics sources or explicit project terminology authority for 有限の手順と周長の費用.",
+      "blocks_whole_range_pass": true,
+      "occurrences": [
+        {
+          "line": 83,
+          "column": 1
+        }
+      ],
+      "candidate_id": "h6",
+      "surface": "有限の手順と周長の費用"
+    }
+  ],
+  "supplemental_concepts": [
+    {
+      "role": "disciplinary_name",
+      "impact": "high",
+      "referent": "higher central charge",
+      "decision": "KEEP",
+      "reason": "Same concept attested by independent TQFT and condensed-matter authors. Japanese variants retain relation to central charge; original English at first use anchors paper search.",
+      "comparison": {
+        "current": "高次中心電荷",
+        "english_or_not_applicable": "higher central charge",
+        "alternatives_or_not_applicable": [
+          "高次の中心電荷",
+          "higher central charge"
+        ],
+        "audience_reason": "Same concept attested by independent TQFT and condensed-matter authors. Japanese variants retain relation to central charge; original English at first use anchors paper search."
+      },
+      "evidence_sources": [
+        {
+          "locator": "https://www2.yukawa.kyoto-u.ac.jp/~soken.editorial/sokendenshi/vol46/3/時間反転対称な位相的場の理論.pdf",
+          "author": "折井一歩",
+          "title": "時間反転対称な位相的場の理論",
+          "genre": "素粒子論研究 電子版46(2026)3, scholarly review",
+          "community": "2+1D TQFT / anyon theory",
+          "checked_pages": [
+            26,
+            47,
+            48,
+            80,
+            81,
+            82
+          ],
+          "usage": "p81 named invariant xi_n"
+        },
+        {
+          "locator": "https://www.jstage.jst.go.jp/article/natsugaku/4/0/4_173/_pdf/-char/ja",
+          "author": "笠真生",
+          "title": "量子多体系におけるエンタングルメント",
+          "genre": "物性若手夏の学校テキスト4(2026), pp173-185",
+          "community": "topological quantum matter / entanglement",
+          "checked_pages": [
+            173,
+            178,
+            180,
+            181,
+            182
+          ],
+          "usage": "p182 equation (24), zeta_n=sum d_a^2 theta_a^n / absolute value, called 高次の中心電荷"
+        }
+      ],
+      "occurrences": [
+        {
+          "line": 55,
+          "column": 213
+        },
+        {
+          "line": 81,
+          "column": 139
+        }
+      ],
+      "id": "c1",
+      "surface": "高次中心電荷"
+    },
+    {
+      "role": "disciplinary_name",
+      "impact": "high",
+      "referent": "topological spin",
+      "decision": "UNVERIFIED",
+      "reason": "Both phase theta and spin h modulo integers receive this name. Define which object manuscript means; independent second source does not establish identical theta naming preference.",
+      "uncertainty_reason": "Phase versus spin convention needs same-referent preference evidence.",
+      "missing_evidence": "Second independent running-prose Japanese usage for phase theta, rather than h modulo integers.",
+      "occurrences": [
+        {
+          "line": 7,
+          "column": 43
+        }
+      ],
+      "id": "c2",
+      "surface": "トポロジカルスピン"
+    },
+    {
+      "role": "disciplinary_name",
+      "impact": "high",
+      "referent": "quantum dimension",
+      "decision": "KEEP",
+      "reason": "Established physics term, including exact d_a referent; explanation needed for noninteger dimension but term itself is sound.",
+      "comparison": {
+        "current": "量子次元",
+        "english_or_not_applicable": "quantum dimension",
+        "alternatives_or_not_applicable": [
+          "quantum dimension"
+        ],
+        "audience_reason": "Established physics term, including exact d_a referent; explanation needed for noninteger dimension but term itself is sound."
+      },
+      "evidence_sources": [
+        {
+          "locator": "https://www2.yukawa.kyoto-u.ac.jp/~soken.editorial/sokendenshi/vol46/3/時間反転対称な位相的場の理論.pdf",
+          "author": "折井一歩",
+          "title": "時間反転対称な位相的場の理論",
+          "genre": "素粒子論研究 電子版46(2026)3, scholarly review",
+          "community": "2+1D TQFT / anyon theory",
+          "checked_pages": [
+            26,
+            47,
+            48,
+            80,
+            81,
+            82
+          ],
+          "usage": "p26 Perron-Frobenius/fusion-space growth d_a"
+        },
+        {
+          "locator": "https://www2.yukawa.kyoto-u.ac.jp/~qischool2019/kato.pdf",
+          "title": "量子情報的観点からみた量子多体系の物理",
+          "genre": "2019 基研量子情報スクール lecture",
+          "community": "quantum information / topological phases",
+          "checked_pages": [
+            34
+          ],
+          "usage": "slide34 d_a in fusion rule and entropy"
+        }
+      ],
+      "occurrences": [
+        {
+          "line": 35,
+          "column": 8
+        },
+        {
+          "line": 35,
+          "column": 125
+        }
+      ],
+      "id": "c3",
+      "surface": "量子次元"
+    },
+    {
+      "role": "disciplinary_name",
+      "impact": "high",
+      "referent": "character",
+      "decision": "KEEP",
+      "reason": "Established CFT representation term, compatible with learner's explicit character knowledge; do not replace by everyday criterion meaning.",
+      "comparison": {
+        "current": "指標",
+        "english_or_not_applicable": "character",
+        "alternatives_or_not_applicable": [
+          "キャラクター",
+          "character"
+        ],
+        "audience_reason": "Established CFT representation term, compatible with learner's explicit character knowledge; do not replace by everyday criterion meaning."
+      },
+      "evidence_sources": [
+        {
+          "locator": "https://www2.yukawa.kyoto-u.ac.jp/~eguchi40/Sugawara.pdf",
+          "title": "超共形場理論におけるmock modularity",
+          "genre": "CFT researcher lecture slides",
+          "community": "superconformal field theory",
+          "checked_pages": [
+            12
+          ],
+          "usage": "superconformal algebra 指標公式"
+        },
+        {
+          "locator": "https://www.phys.s.u-tokyo.ac.jp/wp-content/uploads/2015/03/ar_phys05.pdf",
+          "genre": "University of Tokyo physics research report",
+          "community": "CFT / string theory",
+          "usage": "representation character and modular properties"
+        }
+      ],
+      "occurrences": [
+        {
+          "line": 27,
+          "column": 82
+        }
+      ],
+      "id": "c4",
+      "surface": "指標"
+    },
+    {
+      "role": "disciplinary_name",
+      "impact": "high",
+      "referent": "topological entanglement entropy",
+      "decision": "KEEP",
+      "reason": "Independent condensed-matter lecture and physics thesis use the same full name for the topological entropy correction. Preserve the Japanese working name; interpuncts are a legitimate orthographic variant.",
+      "comparison": {
+        "current": "トポロジカルエンタングルメントエントロピー",
+        "english_or_not_applicable": "topological entanglement entropy",
+        "alternatives_or_not_applicable": [
+          "トポロジカル・エンタングルメント・エントロピー",
+          "topological entanglement entropy"
+        ],
+        "audience_reason": "Independent condensed-matter lecture and physics thesis use the same full name for the topological entropy correction. Preserve the Japanese working name; interpuncts are a legitimate orthographic variant."
+      },
+      "evidence_sources": [
+        {
+          "locator": "https://www.jstage.jst.go.jp/article/natsugaku/4/0/4_173/_pdf/-char/ja",
+          "author": "笠真生",
+          "title": "量子多体系におけるエンタングルメント",
+          "genre": "物性若手夏の学校テキスト4(2026), pp173-185",
+          "community": "topological quantum matter / entanglement",
+          "checked_pages": [
+            173,
+            178,
+            180,
+            181,
+            182
+          ],
+          "usage": "pp173,178,180 for universal constant correction in topological phases"
+        },
+        {
+          "locator": "https://opac.agulin.aoyama.ac.jp/iwjs0011opc/bdyview.do?bodyid=TF02037564&elmid=Body&fname=tf02037564-1.pdf&loginflg=on&once=true",
+          "title": "置換不変密度行列が保持する量",
+          "genre": "2024 physics thesis",
+          "community": "many-body / quantum information physics",
+          "checked_pages": [
+            25
+          ],
+          "usage": "PDF pp26-27, figure2.8 and prose after equation2.67 name the universal disk-boundary constant トポロジカルエンタングルメントエントロピー with English original"
+        }
+      ],
+      "occurrences": [
+        {
+          "line": 35,
+          "column": 209
+        }
+      ],
+      "id": "c5",
+      "surface": "トポロジカルエンタングルメントエントロピー"
+    },
+    {
+      "role": "explanatory_gloss",
+      "impact": "high",
+      "referent": "Frobenius–Schur 指数",
+      "decision": "UNVERIFIED",
+      "reason": "Full-source reading identifies Frobenius–Schur 指数 as a handle for the stated scientific object or operation; no preference verdict follows from technical correctness alone.",
+      "uncertainty_reason": "Independent Japanese naming comparison for Frobenius–Schur 指数 not completed.",
+      "missing_evidence": "Two same-referent Japanese physics sources or explicit project terminology authority for Frobenius–Schur 指数.",
+      "blocks_whole_range_pass": true,
+      "occurrences": [
+        {
+          "line": 7,
+          "column": 1
+        },
+        {
+          "line": 43,
+          "column": 86
+        }
+      ],
+      "id": "c6",
+      "surface": "Frobenius–Schur 指数"
+    },
+    {
+      "role": "explanatory_gloss",
+      "impact": "high",
+      "referent": "Abelian",
+      "decision": "UNVERIFIED",
+      "reason": "Full-source reading identifies Abelian as a handle for the stated scientific object or operation; no preference verdict follows from technical correctness alone.",
+      "uncertainty_reason": "Independent Japanese naming comparison for Abelian not completed.",
+      "missing_evidence": "Two same-referent Japanese physics sources or explicit project terminology authority for Abelian.",
+      "blocks_whole_range_pass": true,
+      "occurrences": [
+        {
+          "line": 15,
+          "column": 18
+        },
+        {
+          "line": 19,
+          "column": 4
+        },
+        {
+          "line": 21,
+          "column": 1
+        },
+        {
+          "line": 29,
+          "column": 104
+        },
+        {
+          "line": 29,
+          "column": 170
+        },
+        {
+          "line": 31,
+          "column": 189
+        },
+        {
+          "line": 35,
+          "column": 41
+        },
+        {
+          "line": 35,
+          "column": 65
+        },
+        {
+          "line": 43,
+          "column": 33
+        },
+        {
+          "line": 43,
+          "column": 243
+        },
+        {
+          "line": 89,
+          "column": 26
+        },
+        {
+          "line": 89,
+          "column": 106
+        },
+        {
+          "line": 92,
+          "column": 42
+        },
+        {
+          "line": 94,
+          "column": 31
+        },
+        {
+          "line": 94,
+          "column": 75
+        }
+      ],
+      "id": "c7",
+      "surface": "Abelian"
+    },
+    {
+      "role": "explanatory_gloss",
+      "impact": "high",
+      "referent": "non-Abelian",
+      "decision": "UNVERIFIED",
+      "reason": "Full-source reading identifies non-Abelian as a handle for the stated scientific object or operation; no preference verdict follows from technical correctness alone.",
+      "uncertainty_reason": "Independent Japanese naming comparison for non-Abelian not completed.",
+      "missing_evidence": "Two same-referent Japanese physics sources or explicit project terminology authority for non-Abelian.",
+      "blocks_whole_range_pass": true,
+      "occurrences": [
+        {
+          "line": 15,
+          "column": 14
+        },
+        {
+          "line": 92,
+          "column": 38
+        },
+        {
+          "line": 94,
+          "column": 27
+        }
+      ],
+      "id": "c8",
+      "surface": "non-Abelian"
+    },
+    {
+      "role": "explanatory_gloss",
+      "impact": "high",
+      "referent": "全量子次元",
+      "decision": "UNVERIFIED",
+      "reason": "Full-source reading identifies 全量子次元 as a handle for the stated scientific object or operation; no preference verdict follows from technical correctness alone.",
+      "uncertainty_reason": "Independent Japanese naming comparison for 全量子次元 not completed.",
+      "missing_evidence": "Two same-referent Japanese physics sources or explicit project terminology authority for 全量子次元.",
+      "blocks_whole_range_pass": true,
+      "occurrences": [
+        {
+          "line": 35,
+          "column": 7
+        },
+        {
+          "line": 35,
+          "column": 124
+        }
+      ],
+      "id": "c9",
+      "surface": "全量子次元"
+    }
+  ],
+  "verdict": "No unqualified whole-range wording PASS: high-impact UNVERIFIED naming comparisons remain."
+}

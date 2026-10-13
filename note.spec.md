@@ -7,7 +7,7 @@
 - approval_migration_status: not-applicable (new manuscript)
 
 ## Objective and role
-Enable a first-time reader of arXiv:2303.04822v3 to reconstruct how partial rotation of a cylindrical ground state measures higher central charges and what this implies for a gapped boundary. Deliver Japanese editable scholarly notes through a config-driven website and GitHub Pages.
+Enable a first-time reader of arXiv:2303.04822v4 to reconstruct how partial rotation of a cylindrical ground state measures higher central charges and what this implies for a gapped boundary. Deliver Japanese editable scholarly notes through a config-driven website and GitHub Pages.
 
 ## Audience
 The learner has not read the paper and explicitly understands CFT characters. Other personal expertise is unconfirmed. Establish locally the Schmidt trace identity, anyon data, this paper's modular transformations, vacuum dominance, and phase extraction. Definitions alone must not be treated as understanding of the mechanism.

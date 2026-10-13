@@ -1,0 +1,13 @@
+import React from 'react';
+import { hydrateRoot, createRoot } from 'react-dom/client';
+import { NotesReader } from './page';
+import config from '../note.config.json';
+import { chapterFromPath } from '../lib/site-path';
+import 'katex/dist/katex.min.css';
+import './globals.css';
+const id = chapterFromPath(window.location.pathname);
+const initialId = config.chapters.some(chapter => chapter.id === id) ? id : config.chapters[0].id;
+const root = document.getElementById('root')!;
+const element = <NotesReader initialId={initialId} />;
+if (root.hasChildNodes()) hydrateRoot(root, element);
+else createRoot(root).render(element);

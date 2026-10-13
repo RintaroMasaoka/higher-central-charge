@@ -1,0 +1,1013 @@
+{
+  "input": "/Users/rintaromasaoka/Desktop/Learning/Study/Higher-central-charge/reviews/wording/derivation.visible.md",
+  "input_sha256": "6fee657134717e88d6eb592d9ab67a21935c1bacf29b37ebc5e44f3c1180d634",
+  "review_lines": [
+    1,
+    171
+  ],
+  "kind": "surface_candidates_not_terms_or_defects",
+  "repeated_candidates": [
+    {
+      "id": "s31",
+      "surface": "である",
+      "occurrences": [
+        {
+          "line": 16,
+          "column": 1
+        },
+        {
+          "line": 16,
+          "column": 62
+        },
+        {
+          "line": 44,
+          "column": 64
+        },
+        {
+          "line": 50,
+          "column": 87
+        },
+        {
+          "line": 79,
+          "column": 36
+        },
+        {
+          "line": 86,
+          "column": 43
+        },
+        {
+          "line": 91,
+          "column": 49
+        },
+        {
+          "line": 104,
+          "column": 1
+        },
+        {
+          "line": 115,
+          "column": 26
+        },
+        {
+          "line": 154,
+          "column": 1
+        },
+        {
+          "line": 164,
+          "column": 91
+        }
+      ]
+    },
+    {
+      "id": "s39",
+      "surface": "となる",
+      "occurrences": [
+        {
+          "line": 79,
+          "column": 1
+        },
+        {
+          "line": 91,
+          "column": 204
+        },
+        {
+          "line": 169,
+          "column": 191
+        }
+      ]
+    },
+    {
+      "id": "s40",
+      "surface": "なので",
+      "occurrences": [
+        {
+          "line": 48,
+          "column": 17
+        },
+        {
+          "line": 62,
+          "column": 17
+        },
+        {
+          "line": 91,
+          "column": 184
+        },
+        {
+          "line": 169,
+          "column": 167
+        }
+      ]
+    },
+    {
+      "id": "s64",
+      "surface": "エニオン",
+      "occurrences": [
+        {
+          "line": 1,
+          "column": 7
+        },
+        {
+          "line": 50,
+          "column": 26
+        },
+        {
+          "line": 115,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "id": "s71",
+      "surface": "ボソン",
+      "occurrences": [
+        {
+          "line": 3,
+          "column": 61
+        },
+        {
+          "line": 164,
+          "column": 12
+        },
+        {
+          "line": 169,
+          "column": 108
+        }
+      ]
+    },
+    {
+      "id": "s73",
+      "surface": "モジュラー変換",
+      "occurrences": [
+        {
+          "line": 48,
+          "column": 33
+        },
+        {
+          "line": 62,
+          "column": 36
+        },
+        {
+          "line": 62,
+          "column": 83
+        }
+      ]
+    },
+    {
+      "id": "s74",
+      "surface": "モジュラー行列",
+      "occurrences": [
+        {
+          "line": 50,
+          "column": 8
+        },
+        {
+          "line": 97,
+          "column": 27
+        },
+        {
+          "line": 137,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "id": "s80",
+      "surface": "与",
+      "occurrences": [
+        {
+          "line": 16,
+          "column": 56
+        },
+        {
+          "line": 16,
+          "column": 169
+        },
+        {
+          "line": 115,
+          "column": 51
+        },
+        {
+          "line": 115,
+          "column": 78
+        }
+      ]
+    },
+    {
+      "id": "s82",
+      "surface": "並進",
+      "occurrences": [
+        {
+          "line": 5,
+          "column": 4
+        },
+        {
+          "line": 16,
+          "column": 143
+        },
+        {
+          "line": 169,
+          "column": 201
+        }
+      ]
+    },
+    {
+      "id": "s85",
+      "surface": "中心電荷",
+      "occurrences": [
+        {
+          "line": 3,
+          "column": 93
+        },
+        {
+          "line": 132,
+          "column": 17
+        },
+        {
+          "line": 154,
+          "column": 27
+        },
+        {
+          "line": 169,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "id": "s86",
+      "surface": "主要項",
+      "occurrences": [
+        {
+          "line": 58,
+          "column": 28
+        },
+        {
+          "line": 117,
+          "column": 50
+        },
+        {
+          "line": 128,
+          "column": 48
+        },
+        {
+          "line": 154,
+          "column": 5
+        },
+        {
+          "line": 169,
+          "column": 178
+        }
+      ]
+    },
+    {
+      "id": "s88",
+      "surface": "二",
+      "occurrences": [
+        {
+          "line": 3,
+          "column": 37
+        },
+        {
+          "line": 104,
+          "column": 41
+        },
+        {
+          "line": 115,
+          "column": 30
+        },
+        {
+          "line": 164,
+          "column": 118
+        }
+      ]
+    },
+    {
+      "id": "s92",
+      "surface": "位相",
+      "occurrences": [
+        {
+          "line": 33,
+          "column": 58
+        },
+        {
+          "line": 44,
+          "column": 62
+        },
+        {
+          "line": 58,
+          "column": 45
+        },
+        {
+          "line": 117,
+          "column": 39
+        },
+        {
+          "line": 130,
+          "column": 7
+        },
+        {
+          "line": 132,
+          "column": 6
+        },
+        {
+          "line": 134,
+          "column": 3
+        },
+        {
+          "line": 154,
+          "column": 32
+        }
+      ]
+    },
+    {
+      "id": "s97",
+      "surface": "元",
+      "occurrences": [
+        {
+          "line": 48,
+          "column": 21
+        },
+        {
+          "line": 72,
+          "column": 6
+        },
+        {
+          "line": 89,
+          "column": 15
+        }
+      ]
+    },
+    {
+      "id": "s109",
+      "surface": "分子",
+      "occurrences": [
+        {
+          "line": 44,
+          "column": 36
+        },
+        {
+          "line": 60,
+          "column": 6
+        },
+        {
+          "line": 62,
+          "column": 3
+        },
+        {
+          "line": 91,
+          "column": 56
+        },
+        {
+          "line": 91,
+          "column": 108
+        },
+        {
+          "line": 117,
+          "column": 47
+        }
+      ]
+    },
+    {
+      "id": "s110",
+      "surface": "分母",
+      "occurrences": [
+        {
+          "line": 44,
+          "column": 39
+        },
+        {
+          "line": 46,
+          "column": 6
+        },
+        {
+          "line": 58,
+          "column": 25
+        }
+      ]
+    },
+    {
+      "id": "s115",
+      "surface": "原論文",
+      "occurrences": [
+        {
+          "line": 33,
+          "column": 5
+        },
+        {
+          "line": 33,
+          "column": 72
+        },
+        {
+          "line": 162,
+          "column": 6
+        }
+      ]
+    },
+    {
+      "id": "s120",
+      "surface": "右",
+      "occurrences": [
+        {
+          "line": 16,
+          "column": 68
+        },
+        {
+          "line": 46,
+          "column": 4
+        },
+        {
+          "line": 60,
+          "column": 4
+        },
+        {
+          "line": 62,
+          "column": 1
+        },
+        {
+          "line": 64,
+          "column": 1
+        },
+        {
+          "line": 117,
+          "column": 45
+        },
+        {
+          "line": 137,
+          "column": 3
+        },
+        {
+          "line": 138,
+          "column": 3
+        }
+      ]
+    },
+    {
+      "id": "s123",
+      "surface": "合",
+      "occurrences": [
+        {
+          "line": 33,
+          "column": 15
+        },
+        {
+          "line": 140,
+          "column": 3
+        },
+        {
+          "line": 169,
+          "column": 105
+        }
+      ]
+    },
+    {
+      "id": "s127",
+      "surface": "和",
+      "occurrences": [
+        {
+          "line": 1,
+          "column": 12
+        },
+        {
+          "line": 95,
+          "column": 12
+        },
+        {
+          "line": 115,
+          "column": 10
+        },
+        {
+          "line": 128,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "id": "s130",
+      "surface": "固定",
+      "occurrences": [
+        {
+          "line": 33,
+          "column": 48
+        },
+        {
+          "line": 79,
+          "column": 40
+        },
+        {
+          "line": 164,
+          "column": 54
+        }
+      ]
+    },
+    {
+      "id": "s132",
+      "surface": "境界",
+      "occurrences": [
+        {
+          "line": 3,
+          "column": 22
+        },
+        {
+          "line": 35,
+          "column": 10
+        },
+        {
+          "line": 44,
+          "column": 48
+        },
+        {
+          "line": 136,
+          "column": 9
+        }
+      ]
+    },
+    {
+      "id": "s135",
+      "surface": "変換",
+      "occurrences": [
+        {
+          "line": 46,
+          "column": 14
+        },
+        {
+          "line": 60,
+          "column": 18
+        },
+        {
+          "line": 62,
+          "column": 28
+        }
+      ]
+    },
+    {
+      "id": "s136",
+      "surface": "変換先",
+      "occurrences": [
+        {
+          "line": 58,
+          "column": 7
+        },
+        {
+          "line": 86,
+          "column": 2
+        },
+        {
+          "line": 117,
+          "column": 1
+        },
+        {
+          "line": 138,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "id": "s138",
+      "surface": "大",
+      "occurrences": [
+        {
+          "line": 37,
+          "column": 21
+        },
+        {
+          "line": 48,
+          "column": 72
+        },
+        {
+          "line": 79,
+          "column": 10
+        }
+      ]
+    },
+    {
+      "id": "s141",
+      "surface": "実部",
+      "occurrences": [
+        {
+          "line": 16,
+          "column": 153
+        },
+        {
+          "line": 62,
+          "column": 6
+        },
+        {
+          "line": 117,
+          "column": 25
+        },
+        {
+          "line": 138,
+          "column": 12
+        }
+      ]
+    },
+    {
+      "id": "s147",
+      "surface": "左",
+      "occurrences": [
+        {
+          "line": 16,
+          "column": 66
+        },
+        {
+          "line": 35,
+          "column": 4
+        },
+        {
+          "line": 44,
+          "column": 46
+        },
+        {
+          "line": 136,
+          "column": 3
+        }
+      ]
+    },
+    {
+      "id": "s149",
+      "surface": "式",
+      "occurrences": [
+        {
+          "line": 33,
+          "column": 63
+        },
+        {
+          "line": 33,
+          "column": 96
+        },
+        {
+          "line": 58,
+          "column": 4
+        },
+        {
+          "line": 162,
+          "column": 10
+        }
+      ]
+    },
+    {
+      "id": "s150",
+      "surface": "引数",
+      "occurrences": [
+        {
+          "line": 33,
+          "column": 12
+        },
+        {
+          "line": 72,
+          "column": 8
+        },
+        {
+          "line": 72,
+          "column": 40
+        },
+        {
+          "line": 89,
+          "column": 17
+        },
+        {
+          "line": 91,
+          "column": 59
+        },
+        {
+          "line": 91,
+          "column": 111
+        }
+      ]
+    },
+    {
+      "id": "s160",
+      "surface": "指標",
+      "occurrences": [
+        {
+          "line": 1,
+          "column": 3
+        },
+        {
+          "line": 3,
+          "column": 82
+        },
+        {
+          "line": 5,
+          "column": 7
+        },
+        {
+          "line": 16,
+          "column": 150
+        },
+        {
+          "line": 33,
+          "column": 9
+        },
+        {
+          "line": 37,
+          "column": 15
+        },
+        {
+          "line": 48,
+          "column": 23
+        },
+        {
+          "line": 50,
+          "column": 5
+        },
+        {
+          "line": 91,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "id": "s162",
+      "surface": "掛",
+      "occurrences": [
+        {
+          "line": 37,
+          "column": 63
+        },
+        {
+          "line": 132,
+          "column": 22
+        },
+        {
+          "line": 140,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "id": "s175",
+      "surface": "残",
+      "occurrences": [
+        {
+          "line": 37,
+          "column": 99
+        },
+        {
+          "line": 44,
+          "column": 52
+        },
+        {
+          "line": 58,
+          "column": 21
+        },
+        {
+          "line": 86,
+          "column": 9
+        },
+        {
+          "line": 128,
+          "column": 21
+        }
+      ]
+    },
+    {
+      "id": "s178",
+      "surface": "消",
+      "occurrences": [
+        {
+          "line": 44,
+          "column": 42
+        },
+        {
+          "line": 128,
+          "column": 12
+        },
+        {
+          "line": 169,
+          "column": 103
+        }
+      ]
+    },
+    {
+      "id": "s181",
+      "surface": "物理的",
+      "occurrences": [
+        {
+          "line": 3,
+          "column": 18
+        },
+        {
+          "line": 35,
+          "column": 6
+        },
+        {
+          "line": 136,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "id": "s188",
+      "surface": "相",
+      "occurrences": [
+        {
+          "line": 3,
+          "column": 140
+        },
+        {
+          "line": 164,
+          "column": 16
+        },
+        {
+          "line": 169,
+          "column": 112
+        }
+      ]
+    },
+    {
+      "id": "s189",
+      "surface": "真空",
+      "occurrences": [
+        {
+          "line": 3,
+          "column": 1
+        },
+        {
+          "line": 3,
+          "column": 109
+        },
+        {
+          "line": 48,
+          "column": 79
+        },
+        {
+          "line": 50,
+          "column": 45
+        },
+        {
+          "line": 58,
+          "column": 11
+        },
+        {
+          "line": 86,
+          "column": 6
+        },
+        {
+          "line": 136,
+          "column": 12
+        },
+        {
+          "line": 138,
+          "column": 9
+        }
+      ]
+    },
+    {
+      "id": "s192",
+      "surface": "真空係数",
+      "occurrences": [
+        {
+          "line": 95,
+          "column": 4
+        },
+        {
+          "line": 104,
+          "column": 53
+        },
+        {
+          "line": 128,
+          "column": 7
+        }
+      ]
+    },
+    {
+      "id": "s195",
+      "surface": "確認",
+      "occurrences": [
+        {
+          "line": 89,
+          "column": 10
+        },
+        {
+          "line": 132,
+          "column": 28
+        },
+        {
+          "line": 167,
+          "column": 10
+        }
+      ]
+    },
+    {
+      "id": "s196",
+      "surface": "種類",
+      "occurrences": [
+        {
+          "line": 16,
+          "column": 21
+        },
+        {
+          "line": 97,
+          "column": 1
+        },
+        {
+          "line": 97,
+          "column": 40
+        }
+      ]
+    },
+    {
+      "id": "s205",
+      "surface": "虚部",
+      "occurrences": [
+        {
+          "line": 37,
+          "column": 18
+        },
+        {
+          "line": 48,
+          "column": 26
+        },
+        {
+          "line": 48,
+          "column": 69
+        },
+        {
+          "line": 79,
+          "column": 7
+        },
+        {
+          "line": 117,
+          "column": 12
+        }
+      ]
+    },
+    {
+      "id": "s211",
+      "surface": "計算",
+      "occurrences": [
+        {
+          "line": 25,
+          "column": 7
+        },
+        {
+          "line": 33,
+          "column": 66
+        },
+        {
+          "line": 147,
+          "column": 18
+        }
+      ]
+    },
+    {
+      "id": "s220",
+      "surface": "部分回転",
+      "occurrences": [
+        {
+          "line": 3,
+          "column": 9
+        },
+        {
+          "line": 58,
+          "column": 40
+        },
+        {
+          "line": 62,
+          "column": 94
+        }
+      ]
+    }
+  ],
+  "structural_candidates": [
+    {
+      "kind": "heading",
+      "line": 1,
+      "text": "指標からエニオンの和へ"
+    },
+    {
+      "kind": "heading",
+      "line": 5,
+      "text": "並進を指標に入れる"
+    },
+    {
+      "kind": "heading",
+      "line": 35,
+      "text": "左の物理的な境界"
+    },
+    {
+      "kind": "heading",
+      "line": 46,
+      "text": "右の分母を $S$ 変換する"
+    },
+    {
+      "kind": "heading",
+      "line": 60,
+      "text": "右の分子を $ST^nS$ 変換する"
+    },
+    {
+      "kind": "heading",
+      "line": 95,
+      "text": "真空係数が統計の和になる"
+    },
+    {
+      "kind": "heading",
+      "line": 130,
+      "text": "三つの位相をまとめる"
+    }
+  ],
+  "projection": {
+    "source": "/Users/rintaromasaoka/Desktop/Learning/Study/Higher-central-charge/content/derivation.md",
+    "source_sha256": "64100c03fcc1bd7ac5d52ee11972f3669be0075a938ab5f97481812341d91884",
+    "method": "Replace whole-line reference comments by empty lines and HTML tag markup by equal-width spaces; preserve line/column coordinates. Markdown text, image alt text and details/summary prose retained."
+  }
+}

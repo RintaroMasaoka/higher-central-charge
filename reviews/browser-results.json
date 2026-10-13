@@ -1,0 +1,511 @@
+{
+  "origin": "http://127.0.0.1:4177",
+  "prefix": "/higher-central-charge",
+  "results": [
+    {
+      "chapter": "overview",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "theme": "light",
+      "heading": "高次中心電荷と境界のギャップ",
+      "mathErrors": 0,
+      "math": 100,
+      "overflow": false,
+      "images": [],
+      "fonts": [
+        "KaTeX_Caligraphic",
+        "KaTeX_Main",
+        "KaTeX_Math",
+        "KaTeX_Size1",
+        "KaTeX_Size2"
+      ]
+    },
+    {
+      "chapter": "observable",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "theme": "light",
+      "heading": "波動関数の部分回転",
+      "mathErrors": 0,
+      "math": 44,
+      "overflow": false,
+      "images": [
+        {
+          "src": "http://127.0.0.1:4177/higher-central-charge/diagrams/partial-rotation.svg",
+          "loaded": true
+        }
+      ],
+      "fonts": [
+        "KaTeX_Caligraphic",
+        "KaTeX_Main",
+        "KaTeX_Math",
+        "KaTeX_Size1",
+        "KaTeX_Size2"
+      ]
+    },
+    {
+      "chapter": "derivation",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "theme": "light",
+      "heading": "指標からエニオンの和へ",
+      "mathErrors": 0,
+      "math": 79,
+      "overflow": false,
+      "images": [],
+      "fonts": [
+        "KaTeX_Caligraphic",
+        "KaTeX_Main",
+        "KaTeX_Math",
+        "KaTeX_Size2",
+        "KaTeX_Size3"
+      ]
+    },
+    {
+      "chapter": "applications",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "theme": "light",
+      "heading": "異なるセクターと数値評価",
+      "mathErrors": 0,
+      "math": 86,
+      "overflow": false,
+      "images": [],
+      "fonts": [
+        "KaTeX_AMS",
+        "KaTeX_Caligraphic",
+        "KaTeX_Main",
+        "KaTeX_Math",
+        "KaTeX_Size1",
+        "KaTeX_Size2",
+        "KaTeX_Size3"
+      ]
+    },
+    {
+      "chapter": "boundary",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "theme": "light",
+      "heading": "境界のギャップを判定する条件",
+      "mathErrors": 0,
+      "math": 96,
+      "overflow": false,
+      "images": [],
+      "fonts": [
+        "KaTeX_AMS",
+        "KaTeX_Caligraphic",
+        "KaTeX_Main",
+        "KaTeX_Math",
+        "KaTeX_Size2",
+        "KaTeX_Size3"
+      ]
+    },
+    {
+      "chapter": "references",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "theme": "light",
+      "heading": "文献と式の対応",
+      "mathErrors": 0,
+      "math": 18,
+      "overflow": false,
+      "images": [],
+      "fonts": [
+        "KaTeX_Caligraphic",
+        "KaTeX_Main",
+        "KaTeX_Math"
+      ]
+    },
+    {
+      "chapter": "overview",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "theme": "dark",
+      "heading": "高次中心電荷と境界のギャップ",
+      "mathErrors": 0,
+      "math": 100,
+      "overflow": false,
+      "images": [],
+      "fonts": [
+        "KaTeX_Caligraphic",
+        "KaTeX_Main",
+        "KaTeX_Math",
+        "KaTeX_Size1",
+        "KaTeX_Size2"
+      ]
+    },
+    {
+      "chapter": "observable",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "theme": "dark",
+      "heading": "波動関数の部分回転",
+      "mathErrors": 0,
+      "math": 44,
+      "overflow": false,
+      "images": [
+        {
+          "src": "http://127.0.0.1:4177/higher-central-charge/diagrams/partial-rotation.svg",
+          "loaded": true
+        }
+      ],
+      "fonts": [
+        "KaTeX_Caligraphic",
+        "KaTeX_Main",
+        "KaTeX_Math",
+        "KaTeX_Size1",
+        "KaTeX_Size2"
+      ]
+    },
+    {
+      "chapter": "derivation",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "theme": "dark",
+      "heading": "指標からエニオンの和へ",
+      "mathErrors": 0,
+      "math": 79,
+      "overflow": false,
+      "images": [],
+      "fonts": [
+        "KaTeX_Caligraphic",
+        "KaTeX_Main",
+        "KaTeX_Math",
+        "KaTeX_Size2",
+        "KaTeX_Size3"
+      ]
+    },
+    {
+      "chapter": "applications",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "theme": "dark",
+      "heading": "異なるセクターと数値評価",
+      "mathErrors": 0,
+      "math": 86,
+      "overflow": false,
+      "images": [],
+      "fonts": [
+        "KaTeX_AMS",
+        "KaTeX_Caligraphic",
+        "KaTeX_Main",
+        "KaTeX_Math",
+        "KaTeX_Size1",
+        "KaTeX_Size2",
+        "KaTeX_Size3"
+      ]
+    },
+    {
+      "chapter": "boundary",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "theme": "dark",
+      "heading": "境界のギャップを判定する条件",
+      "mathErrors": 0,
+      "math": 96,
+      "overflow": false,
+      "images": [],
+      "fonts": [
+        "KaTeX_AMS",
+        "KaTeX_Caligraphic",
+        "KaTeX_Main",
+        "KaTeX_Math",
+        "KaTeX_Size2",
+        "KaTeX_Size3"
+      ]
+    },
+    {
+      "chapter": "references",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "theme": "dark",
+      "heading": "文献と式の対応",
+      "mathErrors": 0,
+      "math": 18,
+      "overflow": false,
+      "images": [],
+      "fonts": [
+        "KaTeX_Caligraphic",
+        "KaTeX_Main",
+        "KaTeX_Math"
+      ]
+    },
+    {
+      "chapter": "overview",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "theme": "light",
+      "heading": "高次中心電荷と境界のギャップ",
+      "mathErrors": 0,
+      "math": 100,
+      "overflow": false,
+      "images": [],
+      "fonts": [
+        "KaTeX_Caligraphic",
+        "KaTeX_Main",
+        "KaTeX_Math",
+        "KaTeX_Size1",
+        "KaTeX_Size2"
+      ]
+    },
+    {
+      "chapter": "observable",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "theme": "light",
+      "heading": "波動関数の部分回転",
+      "mathErrors": 0,
+      "math": 44,
+      "overflow": false,
+      "images": [
+        {
+          "src": "http://127.0.0.1:4177/higher-central-charge/diagrams/partial-rotation.svg",
+          "loaded": true
+        }
+      ],
+      "fonts": [
+        "KaTeX_Caligraphic",
+        "KaTeX_Main",
+        "KaTeX_Math",
+        "KaTeX_Size1",
+        "KaTeX_Size2"
+      ]
+    },
+    {
+      "chapter": "derivation",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "theme": "light",
+      "heading": "指標からエニオンの和へ",
+      "mathErrors": 0,
+      "math": 79,
+      "overflow": false,
+      "images": [],
+      "fonts": [
+        "KaTeX_Caligraphic",
+        "KaTeX_Main",
+        "KaTeX_Math",
+        "KaTeX_Size2",
+        "KaTeX_Size3"
+      ]
+    },
+    {
+      "chapter": "applications",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "theme": "light",
+      "heading": "異なるセクターと数値評価",
+      "mathErrors": 0,
+      "math": 86,
+      "overflow": false,
+      "images": [],
+      "fonts": [
+        "KaTeX_AMS",
+        "KaTeX_Caligraphic",
+        "KaTeX_Main",
+        "KaTeX_Math",
+        "KaTeX_Size1",
+        "KaTeX_Size2",
+        "KaTeX_Size3"
+      ]
+    },
+    {
+      "chapter": "boundary",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "theme": "light",
+      "heading": "境界のギャップを判定する条件",
+      "mathErrors": 0,
+      "math": 96,
+      "overflow": false,
+      "images": [],
+      "fonts": [
+        "KaTeX_AMS",
+        "KaTeX_Caligraphic",
+        "KaTeX_Main",
+        "KaTeX_Math",
+        "KaTeX_Size2",
+        "KaTeX_Size3"
+      ]
+    },
+    {
+      "chapter": "references",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "theme": "light",
+      "heading": "文献と式の対応",
+      "mathErrors": 0,
+      "math": 18,
+      "overflow": false,
+      "images": [],
+      "fonts": [
+        "KaTeX_Caligraphic",
+        "KaTeX_Main",
+        "KaTeX_Math"
+      ]
+    },
+    {
+      "chapter": "overview",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "theme": "dark",
+      "heading": "高次中心電荷と境界のギャップ",
+      "mathErrors": 0,
+      "math": 100,
+      "overflow": false,
+      "images": [],
+      "fonts": [
+        "KaTeX_Caligraphic",
+        "KaTeX_Main",
+        "KaTeX_Math",
+        "KaTeX_Size1",
+        "KaTeX_Size2"
+      ]
+    },
+    {
+      "chapter": "observable",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "theme": "dark",
+      "heading": "波動関数の部分回転",
+      "mathErrors": 0,
+      "math": 44,
+      "overflow": false,
+      "images": [
+        {
+          "src": "http://127.0.0.1:4177/higher-central-charge/diagrams/partial-rotation.svg",
+          "loaded": true
+        }
+      ],
+      "fonts": [
+        "KaTeX_Caligraphic",
+        "KaTeX_Main",
+        "KaTeX_Math",
+        "KaTeX_Size1",
+        "KaTeX_Size2"
+      ]
+    },
+    {
+      "chapter": "derivation",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "theme": "dark",
+      "heading": "指標からエニオンの和へ",
+      "mathErrors": 0,
+      "math": 79,
+      "overflow": false,
+      "images": [],
+      "fonts": [
+        "KaTeX_Caligraphic",
+        "KaTeX_Main",
+        "KaTeX_Math",
+        "KaTeX_Size2",
+        "KaTeX_Size3"
+      ]
+    },
+    {
+      "chapter": "applications",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "theme": "dark",
+      "heading": "異なるセクターと数値評価",
+      "mathErrors": 0,
+      "math": 86,
+      "overflow": false,
+      "images": [],
+      "fonts": [
+        "KaTeX_AMS",
+        "KaTeX_Caligraphic",
+        "KaTeX_Main",
+        "KaTeX_Math",
+        "KaTeX_Size1",
+        "KaTeX_Size2",
+        "KaTeX_Size3"
+      ]
+    },
+    {
+      "chapter": "boundary",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "theme": "dark",
+      "heading": "境界のギャップを判定する条件",
+      "mathErrors": 0,
+      "math": 96,
+      "overflow": false,
+      "images": [],
+      "fonts": [
+        "KaTeX_AMS",
+        "KaTeX_Caligraphic",
+        "KaTeX_Main",
+        "KaTeX_Math",
+        "KaTeX_Size2",
+        "KaTeX_Size3"
+      ]
+    },
+    {
+      "chapter": "references",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "theme": "dark",
+      "heading": "文献と式の対応",
+      "mathErrors": 0,
+      "math": 18,
+      "overflow": false,
+      "images": [],
+      "fonts": [
+        "KaTeX_Caligraphic",
+        "KaTeX_Main",
+        "KaTeX_Math"
+      ]
+    }
+  ],
+  "errors": []
+}

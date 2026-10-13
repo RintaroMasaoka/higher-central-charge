@@ -1,0 +1,17 @@
+{
+  "arxiv_id":"2303.04822v4",
+  "date":"2026-10-13",
+  "pdf_url":"https://arxiv.org/pdf/2303.04822v4",
+  "source_url":"https://arxiv.org/e-print/2303.04822v4",
+  "local_directory":"literature/papers/2303.04822",
+  "sha256":{
+    "paper.pdf":"332d6373a32f126c49343f84e4043463b979192f418b40aef71420e92952eaa7",
+    "main.tex":"c00f76fdaced006c054807a36ae7918c5ab75a2a9af41f8fd17cafdd2742699e",
+    "supp_mat.tex":"c3aec46214052c2aae6c431d8d4371f96c14aebb8c1a9eb04aabe6ab3a1b7658"
+  },
+  "pdf_pages":21,
+  "source_format":"gzip tar, readable TeX confirmed",
+  "bibtex_acquired":true,
+  "published_doi":"10.1103/PhysRevLett.132.016602",
+  "redistribution":"Full acquired source/PDF kept locally and ignored by Git; frozen bounded audit excerpt retained as evidence."
+}

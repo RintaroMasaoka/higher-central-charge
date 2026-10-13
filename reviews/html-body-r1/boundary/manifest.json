@@ -1,0 +1,10 @@
+{
+  "source": "content/boundary.md",
+  "sha256": "ae1b153b75a52d251fe526efa55ad6e7262f055ece938c77aaa1855aa4f1b171",
+  "removed": {
+    "disclosures": 2,
+    "mathHints": 0,
+    "stepPopups": 0
+  },
+  "units": 35
+}

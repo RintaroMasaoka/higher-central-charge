@@ -1,0 +1,10 @@
+{
+  "source": "content/references.md",
+  "sha256": "c55a397320f403980ce4745f56dcb15ae07cf729653a38c64164e5b4b0e644eb",
+  "removed": {
+    "disclosures": 0,
+    "mathHints": 0,
+    "stepPopups": 0
+  },
+  "units": 27
+}

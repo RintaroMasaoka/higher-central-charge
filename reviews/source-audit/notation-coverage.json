@@ -1,0 +1,137 @@
+{
+  "source_sha256": "9583c1fb50c20fe48eb242baf1759e7ba47b611702e22ac042bf9f4990850021",
+  "checked_lines": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63
+  ],
+  "status": "partial",
+  "scope": "main.tex 172-234 only; local source-order inspection, not independent sequential-reader review",
+  "symbols": [
+    [
+      "zeta_n,n",
+      "172-175",
+      "defined here",
+      "positive integer; phase undefined at tau_n=0"
+    ],
+    [
+      "a,d_a,theta_a",
+      "174-176",
+      "defined here",
+      "anyon index, quantum dimension, twist"
+    ],
+    [
+      "c_-",
+      "177",
+      "unverified context",
+      "background chiral central charge; actual value vs mod8 needs distinction"
+    ],
+    [
+      "N_FS,gcd",
+      "179",
+      "defined here / unverified context",
+      "exponent defined; gcd capability not confirmed"
+    ],
+    [
+      "ket(Psi),1,A,B,T_A;theta",
+      "186-190",
+      "defined here",
+      "vacuum, bipartition, translation"
+    ],
+    [
+      "rho_A,rho_A;l,rho_A;r",
+      "202-204",
+      "defined here",
+      "effective edge density matrices"
+    ],
+    [
+      "beta_r,H_r",
+      "206",
+      "unverified context",
+      "thermal assumption; normalization implicit"
+    ],
+    [
+      "P_l,P_r,xi_l,xi_r,v,L",
+      "211-217",
+      "defined later / ambiguous",
+      "definitions after trace; momentum signs conflict"
+    ],
+    [
+      "chi_1,tau",
+      "212-217",
+      "licensed background / defined later",
+      "CFT characters known; sector fixed here"
+    ],
+    [
+      "S,T,D",
+      "224-234",
+      "unverified context / defined later",
+      "modular matrices not introduced here; D defined at 234 after use"
+    ]
+  ],
+  "unresolved": [
+    "Full choice review not performed: focused first-use scope only.",
+    "Earlier source context available but learner meaning outside characters unconfirmed.",
+    "No rendered TeX inspection or independent sequential-prefix notation reader."
+  ]
+}

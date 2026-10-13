@@ -1,0 +1,2321 @@
+{
+  "source_sha256": "9583c1fb50c20fe48eb242baf1759e7ba47b611702e22ac042bf9f4990850021",
+  "original_source": "snapshot/main.tex",
+  "original_line_offset": 171,
+  "provenance": {
+    "requested_version": "v3 in original packet",
+    "measured_pdf_version": "arXiv2303.04822v4",
+    "pdf_pages": 21,
+    "raw_archive": "unversioned latest endpoint; audited raw hashes unchanged",
+    "scope": "raw main.tex 172-234; not rendered-PDF audit",
+    "record": "provenance.md",
+    "eq83": "Auxiliary pixel inspection: PDF v4 Eq83 and raw supp714 agree, both put c_-/(nu S) outside radical. Earlier discrepancy claim retracted; general formula error, Laughlin specialization unaffected. See provenance.md; no new acceptance gate."
+  },
+  "reader_contract": "CFT characters known; paper not yet read; other background unknown",
+  "notation_review": {
+    "source_sha256": "9583c1fb50c20fe48eb242baf1759e7ba47b611702e22ac042bf9f4990850021",
+    "status": "partial",
+    "coverage_ref": "notation-coverage.json",
+    "evidence": "Local bounded source-order notation inspection; symbols and unavailable meanings recorded separately. No full notation acceptance."
+  },
+  "claims": {
+    "D01": {
+      "span": [
+        1,
+        1
+      ],
+      "original_span": [
+        172,
+        172
+      ],
+      "text": "Higher charges characterize bosonic topological order; positive integer n.",
+      "kind": "assertion",
+      "requires": [],
+      "checks": {
+        "warrant": "D01W",
+        "availability": "D01A",
+        "role": "D01R"
+      },
+      "edges": {}
+    },
+    "D02": {
+      "span": [
+        2,
+        4
+      ],
+      "original_span": [
+        173,
+        175
+      ],
+      "text": "zeta_n=tau_n/abs(tau_n), tau_n=sum d_a^2 theta_a^n.",
+      "kind": "equation",
+      "requires": [],
+      "checks": {
+        "warrant": "D02W",
+        "availability": "D02A",
+        "role": "D02R"
+      },
+      "edges": {}
+    },
+    "D03": {
+      "span": [
+        5,
+        5
+      ],
+      "original_span": [
+        176,
+        176
+      ],
+      "text": "Sum over all anyons; d_a quantum dimension.",
+      "kind": "assertion",
+      "requires": [],
+      "checks": {
+        "warrant": "D03W",
+        "availability": "D03A",
+        "role": "D03R"
+      },
+      "edges": {}
+    },
+    "D04": {
+      "span": [
+        5,
+        5
+      ],
+      "original_span": [
+        176,
+        176
+      ],
+      "text": "theta_a topological twist.",
+      "kind": "assertion",
+      "requires": [],
+      "checks": {
+        "warrant": "D04W",
+        "availability": "D04A",
+        "role": "D04R"
+      },
+      "edges": {}
+    },
+    "D05": {
+      "span": [
+        6,
+        6
+      ],
+      "original_span": [
+        177,
+        177
+      ],
+      "text": "zeta_1=exp(2 pi i c_-/8).",
+      "kind": "equation",
+      "requires": [],
+      "checks": {
+        "warrant": "D05W",
+        "availability": "D05A",
+        "role": "D05R"
+      },
+      "edges": {}
+    },
+    "D06": {
+      "span": [
+        8,
+        8
+      ],
+      "original_span": [
+        179,
+        179
+      ],
+      "text": "Gapped boundary requires zeta_n=1 for gcd(n,N_FS)=1.",
+      "kind": "equation",
+      "requires": [],
+      "checks": {
+        "warrant": "D06W",
+        "availability": "D06A",
+        "role": "D06R"
+      },
+      "edges": {}
+    },
+    "D07": {
+      "span": [
+        8,
+        8
+      ],
+      "original_span": [
+        179,
+        179
+      ],
+      "text": "N_FS smallest common twist exponent.",
+      "kind": "assertion",
+      "requires": [],
+      "checks": {
+        "warrant": "D07W",
+        "availability": "D07A",
+        "role": "D07R"
+      },
+      "edges": {}
+    },
+    "D08": {
+      "span": [
+        8,
+        8
+      ],
+      "original_span": [
+        179,
+        179
+      ],
+      "text": "U(1)_2 times U(1)_-4 has zeta_3=-1.",
+      "kind": "equation",
+      "requires": [],
+      "checks": {
+        "warrant": "D08W",
+        "availability": "D08A",
+        "role": "D08R"
+      },
+      "edges": {}
+    },
+    "D09": {
+      "span": [
+        8,
+        8
+      ],
+      "original_span": [
+        179,
+        179
+      ],
+      "text": "That theory has c_-=0.",
+      "kind": "equation",
+      "requires": [],
+      "checks": {
+        "warrant": "D09W",
+        "availability": "D09A",
+        "role": "D09R"
+      },
+      "edges": {}
+    },
+    "D10": {
+      "span": [
+        8,
+        8
+      ],
+      "original_span": [
+        179,
+        179
+      ],
+      "text": "That theory has ungappable edge.",
+      "kind": "assertion",
+      "requires": [
+        "D06",
+        "D08",
+        "D07"
+      ],
+      "checks": {
+        "warrant": "D10W",
+        "availability": "D10A",
+        "role": "D10R"
+      },
+      "edges": {
+        "D06": "D10ED06",
+        "D08": "D10ED08",
+        "D07": "D10ED07"
+      }
+    },
+    "D11": {
+      "span": [
+        9,
+        9
+      ],
+      "original_span": [
+        180,
+        180
+      ],
+      "text": "Abelian necessary/sufficient tests use gcd(n,N_FS/gcd(n,N_FS))=1.",
+      "kind": "equation",
+      "requires": [],
+      "checks": {
+        "warrant": "D11W",
+        "availability": "D11A",
+        "role": "D11R"
+      },
+      "edges": {}
+    },
+    "M01": {
+      "span": [
+        14,
+        14
+      ],
+      "original_span": [
+        185,
+        185
+      ],
+      "text": "Cylinder sector label corresponds to collapsed end puncture anyon.",
+      "kind": "assertion",
+      "requires": [],
+      "checks": {
+        "warrant": "M01W",
+        "availability": "M01A",
+        "role": "M01R"
+      },
+      "edges": {}
+    },
+    "M02": {
+      "span": [
+        15,
+        15
+      ],
+      "original_span": [
+        186,
+        186
+      ],
+      "text": "Vacuum state is assumed.",
+      "kind": "assertion",
+      "requires": [],
+      "checks": {
+        "warrant": "M02W",
+        "availability": "M02A",
+        "role": "M02R"
+      },
+      "edges": {}
+    },
+    "M03": {
+      "span": [
+        16,
+        16
+      ],
+      "original_span": [
+        187,
+        187
+      ],
+      "text": "A/B bipartition and circumference translation define operator.",
+      "kind": "assertion",
+      "requires": [],
+      "checks": {
+        "warrant": "M03W",
+        "availability": "M03A",
+        "role": "M03R"
+      },
+      "edges": {}
+    },
+    "M04": {
+      "span": [
+        19,
+        19
+      ],
+      "original_span": [
+        190,
+        190
+      ],
+      "text": "T_1 equals single-state expectation.",
+      "kind": "assertion",
+      "requires": [],
+      "checks": {
+        "warrant": "M04W",
+        "availability": "M04A",
+        "role": "M04R"
+      },
+      "edges": {}
+    },
+    "M05": {
+      "span": [
+        20,
+        20
+      ],
+      "original_span": [
+        191,
+        191
+      ],
+      "text": "Universal phase is exp[-2 pi i(2/n+n)c_-/24] tau_n.",
+      "kind": "assertion",
+      "requires": [],
+      "checks": {
+        "warrant": "M05W",
+        "availability": "M05A",
+        "role": "M05R"
+      },
+      "edges": {}
+    },
+    "M06": {
+      "span": [
+        24,
+        24
+      ],
+      "original_span": [
+        195,
+        195
+      ],
+      "text": "Proportionality means positive real factor.",
+      "kind": "assertion",
+      "requires": [],
+      "checks": {
+        "warrant": "M06W",
+        "availability": "M06A",
+        "role": "M06R"
+      },
+      "edges": {}
+    },
+    "M07": {
+      "span": [
+        25,
+        25
+      ],
+      "original_span": [
+        196,
+        196
+      ],
+      "text": "n=1 rhs phase is 1 by Gauss-Milgram.",
+      "kind": "equation",
+      "requires": [
+        "D05",
+        "M05"
+      ],
+      "checks": {
+        "warrant": "M07W",
+        "availability": "M07A",
+        "role": "M07R"
+      },
+      "edges": {
+        "D05": "M07ED05",
+        "M05": "M07EM05"
+      }
+    },
+    "M08": {
+      "span": [
+        25,
+        25
+      ],
+      "original_span": [
+        196,
+        196
+      ],
+      "text": "Full subsystem rotation is identity.",
+      "kind": "assertion",
+      "requires": [],
+      "checks": {
+        "warrant": "M08W",
+        "availability": "M08A",
+        "role": "M08R"
+      },
+      "edges": {}
+    },
+    "M09": {
+      "span": [
+        25,
+        25
+      ],
+      "original_span": [
+        196,
+        196
+      ],
+      "text": "Coprime n>1 rhs claimed proportional to zeta_n.",
+      "kind": "assertion",
+      "requires": [
+        "M05",
+        "D02"
+      ],
+      "checks": {
+        "warrant": "M09W",
+        "availability": "M09A",
+        "role": "M09R"
+      },
+      "edges": {
+        "M05": "M09EM05",
+        "D02": "M09ED02"
+      }
+    },
+    "M10": {
+      "span": [
+        25,
+        25
+      ],
+      "original_span": [
+        196,
+        196
+      ],
+      "text": "Higher charges add obstruction beyond c_-.",
+      "kind": "assertion",
+      "requires": [],
+      "checks": {
+        "warrant": "M10W",
+        "availability": "M10A",
+        "role": "M10R"
+      },
+      "edges": {}
+    },
+    "M11": {
+      "span": [
+        25,
+        25
+      ],
+      "original_span": [
+        196,
+        196
+      ],
+      "text": "Independent single-wavefunction extraction of c_- exists.",
+      "kind": "assertion",
+      "requires": [],
+      "checks": {
+        "warrant": "M11W",
+        "availability": "M11A",
+        "role": "M11R"
+      },
+      "edges": {}
+    },
+    "M12": {
+      "span": [
+        25,
+        25
+      ],
+      "original_span": [
+        196,
+        196
+      ],
+      "text": "Combined method characterizes all higher charges.",
+      "kind": "assertion",
+      "requires": [],
+      "checks": {
+        "warrant": "M12W",
+        "availability": "M12A",
+        "role": "M12R"
+      },
+      "edges": {}
+    },
+    "M13": {
+      "span": [
+        27,
+        27
+      ],
+      "original_span": [
+        198,
+        198
+      ],
+      "text": "Partial rotation plus topological entropy determines Abelian gappability.",
+      "kind": "assertion",
+      "requires": [],
+      "checks": {
+        "warrant": "M13W",
+        "availability": "M13A",
+        "role": "M13R"
+      },
+      "edges": {}
+    },
+    "M14": {
+      "span": [
+        27,
+        27
+      ],
+      "original_span": [
+        198,
+        198
+      ],
+      "text": "Supplement algorithm realizes determination.",
+      "kind": "assertion",
+      "requires": [],
+      "checks": {
+        "warrant": "M14W",
+        "availability": "M14A",
+        "role": "M14R"
+      },
+      "edges": {}
+    },
+    "M15": {
+      "span": [
+        27,
+        27
+      ],
+      "original_span": [
+        198,
+        198
+      ],
+      "text": "Operator unitary.",
+      "kind": "assertion",
+      "requires": [],
+      "checks": {
+        "warrant": "M15W",
+        "availability": "M15A",
+        "role": "M15R"
+      },
+      "edges": {}
+    },
+    "M16": {
+      "span": [
+        27,
+        27
+      ],
+      "original_span": [
+        198,
+        198
+      ],
+      "text": "Hadamard test measures expectation; ease implementation-dependent.",
+      "kind": "assertion",
+      "requires": [],
+      "checks": {
+        "warrant": "M16W",
+        "availability": "M16A",
+        "role": "M16R"
+      },
+      "edges": {}
+    },
+    "A01": {
+      "span": [
+        30,
+        30
+      ],
+      "original_span": [
+        201,
+        201
+      ],
+      "text": "Cut-and-glue gives long-wavelength edge-CFT entanglement spectrum.",
+      "kind": "assertion",
+      "requires": [],
+      "checks": {
+        "warrant": "A01W",
+        "availability": "A01A",
+        "role": "A01R"
+      },
+      "edges": {}
+    },
+    "A02": {
+      "span": [
+        30,
+        30
+      ],
+      "original_span": [
+        201,
+        201
+      ],
+      "text": "Approach extends to nonchiral edges.",
+      "kind": "assertion",
+      "requires": [],
+      "checks": {
+        "warrant": "A02W",
+        "availability": "A02A",
+        "role": "A02R"
+      },
+      "edges": {}
+    },
+    "A03": {
+      "span": [
+        31,
+        31
+      ],
+      "original_span": [
+        202,
+        202
+      ],
+      "text": "rho_A effectively factorizes into left/right edge density matrices.",
+      "kind": "assertion",
+      "requires": [],
+      "checks": {
+        "warrant": "A03W",
+        "availability": "A03A",
+        "role": "A03R"
+      },
+      "edges": {}
+    },
+    "A04": {
+      "span": [
+        32,
+        32
+      ],
+      "original_span": [
+        203,
+        203
+      ],
+      "text": "Physical left edge is CFT ground state.",
+      "kind": "assertion",
+      "requires": [],
+      "checks": {
+        "warrant": "A04W",
+        "availability": "A04A",
+        "role": "A04R"
+      },
+      "edges": {}
+    },
+    "A05": {
+      "span": [
+        33,
+        33
+      ],
+      "original_span": [
+        204,
+        204
+      ],
+      "text": "Entanglement edge thermal in perturbed CFT.",
+      "kind": "assertion",
+      "requires": [],
+      "checks": {
+        "warrant": "A05W",
+        "availability": "A05A",
+        "role": "A05R"
+      },
+      "edges": {}
+    },
+    "A06": {
+      "span": [
+        34,
+        34
+      ],
+      "original_span": [
+        205,
+        205
+      ],
+      "text": "Entanglement perturbations nonuniversal.",
+      "kind": "assertion",
+      "requires": [],
+      "checks": {
+        "warrant": "A06W",
+        "availability": "A06A",
+        "role": "A06R"
+      },
+      "edges": {}
+    },
+    "A07": {
+      "span": [
+        35,
+        35
+      ],
+      "original_span": [
+        206,
+        206
+      ],
+      "text": "Unperturbed thermal CFT assumed, normalization implicit.",
+      "kind": "assertion",
+      "requires": [],
+      "checks": {
+        "warrant": "A07W",
+        "availability": "A07A",
+        "role": "A07R"
+      },
+      "edges": {}
+    },
+    "A08": {
+      "span": [
+        35,
+        35
+      ],
+      "original_span": [
+        206,
+        206
+      ],
+      "text": "Numerics check prediction of assumption.",
+      "kind": "assertion",
+      "requires": [],
+      "checks": {
+        "warrant": "A08W",
+        "availability": "A08A",
+        "role": "A08R"
+      },
+      "edges": {}
+    },
+    "A09": {
+      "span": [
+        37,
+        37
+      ],
+      "original_span": [
+        208,
+        208
+      ],
+      "text": "Partial rotation translates edge CFTs.",
+      "kind": "assertion",
+      "requires": [],
+      "checks": {
+        "warrant": "A09W",
+        "availability": "A09A",
+        "role": "A09R"
+      },
+      "edges": {}
+    },
+    "A10": {
+      "span": [
+        40,
+        40
+      ],
+      "original_span": [
+        211,
+        211
+      ],
+      "text": "Expectation product of normalized traces.",
+      "kind": "assertion",
+      "requires": [
+        "A03",
+        "A09",
+        "A07"
+      ],
+      "checks": {
+        "warrant": "A10W",
+        "availability": "A10A",
+        "role": "A10R"
+      },
+      "edges": {
+        "A03": "A10EA03",
+        "A09": "A10EA09",
+        "A07": "A10EA07"
+      }
+    },
+    "A11": {
+      "span": [
+        41,
+        41
+      ],
+      "original_span": [
+        212,
+        212
+      ],
+      "text": "Traces equal character ratio with +1/n,-1/n shifts.",
+      "kind": "assertion",
+      "requires": [
+        "A10",
+        "A13",
+        "A12"
+      ],
+      "checks": {
+        "warrant": "A11W",
+        "availability": "A11A",
+        "role": "A11R"
+      },
+      "edges": {
+        "A10": "A11EA10",
+        "A13": "A11EA13",
+        "A12": "A11EA12"
+      }
+    },
+    "A12": {
+      "span": [
+        45,
+        45
+      ],
+      "original_span": [
+        216,
+        216
+      ],
+      "text": "xi=v beta; v velocity; L circumference.",
+      "kind": "equation",
+      "requires": [],
+      "checks": {
+        "warrant": "A12W",
+        "availability": "A12A",
+        "role": "A12R"
+      },
+      "edges": {}
+    },
+    "A13": {
+      "span": [
+        46,
+        46
+      ],
+      "original_span": [
+        217,
+        217
+      ],
+      "text": "P_l=-H_l/v, P_r=H_r/v.",
+      "kind": "equation",
+      "requires": [],
+      "checks": {
+        "warrant": "A13W",
+        "availability": "A13A",
+        "role": "A13R"
+      },
+      "edges": {}
+    },
+    "A14": {
+      "span": [
+        46,
+        46
+      ],
+      "original_span": [
+        217,
+        217
+      ],
+      "text": "chi_1 vacuum character; L<<xi_l.",
+      "kind": "assertion",
+      "requires": [],
+      "checks": {
+        "warrant": "A14W",
+        "availability": "A14A",
+        "role": "A14R"
+      },
+      "edges": {}
+    },
+    "A15": {
+      "span": [
+        48,
+        48
+      ],
+      "original_span": [
+        219,
+        219
+      ],
+      "text": "Left unshifted vacuum asymptotic.",
+      "kind": "assertion",
+      "requires": [],
+      "checks": {
+        "warrant": "A15W",
+        "availability": "A15A",
+        "role": "A15R"
+      },
+      "edges": {}
+    },
+    "A16": {
+      "span": [
+        48,
+        48
+      ],
+      "original_span": [
+        219,
+        219
+      ],
+      "text": "Shift gives exp[-2 pi i c_-/(24n)].",
+      "kind": "assertion",
+      "requires": [
+        "A15"
+      ],
+      "checks": {
+        "warrant": "A16W",
+        "availability": "A16A",
+        "role": "A16R"
+      },
+      "edges": {
+        "A15": "A16EA15"
+      }
+    },
+    "A17": {
+      "span": [
+        50,
+        50
+      ],
+      "original_span": [
+        221,
+        221
+      ],
+      "text": "L>>xi_r high-temperature regime.",
+      "kind": "assertion",
+      "requires": [],
+      "checks": {
+        "warrant": "A17W",
+        "availability": "A17A",
+        "role": "A17R"
+      },
+      "edges": {}
+    },
+    "A18": {
+      "span": [
+        53,
+        53
+      ],
+      "original_span": [
+        224,
+        224
+      ],
+      "text": "Modular S maps character to sum at iL/xi_r.",
+      "kind": "assertion",
+      "requires": [],
+      "checks": {
+        "warrant": "A18W",
+        "availability": "A18A",
+        "role": "A18R"
+      },
+      "edges": {}
+    },
+    "A19": {
+      "span": [
+        53,
+        53
+      ],
+      "original_span": [
+        224,
+        224
+      ],
+      "text": "Vacuum dominates with coefficient D^-1.",
+      "kind": "assertion",
+      "requires": [
+        "A18",
+        "A26"
+      ],
+      "checks": {
+        "warrant": "A19W",
+        "availability": "A19A",
+        "role": "A19R"
+      },
+      "edges": {
+        "A18": "A19EA18",
+        "A26": "A19EA26"
+      }
+    },
+    "A20": {
+      "span": [
+        57,
+        57
+      ],
+      "original_span": [
+        228,
+        228
+      ],
+      "text": "ST^n S maps to sum at iL/(n^2 xi_r)+1/n.",
+      "kind": "assertion",
+      "requires": [],
+      "checks": {
+        "warrant": "A20W",
+        "availability": "A20A",
+        "role": "A20R"
+      },
+      "edges": {}
+    },
+    "A21": {
+      "span": [
+        58,
+        58
+      ],
+      "original_span": [
+        229,
+        229
+      ],
+      "text": "Vacuum dominates transformed shifted numerator.",
+      "kind": "assertion",
+      "requires": [
+        "A20",
+        "A24"
+      ],
+      "checks": {
+        "warrant": "A21W",
+        "availability": "A21A",
+        "role": "A21R"
+      },
+      "edges": {
+        "A20": "A21EA20",
+        "A24": "A21EA24"
+      }
+    },
+    "A22": {
+      "span": [
+        59,
+        59
+      ],
+      "original_span": [
+        230,
+        230
+      ],
+      "text": "(ST^n S)_11=D^-2 exp[-2 pi i n c_-/24] tau_n.",
+      "kind": "equation",
+      "requires": [
+        "D02",
+        "A26"
+      ],
+      "checks": {
+        "warrant": "A22W",
+        "availability": "A22A",
+        "role": "A22R"
+      },
+      "edges": {
+        "D02": "A22ED02",
+        "A26": "A22EA26"
+      }
+    },
+    "A23": {
+      "span": [
+        59,
+        59
+      ],
+      "original_span": [
+        230,
+        230
+      ],
+      "text": "Combined phase and positive exponential as displayed.",
+      "kind": "assertion",
+      "requires": [
+        "A21",
+        "A22"
+      ],
+      "checks": {
+        "warrant": "A23W",
+        "availability": "A23A",
+        "role": "A23R"
+      },
+      "edges": {
+        "A21": "A23EA21",
+        "A22": "A23EA22"
+      }
+    },
+    "A24": {
+      "span": [
+        62,
+        62
+      ],
+      "original_span": [
+        233,
+        233
+      ],
+      "text": "n^2<<L/xi_r required.",
+      "kind": "assertion",
+      "requires": [],
+      "checks": {
+        "warrant": "A24W",
+        "availability": "A24A",
+        "role": "A24R"
+      },
+      "edges": {}
+    },
+    "A25": {
+      "span": [
+        63,
+        63
+      ],
+      "original_span": [
+        234,
+        234
+      ],
+      "text": "Anyons label edge conformal blocks.",
+      "kind": "assertion",
+      "requires": [],
+      "checks": {
+        "warrant": "A25W",
+        "availability": "A25A",
+        "role": "A25R"
+      },
+      "edges": {}
+    },
+    "A26": {
+      "span": [
+        63,
+        63
+      ],
+      "original_span": [
+        234,
+        234
+      ],
+      "text": "D=sqrt(sum d_a^2).",
+      "kind": "equation",
+      "requires": [],
+      "checks": {
+        "warrant": "A26W",
+        "availability": "A26A",
+        "role": "A26R"
+      },
+      "edges": {}
+    },
+    "A27": {
+      "span": [
+        63,
+        63
+      ],
+      "original_span": [
+        234,
+        234
+      ],
+      "text": "Combining approximations gives M05.",
+      "kind": "assertion",
+      "requires": [
+        "A16",
+        "A19",
+        "A23"
+      ],
+      "checks": {
+        "warrant": "A27W",
+        "availability": "A27A",
+        "role": "A27R"
+      },
+      "edges": {
+        "A16": "A27EA16",
+        "A19": "A27EA19",
+        "A23": "A27EA23"
+      }
+    }
+  },
+  "exclusions": [
+    {
+      "span": [
+        12,
+        12
+      ],
+      "reason": "TeX layout delimiter, blank-layout heading or separator; no independent assertion."
+    },
+    {
+      "span": [
+        13,
+        13
+      ],
+      "reason": "TeX layout delimiter, blank-layout heading or separator; no independent assertion."
+    },
+    {
+      "span": [
+        17,
+        17
+      ],
+      "reason": "TeX layout delimiter, blank-layout heading or separator; no independent assertion."
+    },
+    {
+      "span": [
+        18,
+        18
+      ],
+      "reason": "TeX layout delimiter, blank-layout heading or separator; no independent assertion."
+    },
+    {
+      "span": [
+        21,
+        21
+      ],
+      "reason": "TeX layout delimiter, blank-layout heading or separator; no independent assertion."
+    },
+    {
+      "span": [
+        22,
+        22
+      ],
+      "reason": "TeX layout delimiter, blank-layout heading or separator; no independent assertion."
+    },
+    {
+      "span": [
+        23,
+        23
+      ],
+      "reason": "TeX layout delimiter, blank-layout heading or separator; no independent assertion."
+    },
+    {
+      "span": [
+        29,
+        29
+      ],
+      "reason": "TeX layout delimiter, blank-layout heading or separator; no independent assertion."
+    },
+    {
+      "span": [
+        38,
+        38
+      ],
+      "reason": "TeX layout delimiter, blank-layout heading or separator; no independent assertion."
+    },
+    {
+      "span": [
+        39,
+        39
+      ],
+      "reason": "TeX layout delimiter, blank-layout heading or separator; no independent assertion."
+    },
+    {
+      "span": [
+        42,
+        42
+      ],
+      "reason": "TeX layout delimiter, blank-layout heading or separator; no independent assertion."
+    },
+    {
+      "span": [
+        43,
+        43
+      ],
+      "reason": "TeX layout delimiter, blank-layout heading or separator; no independent assertion."
+    },
+    {
+      "span": [
+        44,
+        44
+      ],
+      "reason": "TeX layout delimiter, blank-layout heading or separator; no independent assertion."
+    },
+    {
+      "span": [
+        47,
+        47
+      ],
+      "reason": "TeX layout delimiter, blank-layout heading or separator; no independent assertion."
+    },
+    {
+      "span": [
+        49,
+        49
+      ],
+      "reason": "TeX layout delimiter, blank-layout heading or separator; no independent assertion."
+    },
+    {
+      "span": [
+        51,
+        51
+      ],
+      "reason": "TeX layout delimiter, blank-layout heading or separator; no independent assertion."
+    },
+    {
+      "span": [
+        52,
+        52
+      ],
+      "reason": "TeX layout delimiter, blank-layout heading or separator; no independent assertion."
+    },
+    {
+      "span": [
+        54,
+        54
+      ],
+      "reason": "TeX layout delimiter, blank-layout heading or separator; no independent assertion."
+    },
+    {
+      "span": [
+        55,
+        55
+      ],
+      "reason": "TeX layout delimiter, blank-layout heading or separator; no independent assertion."
+    },
+    {
+      "span": [
+        56,
+        56
+      ],
+      "reason": "TeX layout delimiter, blank-layout heading or separator; no independent assertion."
+    },
+    {
+      "span": [
+        60,
+        60
+      ],
+      "reason": "TeX layout delimiter, blank-layout heading or separator; no independent assertion."
+    },
+    {
+      "span": [
+        61,
+        61
+      ],
+      "reason": "TeX layout delimiter, blank-layout heading or separator; no independent assertion."
+    }
+  ],
+  "tasks": {
+    "D01W": {
+      "question": "Does D01 follow with its stated conditions?",
+      "status": "split",
+      "children": [
+        "D01W_1",
+        "D01W_2"
+      ],
+      "join": "D01W_JOIN"
+    },
+    "D01A": {
+      "question": "Are the operations required by D01 available to this learner at its source occurrence?",
+      "status": "unknown",
+      "evidence": "Only CFT-character familiarity confirmed. Anyon data, Gauss sums, edge orientation, modular S/T and entanglement operations are not confirmed; source baseline is research-paper genre. See learner operations in evidence-and-prerequisites.md."
+    },
+    "D01R": {
+      "question": "What advance does D01 supply to the research-paper extraction argument?",
+      "status": "pass",
+      "evidence": "Definition/property supplies anyonic target or obstruction used in main 190-198."
+    },
+    "D02W": {
+      "question": "Does D02 follow with its stated conditions?",
+      "status": "split",
+      "children": [
+        "D02W_1",
+        "D02W_2",
+        "D02W_3"
+      ],
+      "join": "D02W_JOIN"
+    },
+    "D02A": {
+      "question": "Are the operations required by D02 available to this learner at its source occurrence?",
+      "status": "unknown",
+      "evidence": "Only CFT-character familiarity confirmed. Anyon data, Gauss sums, edge orientation, modular S/T and entanglement operations are not confirmed; source baseline is research-paper genre. See learner operations in evidence-and-prerequisites.md."
+    },
+    "D02R": {
+      "question": "What advance does D02 supply to the research-paper extraction argument?",
+      "status": "pass",
+      "evidence": "Definition/property supplies anyonic target or obstruction used in main 190-198."
+    },
+    "D03W": {
+      "question": "Does D03 follow with its stated conditions?",
+      "status": "unknown",
+      "evidence": "External physical/theorem hypotheses or convention evidence not independently established; see evidence-and-prerequisites.md; this is not a truth certification."
+    },
+    "D03A": {
+      "question": "Are the operations required by D03 available to this learner at its source occurrence?",
+      "status": "unknown",
+      "evidence": "Only CFT-character familiarity confirmed. Anyon data, Gauss sums, edge orientation, modular S/T and entanglement operations are not confirmed; source baseline is research-paper genre. See learner operations in evidence-and-prerequisites.md."
+    },
+    "D03R": {
+      "question": "What advance does D03 supply to the research-paper extraction argument?",
+      "status": "pass",
+      "evidence": "Definition/property supplies anyonic target or obstruction used in main 190-198."
+    },
+    "D04W": {
+      "question": "Does D04 follow with its stated conditions?",
+      "status": "unknown",
+      "evidence": "External physical/theorem hypotheses or convention evidence not independently established; see evidence-and-prerequisites.md; this is not a truth certification."
+    },
+    "D04A": {
+      "question": "Are the operations required by D04 available to this learner at its source occurrence?",
+      "status": "unknown",
+      "evidence": "Only CFT-character familiarity confirmed. Anyon data, Gauss sums, edge orientation, modular S/T and entanglement operations are not confirmed; source baseline is research-paper genre. See learner operations in evidence-and-prerequisites.md."
+    },
+    "D04R": {
+      "question": "What advance does D04 supply to the research-paper extraction argument?",
+      "status": "pass",
+      "evidence": "Definition/property supplies anyonic target or obstruction used in main 190-198."
+    },
+    "D05W": {
+      "question": "Does D05 follow with its stated conditions?",
+      "status": "unknown",
+      "evidence": "External physical/theorem hypotheses or convention evidence not independently established; see evidence-and-prerequisites.md; this is not a truth certification."
+    },
+    "D05A": {
+      "question": "Are the operations required by D05 available to this learner at its source occurrence?",
+      "status": "unknown",
+      "evidence": "Only CFT-character familiarity confirmed. Anyon data, Gauss sums, edge orientation, modular S/T and entanglement operations are not confirmed; source baseline is research-paper genre. See learner operations in evidence-and-prerequisites.md."
+    },
+    "D05R": {
+      "question": "What advance does D05 supply to the research-paper extraction argument?",
+      "status": "pass",
+      "evidence": "Definition/property supplies anyonic target or obstruction used in main 190-198."
+    },
+    "D06W": {
+      "question": "Does the cited necessary theorem apply?",
+      "status": "pass",
+      "evidence": "External theorem licensed by inspected arXiv2107.13091v2 higherc.tex 1210-1223: bosonic topological boundary implies normalized Gauss sum 1 for gcd(n,N_FS)=1. This is statement/hypothesis checking, not proof of Ng theorem."
+    },
+    "D06A": {
+      "question": "Are the operations required by D06 available to this learner at its source occurrence?",
+      "status": "unknown",
+      "evidence": "Only CFT-character familiarity confirmed. Anyon data, Gauss sums, edge orientation, modular S/T and entanglement operations are not confirmed; source baseline is research-paper genre. See learner operations in evidence-and-prerequisites.md."
+    },
+    "D06R": {
+      "question": "What advance does D06 supply to the research-paper extraction argument?",
+      "status": "pass",
+      "evidence": "Definition/property supplies anyonic target or obstruction used in main 190-198."
+    },
+    "D07W": {
+      "question": "Does D07 follow with its stated conditions?",
+      "status": "pass",
+      "evidence": "Definition of common twist order."
+    },
+    "D07A": {
+      "question": "Are the operations required by D07 available to this learner at its source occurrence?",
+      "status": "unknown",
+      "evidence": "Only CFT-character familiarity confirmed. Anyon data, Gauss sums, edge orientation, modular S/T and entanglement operations are not confirmed; source baseline is research-paper genre. See learner operations in evidence-and-prerequisites.md."
+    },
+    "D07R": {
+      "question": "What advance does D07 supply to the research-paper extraction argument?",
+      "status": "pass",
+      "evidence": "Definition/property supplies anyonic target or obstruction used in main 190-198."
+    },
+    "D08W": {
+      "question": "Does D08 follow with its stated conditions?",
+      "status": "pass",
+      "evidence": "Explicit finite sum calculation in evidence item 7."
+    },
+    "D08A": {
+      "question": "Are the operations required by D08 available to this learner at its source occurrence?",
+      "status": "unknown",
+      "evidence": "Only CFT-character familiarity confirmed. Anyon data, Gauss sums, edge orientation, modular S/T and entanglement operations are not confirmed; source baseline is research-paper genre. See learner operations in evidence-and-prerequisites.md."
+    },
+    "D08R": {
+      "question": "What advance does D08 supply to the research-paper extraction argument?",
+      "status": "pass",
+      "evidence": "Definition/property supplies anyonic target or obstruction used in main 190-198."
+    },
+    "D09W": {
+      "question": "Does D09 follow with its stated conditions?",
+      "status": "pass",
+      "evidence": "Opposite CS signatures in evidence item 7, conditional on CS identification. External CS signature relation inspected higherc.tex 670-690."
+    },
+    "D09A": {
+      "question": "Are the operations required by D09 available to this learner at its source occurrence?",
+      "status": "unknown",
+      "evidence": "Only CFT-character familiarity confirmed. Anyon data, Gauss sums, edge orientation, modular S/T and entanglement operations are not confirmed; source baseline is research-paper genre. See learner operations in evidence-and-prerequisites.md."
+    },
+    "D09R": {
+      "question": "What advance does D09 supply to the research-paper extraction argument?",
+      "status": "pass",
+      "evidence": "Definition/property supplies anyonic target or obstruction used in main 190-198."
+    },
+    "D10W": {
+      "question": "Does the example imply ungappable boundary?",
+      "status": "pass",
+      "evidence": "Nontrivial coprime higher charge violates inspected necessary theorem; evidence item 7."
+    },
+    "D10A": {
+      "question": "Are the operations required by D10 available to this learner at its source occurrence?",
+      "status": "unknown",
+      "evidence": "Only CFT-character familiarity confirmed. Anyon data, Gauss sums, edge orientation, modular S/T and entanglement operations are not confirmed; source baseline is research-paper genre. See learner operations in evidence-and-prerequisites.md."
+    },
+    "D10R": {
+      "question": "What advance does D10 supply to the research-paper extraction argument?",
+      "status": "pass",
+      "evidence": "Definition/property supplies anyonic target or obstruction used in main 190-198."
+    },
+    "D10ED06": {
+      "question": "Does the necessity theorem carry into this example?",
+      "status": "pass",
+      "evidence": "Example N_FS=8, gcd(3,8)=1; D08 nontrivial phase obstructs boundary, conditional on inspected external necessary theorem."
+    },
+    "D10ED08": {
+      "question": "Does negative Gauss-sum phase violate necessity?",
+      "status": "pass",
+      "evidence": "-1 differs from +1; explicit tau_3=-2sqrt2."
+    },
+    "D10ED07": {
+      "question": "Does example exponent satisfy required arithmetic?",
+      "status": "pass",
+      "evidence": "Twist orders 1,4,8,2 have lcm8; gcd(3,8)=1."
+    },
+    "D11W": {
+      "question": "Does D11 follow with its stated conditions?",
+      "status": "gap",
+      "evidence": "evidence-and-prerequisites.md item 8: bounded failed inference/counterexample."
+    },
+    "D11A": {
+      "question": "Are the operations required by D11 available to this learner at its source occurrence?",
+      "status": "unknown",
+      "evidence": "Only CFT-character familiarity confirmed. Anyon data, Gauss sums, edge orientation, modular S/T and entanglement operations are not confirmed; source baseline is research-paper genre. See learner operations in evidence-and-prerequisites.md."
+    },
+    "D11R": {
+      "question": "What advance does D11 supply to the research-paper extraction argument?",
+      "status": "pass",
+      "evidence": "Definition/property supplies anyonic target or obstruction used in main 190-198."
+    },
+    "M01W": {
+      "question": "Does M01 follow with its stated conditions?",
+      "status": "unknown",
+      "evidence": "External physical/theorem hypotheses or convention evidence not independently established; see evidence-and-prerequisites.md; this is not a truth certification."
+    },
+    "M01A": {
+      "question": "Are the operations required by M01 available to this learner at its source occurrence?",
+      "status": "unknown",
+      "evidence": "Only CFT-character familiarity confirmed. Anyon data, Gauss sums, edge orientation, modular S/T and entanglement operations are not confirmed; source baseline is research-paper genre. See learner operations in evidence-and-prerequisites.md."
+    },
+    "M01R": {
+      "question": "What advance does M01 supply to the research-paper extraction argument?",
+      "status": "pass",
+      "evidence": "Setup, measurement relation or consequence establishes the single-wavefunction extraction objective at main 185-198."
+    },
+    "M02W": {
+      "question": "Does M02 follow with its stated conditions?",
+      "status": "pass",
+      "evidence": "Explicit setup assumption main 186."
+    },
+    "M02A": {
+      "question": "Are the operations required by M02 available to this learner at its source occurrence?",
+      "status": "unknown",
+      "evidence": "Only CFT-character familiarity confirmed. Anyon data, Gauss sums, edge orientation, modular S/T and entanglement operations are not confirmed; source baseline is research-paper genre. See learner operations in evidence-and-prerequisites.md."
+    },
+    "M02R": {
+      "question": "What advance does M02 supply to the research-paper extraction argument?",
+      "status": "pass",
+      "evidence": "Setup, measurement relation or consequence establishes the single-wavefunction extraction objective at main 185-198."
+    },
+    "M03W": {
+      "question": "Does M03 follow with its stated conditions?",
+      "status": "unknown",
+      "evidence": "External physical/theorem hypotheses or convention evidence not independently established; see evidence-and-prerequisites.md; this is not a truth certification."
+    },
+    "M03A": {
+      "question": "Are the operations required by M03 available to this learner at its source occurrence?",
+      "status": "unknown",
+      "evidence": "Only CFT-character familiarity confirmed. Anyon data, Gauss sums, edge orientation, modular S/T and entanglement operations are not confirmed; source baseline is research-paper genre. See learner operations in evidence-and-prerequisites.md."
+    },
+    "M03R": {
+      "question": "What advance does M03 supply to the research-paper extraction argument?",
+      "status": "pass",
+      "evidence": "Setup, measurement relation or consequence establishes the single-wavefunction extraction objective at main 185-198."
+    },
+    "M04W": {
+      "question": "Does M04 follow with its stated conditions?",
+      "status": "pass",
+      "evidence": "Definition at main 190."
+    },
+    "M04A": {
+      "question": "Are the operations required by M04 available to this learner at its source occurrence?",
+      "status": "unknown",
+      "evidence": "Only CFT-character familiarity confirmed. Anyon data, Gauss sums, edge orientation, modular S/T and entanglement operations are not confirmed; source baseline is research-paper genre. See learner operations in evidence-and-prerequisites.md."
+    },
+    "M04R": {
+      "question": "What advance does M04 supply to the research-paper extraction argument?",
+      "status": "pass",
+      "evidence": "Setup, measurement relation or consequence establishes the single-wavefunction extraction objective at main 185-198."
+    },
+    "M05W": {
+      "question": "Does M05 follow with its stated conditions?",
+      "status": "unknown",
+      "evidence": "External physical/theorem hypotheses or convention evidence not independently established; see evidence-and-prerequisites.md; this is not a truth certification."
+    },
+    "M05A": {
+      "question": "Are the operations required by M05 available to this learner at its source occurrence?",
+      "status": "unknown",
+      "evidence": "Only CFT-character familiarity confirmed. Anyon data, Gauss sums, edge orientation, modular S/T and entanglement operations are not confirmed; source baseline is research-paper genre. See learner operations in evidence-and-prerequisites.md."
+    },
+    "M05R": {
+      "question": "What advance does M05 supply to the research-paper extraction argument?",
+      "status": "pass",
+      "evidence": "Setup, measurement relation or consequence establishes the single-wavefunction extraction objective at main 185-198."
+    },
+    "M06W": {
+      "question": "Does M06 follow with its stated conditions?",
+      "status": "pass",
+      "evidence": "Explicit positive-real convention main 195."
+    },
+    "M06A": {
+      "question": "Are the operations required by M06 available to this learner at its source occurrence?",
+      "status": "unknown",
+      "evidence": "Only CFT-character familiarity confirmed. Anyon data, Gauss sums, edge orientation, modular S/T and entanglement operations are not confirmed; source baseline is research-paper genre. See learner operations in evidence-and-prerequisites.md."
+    },
+    "M06R": {
+      "question": "What advance does M06 supply to the research-paper extraction argument?",
+      "status": "pass",
+      "evidence": "Setup, measurement relation or consequence establishes the single-wavefunction extraction objective at main 185-198."
+    },
+    "M07W": {
+      "question": "Does M07 follow with its stated conditions?",
+      "status": "split",
+      "children": [
+        "M07W_1",
+        "M07W_2"
+      ],
+      "join": "M07W_JOIN"
+    },
+    "M07A": {
+      "question": "Are the operations required by M07 available to this learner at its source occurrence?",
+      "status": "unknown",
+      "evidence": "Only CFT-character familiarity confirmed. Anyon data, Gauss sums, edge orientation, modular S/T and entanglement operations are not confirmed; source baseline is research-paper genre. See learner operations in evidence-and-prerequisites.md."
+    },
+    "M07R": {
+      "question": "What advance does M07 supply to the research-paper extraction argument?",
+      "status": "pass",
+      "evidence": "Setup, measurement relation or consequence establishes the single-wavefunction extraction objective at main 185-198."
+    },
+    "M07ED05": {
+      "question": "Is the inference from D05 to M07 justified at this occurrence?",
+      "status": "unknown",
+      "evidence": "Required operation and conditions remain separately identified but not independently completed: D05 enters M07 at main 196; source transition inventory in enumeration.md and bounded witness in evidence-and-prerequisites.md."
+    },
+    "M07EM05": {
+      "question": "Is the inference from M05 to M07 justified at this occurrence?",
+      "status": "unknown",
+      "evidence": "Required operation and conditions remain separately identified but not independently completed: M05 enters M07 at main 196; source transition inventory in enumeration.md and bounded witness in evidence-and-prerequisites.md."
+    },
+    "M08W": {
+      "question": "Does M08 follow with its stated conditions?",
+      "status": "pass",
+      "evidence": "Full bosonic circumference translation is identity; evidence item 13."
+    },
+    "M08A": {
+      "question": "Are the operations required by M08 available to this learner at its source occurrence?",
+      "status": "unknown",
+      "evidence": "Only CFT-character familiarity confirmed. Anyon data, Gauss sums, edge orientation, modular S/T and entanglement operations are not confirmed; source baseline is research-paper genre. See learner operations in evidence-and-prerequisites.md."
+    },
+    "M08R": {
+      "question": "What advance does M08 supply to the research-paper extraction argument?",
+      "status": "pass",
+      "evidence": "Setup, measurement relation or consequence establishes the single-wavefunction extraction objective at main 185-198."
+    },
+    "M09W": {
+      "question": "Does M09 follow with its stated conditions?",
+      "status": "gap",
+      "evidence": "evidence-and-prerequisites.md item 2: bounded failed inference/counterexample."
+    },
+    "M09A": {
+      "question": "Are the operations required by M09 available to this learner at its source occurrence?",
+      "status": "unknown",
+      "evidence": "Only CFT-character familiarity confirmed. Anyon data, Gauss sums, edge orientation, modular S/T and entanglement operations are not confirmed; source baseline is research-paper genre. See learner operations in evidence-and-prerequisites.md."
+    },
+    "M09R": {
+      "question": "What advance does M09 supply to the research-paper extraction argument?",
+      "status": "pass",
+      "evidence": "Setup, measurement relation or consequence establishes the single-wavefunction extraction objective at main 185-198."
+    },
+    "M09EM05": {
+      "question": "Is the inference from M05 to M09 justified at this occurrence?",
+      "status": "gap",
+      "evidence": "Central-charge phase has not been removed; evidence item 2."
+    },
+    "M09ED02": {
+      "question": "Is the inference from D02 to M09 justified at this occurrence?",
+      "status": "gap",
+      "evidence": "Central-charge phase has not been removed; evidence item 2."
+    },
+    "M10W": {
+      "question": "Does M10 follow with its stated conditions?",
+      "status": "unknown",
+      "evidence": "External physical/theorem hypotheses or convention evidence not independently established; see evidence-and-prerequisites.md; this is not a truth certification."
+    },
+    "M10A": {
+      "question": "Are the operations required by M10 available to this learner at its source occurrence?",
+      "status": "unknown",
+      "evidence": "Only CFT-character familiarity confirmed. Anyon data, Gauss sums, edge orientation, modular S/T and entanglement operations are not confirmed; source baseline is research-paper genre. See learner operations in evidence-and-prerequisites.md."
+    },
+    "M10R": {
+      "question": "What advance does M10 supply to the research-paper extraction argument?",
+      "status": "pass",
+      "evidence": "Setup, measurement relation or consequence establishes the single-wavefunction extraction objective at main 185-198."
+    },
+    "M11W": {
+      "question": "Does M11 follow with its stated conditions?",
+      "status": "unknown",
+      "evidence": "External physical/theorem hypotheses or convention evidence not independently established; see evidence-and-prerequisites.md; this is not a truth certification."
+    },
+    "M11A": {
+      "question": "Are the operations required by M11 available to this learner at its source occurrence?",
+      "status": "unknown",
+      "evidence": "Only CFT-character familiarity confirmed. Anyon data, Gauss sums, edge orientation, modular S/T and entanglement operations are not confirmed; source baseline is research-paper genre. See learner operations in evidence-and-prerequisites.md."
+    },
+    "M11R": {
+      "question": "What advance does M11 supply to the research-paper extraction argument?",
+      "status": "pass",
+      "evidence": "Setup, measurement relation or consequence establishes the single-wavefunction extraction objective at main 185-198."
+    },
+    "M12W": {
+      "question": "Does M12 follow with its stated conditions?",
+      "status": "gap",
+      "evidence": "evidence-and-prerequisites.md item 6: bounded failed inference/counterexample."
+    },
+    "M12A": {
+      "question": "Are the operations required by M12 available to this learner at its source occurrence?",
+      "status": "unknown",
+      "evidence": "Only CFT-character familiarity confirmed. Anyon data, Gauss sums, edge orientation, modular S/T and entanglement operations are not confirmed; source baseline is research-paper genre. See learner operations in evidence-and-prerequisites.md."
+    },
+    "M12R": {
+      "question": "What advance does M12 supply to the research-paper extraction argument?",
+      "status": "pass",
+      "evidence": "Setup, measurement relation or consequence establishes the single-wavefunction extraction objective at main 185-198."
+    },
+    "M13W": {
+      "question": "Does partial rotation plus topological entropy suffice physically as claimed?",
+      "status": "unknown",
+      "evidence": "Requires independent actual c_-=0, known Abelianity and complete finite-size-controlled measurements. Supplement phase at n=2D^2 aliases c_-. External theorem higherc.tex 335-362 and summary 640 onward explicitly distinguishes exact-zero from modulo E8 criterion."
+    },
+    "M13A": {
+      "question": "Are the operations required by M13 available to this learner at its source occurrence?",
+      "status": "unknown",
+      "evidence": "Only CFT-character familiarity confirmed. Anyon data, Gauss sums, edge orientation, modular S/T and entanglement operations are not confirmed; source baseline is research-paper genre. See learner operations in evidence-and-prerequisites.md."
+    },
+    "M13R": {
+      "question": "What advance does M13 supply to the research-paper extraction argument?",
+      "status": "pass",
+      "evidence": "Setup, measurement relation or consequence establishes the single-wavefunction extraction objective at main 185-198."
+    },
+    "M14W": {
+      "question": "Does M14 follow with its stated conditions?",
+      "status": "gap",
+      "evidence": "evidence-and-prerequisites.md item 9: bounded failed inference/counterexample."
+    },
+    "M14A": {
+      "question": "Are the operations required by M14 available to this learner at its source occurrence?",
+      "status": "unknown",
+      "evidence": "Only CFT-character familiarity confirmed. Anyon data, Gauss sums, edge orientation, modular S/T and entanglement operations are not confirmed; source baseline is research-paper genre. See learner operations in evidence-and-prerequisites.md."
+    },
+    "M14R": {
+      "question": "What advance does M14 supply to the research-paper extraction argument?",
+      "status": "pass",
+      "evidence": "Setup, measurement relation or consequence establishes the single-wavefunction extraction objective at main 185-198."
+    },
+    "M15W": {
+      "question": "Does M15 follow with its stated conditions?",
+      "status": "pass",
+      "evidence": "Subsystem translation is a unitary permutation/translation."
+    },
+    "M15A": {
+      "question": "Are the operations required by M15 available to this learner at its source occurrence?",
+      "status": "unknown",
+      "evidence": "Only CFT-character familiarity confirmed. Anyon data, Gauss sums, edge orientation, modular S/T and entanglement operations are not confirmed; source baseline is research-paper genre. See learner operations in evidence-and-prerequisites.md."
+    },
+    "M15R": {
+      "question": "What advance does M15 supply to the research-paper extraction argument?",
+      "status": "pass",
+      "evidence": "Setup, measurement relation or consequence establishes the single-wavefunction extraction objective at main 185-198."
+    },
+    "M16W": {
+      "question": "Does M16 follow with its stated conditions?",
+      "status": "unknown",
+      "evidence": "External physical/theorem hypotheses or convention evidence not independently established; see evidence-and-prerequisites.md; this is not a truth certification."
+    },
+    "M16A": {
+      "question": "Are the operations required by M16 available to this learner at its source occurrence?",
+      "status": "unknown",
+      "evidence": "Only CFT-character familiarity confirmed. Anyon data, Gauss sums, edge orientation, modular S/T and entanglement operations are not confirmed; source baseline is research-paper genre. See learner operations in evidence-and-prerequisites.md."
+    },
+    "M16R": {
+      "question": "What advance does M16 supply to the research-paper extraction argument?",
+      "status": "pass",
+      "evidence": "Setup, measurement relation or consequence establishes the single-wavefunction extraction objective at main 185-198."
+    },
+    "A01W": {
+      "question": "Does A01 follow with its stated conditions?",
+      "status": "unknown",
+      "evidence": "External physical/theorem hypotheses or convention evidence not independently established; see evidence-and-prerequisites.md; this is not a truth certification."
+    },
+    "A01A": {
+      "question": "Are the operations required by A01 available to this learner at its source occurrence?",
+      "status": "unknown",
+      "evidence": "Only CFT-character familiarity confirmed. Anyon data, Gauss sums, edge orientation, modular S/T and entanglement operations are not confirmed; source baseline is research-paper genre. See learner operations in evidence-and-prerequisites.md."
+    },
+    "A01R": {
+      "question": "What advance does A01 supply to the research-paper extraction argument?",
+      "status": "pass",
+      "evidence": "Analytic input, approximation or algebra supports the character-to-Gauss-sum calculation main 201-234."
+    },
+    "A02W": {
+      "question": "Does A02 follow with its stated conditions?",
+      "status": "unknown",
+      "evidence": "External physical/theorem hypotheses or convention evidence not independently established; see evidence-and-prerequisites.md; this is not a truth certification."
+    },
+    "A02A": {
+      "question": "Are the operations required by A02 available to this learner at its source occurrence?",
+      "status": "unknown",
+      "evidence": "Only CFT-character familiarity confirmed. Anyon data, Gauss sums, edge orientation, modular S/T and entanglement operations are not confirmed; source baseline is research-paper genre. See learner operations in evidence-and-prerequisites.md."
+    },
+    "A02R": {
+      "question": "What advance does A02 supply to the research-paper extraction argument?",
+      "status": "pass",
+      "evidence": "Analytic input, approximation or algebra supports the character-to-Gauss-sum calculation main 201-234."
+    },
+    "A03W": {
+      "question": "Does A03 follow with its stated conditions?",
+      "status": "unknown",
+      "evidence": "External physical/theorem hypotheses or convention evidence not independently established; see evidence-and-prerequisites.md; this is not a truth certification."
+    },
+    "A03A": {
+      "question": "Are the operations required by A03 available to this learner at its source occurrence?",
+      "status": "unknown",
+      "evidence": "Only CFT-character familiarity confirmed. Anyon data, Gauss sums, edge orientation, modular S/T and entanglement operations are not confirmed; source baseline is research-paper genre. See learner operations in evidence-and-prerequisites.md."
+    },
+    "A03R": {
+      "question": "What advance does A03 supply to the research-paper extraction argument?",
+      "status": "pass",
+      "evidence": "Analytic input, approximation or algebra supports the character-to-Gauss-sum calculation main 201-234."
+    },
+    "A04W": {
+      "question": "Does A04 follow with its stated conditions?",
+      "status": "unknown",
+      "evidence": "External physical/theorem hypotheses or convention evidence not independently established; see evidence-and-prerequisites.md; this is not a truth certification."
+    },
+    "A04A": {
+      "question": "Are the operations required by A04 available to this learner at its source occurrence?",
+      "status": "unknown",
+      "evidence": "Only CFT-character familiarity confirmed. Anyon data, Gauss sums, edge orientation, modular S/T and entanglement operations are not confirmed; source baseline is research-paper genre. See learner operations in evidence-and-prerequisites.md."
+    },
+    "A04R": {
+      "question": "What advance does A04 supply to the research-paper extraction argument?",
+      "status": "pass",
+      "evidence": "Analytic input, approximation or algebra supports the character-to-Gauss-sum calculation main 201-234."
+    },
+    "A05W": {
+      "question": "Does A05 follow with its stated conditions?",
+      "status": "unknown",
+      "evidence": "External physical/theorem hypotheses or convention evidence not independently established; see evidence-and-prerequisites.md; this is not a truth certification."
+    },
+    "A05A": {
+      "question": "Are the operations required by A05 available to this learner at its source occurrence?",
+      "status": "unknown",
+      "evidence": "Only CFT-character familiarity confirmed. Anyon data, Gauss sums, edge orientation, modular S/T and entanglement operations are not confirmed; source baseline is research-paper genre. See learner operations in evidence-and-prerequisites.md."
+    },
+    "A05R": {
+      "question": "What advance does A05 supply to the research-paper extraction argument?",
+      "status": "pass",
+      "evidence": "Analytic input, approximation or algebra supports the character-to-Gauss-sum calculation main 201-234."
+    },
+    "A06W": {
+      "question": "Does A06 follow with its stated conditions?",
+      "status": "unknown",
+      "evidence": "External physical/theorem hypotheses or convention evidence not independently established; see evidence-and-prerequisites.md; this is not a truth certification."
+    },
+    "A06A": {
+      "question": "Are the operations required by A06 available to this learner at its source occurrence?",
+      "status": "unknown",
+      "evidence": "Only CFT-character familiarity confirmed. Anyon data, Gauss sums, edge orientation, modular S/T and entanglement operations are not confirmed; source baseline is research-paper genre. See learner operations in evidence-and-prerequisites.md."
+    },
+    "A06R": {
+      "question": "What advance does A06 supply to the research-paper extraction argument?",
+      "status": "pass",
+      "evidence": "Analytic input, approximation or algebra supports the character-to-Gauss-sum calculation main 201-234."
+    },
+    "A07W": {
+      "question": "Does A07 follow with its stated conditions?",
+      "status": "pass",
+      "evidence": "Explicit assumption main 206."
+    },
+    "A07A": {
+      "question": "Are the operations required by A07 available to this learner at its source occurrence?",
+      "status": "unknown",
+      "evidence": "Only CFT-character familiarity confirmed. Anyon data, Gauss sums, edge orientation, modular S/T and entanglement operations are not confirmed; source baseline is research-paper genre. See learner operations in evidence-and-prerequisites.md."
+    },
+    "A07R": {
+      "question": "What advance does A07 supply to the research-paper extraction argument?",
+      "status": "pass",
+      "evidence": "Analytic input, approximation or algebra supports the character-to-Gauss-sum calculation main 201-234."
+    },
+    "A08W": {
+      "question": "Does A08 follow with its stated conditions?",
+      "status": "unknown",
+      "evidence": "External physical/theorem hypotheses or convention evidence not independently established; see evidence-and-prerequisites.md; this is not a truth certification."
+    },
+    "A08A": {
+      "question": "Are the operations required by A08 available to this learner at its source occurrence?",
+      "status": "unknown",
+      "evidence": "Only CFT-character familiarity confirmed. Anyon data, Gauss sums, edge orientation, modular S/T and entanglement operations are not confirmed; source baseline is research-paper genre. See learner operations in evidence-and-prerequisites.md."
+    },
+    "A08R": {
+      "question": "What advance does A08 supply to the research-paper extraction argument?",
+      "status": "pass",
+      "evidence": "Analytic input, approximation or algebra supports the character-to-Gauss-sum calculation main 201-234."
+    },
+    "A09W": {
+      "question": "Does A09 follow with its stated conditions?",
+      "status": "unknown",
+      "evidence": "External physical/theorem hypotheses or convention evidence not independently established; see evidence-and-prerequisites.md; this is not a truth certification."
+    },
+    "A09A": {
+      "question": "Are the operations required by A09 available to this learner at its source occurrence?",
+      "status": "unknown",
+      "evidence": "Only CFT-character familiarity confirmed. Anyon data, Gauss sums, edge orientation, modular S/T and entanglement operations are not confirmed; source baseline is research-paper genre. See learner operations in evidence-and-prerequisites.md."
+    },
+    "A09R": {
+      "question": "What advance does A09 supply to the research-paper extraction argument?",
+      "status": "pass",
+      "evidence": "Analytic input, approximation or algebra supports the character-to-Gauss-sum calculation main 201-234."
+    },
+    "A10W": {
+      "question": "Does A10 follow with its stated conditions?",
+      "status": "split",
+      "children": [
+        "A10W_1",
+        "A10W_2"
+      ],
+      "join": "A10W_JOIN"
+    },
+    "A10A": {
+      "question": "Are the operations required by A10 available to this learner at its source occurrence?",
+      "status": "unknown",
+      "evidence": "Only CFT-character familiarity confirmed. Anyon data, Gauss sums, edge orientation, modular S/T and entanglement operations are not confirmed; source baseline is research-paper genre. See learner operations in evidence-and-prerequisites.md."
+    },
+    "A10R": {
+      "question": "What advance does A10 supply to the research-paper extraction argument?",
+      "status": "pass",
+      "evidence": "Analytic input, approximation or algebra supports the character-to-Gauss-sum calculation main 201-234."
+    },
+    "A10EA03": {
+      "question": "Is the inference from A03 to A10 justified at this occurrence?",
+      "status": "unknown",
+      "evidence": "Required operation and conditions remain separately identified but not independently completed: A03 enters A10 at main 211; source transition inventory in enumeration.md and bounded witness in evidence-and-prerequisites.md."
+    },
+    "A10EA09": {
+      "question": "Is the inference from A09 to A10 justified at this occurrence?",
+      "status": "unknown",
+      "evidence": "Required operation and conditions remain separately identified but not independently completed: A09 enters A10 at main 211; source transition inventory in enumeration.md and bounded witness in evidence-and-prerequisites.md."
+    },
+    "A10EA07": {
+      "question": "Is the inference from A07 to A10 justified at this occurrence?",
+      "status": "unknown",
+      "evidence": "Required operation and conditions remain separately identified but not independently completed: A07 enters A10 at main 211; source transition inventory in enumeration.md and bounded witness in evidence-and-prerequisites.md."
+    },
+    "A11W": {
+      "question": "Does A11 follow with its stated conditions?",
+      "status": "unknown",
+      "evidence": "External physical/theorem hypotheses or convention evidence not independently established; see evidence-and-prerequisites.md; this is not a truth certification."
+    },
+    "A11A": {
+      "question": "Are the operations required by A11 available to this learner at its source occurrence?",
+      "status": "unknown",
+      "evidence": "Only CFT-character familiarity confirmed. Anyon data, Gauss sums, edge orientation, modular S/T and entanglement operations are not confirmed; source baseline is research-paper genre. See learner operations in evidence-and-prerequisites.md."
+    },
+    "A11R": {
+      "question": "What advance does A11 supply to the research-paper extraction argument?",
+      "status": "pass",
+      "evidence": "Analytic input, approximation or algebra supports the character-to-Gauss-sum calculation main 201-234."
+    },
+    "A11EA10": {
+      "question": "Is the inference from A10 to A11 justified at this occurrence?",
+      "status": "unknown",
+      "evidence": "Printed momentum signs yield opposite real character shifts; evidence item 4."
+    },
+    "A11EA13": {
+      "question": "Is the inference from A13 to A11 justified at this occurrence?",
+      "status": "gap",
+      "evidence": "Printed momentum signs yield opposite real character shifts; evidence item 4."
+    },
+    "A11EA12": {
+      "question": "Is the inference from A12 to A11 justified at this occurrence?",
+      "status": "unknown",
+      "evidence": "Printed momentum signs yield opposite real character shifts; evidence item 4."
+    },
+    "A12W": {
+      "question": "Does A12 follow with its stated conditions?",
+      "status": "pass",
+      "evidence": "Explicit dimensional definition xi=v beta."
+    },
+    "A12A": {
+      "question": "Are the operations required by A12 available to this learner at its source occurrence?",
+      "status": "unknown",
+      "evidence": "Only CFT-character familiarity confirmed. Anyon data, Gauss sums, edge orientation, modular S/T and entanglement operations are not confirmed; source baseline is research-paper genre. See learner operations in evidence-and-prerequisites.md."
+    },
+    "A12R": {
+      "question": "What advance does A12 supply to the research-paper extraction argument?",
+      "status": "pass",
+      "evidence": "Analytic input, approximation or algebra supports the character-to-Gauss-sum calculation main 201-234."
+    },
+    "A13W": {
+      "question": "Are printed momentum signs self-consistent with the printed trace and character convention?",
+      "status": "gap",
+      "evidence": "The signs may define a valid orientation, but simultaneously using exp(+iPL/n) and standard characters gives opposite shifts to main 212; evidence item 4."
+    },
+    "A13A": {
+      "question": "Are the operations required by A13 available to this learner at its source occurrence?",
+      "status": "unknown",
+      "evidence": "Only CFT-character familiarity confirmed. Anyon data, Gauss sums, edge orientation, modular S/T and entanglement operations are not confirmed; source baseline is research-paper genre. See learner operations in evidence-and-prerequisites.md."
+    },
+    "A13R": {
+      "question": "What advance does A13 supply to the research-paper extraction argument?",
+      "status": "pass",
+      "evidence": "Analytic input, approximation or algebra supports the character-to-Gauss-sum calculation main 201-234."
+    },
+    "A14W": {
+      "question": "Does A14 follow with its stated conditions?",
+      "status": "pass",
+      "evidence": "Explicit vacuum-character and cold-edge setup."
+    },
+    "A14A": {
+      "question": "Are the operations required by A14 available to this learner at its source occurrence?",
+      "status": "unknown",
+      "evidence": "Only CFT-character familiarity confirmed. Anyon data, Gauss sums, edge orientation, modular S/T and entanglement operations are not confirmed; source baseline is research-paper genre. See learner operations in evidence-and-prerequisites.md."
+    },
+    "A14R": {
+      "question": "What advance does A14 supply to the research-paper extraction argument?",
+      "status": "pass",
+      "evidence": "Analytic input, approximation or algebra supports the character-to-Gauss-sum calculation main 201-234."
+    },
+    "A15W": {
+      "question": "Does A15 follow with its stated conditions?",
+      "status": "pass",
+      "evidence": "Vacuum term q^(-c/24), conditional on standard character."
+    },
+    "A15A": {
+      "question": "Are the operations required by A15 available to this learner at its source occurrence?",
+      "status": "unknown",
+      "evidence": "Only CFT-character familiarity confirmed. Anyon data, Gauss sums, edge orientation, modular S/T and entanglement operations are not confirmed; source baseline is research-paper genre. See learner operations in evidence-and-prerequisites.md."
+    },
+    "A15R": {
+      "question": "What advance does A15 supply to the research-paper extraction argument?",
+      "status": "pass",
+      "evidence": "Analytic input, approximation or algebra supports the character-to-Gauss-sum calculation main 201-234."
+    },
+    "A16W": {
+      "question": "Does A16 follow with its stated conditions?",
+      "status": "pass",
+      "evidence": "Vacuum term at Re(tau)=1/n gives exp(-2 pi i c/(24n))."
+    },
+    "A16A": {
+      "question": "Are the operations required by A16 available to this learner at its source occurrence?",
+      "status": "unknown",
+      "evidence": "Only CFT-character familiarity confirmed. Anyon data, Gauss sums, edge orientation, modular S/T and entanglement operations are not confirmed; source baseline is research-paper genre. See learner operations in evidence-and-prerequisites.md."
+    },
+    "A16R": {
+      "question": "What advance does A16 supply to the research-paper extraction argument?",
+      "status": "pass",
+      "evidence": "Analytic input, approximation or algebra supports the character-to-Gauss-sum calculation main 201-234."
+    },
+    "A16EA15": {
+      "question": "Is the inference from A15 to A16 justified at this occurrence?",
+      "status": "unknown",
+      "evidence": "Required operation and conditions remain separately identified but not independently completed: A15 enters A16 at main 219; source transition inventory in enumeration.md and bounded witness in evidence-and-prerequisites.md."
+    },
+    "A17W": {
+      "question": "Does A17 follow with its stated conditions?",
+      "status": "pass",
+      "evidence": "Explicit regime assumption."
+    },
+    "A17A": {
+      "question": "Are the operations required by A17 available to this learner at its source occurrence?",
+      "status": "unknown",
+      "evidence": "Only CFT-character familiarity confirmed. Anyon data, Gauss sums, edge orientation, modular S/T and entanglement operations are not confirmed; source baseline is research-paper genre. See learner operations in evidence-and-prerequisites.md."
+    },
+    "A17R": {
+      "question": "What advance does A17 supply to the research-paper extraction argument?",
+      "status": "pass",
+      "evidence": "Analytic input, approximation or algebra supports the character-to-Gauss-sum calculation main 201-234."
+    },
+    "A18W": {
+      "question": "Does A18 follow with its stated conditions?",
+      "status": "unknown",
+      "evidence": "External physical/theorem hypotheses or convention evidence not independently established; see evidence-and-prerequisites.md; this is not a truth certification."
+    },
+    "A18A": {
+      "question": "Are the operations required by A18 available to this learner at its source occurrence?",
+      "status": "unknown",
+      "evidence": "Only CFT-character familiarity confirmed. Anyon data, Gauss sums, edge orientation, modular S/T and entanglement operations are not confirmed; source baseline is research-paper genre. See learner operations in evidence-and-prerequisites.md."
+    },
+    "A18R": {
+      "question": "What advance does A18 supply to the research-paper extraction argument?",
+      "status": "pass",
+      "evidence": "Analytic input, approximation or algebra supports the character-to-Gauss-sum calculation main 201-234."
+    },
+    "A19W": {
+      "question": "Does A19 follow with its stated conditions?",
+      "status": "split",
+      "children": [
+        "A19W_1",
+        "A19W_2"
+      ],
+      "join": "A19W_JOIN"
+    },
+    "A19A": {
+      "question": "Are the operations required by A19 available to this learner at its source occurrence?",
+      "status": "unknown",
+      "evidence": "Only CFT-character familiarity confirmed. Anyon data, Gauss sums, edge orientation, modular S/T and entanglement operations are not confirmed; source baseline is research-paper genre. See learner operations in evidence-and-prerequisites.md."
+    },
+    "A19R": {
+      "question": "What advance does A19 supply to the research-paper extraction argument?",
+      "status": "pass",
+      "evidence": "Analytic input, approximation or algebra supports the character-to-Gauss-sum calculation main 201-234."
+    },
+    "A19EA18": {
+      "question": "Is the inference from A18 to A19 justified at this occurrence?",
+      "status": "unknown",
+      "evidence": "Required operation and conditions remain separately identified but not independently completed: A18 enters A19 at main 224; source transition inventory in enumeration.md and bounded witness in evidence-and-prerequisites.md."
+    },
+    "A19EA26": {
+      "question": "Is the inference from A26 to A19 justified at this occurrence?",
+      "status": "unknown",
+      "evidence": "Required operation and conditions remain separately identified but not independently completed: A26 enters A19 at main 224; source transition inventory in enumeration.md and bounded witness in evidence-and-prerequisites.md."
+    },
+    "A20W": {
+      "question": "Does ST^n S give the printed modular chart relation?",
+      "status": "pass",
+      "evidence": "S T^n S sends tau to tau/(1-n tau). At tau=-1/n+i x use inverse direction: S T^n S acting on tau_prime=1/n+i/(n^2 x) returns -1/n+i x. The character equation expresses inverse chart correctly up to charge conjugation; vacuum row is unaffected. Mobius chart verified; modular covariance remains external."
+    },
+    "A20A": {
+      "question": "Are the operations required by A20 available to this learner at its source occurrence?",
+      "status": "unknown",
+      "evidence": "Only CFT-character familiarity confirmed. Anyon data, Gauss sums, edge orientation, modular S/T and entanglement operations are not confirmed; source baseline is research-paper genre. See learner operations in evidence-and-prerequisites.md."
+    },
+    "A20R": {
+      "question": "What advance does A20 supply to the research-paper extraction argument?",
+      "status": "pass",
+      "evidence": "Analytic input, approximation or algebra supports the character-to-Gauss-sum calculation main 201-234."
+    },
+    "A21W": {
+      "question": "Is transformed vacuum dominance justified at this numerator?",
+      "status": "unknown",
+      "evidence": "Requires nonzero (ST^n S)_11, a unique lowest conformal weight and n^2 xi_r<<L. Zero tau_n cancels coefficient; cannot certify unconditional dominance."
+    },
+    "A21A": {
+      "question": "Are the operations required by A21 available to this learner at its source occurrence?",
+      "status": "unknown",
+      "evidence": "Only CFT-character familiarity confirmed. Anyon data, Gauss sums, edge orientation, modular S/T and entanglement operations are not confirmed; source baseline is research-paper genre. See learner operations in evidence-and-prerequisites.md."
+    },
+    "A21R": {
+      "question": "What advance does A21 supply to the research-paper extraction argument?",
+      "status": "pass",
+      "evidence": "Analytic input, approximation or algebra supports the character-to-Gauss-sum calculation main 201-234."
+    },
+    "A21EA20": {
+      "question": "Is the inference from A20 to A21 justified at this occurrence?",
+      "status": "unknown",
+      "evidence": "Required operation and conditions remain separately identified but not independently completed: A20 enters A21 at main 229; source transition inventory in enumeration.md and bounded witness in evidence-and-prerequisites.md."
+    },
+    "A21EA24": {
+      "question": "Is the inference from A24 to A21 justified at this occurrence?",
+      "status": "unknown",
+      "evidence": "Required operation and conditions remain separately identified but not independently completed: A24 enters A21 at main 229; source transition inventory in enumeration.md and bounded witness in evidence-and-prerequisites.md."
+    },
+    "A22W": {
+      "question": "Does A22 follow with its stated conditions?",
+      "status": "pass",
+      "evidence": "Matrix multiplication verified in evidence item 5."
+    },
+    "A22A": {
+      "question": "Are the operations required by A22 available to this learner at its source occurrence?",
+      "status": "unknown",
+      "evidence": "Only CFT-character familiarity confirmed. Anyon data, Gauss sums, edge orientation, modular S/T and entanglement operations are not confirmed; source baseline is research-paper genre. See learner operations in evidence-and-prerequisites.md."
+    },
+    "A22R": {
+      "question": "What advance does A22 supply to the research-paper extraction argument?",
+      "status": "pass",
+      "evidence": "Analytic input, approximation or algebra supports the character-to-Gauss-sum calculation main 201-234."
+    },
+    "A22ED02": {
+      "question": "Is the inference from D02 to A22 justified at this occurrence?",
+      "status": "unknown",
+      "evidence": "Required operation and conditions remain separately identified but not independently completed: D02 enters A22 at main 230; source transition inventory in enumeration.md and bounded witness in evidence-and-prerequisites.md."
+    },
+    "A22EA26": {
+      "question": "Is the inference from A26 to A22 justified at this occurrence?",
+      "status": "unknown",
+      "evidence": "Required operation and conditions remain separately identified but not independently completed: A26 enters A22 at main 230; source transition inventory in enumeration.md and bounded witness in evidence-and-prerequisites.md."
+    },
+    "A23W": {
+      "question": "Does A23 follow with its stated conditions?",
+      "status": "unknown",
+      "evidence": "External physical/theorem hypotheses or convention evidence not independently established; see evidence-and-prerequisites.md; this is not a truth certification."
+    },
+    "A23A": {
+      "question": "Are the operations required by A23 available to this learner at its source occurrence?",
+      "status": "unknown",
+      "evidence": "Only CFT-character familiarity confirmed. Anyon data, Gauss sums, edge orientation, modular S/T and entanglement operations are not confirmed; source baseline is research-paper genre. See learner operations in evidence-and-prerequisites.md."
+    },
+    "A23R": {
+      "question": "What advance does A23 supply to the research-paper extraction argument?",
+      "status": "pass",
+      "evidence": "Analytic input, approximation or algebra supports the character-to-Gauss-sum calculation main 201-234."
+    },
+    "A23EA21": {
+      "question": "Is the inference from A21 to A23 justified at this occurrence?",
+      "status": "unknown",
+      "evidence": "Required operation and conditions remain separately identified but not independently completed: A21 enters A23 at main 230; source transition inventory in enumeration.md and bounded witness in evidence-and-prerequisites.md."
+    },
+    "A23EA22": {
+      "question": "Is the inference from A22 to A23 justified at this occurrence?",
+      "status": "unknown",
+      "evidence": "Required operation and conditions remain separately identified but not independently completed: A22 enters A23 at main 230; source transition inventory in enumeration.md and bounded witness in evidence-and-prerequisites.md."
+    },
+    "A24W": {
+      "question": "Does A24 follow with its stated conditions?",
+      "status": "pass",
+      "evidence": "Transformed imaginary part L/(n^2 xi_r) must be large."
+    },
+    "A24A": {
+      "question": "Are the operations required by A24 available to this learner at its source occurrence?",
+      "status": "unknown",
+      "evidence": "Only CFT-character familiarity confirmed. Anyon data, Gauss sums, edge orientation, modular S/T and entanglement operations are not confirmed; source baseline is research-paper genre. See learner operations in evidence-and-prerequisites.md."
+    },
+    "A24R": {
+      "question": "What advance does A24 supply to the research-paper extraction argument?",
+      "status": "pass",
+      "evidence": "Analytic input, approximation or algebra supports the character-to-Gauss-sum calculation main 201-234."
+    },
+    "A25W": {
+      "question": "Does A25 follow with its stated conditions?",
+      "status": "unknown",
+      "evidence": "External physical/theorem hypotheses or convention evidence not independently established; see evidence-and-prerequisites.md; this is not a truth certification."
+    },
+    "A25A": {
+      "question": "Are the operations required by A25 available to this learner at its source occurrence?",
+      "status": "unknown",
+      "evidence": "Only CFT-character familiarity confirmed. Anyon data, Gauss sums, edge orientation, modular S/T and entanglement operations are not confirmed; source baseline is research-paper genre. See learner operations in evidence-and-prerequisites.md."
+    },
+    "A25R": {
+      "question": "What advance does A25 supply to the research-paper extraction argument?",
+      "status": "pass",
+      "evidence": "Analytic input, approximation or algebra supports the character-to-Gauss-sum calculation main 201-234."
+    },
+    "A26W": {
+      "question": "Does A26 follow with its stated conditions?",
+      "status": "pass",
+      "evidence": "Definition of total quantum dimension."
+    },
+    "A26A": {
+      "question": "Are the operations required by A26 available to this learner at its source occurrence?",
+      "status": "unknown",
+      "evidence": "Only CFT-character familiarity confirmed. Anyon data, Gauss sums, edge orientation, modular S/T and entanglement operations are not confirmed; source baseline is research-paper genre. See learner operations in evidence-and-prerequisites.md."
+    },
+    "A26R": {
+      "question": "What advance does A26 supply to the research-paper extraction argument?",
+      "status": "pass",
+      "evidence": "Analytic input, approximation or algebra supports the character-to-Gauss-sum calculation main 201-234."
+    },
+    "A27W": {
+      "question": "Does A27 follow with its stated conditions?",
+      "status": "unknown",
+      "evidence": "External physical/theorem hypotheses or convention evidence not independently established; see evidence-and-prerequisites.md; this is not a truth certification."
+    },
+    "A27A": {
+      "question": "Are the operations required by A27 available to this learner at its source occurrence?",
+      "status": "unknown",
+      "evidence": "Only CFT-character familiarity confirmed. Anyon data, Gauss sums, edge orientation, modular S/T and entanglement operations are not confirmed; source baseline is research-paper genre. See learner operations in evidence-and-prerequisites.md."
+    },
+    "A27R": {
+      "question": "What advance does A27 supply to the research-paper extraction argument?",
+      "status": "pass",
+      "evidence": "Analytic input, approximation or algebra supports the character-to-Gauss-sum calculation main 201-234."
+    },
+    "A27EA16": {
+      "question": "Is the inference from A16 to A27 justified at this occurrence?",
+      "status": "unknown",
+      "evidence": "Required operation and conditions remain separately identified but not independently completed: A16 enters A27 at main 234; source transition inventory in enumeration.md and bounded witness in evidence-and-prerequisites.md."
+    },
+    "A27EA19": {
+      "question": "Is the inference from A19 to A27 justified at this occurrence?",
+      "status": "unknown",
+      "evidence": "Required operation and conditions remain separately identified but not independently completed: A19 enters A27 at main 234; source transition inventory in enumeration.md and bounded witness in evidence-and-prerequisites.md."
+    },
+    "A27EA23": {
+      "question": "Is the inference from A23 to A27 justified at this occurrence?",
+      "status": "unknown",
+      "evidence": "Required operation and conditions remain separately identified but not independently completed: A23 enters A27 at main 234; source transition inventory in enumeration.md and bounded witness in evidence-and-prerequisites.md."
+    },
+    "COVERAGE": {
+      "question": "Has semantic inventory been reconciled against an independently frozen inventory?",
+      "status": "unknown",
+      "evidence": "Frozen independent inventory hash 4570967cd0adac5682fc3db0de26fd30551eaba38f8cb9783347f2932f795823; coordinator comparison requested splits D01,D02,M07,A10,A19 and conditions A20,A21,M13. These were added as task children. This is coordinator reconciliation, not fresh independent decision acceptance."
+    },
+    "D01W_1": {
+      "question": "Does higher charge characterize a bosonic topological order?",
+      "status": "unknown",
+      "evidence": "External anyonic-description premise not independently established."
+    },
+    "D01W_2": {
+      "question": "Is n restricted to positive integers?",
+      "status": "pass",
+      "evidence": "Explicit contract main 172."
+    },
+    "D01W_JOIN": {
+      "question": "Are the subdecisions jointly sufficient for D01 as printed?",
+      "status": "unknown",
+      "evidence": "Characterization is conditional on well-defined nonzero sum; positive indexing alone does not establish it."
+    },
+    "D02W_1": {
+      "question": "Is tau_n the weighted twist sum?",
+      "status": "pass",
+      "evidence": "Definition main 174."
+    },
+    "D02W_2": {
+      "question": "Is zeta_n its normalized phase?",
+      "status": "pass",
+      "evidence": "Definition main 174 whenever tau_n nonzero."
+    },
+    "D02W_3": {
+      "question": "Is tau_n nonzero for every stated positive n?",
+      "status": "gap",
+      "evidence": "Semion n=2 gives 1+i^2=0; evidence item 6."
+    },
+    "D02W_JOIN": {
+      "question": "Are the subdecisions jointly sufficient for D02 as printed?",
+      "status": "unknown",
+      "evidence": "Domain restriction needed; phase cannot exist at zero."
+    },
+    "M07W_1": {
+      "question": "Does n=1 central-charge phase cancel Gauss-Milgram phase?",
+      "status": "pass",
+      "evidence": "-(2+1)c/24+c/8=0."
+    },
+    "M07W_2": {
+      "question": "Does normalized amplitude equal 1?",
+      "status": "unknown",
+      "evidence": "Needs magnitude abs(tau_1)=D and derived positive prefactor A_1=1/D; phase-only proportionality insufficient, evidence item 13."
+    },
+    "M07W_JOIN": {
+      "question": "Are the subdecisions jointly sufficient for M07 as printed?",
+      "status": "unknown",
+      "evidence": "Phase and amplitude are different conclusions; exact identity operator separately fixes normalization."
+    },
+    "A10W_1": {
+      "question": "Does rho_A tensor factorization imply trace-product factorization?",
+      "status": "pass",
+      "evidence": "Tr[(rho_l tensor rho_r)(U_l tensor U_r)]=Tr(rho_l U_l)Tr(rho_r U_r), conditional on tensor action."
+    },
+    "A10W_2": {
+      "question": "Do normalized thermal density matrices supply the denominator?",
+      "status": "pass",
+      "evidence": "rho_i=exp(-beta_i H_i)/Z_i, so denominators Z_l Z_r follow."
+    },
+    "A10W_JOIN": {
+      "question": "Are the subdecisions jointly sufficient for A10 as printed?",
+      "status": "unknown",
+      "evidence": "Physical factorization/action assumptions remain external; algebra alone does not license A03/A09."
+    },
+    "A19W_1": {
+      "question": "Does S_1a=d_a/D identify the vacuum coefficient?",
+      "status": "unknown",
+      "evidence": "Standard modular relation not independently sourced; source states result at main 224."
+    },
+    "A19W_2": {
+      "question": "Does transformed vacuum dominate the right-edge denominator?",
+      "status": "unknown",
+      "evidence": "Requires unique lowest conformal weight and controlled gaps; scale L/xi_r large alone gives no full error bound."
+    },
+    "A19W_JOIN": {
+      "question": "Are the subdecisions jointly sufficient for A19 as printed?",
+      "status": "unknown",
+      "evidence": "Coefficient identity and dominance hypotheses must both hold."
+    }
+  },
+  "coverage_review": "COVERAGE"
+}
