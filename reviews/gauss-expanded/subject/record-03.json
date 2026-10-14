@@ -1,0 +1,13 @@
+{
+  "packet": "03",
+  "perspective": "prerequisite and explanatory adequacy",
+  "verdict": "PASS",
+  "location": "Identification of the normalized sum with zeta_1",
+  "demand": "Taking moduli and matching the zeta_n denominator",
+  "required_depth": "Reconstructible algebraic application",
+  "evidence": "『右辺の絶対値は 1 なので、和の絶対値は D』『n=1 とした分母は D に等しく』",
+  "support": "Packet 02 equation; baseline positive d_a, D definition, zeta_n definition and complex arithmetic.",
+  "object_and_operation": "Take the modulus of both sides, multiply by positive D, and substitute n=1 in the baseline definition.",
+  "next_inference": "The reader obtains |sum d_a² theta_a|=D and hence zeta_1=exp(2πi c_-/8), with the nonzero denominator supplied by D.",
+  "limits": "Conditional algebra from the supplied Gauss–Milgram relation; no truth certification of that relation."
+}

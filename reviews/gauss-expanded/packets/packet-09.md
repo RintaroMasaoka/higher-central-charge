@@ -1,0 +1,7 @@
+内部の種類 $a$ と境界の指標 $a$ を対応させると、トポロジカルスピンは $\theta_a=e^{2\pi i h_a}$ である。エニオンの回転位相を対角に並べた行列を $T_{\mathrm{top}}$、指標の $\tau\mapsto\tau+1$ を表す行列を $T_{\mathrm{CFT}}$ と書けば、両者の違いは全種類に共通の中心電荷の位相である。$\delta_{ab}$ は $a=b$ のとき $1$、それ以外では $0$ を表す。
+
+$$
+(T_{\mathrm{top}})_{ab}=\theta_a\delta_{ab},
+\qquad
+T_{\mathrm{CFT}}=e^{-2\pi i c_-/24}T_{\mathrm{top}}.
+$$

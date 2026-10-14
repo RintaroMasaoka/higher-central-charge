@@ -1,0 +1,90 @@
+{
+  "source": "content/overview.md",
+  "source_sha256": "b37cf19b3d603996d21fe3237ed3bb047a19627cdac02da6bd78132df16bce3a",
+  "outer": {
+    "start": 1571,
+    "end": 4747
+  },
+  "proof": {
+    "start": 2468,
+    "end": 4351
+  },
+  "route": "outer explanation; freeze nested summary; open proof; return to outer source/scope paragraph",
+  "packets": [
+    {
+      "file": "packet-01.md",
+      "sha256": "5d3e25ff3ae39ae96e8bbb470fccde2ccac454207978aa7148030c77612afed8",
+      "paragraphs": 1
+    },
+    {
+      "file": "packet-02.md",
+      "sha256": "41b220295ec9b80809b41eabcf08ca52e576e850975de984a59ea05f35ce277b",
+      "paragraphs": 1
+    },
+    {
+      "file": "packet-03.md",
+      "sha256": "24f4a0d30891a94024964e749c06261db92c8dcddfd3533547cdb019461784cd",
+      "paragraphs": 1
+    },
+    {
+      "file": "packet-04.md",
+      "sha256": "7e7a6f4fbbc748d1948c01eaa18f5cfc3e142192d39b17afd653d71df9305d8a",
+      "paragraphs": 1
+    },
+    {
+      "file": "packet-05.md",
+      "sha256": "8c24ba2bb808ad7129e3e3169e77fefe498543dde7b191abcb67bb35a5a3dac1",
+      "paragraphs": 1
+    },
+    {
+      "file": "packet-06.md",
+      "sha256": "a1bb395b1b0831932dab14945d4491499b9d9f4c6607012a0d19e3d4f21feddb",
+      "paragraphs": 1
+    },
+    {
+      "file": "packet-07.md",
+      "sha256": "1d2c7666033e42d1117ea304f2fae044959318c55f2006e5f9d8f0467681318d",
+      "paragraphs": 1
+    },
+    {
+      "file": "packet-08.md",
+      "sha256": "386d9e3b1d8ff8812532fa910e63f595fea01e2ad8633c8b23c10ac52b842060",
+      "paragraphs": 1
+    },
+    {
+      "file": "packet-09.md",
+      "sha256": "09275b1288a4642d0707d474ba3d576bd962bcf373071ae7f52e669fcd9a8573",
+      "paragraphs": 1
+    },
+    {
+      "file": "packet-10.md",
+      "sha256": "c64aa4b8cf83474b1941542405379a34a52db2a9b546a69113ffc98da9985f5d",
+      "paragraphs": 1
+    },
+    {
+      "file": "packet-11.md",
+      "sha256": "d506c94e95b327a65bc3bc4bfc6b72d0fac04701325f8eac47b4c64bae098ba6",
+      "paragraphs": 1
+    },
+    {
+      "file": "packet-12.md",
+      "sha256": "c31d59fce0d557b5db184cf7e735c6e9a789d22072b2c32f223d9aa409d1cfac",
+      "paragraphs": 1
+    },
+    {
+      "file": "packet-13.md",
+      "sha256": "251b9cf1feefd321dab37a6e70d21efea5bc5bbbc109ff472bd026d8916be46b",
+      "paragraphs": 1
+    },
+    {
+      "file": "packet-14.md",
+      "sha256": "487c6dec65b64723578bd418d87590b69deec5ea6be3be821115e0229879b64b",
+      "paragraphs": 1
+    },
+    {
+      "file": "packet-15.md",
+      "sha256": "27cdd2f52f8e378916faea2ffa62b25a9a67030b3e1f9cd1dea17a0c5bdc358b",
+      "paragraphs": 1
+    }
+  ]
+}

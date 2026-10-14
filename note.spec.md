@@ -29,6 +29,8 @@ The objective requires a connected route from a wave function to an observable a
 ## Conventions and invariants
 Preserve d_a, θ_a, c_-, ζ_n, N_FS and source anyon labels. Distinguish modular T from partial translation. Define character and momentum sign consistently, documenting the source sign mismatch in reviews. Use physical displacement L/n to avoid ambiguous angle/momentum units. Positive real proportionality applies to the leading asymptotic term only. Never divide by zero or interchange fixed-n and momentum-polarization limits. Japanese terms retain English identification where community usage is unresolved; no audit labels in the manuscript.
 
+Within the Gauss–Milgram disclosure, T_top is the diagonal anyon-twist matrix, T_CFT is the character modular shift including exp(-2pi i c_-/24), and S is the matched character/anyon modular matrix. These are modular transformations, not the physical partial-translation operator. The displayed CFT derivation uses a positive, one-directional rational edge with c_-=c; the general bosonic relation is separately source-attributed. h_a is the lowest conformal weight, and delta_ab is the identity-matrix entry. Keep these meanings and the conditional bulk/edge matching explicit.
+
 In the MPS comparison, project K_alpha=p_alpha L/(2pi) belongs to the selected physical A generator. Source bar K_alpha is a left-accumulated virtual-bond conserved label; the source's right-half operation inserts its inverse transformation. Do not identify these labels by an unestablished sign-only map. Preserve the source-side operation and its origin calibration as a pair. This follows from the supplemental momentum-conservation, partial-MPS rotation and label-calibration definitions.
 
 ## Protected human realizations

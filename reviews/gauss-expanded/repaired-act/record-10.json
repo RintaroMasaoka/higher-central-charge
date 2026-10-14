@@ -1,0 +1,26 @@
+{
+  "unit": "10",
+  "perspective": "explanation-act suitability only",
+  "verdict": "PASS",
+  "content_status": "Presented consistency relation and operational explanation; no scientific certification.",
+  "moves": [
+    {
+      "quote": "指標のモジュラー変換の整合性は、行列の積に対して次の関係を要求する。",
+      "act_presupposition": "Introduces the constraint to apply to the character matrices. Assumes the earlier stated character transformations are the live objects of comparison.",
+      "first_pass_signal": "The displayed identity is a consequence of composing those transformations and is the next usable relation.",
+      "quoted_license": "Prior supplied χ(-1/τ)=Sχ(τ), character translation law, and packet 09's definition of T_CFT.",
+      "alternative_reader_use": "Omission leaves a bare identity with no stated origin. Attaching consistency directly to the equation would retain the same orienting act.",
+      "resolution": "Reader has a matrix relation to which the phase bridge can be applied."
+    },
+    {
+      "quote": "積の右側の操作から順に作用させると、左辺も右辺も $\\tau\\mapsto\\tau/(1-\\tau)$ という同じ変換になる。",
+      "act_presupposition": "Explains the ordering convention and makes the consistency claim inspectable; does not accuse the reader of reversing it.",
+      "first_pass_signal": "Operation order matters to recognizing the shared transformation.",
+      "quoted_license": "Current displayed products S T_CFT S and T_CFT^-1 S T_CFT^-1 contain multiple noncommuting operations.",
+      "alternative_reader_use": "Omission removes the immediate check of why the two products belong together. A worked composition could provide more detail but the present explanation has a concrete role rather than defensive emphasis.",
+      "resolution": "Reader can compare the products as representations of the same coordinate operation."
+    }
+  ],
+  "cumulative_effect": "Moves from matched matrices to their composition law, staying on the phase comparison. It introduces no repeated scope warning or unsupported reader stance.",
+  "scope": "Packet 10 judged after freezing 09; earlier baseline supplied rather than newly certified; subject adequacy of the imported equality is outside this verdict."
+}

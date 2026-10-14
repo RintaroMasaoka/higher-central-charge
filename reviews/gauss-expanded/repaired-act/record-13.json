@@ -1,0 +1,26 @@
+{
+  "unit": "13",
+  "perspective": "explanation-act suitability only",
+  "verdict": "PASS",
+  "content_status": "Evaluates the other vacuum component and concludes the conditional relation; no scientific certification.",
+  "moves": [
+    {
+      "quote": "右辺では真空の回転位相が $\\theta_1=1$ なので、二つの $T_{\\mathrm{top}}^{-1}$ は寄与せず、$S_{11}=1/\\mathcal D$ だけが残る。",
+      "act_presupposition": "Completes the same component evaluation on the right of the established identity. 寄与せず states the value of the two factors on this component; it does not reject a reader stance.",
+      "first_pass_signal": "The vacuum simplifies the remaining matrix product, enabling direct scalar comparison.",
+      "quoted_license": "Packet 11 right-hand product e^(2πic_-/8) T_top^-1 S T_top^-1; packet 09 diagonal T_top; packet 12 vacuum-row formula; supplied θ_1=d_1=1.",
+      "alternative_reader_use": "Omission leaves the right-side scalar value without its immediate evaluation. Saying the factors each equal one would preserve the same relation and reader operation; current wording performs that ordinary calculational simplification without defensive focus.",
+      "resolution": "Reader has the right-side component e^(2πic_-/8)/D for comparison with packet 12."
+    },
+    {
+      "quote": "両辺を等置して $\\mathcal D$ を掛ければ、Gauss–Milgram 関係を得る。",
+      "act_presupposition": "Directs the last arithmetic step and names its resulting relation.",
+      "first_pass_signal": "The stated goal follows from the two evaluated components under the explicit matching premise.",
+      "quoted_license": "Current displayed equality and implication, packet 12 left component, packet 09 explicit matching condition.",
+      "alternative_reader_use": "Omission leaves the implication readable but removes the concise operation connecting the two displayed equalities. Repeating the matching condition here is unnecessary for the act because it has stayed active throughout this short chain.",
+      "resolution": "Reader can use the phase sum as equal to e^(2πic_-/8) within this chain's declared conditions."
+    }
+  ],
+  "cumulative_effect": "Packets 09–13 maintain one continuous conditional comparison: match the descriptions, compose transformations, isolate the phase, take the vacuum component, evaluate both sides. Qualifying and simplifying statements serve local operations rather than unsupported correction or reassurance.",
+  "scope": "Packet 13 read after freezing record 12; no suffix read; earlier supplied prefix not newly certified; no subject/scientific/Japanese signoff."
+}

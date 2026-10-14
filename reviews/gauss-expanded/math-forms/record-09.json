@@ -1,0 +1,9 @@
+{
+  "scope": "packet-09.md; one displayed expression; local expression readability only",
+  "verdict": "提案なし",
+  "review": "The two aligned lines separate the diagonal entries of T_top from the common scalar phase relating T_CFT to T_top. Their operator order, indices, and scalar placement are already directly readable; no locally equivalent rewrite offers a clear improvement.",
+  "limits": [
+    "This is not a review of mathematical correctness or physical interpretation.",
+    "Rendered line height, overflow, and page layout were not inspected."
+  ]
+}

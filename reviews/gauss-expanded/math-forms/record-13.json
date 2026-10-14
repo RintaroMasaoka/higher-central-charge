@@ -1,0 +1,9 @@
+{
+  "scope": "packet-13.md; one displayed expression; local expression readability only",
+  "verdict": "提案なし",
+  "review": "The aligned equations keep the initial normalization and the result after multiplying by 𝒟 in matching sum forms. The implication marker cleanly identifies the transition, and the exponent and scalar factors remain easy to locate; no equivalent rewrite offers a clear improvement.",
+  "limits": [
+    "This is not a review of the derivation, mathematical correctness, or interpretation of Gauss–Milgram.",
+    "Rendered line height, overflow, and page layout were not inspected."
+  ]
+}

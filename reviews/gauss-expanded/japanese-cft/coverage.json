@@ -1,0 +1,314 @@
+{
+  "input_sha256": "f9dbdf16b6ce06ccce504a8ef790e38cac209efc8b3b5215e1f30a366bc19d65",
+  "review_lines": [
+    54,
+    67
+  ],
+  "perspective": "Japanese disciplinary wording: CFT module/character-state family only",
+  "manual_sweep": {
+    "completed": true,
+    "reviewed_lines": [
+      54,
+      67
+    ]
+  },
+  "dispositions": [
+    {
+      "candidate_id": "s24",
+      "occurrences": [
+        {
+          "line": 54,
+          "column": 10
+        },
+        {
+          "line": 56,
+          "column": 25
+        },
+        {
+          "line": 56,
+          "column": 76
+        },
+        {
+          "line": 62,
+          "column": 89
+        }
+      ],
+      "role": "disciplinary_name",
+      "impact": "high",
+      "referent": "Chiral CFT characters χ_a, traces over representation sectors",
+      "decision": "KEEP",
+      "reason": "Physical CFT sources use 指標 with precisely the character modular S/T operation; the learner already knows characters.",
+      "comparison": {
+        "current": "指標",
+        "english_or_not_applicable": "character",
+        "alternatives_or_not_applicable": "キャラクター; character",
+        "audience_reason": "指標 is established in Japanese physical CFT modular-transform prose. English or katakana is not required; no evidence suggests it improves recognition for a learner familiar with CFT characters."
+      },
+      "evidence_sources": [
+        {
+          "locator": "https://www-het.phys.sci.osaka-u.ac.jp/~yamaguch/j/pdf/d.pdf §2, printed p.18",
+          "usage": "Discusses 指標のモジュラー変換性 and displays χ under S and T.",
+          "genre": "Physics dissertation",
+          "community": "2D CFT/string physics"
+        },
+        {
+          "locator": "https://www2.yukawa.kyoto-u.ac.jp/~eguchi40/Sugawara.pdf slide 12",
+          "usage": "Uses 拡大指標 and モジュラー変換公式 for N=2 Liouville CFT.",
+          "genre": "Research talk",
+          "community": "2D CFT/string physics"
+        }
+      ]
+    }
+  ],
+  "supplemental_concepts": [
+    {
+      "id": "manual-summary",
+      "surface": "<summary>指標のモジュラー変換から関係式を導く</summary>",
+      "occurrences": [
+        {
+          "line": 54,
+          "column": 1
+        }
+      ],
+      "role": "explanatory_gloss",
+      "impact": "high",
+      "referent": "Derivation through modular transformations of CFT characters",
+      "decision": "KEEP",
+      "reason": "The summary's scientific handle is 指標のモジュラー変換; 関係式を導く describes the local explanatory action.",
+      "comparison": {
+        "current": "指標のモジュラー変換",
+        "english_or_not_applicable": "modular transformation of characters",
+        "alternatives_or_not_applicable": "キャラクターのモジュラー変換; charactersのmodular transformation",
+        "audience_reason": "Established CFT use supports the exact Japanese handle; the rest is plain procedural wording, not a coined scientific name."
+      },
+      "evidence_sources": [
+        {
+          "locator": "https://www-het.phys.sci.osaka-u.ac.jp/~yamaguch/j/pdf/d.pdf §2, printed p.18",
+          "usage": "Discusses 指標のモジュラー変換性 and displays χ under S and T.",
+          "genre": "Physics dissertation",
+          "community": "2D CFT/string physics"
+        },
+        {
+          "locator": "https://www2.yukawa.kyoto-u.ac.jp/~eguchi40/Sugawara.pdf slide 12",
+          "usage": "Uses 拡大指標 and モジュラー変換公式 for N=2 Liouville CFT.",
+          "genre": "Research talk",
+          "community": "2D CFT/string physics"
+        }
+      ]
+    },
+    {
+      "id": "manual-modular",
+      "surface": "モジュラー変換",
+      "occurrences": [
+        {
+          "line": 54,
+          "column": 13
+        }
+      ],
+      "role": "disciplinary_name",
+      "impact": "high",
+      "referent": "Modular S/T action on the torus parameter and characters",
+      "decision": "KEEP",
+      "reason": "Exact technical operation named in the physical CFT sources.",
+      "comparison": {
+        "current": "モジュラー変換",
+        "english_or_not_applicable": "modular transformation",
+        "alternatives_or_not_applicable": "modular変換; モジュラ変換",
+        "audience_reason": "Full katakana モジュラー変換 is repeatedly used in Japanese CFT prose; shortening or English offers no evidenced benefit."
+      },
+      "evidence_sources": [
+        {
+          "locator": "https://www-het.phys.sci.osaka-u.ac.jp/~yamaguch/j/pdf/d.pdf §2, printed p.18",
+          "usage": "Discusses 指標のモジュラー変換性 and displays χ under S and T.",
+          "genre": "Physics dissertation",
+          "community": "2D CFT/string physics"
+        },
+        {
+          "locator": "https://www2.yukawa.kyoto-u.ac.jp/~eguchi40/Sugawara.pdf slide 12",
+          "usage": "Uses 拡大指標 and モジュラー変換公式 for N=2 Liouville CFT.",
+          "genre": "Research talk",
+          "community": "2D CFT/string physics"
+        }
+      ]
+    },
+    {
+      "id": "manual-rational",
+      "surface": "有理 CFT",
+      "occurrences": [
+        {
+          "line": 56,
+          "column": 30
+        }
+      ],
+      "role": "disciplinary_name",
+      "impact": "high",
+      "referent": "Rational conformal field theory (RCFT)",
+      "decision": "KEEP",
+      "reason": "有理共形場理論 is an established research-community name; abbreviating known CFT preserves the referent.",
+      "comparison": {
+        "current": "有理 CFT",
+        "english_or_not_applicable": "rational CFT / RCFT",
+        "alternatives_or_not_applicable": "有理共形場理論; 有理的共形場理論; rational CFT",
+        "audience_reason": "The adjective 有理 matches physical CFT usage; CFT is already understood. 有理的 is a legitimate variant but no evidence requires it."
+      },
+      "evidence_sources": [
+        {
+          "locator": "https://www.kurims.kyoto-u.ac.jp/~kyodo/kokyuroku/contents/pdf/1926-14.pdf printed pp.101–107",
+          "usage": "Uses 有理共形場理論 for theories classified through finite character data, including WZW.",
+          "genre": "Research proceedings",
+          "community": "RCFT mathematical physics"
+        },
+        {
+          "locator": "https://www.ms.u-tokyo.ac.jp/wings-fmsp/wings-fmsp/WINGS-FMSP_AnnualReport_2023.pdf Nishikawa research summary",
+          "usage": "Uses 有理共形場理論（RCFT） in a string-theory research description.",
+          "genre": "Research annual report",
+          "community": "CFT/string physics"
+        }
+      ]
+    },
+    {
+      "id": "manual-descendant",
+      "surface": "子孫状態",
+      "occurrences": [
+        {
+          "line": 62,
+          "column": 72
+        }
+      ],
+      "role": "disciplinary_name",
+      "impact": "high",
+      "referent": "Descendant states above a lowest L_0 weight in a 2D chiral representation",
+      "decision": "UNVERIFIED",
+      "reason": "The same 2D Virasoro referent is called descendant 状態 in Ito's textbook §5.1; 子孫 is attested in Hamada's general conformal/BRST discussion, which is not enough to establish preferred naming for this 2D character proof.",
+      "uncertainty_reason": "The same 2D Virasoro referent is called descendant 状態 in Ito's textbook §5.1; 子孫 is attested in Hamada's general conformal/BRST discussion, which is not enough to establish preferred naming for this 2D character proof.",
+      "missing_evidence": "Two independent Japanese 2D CFT sources comparing 子孫状態 with descendant 状態 or ディセンダント状態 in this representation context.",
+      "blocks_whole_range_pass": true,
+      "evidence": [
+        {
+          "locator": "https://www.saiensu.co.jp/preview/2017-978-4-7819-9923-4/SDB23_sample.pdf §5.1 printed p.65",
+          "usage": "Uses descendant 状態 for states generated by negative Virasoro modes.",
+          "genre": "CFT textbook",
+          "community": "2D CFT physics"
+        },
+        {
+          "locator": "https://research.kek.jp/people/hamada/Into%20a%20world%20beyond%20planck%20scale.pdf printed p.57",
+          "usage": "Attests ディセンダント（子孫）状態 in a conformal BRST setting; scope differs.",
+          "genre": "Physics monograph",
+          "community": "Conformal gravity"
+        }
+      ],
+      "comparison": {
+        "current": "子孫状態",
+        "english_or_not_applicable": "descendant states",
+        "alternatives_or_not_applicable": "descendant 状態; ディセンダント状態; デッセンダント状態",
+        "audience_reason": "Referent appears recognizable, but preferred Japanese form cannot be settled from current same-community evidence."
+      }
+    },
+    {
+      "id": "manual-kind",
+      "surface": "種類 $a$",
+      "occurrences": [
+        {
+          "line": 62,
+          "column": 34
+        }
+      ],
+      "role": "explanatory_gloss",
+      "impact": "high",
+      "referent": "The chiral representation/sector indexing χ_a",
+      "decision": "UNVERIFIED",
+      "reason": "種類 is a plain index gloss, but no explicit module/sector naming is present in this window; the local identity of what is classified is not secure enough to certify terminology.",
+      "uncertainty_reason": "Without a prior definition of index a supplied to this reviewer, 種類 may label representations, sectors, or anyon types. Distinguishing those scientifically is outside this wording-only signature.",
+      "missing_evidence": "Exact adopted definition of index a and CFT source usage for its corresponding sector/module name.",
+      "blocks_whole_range_pass": true
+    },
+    {
+      "id": "outside-family-0",
+      "surface": "エッジ",
+      "occurrences": [
+        {
+          "line": 56,
+          "column": 16
+        }
+      ],
+      "role": "disciplinary_name",
+      "impact": "high",
+      "referent": "Technical referent outside assigned CFT module/character-state term family",
+      "decision": "UNVERIFIED",
+      "reason": "Recorded by exhaustive manual sweep, but excluded from this review's explicit decision perspective.",
+      "uncertainty_reason": "Recorded by exhaustive manual sweep, but excluded from this review's explicit decision perspective.",
+      "missing_evidence": "Separate authorized disciplinary-wording perspective for this referent.",
+      "blocks_whole_range_pass": true
+    },
+    {
+      "id": "outside-family-1",
+      "surface": "中心電荷",
+      "occurrences": [
+        {
+          "line": 56,
+          "column": 60
+        }
+      ],
+      "role": "disciplinary_name",
+      "impact": "high",
+      "referent": "Technical referent outside assigned CFT module/character-state term family",
+      "decision": "UNVERIFIED",
+      "reason": "Recorded by exhaustive manual sweep, but excluded from this review's explicit decision perspective.",
+      "uncertainty_reason": "Recorded by exhaustive manual sweep, but excluded from this review's explicit decision perspective.",
+      "missing_evidence": "Separate authorized disciplinary-wording perspective for this referent.",
+      "blocks_whole_range_pass": true
+    },
+    {
+      "id": "outside-family-2",
+      "surface": "固有値",
+      "occurrences": [
+        {
+          "line": 62,
+          "column": 52
+        },
+        {
+          "line": 62,
+          "column": 77
+        }
+      ],
+      "role": "disciplinary_name",
+      "impact": "high",
+      "referent": "Technical referent outside assigned CFT module/character-state term family",
+      "decision": "UNVERIFIED",
+      "reason": "Recorded by exhaustive manual sweep, but excluded from this review's explicit decision perspective.",
+      "uncertainty_reason": "Recorded by exhaustive manual sweep, but excluded from this review's explicit decision perspective.",
+      "missing_evidence": "Separate authorized disciplinary-wording perspective for this referent.",
+      "blocks_whole_range_pass": true
+    },
+    {
+      "id": "outside-family-3",
+      "surface": "位相",
+      "occurrences": [
+        {
+          "line": 62,
+          "column": 118
+        }
+      ],
+      "role": "disciplinary_name",
+      "impact": "high",
+      "referent": "Technical referent outside assigned CFT module/character-state term family",
+      "decision": "UNVERIFIED",
+      "reason": "Recorded by exhaustive manual sweep, but excluded from this review's explicit decision perspective.",
+      "uncertainty_reason": "Recorded by exhaustive manual sweep, but excluded from this review's explicit decision perspective.",
+      "missing_evidence": "Separate authorized disciplinary-wording perspective for this referent.",
+      "blocks_whole_range_pass": true
+    }
+  ],
+  "ordinary_syntax_sweep": [
+    {
+      "lines": [
+        56,
+        62
+      ],
+      "decision": "KEEP",
+      "reason": "一方向に進む, 場合を考える, 混ざり, その係数を行列と書く, 最低の, その上の, 整数だけ増える, 共通の, 掛かる are grammatical local explanations. No sentence-level Japanese defect is established in this window. This does not certify claims, index identity, integer grading assumptions, or prerequisite availability."
+    }
+  ],
+  "family_verdict": "QUALIFIED: retained 指標, モジュラー変換, 有理 CFT; UNVERIFIED 子孫状態 preference and 種類 a referential gloss; no forced change.",
+  "whole_range_verdict": "NOT CERTIFIED; other technical families are out of scope and high-impact unresolved names remain."
+}

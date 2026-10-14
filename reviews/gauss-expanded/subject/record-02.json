@@ -1,0 +1,13 @@
+{
+  "packet": "02",
+  "perspective": "prerequisite and explanatory adequacy",
+  "verdict": "PASS",
+  "location": "Weighted rotation sum and attached Gauss–Milgram equation",
+  "demand": "The normalization and bulk-to-edge phase relation",
+  "required_depth": "Meaning and application now; derivation remains the requested opened route.",
+  "evidence": "『回転位相 θ_a を重み d_a² で足し』『全量子次元 ... で割る』 and (1/D) sum_a d_a² theta_a = exp(2πi c_-/8)",
+  "support": "Baseline supplies every symbol and complex arithmetic; packet 01 establishes this as a same-phase consistency relation.",
+  "object_and_operation": "Form a finite weighted complex sum and divide by D; compare the result with the central-charge phase.",
+  "next_inference": "The reader can evaluate the left side from supplied anyon data and read a constraint on c_-. The equation is stated as the relation to be understood, not yet derived.",
+  "limits": "This does not certify why this normalization gives a unit-modulus number; mechanism awaits the opened derivation."
+}

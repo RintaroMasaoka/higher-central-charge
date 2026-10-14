@@ -1,0 +1,9 @@
+{
+  "scope": "packet-12.md; one displayed expression; local expression readability only",
+  "verdict": "提案なし",
+  "review": "The aligned expansion shows the matrix-product summand and then isolates the common normalization 1/𝒟². The repeated a index and the progression from the vacuum entries to the weighted sum are clear; no equivalent rewrite gives a definite local readability gain.",
+  "limits": [
+    "This is not a review of mathematical correctness or the physical conclusion drawn from the sum.",
+    "Rendered line height, overflow, and page layout were not inspected."
+  ]
+}

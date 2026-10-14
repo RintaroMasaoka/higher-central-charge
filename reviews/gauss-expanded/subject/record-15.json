@@ -1,0 +1,13 @@
+{
+  "packet": "15",
+  "perspective": "prerequisite and explanatory adequacy",
+  "verdict": "PASS",
+  "location": "Return to outer prose: scope of the CFT derivation and references",
+  "demand": "Distinguishing the demonstrated one-direction case from the stated general bosonic relation",
+  "required_depth": "Meaning and scope; the general theorem is stated as a result, rather than deduced by the preceding restricted calculation.",
+  "evidence": "『上の CFT 計算は一方向のエッジを用いた導出』『両方向の自由度をもつ場合も ... 中心電荷の差 c_- が現れる』",
+  "support": "Packet 07 explicitly limits its setup to a positive one-direction rational-CFT edge; baseline defines c_- as a difference. The present paragraph distinguishes that calculation from the general relation.",
+  "object_and_operation": "Keep the proved-under-inputs special-case calculation separate from the supplied general relation; use the same baseline meaning of c_- in the latter.",
+  "next_inference": "The reader can apply the stated phase relation as a general input while recognizing that this particular CFT derivation has a narrower setup.",
+  "limits": "The referenced Appendix E and D.2 entries were not opened under this packet-only isolation. Their teaching adequacy, the general theorem and any two-direction derivation remain unverified. Earlier frozen failures are preserved."
+}

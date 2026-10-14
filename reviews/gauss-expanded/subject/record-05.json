@@ -1,0 +1,13 @@
+{
+  "packet": "05",
+  "perspective": "prerequisite and explanatory adequacy",
+  "verdict": "PASS",
+  "location": "Introduction to the CFT matrix mechanism",
+  "demand": "Modular transformations and matching their matrices to anyon data",
+  "required_depth": "Meaning and role in this introductory paragraph; explicit transformations, matching inputs and the matrix relation are needed before calculational use.",
+  "evidence": "『指標を混ぜる変換』『各指標に位相を掛ける変換』『これらに内部のエニオンのデータを対応させ、その積の関係を使う』",
+  "support": "Baseline CFT characters and matrix arithmetic; packets 01–04 identify the relation to derive. The paragraph distinguishes the two transformation actions in accessible terms.",
+  "object_and_operation": "Identify a character-mixing matrix, a diagonal phase matrix, and a matching to bulk data as the forthcoming derivational ingredients.",
+  "next_inference": "The reader can follow a derivation that next supplies these matrices and the common product relation. No matrix identity is yet available for calculation.",
+  "limits": "This opening licenses orientation only; later prerequisites cannot be assumed already understood."
+}

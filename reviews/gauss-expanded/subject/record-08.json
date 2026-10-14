@@ -1,0 +1,13 @@
+{
+  "packet": "08",
+  "perspective": "prerequisite and explanatory adequacy",
+  "verdict": "PASS",
+  "location": "Opened derivation: character phase under tau+1",
+  "demand": "h_a, integer descendant levels, and the common character phase",
+  "required_depth": "Mechanism and reconstructible application from the character definition",
+  "evidence": "『最低の L_0 固有値を h_a』『子孫状態の固有値は整数だけ増える』『各項に共通の位相』 and exp[2πi(h_a-c_-/24)]",
+  "support": "Baseline knowledge of CFT characters; packet 07 identifies the CFT central charge as c_-. Current text supplies the integer spacing and h_a definition.",
+  "object_and_operation": "For each character term with L_0=h_a+m, substitute tau+1 in its exponential and use exp(2πi m)=1.",
+  "next_inference": "The reader obtains a diagonal transformation of the character vector with the displayed eigenphase.",
+  "limits": "Uses the stipulated integer descendant spacing; does not independently verify CFT spectrum assumptions."
+}

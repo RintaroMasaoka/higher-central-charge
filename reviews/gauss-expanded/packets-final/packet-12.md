@@ -1,0 +1,9 @@
+最後に、この行列等式の真空 $1$ から真空 $1$ への成分を取る。エニオン理論の $S$ 行列では、真空の行と列は量子次元で決まり、$S_{1a}=S_{a1}=d_a/\mathcal D$ である。左辺は、途中の種類 $a$ をすべて足した次の和になる。
+
+$$
+\begin{aligned}
+(S T_{\mathrm{top}} S)_{11}
+&=\sum_a S_{1a}\theta_a S_{a1}\\
+&=\frac{1}{\mathcal D^2}\sum_a d_a^2\theta_a.
+\end{aligned}
+$$

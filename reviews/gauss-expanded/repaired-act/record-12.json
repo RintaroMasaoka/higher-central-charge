@@ -1,0 +1,26 @@
+{
+  "unit": "12",
+  "perspective": "explanation-act suitability only",
+  "verdict": "PASS",
+  "content_status": "Selects a matrix component and supplies the vacuum-row relation for its evaluation; scientific support not certified.",
+  "moves": [
+    {
+      "quote": "最後に、この行列等式の真空 $1$ から真空 $1$ への成分を取る。",
+      "act_presupposition": "Selects a concrete operation on the preceding identity and marks the approach to the goal's scalar phase sum.",
+      "first_pass_signal": "The vacuum component is the useful extraction from the matrix identity.",
+      "quoted_license": "Packet 11's matrix identity; active goal is the relation between the anyon phase sum and central charge; supplied vacuum label and data.",
+      "alternative_reader_use": "Omission leaves the choice of the 11 component unexplained as an action. Dropping only 最後に would retain the same operation with less closure signaling; current signaling remains proportionate to the scalar extraction.",
+      "resolution": "Reader can evaluate the same selected component on both sides."
+    },
+    {
+      "quote": "エニオン理論の $S$ 行列では、真空の行と列は量子次元で決まり、$S_{1a}=S_{a1}=d_a/\\mathcal D$ である。",
+      "act_presupposition": "Supplies the topological relation needed for the selected calculation. Presents it as a relation of the anyon S matrix, not a correction to a presumed reader mistake.",
+      "first_pass_signal": "The vacuum component translates the matrix calculation into the requested weighted sum.",
+      "quoted_license": "Current equation sums S_1a θ_a S_a1; prior supplied positive d_a and D=sqrt(sum d_a²), and packet 09's matched S.",
+      "alternative_reader_use": "Omission removes the stated connection from entries of S to the quantum-dimension weights. Attaching the equality directly to the evaluated component preserves this function; its present immediately preceding placement supports use.",
+      "resolution": "Reader can identify the left-side component with D^-2 sum d_a² θ_a."
+    }
+  ],
+  "cumulative_effect": "The path reaches the intended phase sum through the selected vacuum component. New relation and its use stay adjacent, with no repeated caution or reassurance.",
+  "scope": "Packet 12 read after record 11 froze; no verdict on whether the new vacuum-row relation has sufficient subject explanation or source proof."
+}

@@ -1,0 +1,11 @@
+{
+  "perspective": "prerequisite and explanatory adequacy only",
+  "coverage": "Packets 01–15 in numerical order, one visible packet read at a time; every record frozen before the next packet was read.",
+  "overall_verdict": "FAIL",
+  "counts": {"PASS": 13, "FAIL": 2, "UNKNOWN": 0},
+  "failure_locations": ["12: first use of anyon S vacuum-row values in the previously character-defined S matrix", "13: final deduction inherits that first-use prerequisite gap"],
+  "later_support": "Packet 14 expressly names S correspondence as a bulk/edge input, but cannot repair frozen first-use judgments.",
+  "supported_operations": "Weighted-sum normalization, phase periodicity, character tau+1 phase, scalar factor tracking in the stated modular identity, and vacuum matrix-entry algebra are reconstructible from the supplied baseline and acquired units.",
+  "isolation": "Only the assigned subject-lane reference and packet-01 through packet-15 were read. No discovery, manuscript, source, manifest, history, suffix preload or prior-review access was performed.",
+  "limits": "No explanation-act, Japanese wording, scientific-truth or production verdict. Earlier support provided by the coordinator was used as acquired baseline, not recertified as a fresh encounter. External reference entry adequacy and the general bidirectional theorem were not inspected."
+}

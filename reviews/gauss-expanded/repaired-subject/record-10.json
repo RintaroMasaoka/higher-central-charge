@@ -1,0 +1,13 @@
+{
+  "packet": "10",
+  "perspective": "subject/prerequisite and explanatory adequacy only",
+  "verdict": "PASS",
+  "location": "packet-10.md, paragraph and attached equation",
+  "quotes": ["積の右側の操作から順に作用させる", "左辺も右辺も $\\tau\\mapsto\\tau/(1-\\tau)$ という同じ変換になる"],
+  "required_depth": "Mechanism and application of the modular consistency relation: reconstruct the parameter transformations and use the matrix identity. A separate abstract presentation of the modular group is unnecessary.",
+  "demand": "Why ST_CFT S and T_CFT inverse S T_CFT inverse agree.",
+  "witness": {"baseline": "Complex/matrix arithmetic", "prior": "Characters transform by S for tau -> -1/tau and by T_CFT for tau -> tau+1", "current": "The operation order and common resulting parameter transformation are explicitly given."},
+  "reconstructible_object_operation": "For STS, tau -> -1/tau -> 1-1/tau -> tau/(1-tau). For T inverse S T inverse, tau -> tau-1 -> 1/(1-tau) -> tau/(1-tau). Thus the stated character consistency identity has an available mechanism.",
+  "next_usable_inference": "Replace every T_CFT by the scalar-phase multiple of T_top established in packet 09.",
+  "limits": "This accepts the stated character modular consistency within the supplied CFT setup; it is not an independent scientific audit of representation assumptions. Frozen before access to packet 11."
+}

@@ -1,0 +1,26 @@
+{
+  "unit": "11",
+  "perspective": "explanation-act suitability only",
+  "verdict": "PASS",
+  "content_status": "Local substitution and scalar bookkeeping; no scientific signoff.",
+  "moves": [
+    {
+      "quote": "ここに $T_{\\mathrm{CFT}}$ を代入する。",
+      "act_presupposition": "Directs the reader to substitute the previously displayed scalar-times-T_top equality into the immediately preceding consistency relation.",
+      "first_pass_signal": "The matching relation now does calculational work.",
+      "quoted_license": "Packet 09: T_CFT=e^(-2πic_-/24)T_top; packet 10: S T_CFT S=T_CFT^-1 S T_CFT^-1.",
+      "alternative_reader_use": "Omission leaves the next equality less connected to the preceding step. Explicitly repeating the substitution equality would preserve the same operation but add bookkeeping already available.",
+      "resolution": "Reader knows which established relation produces the new identity."
+    },
+    {
+      "quote": "左辺の因子を右辺へ移すと、中心電荷の因子が三つ分まとまり、分母の $24$ が $8$ になる。",
+      "act_presupposition": "Explains how the scalar phase changes under the substitution. Presupposes ordinary complex arithmetic, as supplied.",
+      "first_pass_signal": "The factor of three explains the emerging denominator eight rather than introducing it as a separate fact.",
+      "quoted_license": "Immediately preceding sentence counts one factor on the left and two inverse factors on the right; packet 09 supplies that factor.",
+      "alternative_reader_use": "Omission preserves the displayed result but removes the explicitly tracked origin of eight. A separate scalar equation would preserve the same useful explanation, without changing scope or reader stance.",
+      "resolution": "Reader can associate e^(2πic_-/8) with the composition relation in terms of topological rotation phases."
+    }
+  ],
+  "cumulative_effect": "The established comparison advances through a single explicit algebraic operation. Emphasis falls on the phase's origin; there is no digression into anticipated objections.",
+  "scope": "Packet 11 read only after freezing 10; explanation-act verdict only."
+}

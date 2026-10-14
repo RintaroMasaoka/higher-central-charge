@@ -1,0 +1,11 @@
+{
+  "before_sha256": "1c12734946efe443b353426cb86e40b91f0b46c5e4d2c53c1e906a74b9ab3dbf",
+  "final_source_sha256": "b37cf19b3d603996d21fe3237ed3bb047a19627cdac02da6bd78132df16bce3a",
+  "changed_packets": [
+    "packet-09.md",
+    "packet-12.md",
+    "packet-13.md"
+  ],
+  "normalization": "Remove aligned environment, alignment markers, line-break commands and whitespace spacing only",
+  "all_fifteen_normalized_packets_identical": true
+}

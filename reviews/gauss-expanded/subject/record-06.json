@@ -1,0 +1,13 @@
+{
+  "packet": "06",
+  "perspective": "prerequisite and explanatory adequacy",
+  "verdict": "PASS",
+  "location": "Nested derivation disclosure heading",
+  "demand": "A usable learning entry for the CFT derivation",
+  "required_depth": "Route identification at this heading; mechanism and application must be inspected in its opened units.",
+  "evidence": "『[折りたたみ見出し] 指標のモジュラー変換から関係式を導く』",
+  "support": "Packet 05 identifies the mechanism requiring explanation and baseline supplies characters.",
+  "object_and_operation": "Open the disclosure to inspect the modular-transformation derivation.",
+  "next_inference": "The reader has an adjacent, explicitly named entry for the promised mechanism.",
+  "limits": "Heading adequacy only; neither the opened explanation nor a closed-path understanding of modular matching is certified by the label."
+}

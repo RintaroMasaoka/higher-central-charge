@@ -1,0 +1,14 @@
+{
+  "packet": "12",
+  "perspective": "prerequisite and explanatory adequacy",
+  "verdict": "FAIL",
+  "location": "Opened derivation: first substitution of anyon S entries into the character-matrix identity",
+  "demand": "Identification of the character transformation matrix S with the anyon-theory S matrix to which S_1a=d_a/D applies",
+  "required_depth": "Meaning and explicit application of the bulk/edge matching input; no proof of correspondence or of the vacuum-row theorem is required.",
+  "evidence": "Packet 07 defines S as 『その係数を行列 S と書く』 for characters. Here 『エニオン理論の S 行列では ... S_1a=S_a1=d_a/D』 is used in 『この行列等式』.",
+  "support": "Packets 05 and 09 announce a correspondence and match sector labels/spins; the acquired prefix does not explicitly identify the two S matrices or explain the role of the anyon S matrix. The current vacuum-row identity is usable as a supplied numerical premise once that identification is granted.",
+  "object_and_operation": "The entry calculation sum_a S_1a theta_a S_a1 is reconstructible with diagonal T_top and baseline matrix arithmetic. Substitution of d_a/D into the CFT-derived identity needs the unstated S matching premise.",
+  "next_inference": "Conditional on that missing matching input, the reader obtains D^{-2} sum_a d_a² theta_a. Without it the bulk dimensions have not been connected to the actual coefficients in the character transformation.",
+  "gap": "The same symbol S makes the calculation possible while obscuring the specific bulk/edge identification required to justify this first application. No nearby separate learning entry for that identification is visible in the acquired prefix.",
+  "limits": "This is an explanatory prerequisite failure, not a verdict on the scientific validity of S matching or the vacuum-row identity."
+}

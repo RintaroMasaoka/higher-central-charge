@@ -1,0 +1,13 @@
+{
+  "packet": "09",
+  "perspective": "subject/prerequisite and explanatory adequacy only",
+  "verdict": "PASS",
+  "location": "packet-09.md, paragraph and attached equation",
+  "quotes": ["両者の $S$ 行列が一致するエッジ CFT を用いる", "$\\theta_a=e^{2\\pi i h_a}$", "$T_{\\mathrm{CFT}}=e^{-2\\pi i c_-/24}T_{\\mathrm{top}}$"],
+  "required_depth": "Meaning and application of the assumed bulk/edge matching; no proof of the physical correspondence is required for this conditional route.",
+  "demand": "The shared anyon/character label, matched S matrices, and relation between the anyon rotation phase and lowest conformal weight are imported physical inputs.",
+  "witness": {"baseline": "CFT characters and complex/matrix arithmetic", "prior": "Character T phase exp[2 pi i(h_a-c_-/24)] and anyon rotation phase theta_a are established", "current": "The paragraph explicitly states the matching used and theta_a=exp[2 pi i h_a], defines diagonal T_top, and defines delta_ab."},
+  "reconstructible_object_operation": "Construct the diagonal matrices and factor the common central-charge phase out of the already-given character transformation.",
+  "next_usable_inference": "Substitute T_CFT=q T_top with scalar q=exp[-2 pi i c_-/24] into a modular-matrix relation.",
+  "limits": "Conditional adequacy only; physical existence and scientific truth of the correspondence are not independently certified. Frozen before access to packet 10."
+}

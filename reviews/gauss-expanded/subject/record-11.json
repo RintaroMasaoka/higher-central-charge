@@ -1,0 +1,13 @@
+{
+  "packet": "11",
+  "perspective": "prerequisite and explanatory adequacy",
+  "verdict": "PASS",
+  "location": "Opened derivation: three common phase factors",
+  "demand": "Tracking scalar factors in the modular matrix identity",
+  "required_depth": "Reconstructible algebraic derivation",
+  "evidence": "『左辺には ... が一つ、右辺にはその逆数が二つ』『因子が三つ分まとまり、分母の 24 が 8』",
+  "support": "Packet 09 T_CFT=alpha T_top, packet 10 product identity, baseline scalar/matrix arithmetic.",
+  "object_and_operation": "Use (alpha T_top)^{-1}=alpha^{-1}T_top^{-1}, commute scalar factors, then divide by alpha to obtain alpha^{-3}=exp(2πi c_-/8).",
+  "next_inference": "The reader can inspect an entry of the resulting T_top identity to obtain a scalar constraint with the desired central-charge phase.",
+  "limits": "Algebra conditional on the explicitly supplied modular relation."
+}

@@ -1,0 +1,1 @@
+上の CFT 計算は一方向のエッジを用いた導出である。両方向の自由度をもつ場合も、ボソンのトポロジカル相の一般の関係式では中心電荷の差 $c_-$ が現れる。関係式は [Kitaev, *Anyons in an exactly solved model and beyond*, Appendix E 冒頭の式 (172)](https://arxiv.org/pdf/cond-mat/0506438#page=66)、エニオンの行列の関係は [Appendix E.5 の式 (232)、(233)](https://arxiv.org/pdf/cond-mat/0506438#page=88)、境界との対応の背景は [Appendix D.2](https://arxiv.org/pdf/cond-mat/0506438#page=64)を参照できる。

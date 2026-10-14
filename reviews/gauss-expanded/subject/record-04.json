@@ -1,0 +1,13 @@
+{
+  "packet": "04",
+  "perspective": "prerequisite and explanatory adequacy",
+  "verdict": "PASS",
+  "location": "Periodicity and central charge modulo eight",
+  "demand": "Recovering central charge from a phase without an unjustified unique inversion",
+  "required_depth": "Meaning and algebraic application of periodicity; heat Hall response is only an example of extra information.",
+  "evidence": "『c_- を 8 増やすと指数が 2πi 増え』『c_-=0,8,-8,... はこの測定では区別できない』",
+  "support": "Packets 02–03 phase formula and baseline complex arithmetic.",
+  "object_and_operation": "Substitute c_-+8 and use exp(2πi)=1; compare all phase-equivalent values.",
+  "next_inference": "The reader can determine a residue class modulo eight and identify why this data alone cannot select an absolute central charge.",
+  "limits": "No method for using thermal Hall response is supplied or certified, but the present inference does not require that method."
+}

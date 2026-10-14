@@ -1,0 +1,13 @@
+{
+  "packet": "09",
+  "perspective": "prerequisite and explanatory adequacy",
+  "verdict": "PASS",
+  "location": "Opened derivation: spin/conformal-weight matching and two T matrices",
+  "demand": "The bulk/edge matching input theta_a=exp(2πi h_a) and the shared scalar phase",
+  "required_depth": "Meaning and application of explicit matching inputs; proving this correspondence is outside the specified learning goal.",
+  "evidence": "『内部の種類 a と境界の指標 a を対応させると』『θ_a=e^{2πi h_a}』『全種類に共通の中心電荷の位相』 and T_CFT=exp(-2πi c_-/24) T_top",
+  "support": "Baseline rotation phase; packet 08 supplies h_a and the character eigenphase. Current text defines both matrix names and delta_ab.",
+  "object_and_operation": "Factor the packet 08 eigenphase into exp(-2πi c_-/24) times theta_a and place theta_a on a diagonal matrix.",
+  "next_inference": "The reader can replace T_CFT with a common scalar times T_top in any matrix product and track the accumulated central-charge phase.",
+  "limits": "The matching relation is supplied, not proved; the two T matrices and their distinct roles are reconstructible."
+}

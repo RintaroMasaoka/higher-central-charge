@@ -1,0 +1,13 @@
+{
+  "packet": "11",
+  "perspective": "subject/prerequisite and explanatory adequacy only",
+  "verdict": "PASS",
+  "location": "packet-11.md, paragraph and attached equation",
+  "quotes": ["左辺には $e^{-2\\pi i c_-/24}$ が一つ、右辺にはその逆数が二つ掛かる", "中心電荷の因子が三つ分まとまり、分母の $24$ が $8$ になる"],
+  "required_depth": "Application with explicit scalar-factor bookkeeping.",
+  "demand": "The inverse of a scalar times a matrix and the resulting exponent's sign and factor of three.",
+  "witness": {"baseline": "Complex/matrix arithmetic", "prior": "Packets 09 and 10 provide T_CFT=q T_top and ST_CFT S=T_CFT inverse S T_CFT inverse", "current": "Counts one q on the left and two q inverses on the right and explains division by the left factor."},
+  "reconstructible_object_operation": "q ST_top S=q^-2 T_top^-1 S T_top^-1, hence ST_top S=q^-3 T_top^-1 S T_top^-1, with q^-3=exp[2 pi i c_-/8].",
+  "next_usable_inference": "Take individual matrix entries of this identity, including the vacuum-vacuum entry.",
+  "limits": "No gap in the displayed algebra under the acquired prefix. Frozen before access to packet 12."
+}

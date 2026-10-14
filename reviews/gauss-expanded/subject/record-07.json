@@ -1,0 +1,13 @@
+{
+  "packet": "07",
+  "perspective": "prerequisite and explanatory adequacy",
+  "verdict": "PASS",
+  "location": "Opened derivation: rational chiral edge and S transformation",
+  "demand": "Finite character basis, edge/CFT central-charge identification, and the definition of S",
+  "required_depth": "Meaning and application of the stated CFT setup and transformation input; proving edge correspondence or modular covariance is outside the assigned goal.",
+  "evidence": "『c_->0 の一方向に進むエッジ』『有限個の指標をもつ有理 CFT』『その係数を行列 S と書く』 and chi_a(-1/tau)=sum_b S_ab chi_b(tau)",
+  "support": "Baseline CFT characters and matrix arithmetic; baseline c_- as the left/right difference. The current one-direction condition licenses its identification with the CFT central charge.",
+  "object_and_operation": "Treat the characters as a finite vector; S mixes that vector under the explicitly specified argument substitution.",
+  "next_inference": "The reader can identify S_ab as mixing coefficients and use S in later matrix products within the stated one-direction rational-CFT case.",
+  "limits": "No proof of the existence of this edge description or its modular covariance is certified."
+}

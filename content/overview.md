@@ -36,13 +36,85 @@ $$
 <details id="gauss-milgram">
 <summary>Gauss–Milgram 関係：エニオンの和と中心電荷のつながり</summary>
 
+エニオンの量子次元とトポロジカルスピンは、内部の準粒子を融合・回転させたときのデータである。一方、カイラル中心電荷は、境界に沿って進む自由度の左右の差を表す。Gauss–Milgram 関係は、この二つの記述が同じトポロジカル相に属するときに満たす整合条件である。内部のデータを組み合わせると、境界の中心電荷の一部を決められる。
+
 各エニオンの回転位相 $\theta_a$ を重み $d_a^2$ で足し、全量子次元 $\mathcal D=\sqrt{\sum_a d_a^2}$ で割ると、境界のカイラル中心電荷から決まる位相になる。この関係を式で書くと
 
 $$
 \frac{1}{\mathcal D}\sum_a d_a^2\theta_a=e^{2\pi i c_-/8}
 $$
 
-である。右辺の絶対値は $1$ なので、和の絶対値は $\mathcal D$ である。したがって、$\zeta_n$ の定義で $n=1$ とした分母は $\mathcal D$ に等しく、上の式の左辺がそのまま $\zeta_1$ になる。$n=1$ の高次中心電荷は、このようにエニオンのデータから境界の中心電荷の情報を取り出す。関係式とその背景は [Kitaev, *Anyons in an exactly solved model and beyond*, Appendix E 冒頭の式 (172) と Appendix D.2](https://arxiv.org/pdf/cond-mat/0506438#page=66)を参照できる。
+である。右辺の絶対値は $1$ なので、和の絶対値は $\mathcal D$ である。したがって、$\zeta_n$ の定義で $n=1$ とした分母は $\mathcal D$ に等しく、上の式の左辺がそのまま $\zeta_1$ になる。ここでは、和の大きさも位相も関係式によって決まっている。
+
+位相から中心電荷を読むときは、その周期が重要である。$c_-$ を $8$ 増やすと指数が $2\pi i$ 増え、位相は一周して同じ値に戻る。例えば和を規格化して $1$ が得られた場合、$c_-=0,8,-8,\ldots$ はこの測定では区別できない。このため、エニオンの統計から分かる中心電荷は $8$ を法とする値であり、実際の値を決めるには熱 Hall 応答など別の情報を使う。
+
+内部と境界を結ぶ仕組みは、指標のモジュラー変換とエニオン理論の行列が、共通の行列積の関係を満たすことにある。境界では指標を混ぜる変換と、各指標に位相を掛ける変換を考える。これらに内部のエニオンのデータを対応させ、その積の関係を使うと、上の等式が得られる。
+
+<details id="gauss-milgram-cft">
+<summary>指標のモジュラー変換から関係式を導く</summary>
+
+$c_->0$ の一方向に進むエッジが、有限個の指標をもつ有理 CFT で記述される場合を考える。この場合、CFT の中心電荷は $c_-$ である。指標は $\tau\mapsto-1/\tau$ で混ざり、その係数を行列 $S$ と書く。
+
+$$
+\chi_a(-1/\tau)=\sum_b S_{ab}\chi_b(\tau).
+$$
+
+もう一つの変換 $\tau\mapsto\tau+1$ を考える。種類 $a$ の最低の $L_0$ 固有値を $h_a$ とすると、その上の子孫状態の固有値は整数だけ増える。指標の定義に $\tau+1$ を代入すると、各項に共通の位相が掛かる。
+
+$$
+\chi_a(\tau+1)=e^{2\pi i(h_a-c_-/24)}\chi_a(\tau).
+$$
+
+ここでは、エニオンの種類 $a$ と境界の指標 $a$ が対応し、両者の $S$ 行列が一致するエッジ CFT を用いる。この対応では、トポロジカルスピンは $\theta_a=e^{2\pi i h_a}$ である。エニオンの回転位相を対角に並べた行列を $T_{\mathrm{top}}$、指標の $\tau\mapsto\tau+1$ を表す行列を $T_{\mathrm{CFT}}$ と書けば、両者の違いは全種類に共通の中心電荷の位相である。$\delta_{ab}$ は $a=b$ のとき $1$、それ以外では $0$ を表す。
+
+$$
+\begin{aligned}
+(T_{\mathrm{top}})_{ab}&=\theta_a\delta_{ab},\\
+T_{\mathrm{CFT}}&=e^{-2\pi i c_-/24}T_{\mathrm{top}}.
+\end{aligned}
+$$
+
+指標のモジュラー変換の整合性は、行列の積に対して次の関係を要求する。積の右側の操作から順に作用させると、左辺も右辺も $\tau\mapsto\tau/(1-\tau)$ という同じ変換になる。
+
+$$
+S T_{\mathrm{CFT}} S
+=T_{\mathrm{CFT}}^{-1}S T_{\mathrm{CFT}}^{-1}.
+$$
+
+ここに $T_{\mathrm{CFT}}$ を代入する。左辺には $e^{-2\pi i c_-/24}$ が一つ、右辺にはその逆数が二つ掛かる。左辺の因子を右辺へ移すと、中心電荷の因子が三つ分まとまり、分母の $24$ が $8$ になる。
+
+$$
+S T_{\mathrm{top}} S
+=e^{2\pi i c_-/8}
+T_{\mathrm{top}}^{-1} S T_{\mathrm{top}}^{-1}.
+$$
+
+最後に、この行列等式の真空 $1$ から真空 $1$ への成分を取る。エニオン理論の $S$ 行列では、真空の行と列は量子次元で決まり、$S_{1a}=S_{a1}=d_a/\mathcal D$ である。左辺は、途中の種類 $a$ をすべて足した次の和になる。
+
+$$
+\begin{aligned}
+(S T_{\mathrm{top}} S)_{11}
+&=\sum_a S_{1a}\theta_a S_{a1}\\
+&=\frac{1}{\mathcal D^2}\sum_a d_a^2\theta_a.
+\end{aligned}
+$$
+
+右辺では真空の回転位相が $\theta_1=1$ なので、二つの $T_{\mathrm{top}}^{-1}$ は寄与せず、$S_{11}=1/\mathcal D$ だけが残る。両辺を等置して $\mathcal D$ を掛ければ、Gauss–Milgram 関係を得る。
+
+$$
+\begin{aligned}
+\frac{1}{\mathcal D^2}\sum_a d_a^2\theta_a
+&=\frac{e^{2\pi i c_-/8}}{\mathcal D}\\
+\Longrightarrow\quad\frac{1}{\mathcal D}\sum_a d_a^2\theta_a
+&=e^{2\pi i c_-/8}.
+\end{aligned}
+$$
+
+この導出では、境界の指標に現れる $S$ と回転位相を、内部のエニオンのデータと対応させた。その対応が内部と境界を結ぶ入力であり、モジュラー変換の整合性から、中心電荷とエニオンの和の関係が得られる。
+
+</details>
+
+上の CFT 計算は一方向のエッジを用いた導出である。両方向の自由度をもつ場合も、ボソンのトポロジカル相の一般の関係式では中心電荷の差 $c_-$ が現れる。関係式は [Kitaev, *Anyons in an exactly solved model and beyond*, Appendix E 冒頭の式 (172)](https://arxiv.org/pdf/cond-mat/0506438#page=66)、エニオンの行列の関係は [Appendix E.5 の式 (232)、(233)](https://arxiv.org/pdf/cond-mat/0506438#page=88)、境界との対応の背景は [Appendix D.2](https://arxiv.org/pdf/cond-mat/0506438#page=64)を参照できる。
 
 </details>
 

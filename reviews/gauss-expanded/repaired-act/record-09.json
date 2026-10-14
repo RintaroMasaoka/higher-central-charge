@@ -1,0 +1,26 @@
+{
+  "unit": "09",
+  "perspective": "explanation-act suitability only",
+  "verdict": "PASS",
+  "content_status": "Explicit conditional matching premise and definitions; scientific truth not certified in this lane.",
+  "moves": [
+    {
+      "quote": "ここでは、エニオンの種類 $a$ と境界の指標 $a$ が対応し、両者の $S$ 行列が一致するエッジ CFT を用いる。",
+      "act_presupposition": "Specifies which boundary description the argument uses. Presupposes the already supplied goal of comparing internal and boundary descriptions, not a reader error.",
+      "first_pass_signal": "The matching is a condition of this calculation, not an automatic property of every boundary.",
+      "quoted_license": "Supplied earlier visible-prefix evidence: internal and edge descriptions should be consistent; active goal is their phase relation conditional on explicit matching.",
+      "alternative_reader_use": "Omission would allow the first identification of sector labels and S matrices to be read as unconditional. Attaching the same condition to the matrix identification would preserve this scope; current placement introduces it before use.",
+      "resolution": "Reader can align the sector labels and use a common S in the coming comparison."
+    },
+    {
+      "quote": "両者の違いは全種類に共通の中心電荷の位相である。",
+      "act_presupposition": "Names the relation between two already differentiated operations, rotation and character translation.",
+      "first_pass_signal": "The scalar central-charge factor is the important bridge between the descriptions.",
+      "quoted_license": "Current equation: T_CFT=e^(-2πic_-/24)T_top; supplied prior character translation formula.",
+      "alternative_reader_use": "Omitting the sentence leaves the equation usable but reduces guidance about its shared scalar character. Directly stating the equality performs the same useful comparison without changing stance.",
+      "resolution": "The two T matrices are available with the common scalar factor isolated."
+    }
+  ],
+  "cumulative_effect": "Continues the declared comparison by establishing its matching condition and the concrete matrix bridge. No unsupported corrective or reassuring stance appears.",
+  "scope": "Single packet 09 plus supplied earlier evidence; earlier units not newly certified; no subject/scientific/Japanese signoff."
+}

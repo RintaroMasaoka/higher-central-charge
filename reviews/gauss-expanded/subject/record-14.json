@@ -1,0 +1,13 @@
+{
+  "packet": "14",
+  "perspective": "prerequisite and explanatory adequacy",
+  "verdict": "PASS",
+  "location": "Opened derivation conclusion: identification of correspondence as an input",
+  "demand": "Distinguishing the bulk/edge matching premise from the modular deduction",
+  "required_depth": "Meaning and role of the matching inputs",
+  "evidence": "『境界の指標に現れる S と回転位相を、内部のエニオンのデータと対応させた』『その対応が内部と境界を結ぶ入力』",
+  "support": "The acquired derivation exposes the two matrix actions, spin matching, modular identity and vacuum-row substitution. This paragraph now expressly includes S in the correspondence and labels it an input.",
+  "object_and_operation": "Separate the supplied bulk/edge identification from the algebraic consequences of modular consistency.",
+  "next_inference": "The reader can now understand that the calculation depends on the identification of the boundary S data with bulk data and does not establish the correspondence itself.",
+  "limits": "This later clarification does not change the frozen FAIL at first use in packet 12 or its downstream use in packet 13; cumulative first-encounter coverage still fails at those locations."
+}

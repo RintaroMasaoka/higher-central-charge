@@ -1,0 +1,13 @@
+{
+  "packet": "13",
+  "perspective": "subject/prerequisite and explanatory adequacy only",
+  "verdict": "PASS",
+  "location": "packet-13.md, paragraph and attached equation",
+  "quotes": ["真空の回転位相が $\\theta_1=1$ なので、二つの $T_{\\mathrm{top}}^{-1}$ は寄与せず", "両辺を等置して $\\mathcal D$ を掛ければ"],
+  "required_depth": "Application of the vacuum data and the previous matrix-component calculation; explicit final normalization.",
+  "demand": "Diagonal inverse matrices acting on the vacuum select the reciprocal vacuum phase, equal to one; S_11 follows from the already-stated vacuum-row relation.",
+  "witness": {"baseline": "Complex/matrix arithmetic", "prior": "theta_1=d_1=1; S_1a=S_a1=d_a/D; packet 11's matrix identity; packet 12's left-side 11 entry", "current": "States that both inverse T factors equal one in this entry, gives S_11=1/D, displays both scalar sides and the multiplication by D."},
+  "reconstructible_object_operation": "The right-side 11 entry is exp[2 pi i c_-/8] theta_1^-1 S_11 theta_1^-1=exp[2 pi i c_-/8]/D. Equate with packet 12 and multiply by D to obtain Gauss-Milgram.",
+  "next_usable_inference": "Under the stated matched bulk/edge and vacuum-row inputs, the weighted anyon spin sum equals the central-charge phase. The phase determines c_- modulo 8, although no later claim has been reviewed.",
+  "limits": "The equality is understood as conditional on the previously stated setup and inputs. No suffix, source, or physical-correspondence proof reviewed. Frozen before final scoped synthesis."
+}

@@ -1,0 +1,14 @@
+{
+  "packet": "13",
+  "perspective": "prerequisite and explanatory adequacy",
+  "verdict": "FAIL",
+  "location": "Opened derivation: vacuum right-hand entry and final equality",
+  "demand": "Using the vacuum values and accepting the derived bulk/edge equality",
+  "required_depth": "Application of the supplied vacuum values and complete prerequisite support for the final derivation",
+  "evidence": "『真空の回転位相が θ_1=1』『S_11=1/D だけが残る』『Gauss–Milgram 関係を得る』",
+  "support": "Packets 09–11 supply diagonal T_top and its matrix identity; the present paragraph supplies the two vacuum values. Packet 12's character/anyon S identification gap remains unresolved.",
+  "object_and_operation": "The (1,1) entry of T_top^{-1} S T_top^{-1} is theta_1^{-2} S_11=1/D. Multiply the displayed scalar equality by D.",
+  "next_inference": "All local scalar algebra is reconstructible, but the final equality is derived only conditional on the missing identification of S in the CFT equation with the anyon S whose vacuum row was used.",
+  "gap": "Downstream reliance on the frozen packet 12 gap; no additional local algebraic gap is identified.",
+  "limits": "FAIL concerns completeness of the derivational support route, not scientific truth."
+}

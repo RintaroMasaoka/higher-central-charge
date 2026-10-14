@@ -1,0 +1,10 @@
+{
+  "perspective": "subject/prerequisite and explanatory adequacy only",
+  "scope": "Repaired packets 09 through 13, each read and frozen in order; verified unchanged entry evidence supplied in the assignment",
+  "verdict": "PASS",
+  "coverage": ["09: matched labels, S, theta/h, and T matrices", "10: modular consistency and reconstructible parameter composition", "11: central-charge scalar factors", "12: vacuum entry and quantum-dimension normalization input", "13: final scalar equality and Gauss-Milgram"],
+  "decision": "The supplied baseline and visible premises suffice to reconstruct the conditional derivation. Imported physical inputs are identifiable, matrix operations are available at use, and the central-charge factor and both vacuum-entry calculations can be checked without future support.",
+  "required_depth_boundary": "Physical bulk/edge correspondence and the structural proof of S_1a=d_a/D are treated as stated inputs to the conditional route, not as learning targets requiring proof. Their algebraic meaning and role are available. A broader route teaching why those anyon/CFT inputs hold would need separately inspected support and is not certified here.",
+  "limits": ["No explanation-act, terminology, visual, production, or independent scientific-truth verdict", "No packet 14 or 15, suffix, source, manuscript, manifest, discovery, prior review, or rationale accessed", "Already-established entry inputs were accepted as supplied evidence and were not newly first-encounter certified", "Isolation was instructional on a shared filesystem, not enforced filesystem isolation"],
+  "execution": "Read reader-review.md, then packet09, wrote record09; packet10, wrote record10; packet11, wrote record11; packet12, wrote record12; packet13, wrote record13 and this scoped synthesis."
+}

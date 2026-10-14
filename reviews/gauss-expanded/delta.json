@@ -1,0 +1,27 @@
+{
+  "before_sha256": "f9dbdf16b6ce06ccce504a8ef790e38cac209efc8b3b5215e1f30a366bc19d65",
+  "after_sha256": "1c12734946efe443b353426cb86e40b91f0b46c5e4d2c53c1e906a74b9ab3dbf",
+  "changed_packets": [
+    "packet-09.md"
+  ],
+  "unchanged_packets": [
+    "packet-01.md",
+    "packet-02.md",
+    "packet-03.md",
+    "packet-04.md",
+    "packet-05.md",
+    "packet-06.md",
+    "packet-07.md",
+    "packet-08.md",
+    "packet-10.md",
+    "packet-11.md",
+    "packet-12.md",
+    "packet-13.md",
+    "packet-14.md",
+    "packet-15.md"
+  ],
+  "new_reader_range": [
+    9,
+    13
+  ]
+}

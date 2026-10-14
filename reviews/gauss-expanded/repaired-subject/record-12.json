@@ -1,0 +1,13 @@
+{
+  "packet": "12",
+  "perspective": "subject/prerequisite and explanatory adequacy only",
+  "verdict": "PASS",
+  "location": "packet-12.md, paragraph and attached equation",
+  "quotes": ["真空 $1$ から真空 $1$ への成分を取る", "真空の行と列は量子次元で決まり、$S_{1a}=S_{a1}=d_a/\\mathcal D$ である", "途中の種類 $a$ をすべて足した"],
+  "required_depth": "Meaning, role, and application of the vacuum-row normalization as an imported anyon-theory input for this conditional derivation. Its structural proof is not required by the assigned route.",
+  "demand": "The vacuum S entries are normalized quantum dimensions; a matrix-product entry sums over the intermediate label.",
+  "witness": {"baseline": "Matrix arithmetic", "prior": "d_a, D, vacuum label 1, diagonal T_top, matched S, and the identity of packet 11 are available", "current": "The sentence identifies which S entries the anyon-theory input fixes and explicitly states their dependence on d_a/D. The next sentence identifies the summed intermediate label."},
+  "reconstructible_object_operation": "Expand the 11 entry of ST_top S, use the diagonal theta_a entry, and replace the two vacuum S entries by d_a/D to obtain D^-2 times the spin-weighted sum of d_a squared.",
+  "next_usable_inference": "Evaluate the 11 entry of the right side of packet 11 using theta_1=1 and S_11=d_1/D=1/D.",
+  "limits": "The normalization is an additional stated input, not derived here. PASS certifies its sufficient stated meaning and use for the conditional argument; it does not certify a learning route to its topological proof. Frozen before access to packet 13."
+}
