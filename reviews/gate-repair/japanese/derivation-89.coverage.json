@@ -1,0 +1,121 @@
+{
+  "input_sha256": "17c382fdce929f71758d0037f48e9031e70105090c232373f8586eb9d53d0ea0",
+  "review_lines": [
+    89,
+    89
+  ],
+  "manual_sweep": {
+    "completed": true,
+    "reviewed_lines": [
+      89,
+      89
+    ]
+  },
+  "dispositions": [],
+  "supplemental_concepts": [
+    {
+      "role": "disciplinary_name",
+      "impact": "high",
+      "referent": "character of a CFT representation",
+      "decision": "KEEP",
+      "reason": "Reader already knows CFT characters. Both independent CFT authors use 指標 for this object, so it preserves the familiar name.",
+      "comparison": {
+        "current": "指標",
+        "english_or_not_applicable": "character",
+        "alternatives_or_not_applicable": [
+          "キャラクター",
+          "character"
+        ],
+        "audience_reason": "Reader already knows CFT characters. Both independent CFT authors use 指標 for this object, so it preserves the familiar name."
+      },
+      "evidence_sources": [
+        {
+          "locator": "https://www2.yukawa.kyoto-u.ac.jp/~eguchi40/Sugawara.pdf#page=12",
+          "usage": "N=4 and N=3 SCA 指標公式 and モジュラー変換公式; extended characters in CFT. Direct web text inspected at lines 57–64.",
+          "genre": "CFT researcher lecture slides",
+          "community": "CFT"
+        },
+        {
+          "locator": "https://www-het.phys.sci.osaka-u.ac.jp/~yamaguch/j/pdf/d.pdf#page=18",
+          "usage": "χ characters, modular S and T transformations including τ→τ+1; Japanese 指標 and モジュラー変換 in running explanation. Search returned actual thesis passage; direct open failed.",
+          "genre": "researcher doctoral thesis",
+          "community": "CFT / string theory"
+        }
+      ],
+      "id": "manual-1",
+      "surface": "指標",
+      "occurrences": [
+        {
+          "line": 89,
+          "column": 19
+        }
+      ]
+    },
+    {
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "complex modular parameter passed to character χ, not an experimental adjustment parameter",
+      "decision": "UNVERIFIED",
+      "reason": "complex modular parameter passed to character χ, not an experimental adjustment parameter; no new name is introduced by this delta.",
+      "uncertainty_reason": "This delta review has not completed independent Japanese preference evidence for this existing prerequisite name.",
+      "missing_evidence": "Independent Japanese naming comparison if whole-manuscript acceptance is requested.",
+      "blocks_whole_range_pass": false,
+      "defer_reason": "Referent is fixed by an adjacent explicit formula, prior definition, source proper identity, or reader prerequisite; spelling preference uncertainty here does not change the operation or claim. Any high-impact whole-manuscript first-use decision remains outside this delta verdict.",
+      "id": "manual-2",
+      "surface": "引数",
+      "occurrences": [
+        {
+          "line": 89,
+          "column": 29
+        }
+      ]
+    },
+    {
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "large-imaginary-τ regime of the character, not actual sample cooling",
+      "decision": "UNVERIFIED",
+      "reason": "large-imaginary-τ regime of the character, not actual sample cooling; no new name is introduced by this delta.",
+      "uncertainty_reason": "This delta review has not completed independent Japanese preference evidence for this existing prerequisite name.",
+      "missing_evidence": "Independent Japanese naming comparison if whole-manuscript acceptance is requested.",
+      "blocks_whole_range_pass": false,
+      "defer_reason": "Referent is fixed by an adjacent explicit formula, prior definition, source proper identity, or reader prerequisite; spelling preference uncertainty here does not change the operation or claim. Any high-impact whole-manuscript first-use decision remains outside this delta verdict.",
+      "id": "manual-3",
+      "surface": "低温",
+      "occurrences": [
+        {
+          "line": 89,
+          "column": 16
+        }
+      ]
+    },
+    {
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "decision": "KEEP",
+      "reason": "Question about solving the inverse modular map; it does not assign a new name to a scientific object.",
+      "id": "manual-4",
+      "surface": "引数を求める",
+      "occurrences": [
+        {
+          "line": 89,
+          "column": 29
+        }
+      ]
+    },
+    {
+      "role": "ordinary_syntax",
+      "impact": "high",
+      "decision": "KEEP",
+      "reason": "Summary asks which modular argument reconstructs the numerator from low-temperature characters. It names no additional scientific entity; 指標 and 引数 are individually reviewed.",
+      "id": "manual-5",
+      "surface": "確認：分子を低温の指標で表すには、どの引数を求めるか",
+      "occurrences": [
+        {
+          "line": 89,
+          "column": 10
+        }
+      ]
+    }
+  ]
+}

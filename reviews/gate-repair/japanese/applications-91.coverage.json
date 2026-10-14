@@ -1,0 +1,110 @@
+{
+  "input_sha256": "a3ce2718ed23076fa6b51118ab337fd2be832ef4423b9cca051753f9c5297349",
+  "review_lines": [
+    91,
+    91
+  ],
+  "manual_sweep": {
+    "completed": true,
+    "reviewed_lines": [
+      91,
+      91
+    ]
+  },
+  "dispositions": [],
+  "supplemental_concepts": [
+    {
+      "role": "disciplinary_name",
+      "impact": "high",
+      "referent": "translation of subsystem A around the cylinder by angle 2π/n",
+      "decision": "UNVERIFIED",
+      "reason": "The paper establishes this operator identity, but independent Japanese preference comparison for the full name was not obtained. 部分並進 can denote a different general operation, so it cannot be substituted solely from lexical similarity.",
+      "uncertainty_reason": "The paper establishes this operator identity, but independent Japanese preference comparison for the full name was not obtained. 部分並進 can denote a different general operation, so it cannot be substituted solely from lexical similarity.",
+      "missing_evidence": "Independent Japanese naming comparison or explicit project authority for this cylinder operation.",
+      "blocks_whole_range_pass": true,
+      "comparison": {
+        "current": "部分回転",
+        "english_or_not_applicable": "partial rotation",
+        "alternatives_or_not_applicable": [
+          "partial rotation",
+          "部分並進"
+        ],
+        "audience_reason": "Meaning is locally identifiable; preferred naming cannot be certified from that fact alone."
+      },
+      "id": "manual-1",
+      "surface": "部分回転",
+      "occurrences": [
+        {
+          "line": 91,
+          "column": 13
+        }
+      ]
+    },
+    {
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "argument/unit phase of a nonzero complex number, fixed by normalization in overview",
+      "decision": "UNVERIFIED",
+      "reason": "argument/unit phase of a nonzero complex number, fixed by normalization in overview; no new name is introduced by this delta.",
+      "uncertainty_reason": "This delta review has not completed independent Japanese preference evidence for this existing prerequisite name.",
+      "missing_evidence": "Independent Japanese naming comparison if whole-manuscript acceptance is requested.",
+      "blocks_whole_range_pass": false,
+      "defer_reason": "Referent is fixed by an adjacent explicit formula, prior definition, source proper identity, or reader prerequisite; spelling preference uncertainty here does not change the operation or claim. Any high-impact whole-manuscript first-use decision remains outside this delta verdict.",
+      "id": "manual-2",
+      "surface": "位相",
+      "occurrences": [
+        {
+          "line": 91,
+          "column": 31
+        }
+      ]
+    },
+    {
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "conformal field theory, original acronym assumed familiar to reader of characters",
+      "decision": "UNVERIFIED",
+      "reason": "conformal field theory, original acronym assumed familiar to reader of characters; no new name is introduced by this delta.",
+      "uncertainty_reason": "This delta review has not completed independent Japanese preference evidence for this existing prerequisite name.",
+      "missing_evidence": "Independent Japanese naming comparison if whole-manuscript acceptance is requested.",
+      "blocks_whole_range_pass": false,
+      "defer_reason": "Referent is fixed by an adjacent explicit formula, prior definition, source proper identity, or reader prerequisite; spelling preference uncertainty here does not change the operation or claim. Any high-impact whole-manuscript first-use decision remains outside this delta verdict.",
+      "id": "manual-3",
+      "surface": "CFT",
+      "occurrences": [
+        {
+          "line": 91,
+          "column": 24
+        }
+      ]
+    },
+    {
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "decision": "KEEP",
+      "reason": "Number two counts subsystem parts and the later pair of characters; it is not a scientific name.",
+      "id": "manual-4",
+      "surface": "二",
+      "occurrences": [
+        {
+          "line": 91,
+          "column": 8
+        }
+      ]
+    },
+    {
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "decision": "KEEP",
+      "reason": "Ordinary statement of computing an observable numerically; object is separately named.",
+      "id": "manual-5",
+      "surface": "数値評価",
+      "occurrences": [
+        {
+          "line": 91,
+          "column": 18
+        }
+      ]
+    }
+  ]
+}

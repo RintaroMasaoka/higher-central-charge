@@ -1,0 +1,22 @@
+{
+  "unit": "heading.md",
+  "release_order": 1,
+  "frozen_before_answer_access": true,
+  "perspective": "explanation-act only",
+  "quote": "確認：$n=1$ の主要項の位相は $1$ になるか",
+  "content": "A question about the phase of the n=1 leading term, with no answer asserted.",
+  "act": "Invites an optional local consistency check of the approximation.",
+  "presupposition": "The leading term just obtained can be evaluated at n=1; it does not presuppose that the learner previously asserted its phase was 1.",
+  "first_pass_significance": "Marks n=1 as a useful diagnostic case and leaves its result open. The explicit leading-term scope limits the object of the question.",
+  "context_license": [
+    "角度 $2\\pi/n$ は円筒の周を $n$ 等分した一つ分の移動に対応する。",
+    "$n=1$ では ... $\\zeta_1=e^{2\\pi i c_-/8}$",
+    "主要項が非ゼロなら、規格化した観測値に既知の中心電荷の位相を戻すことで ... $\\simeq\\zeta_n$"
+  ],
+  "resolution_and_return": "The heading sets up comparing the simple full-turn case with the derived leading phase. Resolution awaits the answer; this is appropriate for an optional selfcheck.",
+  "content_preserving_comparison": "Omitting the heading removes the invitation to evaluate a diagnostic case but does not remove the preceding general formula. A heading announcing an already determined result would remove the learner's opportunity to check that case. The present interrogative is licensed by the n-dependent observable and phase correction and does not manufacture a prior erroneous stance.",
+  "cumulative_effect": "Within the supplied excerpts this is one scoped check, not a repeated correction or reassurance.",
+  "verdict": "PASS",
+  "limits": "Context is a supplied excerpt packet already available to the learner, not independently certified first-encounter context. No scientific, prerequisite, Japanese, visual, or production judgment. No answer was accessed before this record was frozen.",
+  "sha256": "e0c60204d1c0371878a816c2115c2e7ee85f104cf1f6a806e40ef6e79fc27697"
+}

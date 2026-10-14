@@ -1,0 +1,427 @@
+{
+  "input_sha256": "1449fc165031f74f8e0c221b5529523714eda6b6be6389db754940bb067b3ed2",
+  "review_lines": [
+    57,
+    57
+  ],
+  "manual_sweep": {
+    "completed": true,
+    "reviewed_lines": [
+      57,
+      57
+    ]
+  },
+  "dispositions": [
+    {
+      "candidate_id": "s8",
+      "surface": "となる",
+      "occurrences": [
+        {
+          "line": 57,
+          "column": 89
+        },
+        {
+          "line": 57,
+          "column": 314
+        },
+        {
+          "line": 57,
+          "column": 438
+        }
+      ],
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "decision": "KEEP",
+      "reason": "Predicate expressing the result of a calculation; no named scientific entity.",
+      "referent": "Predicate expressing the result of a calculation; no named scientific entity."
+    },
+    {
+      "candidate_id": "s16",
+      "surface": "スピン",
+      "occurrences": [
+        {
+          "line": 57,
+          "column": 292
+        },
+        {
+          "line": 57,
+          "column": 352
+        },
+        {
+          "line": 57,
+          "column": 362
+        }
+      ],
+      "role": "disciplinary_name",
+      "impact": "high",
+      "referent": "topological spin theta_a, not the microscopic angular momentum of the Kitaev model",
+      "decision": "UNVERIFIED",
+      "reason": "The abbreviation retains the topological-spin identity established at boundary:7 and the immediately preceding theta_a powers. No identity loss or sentence repair is supported. Certification of this pre-existing Japanese name is outside the three-paragraph delta remit.",
+      "uncertainty_reason": "This delta reviewer has not obtained two independent community sources for the preferred abbreviated Japanese name. The supplied inspected evidence concerns other names.",
+      "missing_evidence": "Parent adjudication must supply the already accepted topological-spin naming record, or independent Japanese anyon usage.",
+      "blocks_whole_range_pass": true,
+      "scope_note": "This is a limit on standalone naming certification, not a new defect or a recommendation to change the existing abbreviation.",
+      "comparison": {
+        "current": "スピン",
+        "english_or_not_applicable": "topological spin",
+        "alternatives_or_not_applicable": "トポロジカルスピン; full form is already given in this chapter",
+        "audience_reason": "Readers have the full form and theta_a available before this abbreviated use."
+      }
+    },
+    {
+      "candidate_id": "s19",
+      "surface": "互",
+      "occurrences": [
+        {
+          "line": 57,
+          "column": 52
+        },
+        {
+          "line": 57,
+          "column": 126
+        },
+        {
+          "line": 57,
+          "column": 318
+        }
+      ],
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "decision": "KEEP",
+      "reason": "Scanner fragment of 互いに素, the usual arithmetic relation gcd=1; not a new anyon label.",
+      "referent": "Scanner fragment of 互いに素, the usual arithmetic relation gcd=1; not a new anyon label."
+    },
+    {
+      "candidate_id": "s20",
+      "surface": "位相",
+      "occurrences": [
+        {
+          "line": 57,
+          "column": 326
+        },
+        {
+          "line": 57,
+          "column": 398
+        },
+        {
+          "line": 57,
+          "column": 430
+        }
+      ],
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "decision": "KEEP",
+      "reason": "Usual complex-number phase of the spin-power sum; not topology or a phase of matter. Equality to 1 and preceding sums keep that referent explicit.",
+      "referent": "Usual complex-number phase of the spin-power sum; not topology or a phase of matter. Equality to 1 and preceding sums keep that referent explicit."
+    },
+    {
+      "candidate_id": "s22",
+      "surface": "全",
+      "occurrences": [
+        {
+          "line": 57,
+          "column": 289
+        },
+        {
+          "line": 57,
+          "column": 395
+        },
+        {
+          "line": 57,
+          "column": 418
+        }
+      ],
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "decision": "KEEP",
+      "reason": "Universal quantifier in 全て; the stated integer/spin/phase scopes are maintained.",
+      "referent": "Universal quantifier in 全て; the stated integer/spin/phase scopes are maintained."
+    },
+    {
+      "candidate_id": "s26",
+      "surface": "切",
+      "occurrences": [
+        {
+          "line": 57,
+          "column": 142
+        },
+        {
+          "line": 57,
+          "column": 181
+        },
+        {
+          "line": 57,
+          "column": 280
+        }
+      ],
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "decision": "KEEP",
+      "reason": "Fragment of 割り切る, integer divisibility; not a spatial cut or entanglement cut.",
+      "referent": "Fragment of 割り切る, integer divisibility; not a spatial cut or entanglement cut."
+    },
+    {
+      "candidate_id": "s27",
+      "surface": "割",
+      "occurrences": [
+        {
+          "line": 57,
+          "column": 140
+        },
+        {
+          "line": 57,
+          "column": 161
+        },
+        {
+          "line": 57,
+          "column": 179
+        },
+        {
+          "line": 57,
+          "column": 278
+        }
+      ],
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "decision": "KEEP",
+      "reason": "All four occurrences are integer divides/divisibility, including 割る and 割り切る; no different referent.",
+      "referent": "All four occurrences are integer divides/divisibility, including 割る and 割り切る; no different referent."
+    },
+    {
+      "candidate_id": "s28",
+      "surface": "十分条件",
+      "occurrences": [
+        {
+          "line": 57,
+          "column": 18
+        },
+        {
+          "line": 57,
+          "column": 93
+        },
+        {
+          "line": 57,
+          "column": 243
+        },
+        {
+          "line": 57,
+          "column": 409
+        }
+      ],
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "decision": "KEEP",
+      "reason": "Ordinary logical expression referring back to the explicit gcd condition at boundary:23-25; no newly coined name.",
+      "referent": "Ordinary logical expression referring back to the explicit gcd condition at boundary:23-25; no newly coined name."
+    },
+    {
+      "candidate_id": "s32",
+      "surface": "和",
+      "occurrences": [
+        {
+          "line": 57,
+          "column": 311
+        },
+        {
+          "line": 57,
+          "column": 374
+        },
+        {
+          "line": 57,
+          "column": 382
+        }
+      ],
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "decision": "KEEP",
+      "reason": "Sum of spin powers over anyon types, or its factorization; ordinary addition, not a special imported object name.",
+      "referent": "Sum of spin powers over anyon types, or its factorization; ordinary addition, not a special imported object name."
+    },
+    {
+      "candidate_id": "s45",
+      "surface": "積",
+      "groups": [
+        {
+          "occurrences": [
+            {
+              "line": 57,
+              "column": 342
+            }
+          ],
+          "role": "ordinary_syntax",
+          "impact": "incidental",
+          "decision": "KEEP",
+          "reason": "Product decomposition of the previously constructed component theories; ordinary descriptive product relation, not a newly admitted scientific name.",
+          "referent": "product of component anyon theories"
+        },
+        {
+          "occurrences": [
+            {
+              "line": 57,
+              "column": 366
+            },
+            {
+              "line": 57,
+              "column": 384
+            }
+          ],
+          "role": "ordinary_syntax",
+          "impact": "incidental",
+          "decision": "KEEP",
+          "reason": "Scalar multiplication of topological spins and of their sums; ordinary multiplication, not the component theory as an object.",
+          "referent": "product of complex numbers"
+        }
+      ]
+    },
+    {
+      "candidate_id": "s46",
+      "surface": "素",
+      "occurrences": [
+        {
+          "line": 57,
+          "column": 55
+        },
+        {
+          "line": 57,
+          "column": 129
+        },
+        {
+          "line": 57,
+          "column": 321
+        }
+      ],
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "decision": "KEEP",
+      "reason": "Scanner fragment of 互いに素, whose three instances all mean coprime integers.",
+      "referent": "Scanner fragment of 互いに素, whose three instances all mean coprime integers."
+    }
+  ],
+  "supplemental_concepts": [
+    {
+      "id": "m1",
+      "surface": "Abelian",
+      "occurrences": [
+        {
+          "line": 57,
+          "column": 9
+        }
+      ],
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "Abelian anyon theory, as used in the already introduced sufficient criterion",
+      "decision": "KEEP",
+      "reason": "Existing English adjective is unchanged; this mention refers back to the previously stated class rather than defining or renaming it.",
+      "evidence": {
+        "locator": "https://arxiv.org/pdf/2303.04822v4; supplement Complete determination of edge gappability for bosonic Abelian phases",
+        "usage": "The original-source section locator explicitly identifies bosonic Abelian phases; the current English adjective retains that identity.",
+        "genre": "original research paper and supplement",
+        "community": "anyon theory and topological quantum matter"
+      },
+      "comparison": {
+        "current": "Abelian",
+        "english_or_not_applicable": "Abelian",
+        "alternatives_or_not_applicable": "可換; アーベル",
+        "audience_reason": "The original paper is new to the reader, and the existing source-native adjective remains directly searchable; this delta introduces no Japanese alternative or class change."
+      }
+    },
+    {
+      "id": "m2",
+      "surface": "素数の冪",
+      "occurrences": [
+        {
+          "line": 57,
+          "column": 37
+        }
+      ],
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "decision": "KEEP",
+      "reason": "Positive prime power N_j; ordinary integer arithmetic, not a new discipline-specific label.",
+      "referent": "Positive prime power N_j; ordinary integer arithmetic, not a new discipline-specific label."
+    },
+    {
+      "id": "m3",
+      "surface": "最大公約数",
+      "occurrences": [
+        {
+          "line": 57,
+          "column": 248
+        }
+      ],
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "decision": "KEEP",
+      "reason": "The explicit gcd(n,N_FS/gcd(n,N_FS)) operation; standard arithmetic name without an alternative imported scientific referent.",
+      "referent": "The explicit gcd(n,N_FS/gcd(n,N_FS)) operation; standard arithmetic name without an alternative imported scientific referent."
+    },
+    {
+      "id": "m4",
+      "surface": "部分理論",
+      "occurrences": [
+        {
+          "line": 57,
+          "column": 282
+        },
+        {
+          "line": 57,
+          "column": 357
+        },
+        {
+          "line": 57,
+          "column": 377
+        }
+      ],
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "decision": "KEEP",
+      "reason": "Descriptive phrase for the p-primary component theories already constructed at boundary:43; does not introduce a named class or erase its prime indexing.",
+      "referent": "Descriptive phrase for the p-primary component theories already constructed at boundary:43; does not introduce a named class or erase its prime indexing."
+    },
+    {
+      "id": "m5",
+      "surface": "測定集合",
+      "occurrences": [
+        {
+          "line": 57,
+          "column": 331
+        }
+      ],
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "decision": "KEEP",
+      "reason": "Descriptive noun phrase for the explicitly enumerated n values at boundary:47-50; no imported technical name.",
+      "referent": "Descriptive noun phrase for the explicitly enumerated n values at boundary:47-50; no imported technical name."
+    },
+    {
+      "id": "m6",
+      "surface": "互いに素",
+      "occurrences": [
+        {
+          "line": 57,
+          "column": 52
+        },
+        {
+          "line": 57,
+          "column": 126
+        },
+        {
+          "line": 57,
+          "column": 318
+        }
+      ],
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "decision": "KEEP",
+      "reason": "The full arithmetic phrase omitted by the fragment scanner; always gcd=1.",
+      "referent": "The full arithmetic phrase omitted by the fragment scanner; always gcd=1."
+    }
+  ],
+  "projection": {
+    "method": "Assigned Markdown paragraph has no hidden comments, metadata, or markup; identity projection of the selected reader-visible line.",
+    "source_sha256": "1449fc165031f74f8e0c221b5529523714eda6b6be6389db754940bb067b3ed2",
+    "review_body_sha256": "c3f36e369e61b052a309dfd0987a2b69df5a73cd49c3faa9d143182c8b9979ec"
+  },
+  "verdict": "NO_SUPPORTED_DELTA_WORDING_REPAIR; standalone whole-range naming PASS withheld for pre-existing topological-spin handle",
+  "supported_repairs": []
+}

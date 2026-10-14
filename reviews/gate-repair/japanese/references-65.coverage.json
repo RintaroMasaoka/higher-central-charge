@@ -1,0 +1,196 @@
+{
+  "input_sha256": "8f4406c012241b28a116f7d85cf31fdadf05ecbedb208bc456e895dcff49a51b",
+  "review_lines": [
+    65,
+    65
+  ],
+  "manual_sweep": {
+    "completed": true,
+    "reviewed_lines": [
+      65,
+      65
+    ]
+  },
+  "dispositions": [],
+  "supplemental_concepts": [
+    {
+      "role": "disciplinary_name",
+      "impact": "high",
+      "referent": "higher central charge invariant of anyon theory",
+      "decision": "KEEP",
+      "reason": "Independent TQFT and condensed-matter sources use the two Japanese variants for the same invariant. Current compound remains recognizable and coherent with 中心電荷.",
+      "comparison": {
+        "current": "高次中心電荷",
+        "english_or_not_applicable": "higher central charge",
+        "alternatives_or_not_applicable": [
+          "高次の中心電荷",
+          "higher central charge"
+        ],
+        "audience_reason": "Independent TQFT and condensed-matter sources use the two Japanese variants for the same invariant. Current compound remains recognizable and coherent with 中心電荷."
+      },
+      "evidence_sources": [
+        {
+          "locator": "https://www2.yukawa.kyoto-u.ac.jp/~soken.editorial/sokendenshi/vol46/3/時間反転対称な位相的場の理論.pdf#page=78",
+          "usage": "Table 4.1 at manuscript page 77: 高次中心電荷の自明性 and 可換/非可換エニオン系. Direct web text inspected at lines 3985–3991.",
+          "genre": "scholarly TQFT review / thesis",
+          "community": "anyon theory / topological phases"
+        },
+        {
+          "locator": "https://www.jstage.jst.go.jp/article/natsugaku/4/0/4_173/_pdf/-char/ja#page=8",
+          "usage": "高次の中心電荷（higher central charges）in running prose, page 180; direct web text inspected at lines 451–455.",
+          "genre": "物性若手夏の学校 researcher lecture text",
+          "community": "topological quantum matter"
+        }
+      ],
+      "id": "manual-1",
+      "surface": "高次中心電荷",
+      "occurrences": [
+        {
+          "line": 65,
+          "column": 161
+        }
+      ]
+    },
+    {
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "central charge c of a CFT, assumed familiar to reader of characters",
+      "decision": "UNVERIFIED",
+      "reason": "central charge c of a CFT, assumed familiar to reader of characters; no new name is introduced by this delta.",
+      "uncertainty_reason": "This delta review has not completed independent Japanese preference evidence for this existing prerequisite name.",
+      "missing_evidence": "Independent Japanese naming comparison if whole-manuscript acceptance is requested.",
+      "blocks_whole_range_pass": false,
+      "defer_reason": "Referent is fixed by an adjacent explicit formula, prior definition, source proper identity, or reader prerequisite; spelling preference uncertainty here does not change the operation or claim. Any high-impact whole-manuscript first-use decision remains outside this delta verdict.",
+      "id": "manual-2",
+      "surface": "中心電荷",
+      "occurrences": [
+        {
+          "line": 65,
+          "column": 163
+        }
+      ]
+    },
+    {
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "bosonic state/statistics, governing scope already set in overview",
+      "decision": "UNVERIFIED",
+      "reason": "bosonic state/statistics, governing scope already set in overview; no new name is introduced by this delta.",
+      "uncertainty_reason": "This delta review has not completed independent Japanese preference evidence for this existing prerequisite name.",
+      "missing_evidence": "Independent Japanese naming comparison if whole-manuscript acceptance is requested.",
+      "blocks_whole_range_pass": false,
+      "defer_reason": "Referent is fixed by an adjacent explicit formula, prior definition, source proper identity, or reader prerequisite; spelling preference uncertainty here does not change the operation or claim. Any high-impact whole-manuscript first-use decision remains outside this delta verdict.",
+      "id": "manual-3",
+      "surface": "ボソン",
+      "occurrences": [
+        {
+          "line": 65,
+          "column": 235
+        }
+      ]
+    },
+    {
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "anyon theory with dimension-one simple objects, unchanged English classification",
+      "decision": "UNVERIFIED",
+      "reason": "anyon theory with dimension-one simple objects, unchanged English classification; no new name is introduced by this delta.",
+      "uncertainty_reason": "This delta review has not completed independent Japanese preference evidence for this existing prerequisite name.",
+      "missing_evidence": "Independent Japanese naming comparison if whole-manuscript acceptance is requested.",
+      "blocks_whole_range_pass": false,
+      "defer_reason": "Referent is fixed by an adjacent explicit formula, prior definition, source proper identity, or reader prerequisite; spelling preference uncertainty here does not change the operation or claim. Any high-impact whole-manuscript first-use decision remains outside this delta verdict.",
+      "id": "manual-4",
+      "surface": "Abelian",
+      "occurrences": [
+        {
+          "line": 65,
+          "column": 117
+        },
+        {
+          "line": 65,
+          "column": 185
+        }
+      ]
+    },
+    {
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "theory of anyon data, distinct from actual physical central charge modulo eight",
+      "decision": "UNVERIFIED",
+      "reason": "theory of anyon data, distinct from actual physical central charge modulo eight; no new name is introduced by this delta.",
+      "uncertainty_reason": "This delta review has not completed independent Japanese preference evidence for this existing prerequisite name.",
+      "missing_evidence": "Independent Japanese naming comparison if whole-manuscript acceptance is requested.",
+      "blocks_whole_range_pass": false,
+      "defer_reason": "Referent is fixed by an adjacent explicit formula, prior definition, source proper identity, or reader prerequisite; spelling preference uncertainty here does not change the operation or claim. Any high-impact whole-manuscript first-use decision remains outside this delta verdict.",
+      "id": "manual-5",
+      "surface": "エニオン理論",
+      "occurrences": [
+        {
+          "line": 65,
+          "column": 239
+        }
+      ]
+    },
+    {
+      "role": "explanatory_gloss",
+      "impact": "incidental",
+      "referent": "externally cited mathematical classification used as an input to boundary inference",
+      "decision": "UNVERIFIED",
+      "reason": "externally cited mathematical classification used as an input to boundary inference; no new name is introduced by this delta.",
+      "uncertainty_reason": "This delta review has not completed independent Japanese preference evidence for this existing prerequisite name.",
+      "missing_evidence": "Independent Japanese naming comparison if whole-manuscript acceptance is requested.",
+      "blocks_whole_range_pass": false,
+      "defer_reason": "Referent is fixed by an adjacent explicit formula, prior definition, source proper identity, or reader prerequisite; spelling preference uncertainty here does not change the operation or claim. Any high-impact whole-manuscript first-use decision remains outside this delta verdict.",
+      "id": "manual-6",
+      "surface": "分類定理",
+      "occurrences": [
+        {
+          "line": 65,
+          "column": 230
+        }
+      ]
+    },
+    {
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "decision": "KEEP",
+      "reason": "Geometric/physical boundary is explicitly qualified in these clauses; review the full エンタングルメント境界 separately rather than giving the short everyday noun a new technical role.",
+      "id": "manual-7",
+      "surface": "境界",
+      "occurrences": [
+        {
+          "line": 65,
+          "column": 218
+        }
+      ]
+    },
+    {
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "decision": "KEEP",
+      "reason": "Ordinary logical necessity with the antecedent integer conditions present in the formula.",
+      "id": "manual-8",
+      "surface": "必要条件",
+      "occurrences": [
+        {
+          "line": 65,
+          "column": 168
+        }
+      ]
+    },
+    {
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "decision": "KEEP",
+      "reason": "Ordinary logical sufficiency; Abelian qualification is retained and scope differs from necessary condition.",
+      "id": "manual-9",
+      "surface": "十分条件",
+      "occurrences": [
+        {
+          "line": 65,
+          "column": 194
+        }
+      ]
+    }
+  ]
+}

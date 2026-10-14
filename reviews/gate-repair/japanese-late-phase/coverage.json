@@ -1,0 +1,29 @@
+{
+  "input_sha256": "40555f3568618467d620f457bcc42d0d412867f4a3f007ac0b74b181019515de",
+  "review_lines": [167, 169],
+  "perspective": "Japanese explanatory wording; complex-phase family only",
+  "manual_sweep": {"completed": true, "reviewed_lines": [167,169], "scope": "complex-phase family and immediate comparison wording"},
+  "dispositions": [{
+    "candidate_id": "s13",
+    "groups": [
+      {"occurrences": [{"line":167,"column":22}], "role":"ordinary_syntax", "impact":"high", "referent":"The unit-modulus part of the computed scalar, fixed by the supplied normalization context", "decision":"KEEP", "reason":"Here 位相 is the established descriptive word for the supplied complex phase, not a new locally coined formal name. The wording defect is the comparison predicate's omitted scalar object, recorded separately; it is not an uncertain preferred Japanese name."},
+      {"occurrences": [{"line":169,"column":114}], "role":"ordinary_syntax", "impact":"high", "referent":"Unit-modulus part of the leading contribution after cancellation", "decision":"KEEP", "reason":"主要項の位相 describes which already supplied scalar phase is being taken. The preceding formula fixes unit-modulus phase rather than an angle. No special concept is renamed, and replacing it by 偏角 would change the intended quantity."},
+      {"occurrences": [{"line":169,"column":164}], "role":"ordinary_syntax", "impact":"high", "referent":"Unit-modulus part of the expectation value 1", "decision":"KEEP", "reason":"その位相 has the immediately preceding 期待値 as its Japanese antecedent. This ordinary reference is locally determinate; no new formal name or unexplained synonym is introduced."}
+    ]
+  }],
+  "supplemental_concepts": [
+    {"id":"translation-summary","surface":"一周の並進","occurrences":[{"line":167,"column":26}],"role":"ordinary_syntax","impact":"high","decision":"KEEP","reason":"A concrete description of the supplied full-period translation. The comparison requires its expectation-value phase; the description of the operation itself is not a naming defect."},
+    {"id":"translation-answer","surface":"一周の並進","occurrences":[{"line":169,"column":126}],"role":"ordinary_syntax","impact":"high","decision":"KEEP","reason":"Same full-period operation, described in ordinary Japanese. No special full-translation label is being introduced."},
+    {"id":"leading-term","surface":"主要項","occurrences":[{"line":169,"column":110}],"role":"ordinary_syntax","impact":"incidental","decision":"KEEP","reason":"An established description of the leading contribution under the approximation supplied as context, not a formal named object. Its Japanese construction with の位相 is normal."},
+    {"id":"identity-operation","surface":"恒等操作","occurrences":[{"line":169,"column":132}],"role":"ordinary_syntax","impact":"incidental","decision":"KEEP","reason":"Describes the supplied operation as leaving the state unchanged. It does not introduce a technical operator name; 恒等演算子 is an optional more operator-specific expression, not a supported repair requirement here."},
+    {"id":"expectation","surface":"期待値","occurrences":[{"line":169,"column":149}],"role":"ordinary_syntax","impact":"high","decision":"KEEP","reason":"Uses the established Japanese description of the supplied state expectation. No invented translation or unfamiliar naming choice is present; the mathematical fact that this expectation is 1 is an input, not a verdict of this review."},
+    {"id":"normalized","surface":"規格化","occurrences":[{"line":169,"column":140}],"role":"ordinary_syntax","impact":"incidental","decision":"KEEP","reason":"規格化した状態 is an established participial description of the supplied normalized state. No preferred-name uncertainty is warranted by this wording."}
+  ],
+  "sentence_records": [
+    {"id":"summary-comparison","line":167,"decision":"CHANGE","current":"位相は、一周の並進と一致するか","defect":"The Japanese subjects of 一致する are a scalar phase and an operation. The phrase elides the actual scalar being compared, although the answer makes it explicit.","proposed":"位相は、一周の並進の期待値の位相と一致するか","repair_condition":"Name the translation expectation's phase as the comparison object; no change to scientific input required."},
+    {"id":"opened-answer","line":169,"decision":"KEEP","reason":"Cancellation, leading contribution's phase, identity operation, normalized-state expectation and its phase have usable Japanese relations. The answer's two phase occurrences have distinct local scalar referents. This does not certify the scientific claims."}
+  ],
+  "excluded_concepts": ["中心電荷", "Gauss–Milgram 関係"],
+  "exclusion_reason": "These are scientific inputs outside the one assigned phase-wording family; no naming or scientific acceptance for them is claimed.",
+  "verdict": "CHANGES_REQUESTED for summary comparison wording; KEEP for answer's phase-family wording only"
+}

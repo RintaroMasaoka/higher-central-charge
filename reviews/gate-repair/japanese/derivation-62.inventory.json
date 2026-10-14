@@ -1,0 +1,30 @@
+{
+  "input": "/Users/rintaromasaoka/Desktop/Learning/Study/Higher-central-charge/content/derivation.md",
+  "input_sha256": "17c382fdce929f71758d0037f48e9031e70105090c232373f8586eb9d53d0ea0",
+  "review_lines": [
+    62,
+    62
+  ],
+  "kind": "surface_candidates_not_terms_or_defects",
+  "repeated_candidates": [
+    {
+      "id": "s7",
+      "surface": "引数",
+      "occurrences": [
+        {
+          "line": 62,
+          "column": 6
+        },
+        {
+          "line": 62,
+          "column": 33
+        },
+        {
+          "line": 62,
+          "column": 76
+        }
+      ]
+    }
+  ],
+  "structural_candidates": []
+}

@@ -1,0 +1,11 @@
+{
+  "source": "content/overview.md",
+  "sha256": "393c256c0bbf0eafd4ce2a3829164fe36639361a9b2def5d4e28db5d879d4e4a",
+  "projectionSha256": "3dfdb69a8de6d10e3c774456e497aa457274e1d949e090070ce7d35848e2e141",
+  "removed": {
+    "disclosures": 2,
+    "mathHints": 0,
+    "stepPopups": 0
+  },
+  "units": 31
+}

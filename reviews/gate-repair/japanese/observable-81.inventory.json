@@ -1,0 +1,30 @@
+{
+  "input": "/Users/rintaromasaoka/Desktop/Learning/Study/Higher-central-charge/content/observable.md",
+  "input_sha256": "88b80ca95c57d9821e48156060a83ef7623cef02e5b9fe8cf5fdcdb0ef113bfa",
+  "review_lines": [
+    81,
+    81
+  ],
+  "kind": "surface_candidates_not_terms_or_defects",
+  "repeated_candidates": [
+    {
+      "id": "s17",
+      "surface": "摂動",
+      "occurrences": [
+        {
+          "line": 81,
+          "column": 30
+        },
+        {
+          "line": 81,
+          "column": 47
+        },
+        {
+          "line": 81,
+          "column": 62
+        }
+      ]
+    }
+  ],
+  "structural_candidates": []
+}

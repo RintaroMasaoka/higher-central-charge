@@ -1,0 +1,163 @@
+{
+  "input_sha256": "a3ce2718ed23076fa6b51118ab337fd2be832ef4423b9cca051753f9c5297349",
+  "review_lines": [
+    108,
+    108
+  ],
+  "manual_sweep": {
+    "completed": true,
+    "reviewed_lines": [
+      108,
+      108
+    ]
+  },
+  "dispositions": [],
+  "supplemental_concepts": [
+    {
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "argument/unit phase of a nonzero complex number, fixed by normalization in overview",
+      "decision": "UNVERIFIED",
+      "reason": "argument/unit phase of a nonzero complex number, fixed by normalization in overview; no new name is introduced by this delta.",
+      "uncertainty_reason": "This delta review has not completed independent Japanese preference evidence for this existing prerequisite name.",
+      "missing_evidence": "Independent Japanese naming comparison if whole-manuscript acceptance is requested.",
+      "blocks_whole_range_pass": false,
+      "defer_reason": "Referent is fixed by an adjacent explicit formula, prior definition, source proper identity, or reader prerequisite; spelling preference uncertainty here does not change the operation or claim. Any high-impact whole-manuscript first-use decision remains outside this delta verdict.",
+      "id": "manual-1",
+      "surface": "位相",
+      "occurrences": [
+        {
+          "line": 108,
+          "column": 132
+        }
+      ]
+    },
+    {
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "bosonic state/statistics, governing scope already set in overview",
+      "decision": "UNVERIFIED",
+      "reason": "bosonic state/statistics, governing scope already set in overview; no new name is introduced by this delta.",
+      "uncertainty_reason": "This delta review has not completed independent Japanese preference evidence for this existing prerequisite name.",
+      "missing_evidence": "Independent Japanese naming comparison if whole-manuscript acceptance is requested.",
+      "blocks_whole_range_pass": false,
+      "defer_reason": "Referent is fixed by an adjacent explicit formula, prior definition, source proper identity, or reader prerequisite; spelling preference uncertainty here does not change the operation or claim. Any high-impact whole-manuscript first-use decision remains outside this delta verdict.",
+      "id": "manual-2",
+      "surface": "ボソン",
+      "occurrences": [
+        {
+          "line": 108,
+          "column": 50
+        }
+      ]
+    },
+    {
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "circumference L of the cylinder, fixed geometrical length",
+      "decision": "UNVERIFIED",
+      "reason": "circumference L of the cylinder, fixed geometrical length; no new name is introduced by this delta.",
+      "uncertainty_reason": "This delta review has not completed independent Japanese preference evidence for this existing prerequisite name.",
+      "missing_evidence": "Independent Japanese naming comparison if whole-manuscript acceptance is requested.",
+      "blocks_whole_range_pass": false,
+      "defer_reason": "Referent is fixed by an adjacent explicit formula, prior definition, source proper identity, or reader prerequisite; spelling preference uncertainty here does not change the operation or claim. Any high-impact whole-manuscript first-use decision remains outside this delta verdict.",
+      "id": "manual-3",
+      "surface": "周長",
+      "occurrences": [
+        {
+          "line": 108,
+          "column": 17
+        }
+      ]
+    },
+    {
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "conformal field theory, original acronym assumed familiar to reader of characters",
+      "decision": "UNVERIFIED",
+      "reason": "conformal field theory, original acronym assumed familiar to reader of characters; no new name is introduced by this delta.",
+      "uncertainty_reason": "This delta review has not completed independent Japanese preference evidence for this existing prerequisite name.",
+      "missing_evidence": "Independent Japanese naming comparison if whole-manuscript acceptance is requested.",
+      "blocks_whole_range_pass": false,
+      "defer_reason": "Referent is fixed by an adjacent explicit formula, prior definition, source proper identity, or reader prerequisite; spelling preference uncertainty here does not change the operation or claim. Any high-impact whole-manuscript first-use decision remains outside this delta verdict.",
+      "id": "manual-4",
+      "surface": "CFT",
+      "occurrences": [
+        {
+          "line": 108,
+          "column": 125
+        }
+      ]
+    },
+    {
+      "role": "proper_name",
+      "impact": "incidental",
+      "decision": "KEEP",
+      "reason": "Laughlin identifies the cited quantum Hall state and preserves its proper name.",
+      "id": "manual-5",
+      "surface": "Laughlin",
+      "occurrences": [
+        {
+          "line": 108,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "dimension of MPS auxiliary bond space controlling numerical truncation",
+      "decision": "UNVERIFIED",
+      "reason": "dimension of MPS auxiliary bond space controlling numerical truncation; no new name is introduced by this delta.",
+      "uncertainty_reason": "This delta review has not completed independent Japanese preference evidence for this existing prerequisite name.",
+      "missing_evidence": "Independent Japanese naming comparison if whole-manuscript acceptance is requested.",
+      "blocks_whole_range_pass": false,
+      "defer_reason": "Referent is fixed by an adjacent explicit formula, prior definition, source proper identity, or reader prerequisite; spelling preference uncertainty here does not change the operation or claim. Any high-impact whole-manuscript first-use decision remains outside this delta verdict.",
+      "id": "manual-6",
+      "surface": "ボンド次元",
+      "occurrences": [
+        {
+          "line": 108,
+          "column": 31
+        },
+        {
+          "line": 108,
+          "column": 91
+        }
+      ]
+    },
+    {
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "magnetic length ℓ_B, explicitly defined beside the reported circumference",
+      "decision": "UNVERIFIED",
+      "reason": "magnetic length ℓ_B, explicitly defined beside the reported circumference; no new name is introduced by this delta.",
+      "uncertainty_reason": "This delta review has not completed independent Japanese preference evidence for this existing prerequisite name.",
+      "missing_evidence": "Independent Japanese naming comparison if whole-manuscript acceptance is requested.",
+      "blocks_whole_range_pass": false,
+      "defer_reason": "Referent is fixed by an adjacent explicit formula, prior definition, source proper identity, or reader prerequisite; spelling preference uncertainty here does not change the operation or claim. Any high-impact whole-manuscript first-use decision remains outside this delta verdict.",
+      "id": "manual-7",
+      "surface": "磁気長",
+      "occurrences": [
+        {
+          "line": 108,
+          "column": 81
+        }
+      ]
+    },
+    {
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "decision": "KEEP",
+      "reason": "Ordinary approximate status; mathematical object and omitted perturbations are expressly supplied.",
+      "id": "manual-8",
+      "surface": "近似",
+      "occurrences": [
+        {
+          "line": 108,
+          "column": 129
+        }
+      ]
+    }
+  ]
+}

@@ -19,7 +19,9 @@ try {
     await mkdir(output);
     await writeFile(output + '/body.md', result.markdown);
     await writeFile(output + '/units.json', JSON.stringify(result.units, null, 2));
-    await writeFile(output + '/manifest.json', JSON.stringify({ source:chapter.file, sha256:createHash('sha256').update(source).digest('hex'), removed:result.removed, units:result.units.length }, null, 2));
+    const packets = JSON.stringify(result.packets, null, 2);
+    await writeFile(output + '/packets.json', packets);
+    await writeFile(output + '/manifest.json', JSON.stringify({ source:chapter.file, sha256:createHash('sha256').update(source).digest('hex'), projectionSha256:createHash('sha256').update(result.markdown).digest('hex'), packetsSha256:createHash('sha256').update(packets).digest('hex'), removed:result.removed, units:result.units.length }, null, 2));
     console.log(chapter.id + ': visible body extracted; hidden blocks: ' + JSON.stringify(result.removed));
   }
 } finally { await server.close(); }

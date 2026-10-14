@@ -1,0 +1,68 @@
+{
+  "input_sha256": "b1641ef94fed178f0dbb699df873298a61c707e7f524ad84020ac47dac3215e5",
+  "review_lines": [68, 68],
+  "perspective": "Japanese disciplinary-name and explanatory-gloss suitability: MPS conserved momentum labels only",
+  "context_read": {"applications.md": [[59, 81]], "observable.md": [[41, 54]]},
+  "manual_sweep": {"completed": true, "reviewed_lines": [68, 68]},
+  "dispositions": [
+    {"candidate_id": "s25", "occurrences": [{"line": 68, "column": 83}, {"line": 68, "column": 135}, {"line": 68, "column": 234}], "role": "ordinary_syntax", "impact": "incidental", "reason": "All three occurrences refer to the cited supplementary document or its citation label; none names a physical quantity or MPS operation."}
+  ],
+  "supplemental_concepts": [
+    {
+      "id": "mps-conserved-label",
+      "surface": "保存運動量のラベル",
+      "occurrences": [{"line": 68, "column": 104}],
+      "role": "explanatory_gloss", "impact": "high", "decision": "UNVERIFIED",
+      "referent": "The conserved momentum label accumulated to the left of a cut, denoted bar K_alpha in the supplied source referent.",
+      "reason": "This is a compositional description of the label, not an announced Japanese formal name. The left-of-cut qualifier and notation keep its supplied identity visible; absence of attested naming evidence does not establish an error.",
+      "comparison": {"current": "保存運動量のラベル", "english_or_not_applicable": "conserved momentum label; momentum label", "alternatives_or_not_applicable": "運動量ラベル; 運動量の量子数 are candidates for investigation, not supported mandatory replacements", "audience_reason": "The relevant community is symmetry-aware MPS and fractional quantum Hall calculations; elementary momentum-conservation sources do not resolve its label terminology."},
+      "uncertainty_reason": "No two independent Japanese disciplinary sources or adopted project terminology authority addressing this same label were obtained.",
+      "missing_evidence": "Running-prose use of the same conserved momentum label in Japanese MPS/FQH sources, with enough context to distinguish a bond charge from physical momentum.",
+      "blocks_whole_range_pass": true
+    },
+    {
+      "id": "mps-inverse-bond-operation",
+      "surface": "補助ボンド上の逆変換",
+      "occurrences": [{"line": 68, "column": 156}],
+      "role": "explanatory_gloss", "impact": "high", "decision": "UNVERIFIED",
+      "referent": "Insertion of the inverse virtual-bond transform for the operation on the right half, as supplied; operator equality is outside this review.",
+      "reason": "The full phrase describes where and how the operation is represented. It need not be a fixed disciplinary name. No positive evidence shows that its Japanese wording loses this supplied identity.",
+      "comparison": {"current": "補助ボンド上の逆変換", "english_or_not_applicable": "inverse virtual-bond transform is the supplied descriptive referent; no distinct established operation name identified", "alternatives_or_not_applicable": "仮想ボンド上の逆変換; ボンド上に作用する逆変換 are possible descriptions, with no evidence of preferred usage for this operation", "audience_reason": "A preference for 仮想 over 補助 cannot be inferred from a generic bond glossary or from translation alone."},
+      "uncertainty_reason": "No same-operation Japanese community comparison or explicit project terminology authority was obtained.",
+      "missing_evidence": "Japanese symmetry-aware MPS sources describing the induced inverse transformation on the virtual/auxiliary bond.",
+      "blocks_whole_range_pass": true
+    },
+    {
+      "id": "mps-label-anaphor",
+      "surface": "ボンドラベル",
+      "occurrences": [{"line": 68, "column": 207}],
+      "role": "explanatory_gloss", "impact": "high", "decision": "UNVERIFIED",
+      "referent": "Anaphoric reference to the just-introduced bar K_alpha conserved momentum label on the auxiliary bond.",
+      "reason": "This compressed reference points to the preceding label rather than introduces another label species; its preferred Japanese rendering shares the unresolved evidence requirement of mps-conserved-label.",
+      "comparison": {"current": "ボンドラベル", "english_or_not_applicable": "bond label, descriptive reference", "alternatives_or_not_applicable": "ボンド上の運動量ラベル; no preferred Japanese alternative established", "audience_reason": "The paragraph specifies the target label locally; longer wording alone would not prove a disciplinary naming improvement."},
+      "uncertainty_reason": "Same-referent Japanese label evidence was not obtained.",
+      "missing_evidence": "Community evidence sufficient to resolve mps-conserved-label.",
+      "blocks_whole_range_pass": true
+    },
+    {
+      "id": "mps-origin-calibration",
+      "surface": "原点の校正",
+      "occurrences": [{"line": 68, "column": 224}],
+      "role": "explanatory_gloss", "impact": "high", "decision": "UNVERIFIED",
+      "referent": "Separate absolute calibration of momentum/charge label origins described in the following paragraphs.",
+      "reason": "This is ordinary explanatory wording for fixing label origins, not a named physical process. The following text gives concrete assignments. No positive evidence establishes a naming error or that 校正 must be replaced by 較正.",
+      "comparison": {"current": "原点の校正", "english_or_not_applicable": "calibration of label origins; source section title Matching iMPS momentum labels to CFT momentums", "alternatives_or_not_applicable": "原点の較正; 原点を定める; ラベルの対応付け are plausible descriptions, not evidence-supported required repairs", "audience_reason": "A metrological spelling convention alone would not determine the natural wording for this MPS/CFT matching operation."},
+      "uncertainty_reason": "No Japanese community source describing this same absolute label calibration was obtained.",
+      "missing_evidence": "Japanese iMPS/FQH prose describing the momentum and charge origin assignments and CFT matching.",
+      "blocks_whole_range_pass": true
+    }
+  ],
+  "omitted_concept_accounting": [
+    {"surface": "無次元運動量", "line": 68, "column": 1, "status": "context-only, outside assigned MPS label naming family; no terminology verdict"},
+    {"surface": "並進", "line": 68, "column": 47, "status": "context-only prior operation; no terminology verdict"},
+    {"surface": "部分回転", "line": 68, "column": 142, "status": "context-only prior operation; no terminology verdict"},
+    {"surface": "MPS", "status": "Existing first-use English name is supplied context; no whole-name recertification"}
+  ],
+  "verdict": "UNVERIFIED for the assigned interpretation-sensitive MPS-label wording family; no supported CHANGE finding",
+  "proposed_repairs": []
+}

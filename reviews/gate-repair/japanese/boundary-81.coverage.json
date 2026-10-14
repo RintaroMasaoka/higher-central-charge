@@ -1,0 +1,236 @@
+{
+  "input_sha256": "9bd9596d2ea22a7db7f1f5543eff5c86e1bded4aed67d72a1a172e18efbc5ef1",
+  "review_lines": [
+    81,
+    81
+  ],
+  "manual_sweep": {
+    "completed": true,
+    "reviewed_lines": [
+      81,
+      81
+    ]
+  },
+  "dispositions": [],
+  "supplemental_concepts": [
+    {
+      "role": "disciplinary_name",
+      "impact": "high",
+      "referent": "higher central charge invariant of anyon theory",
+      "decision": "KEEP",
+      "reason": "Independent TQFT and condensed-matter sources use the two Japanese variants for the same invariant. Current compound remains recognizable and coherent with 中心電荷.",
+      "comparison": {
+        "current": "高次中心電荷",
+        "english_or_not_applicable": "higher central charge",
+        "alternatives_or_not_applicable": [
+          "高次の中心電荷",
+          "higher central charge"
+        ],
+        "audience_reason": "Independent TQFT and condensed-matter sources use the two Japanese variants for the same invariant. Current compound remains recognizable and coherent with 中心電荷."
+      },
+      "evidence_sources": [
+        {
+          "locator": "https://www2.yukawa.kyoto-u.ac.jp/~soken.editorial/sokendenshi/vol46/3/時間反転対称な位相的場の理論.pdf#page=78",
+          "usage": "Table 4.1 at manuscript page 77: 高次中心電荷の自明性 and 可換/非可換エニオン系. Direct web text inspected at lines 3985–3991.",
+          "genre": "scholarly TQFT review / thesis",
+          "community": "anyon theory / topological phases"
+        },
+        {
+          "locator": "https://www.jstage.jst.go.jp/article/natsugaku/4/0/4_173/_pdf/-char/ja#page=8",
+          "usage": "高次の中心電荷（higher central charges）in running prose, page 180; direct web text inspected at lines 451–455.",
+          "genre": "物性若手夏の学校 researcher lecture text",
+          "community": "topological quantum matter"
+        }
+      ],
+      "id": "manual-1",
+      "surface": "高次中心電荷",
+      "occurrences": [
+        {
+          "line": 81,
+          "column": 139
+        }
+      ]
+    },
+    {
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "vacuum sector labelled 1, fixed before these changed lines",
+      "decision": "UNVERIFIED",
+      "reason": "vacuum sector labelled 1, fixed before these changed lines; no new name is introduced by this delta.",
+      "uncertainty_reason": "This delta review has not completed independent Japanese preference evidence for this existing prerequisite name.",
+      "missing_evidence": "Independent Japanese naming comparison if whole-manuscript acceptance is requested.",
+      "blocks_whole_range_pass": false,
+      "defer_reason": "Referent is fixed by an adjacent explicit formula, prior definition, source proper identity, or reader prerequisite; spelling preference uncertainty here does not change the operation or claim. Any high-impact whole-manuscript first-use decision remains outside this delta verdict.",
+      "id": "manual-2",
+      "surface": "真空",
+      "occurrences": [
+        {
+          "line": 81,
+          "column": 9
+        },
+        {
+          "line": 81,
+          "column": 170
+        }
+      ]
+    },
+    {
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "argument/unit phase of a nonzero complex number, fixed by normalization in overview",
+      "decision": "UNVERIFIED",
+      "reason": "argument/unit phase of a nonzero complex number, fixed by normalization in overview; no new name is introduced by this delta.",
+      "uncertainty_reason": "This delta review has not completed independent Japanese preference evidence for this existing prerequisite name.",
+      "missing_evidence": "Independent Japanese naming comparison if whole-manuscript acceptance is requested.",
+      "blocks_whole_range_pass": false,
+      "defer_reason": "Referent is fixed by an adjacent explicit formula, prior definition, source proper identity, or reader prerequisite; spelling preference uncertainty here does not change the operation or claim. Any high-impact whole-manuscript first-use decision remains outside this delta verdict.",
+      "id": "manual-3",
+      "surface": "位相",
+      "occurrences": [
+        {
+          "line": 81,
+          "column": 59
+        },
+        {
+          "line": 81,
+          "column": 122
+        }
+      ]
+    },
+    {
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "central charge c of a CFT, assumed familiar to reader of characters",
+      "decision": "UNVERIFIED",
+      "reason": "central charge c of a CFT, assumed familiar to reader of characters; no new name is introduced by this delta.",
+      "uncertainty_reason": "This delta review has not completed independent Japanese preference evidence for this existing prerequisite name.",
+      "missing_evidence": "Independent Japanese naming comparison if whole-manuscript acceptance is requested.",
+      "blocks_whole_range_pass": false,
+      "defer_reason": "Referent is fixed by an adjacent explicit formula, prior definition, source proper identity, or reader prerequisite; spelling preference uncertainty here does not change the operation or claim. Any high-impact whole-manuscript first-use decision remains outside this delta verdict.",
+      "id": "manual-4",
+      "surface": "中心電荷",
+      "occurrences": [
+        {
+          "line": 81,
+          "column": 141
+        },
+        {
+          "line": 81,
+          "column": 199
+        }
+      ]
+    },
+    {
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "anyon quasiparticle types defined in overview",
+      "decision": "UNVERIFIED",
+      "reason": "anyon quasiparticle types defined in overview; no new name is introduced by this delta.",
+      "uncertainty_reason": "This delta review has not completed independent Japanese preference evidence for this existing prerequisite name.",
+      "missing_evidence": "Independent Japanese naming comparison if whole-manuscript acceptance is requested.",
+      "blocks_whole_range_pass": false,
+      "defer_reason": "Referent is fixed by an adjacent explicit formula, prior definition, source proper identity, or reader prerequisite; spelling preference uncertainty here does not change the operation or claim. Any high-impact whole-manuscript first-use decision remains outside this delta verdict.",
+      "id": "manual-5",
+      "surface": "エニオン",
+      "occurrences": [
+        {
+          "line": 81,
+          "column": 4
+        },
+        {
+          "line": 81,
+          "column": 134
+        }
+      ]
+    },
+    {
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "finite excitation-energy threshold; unchanged established physics name",
+      "decision": "UNVERIFIED",
+      "reason": "finite excitation-energy threshold; unchanged established physics name; no new name is introduced by this delta.",
+      "uncertainty_reason": "This delta review has not completed independent Japanese preference evidence for this existing prerequisite name.",
+      "missing_evidence": "Independent Japanese naming comparison if whole-manuscript acceptance is requested.",
+      "blocks_whole_range_pass": false,
+      "defer_reason": "Referent is fixed by an adjacent explicit formula, prior definition, source proper identity, or reader prerequisite; spelling preference uncertainty here does not change the operation or claim. Any high-impact whole-manuscript first-use decision remains outside this delta verdict.",
+      "id": "manual-6",
+      "surface": "ギャップ",
+      "occurrences": [
+        {
+          "line": 81,
+          "column": 178
+        }
+      ]
+    },
+    {
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "shift of c_- preserving the displayed exponential, ordinary mathematical periodicity",
+      "decision": "UNVERIFIED",
+      "reason": "shift of c_- preserving the displayed exponential, ordinary mathematical periodicity; no new name is introduced by this delta.",
+      "uncertainty_reason": "This delta review has not completed independent Japanese preference evidence for this existing prerequisite name.",
+      "missing_evidence": "Independent Japanese naming comparison if whole-manuscript acceptance is requested.",
+      "blocks_whole_range_pass": false,
+      "defer_reason": "Referent is fixed by an adjacent explicit formula, prior definition, source proper identity, or reader prerequisite; spelling preference uncertainty here does not change the operation or claim. Any high-impact whole-manuscript first-use decision remains outside this delta verdict.",
+      "id": "manual-7",
+      "surface": "周期",
+      "occurrences": [
+        {
+          "line": 81,
+          "column": 62
+        }
+      ]
+    },
+    {
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "net directional thermal propagation corresponding to nonzero c_-, rather than anyon data alone",
+      "decision": "UNVERIFIED",
+      "reason": "net directional thermal propagation corresponding to nonzero c_-, rather than anyon data alone; no new name is introduced by this delta.",
+      "uncertainty_reason": "This delta review has not completed independent Japanese preference evidence for this existing prerequisite name.",
+      "missing_evidence": "Independent Japanese naming comparison if whole-manuscript acceptance is requested.",
+      "blocks_whole_range_pass": false,
+      "defer_reason": "Referent is fixed by an adjacent explicit formula, prior definition, source proper identity, or reader prerequisite; spelling preference uncertainty here does not change the operation or claim. Any high-impact whole-manuscript first-use decision remains outside this delta verdict.",
+      "id": "manual-8",
+      "surface": "カイラリティ",
+      "occurrences": [
+        {
+          "line": 81,
+          "column": 159
+        }
+      ]
+    },
+    {
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "decision": "KEEP",
+      "reason": "Geometric/physical boundary is explicitly qualified in these clauses; review the full エンタングルメント境界 separately rather than giving the short everyday noun a new technical role.",
+      "id": "manual-9",
+      "surface": "境界",
+      "occurrences": [
+        {
+          "line": 81,
+          "column": 174
+        },
+        {
+          "line": 81,
+          "column": 206
+        }
+      ]
+    },
+    {
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "decision": "KEEP",
+      "reason": "Descriptive obstruction to existence of a gapped boundary; no new formal obstruction invariant named by this noun.",
+      "id": "manual-10",
+      "surface": "障害",
+      "occurrences": [
+        {
+          "line": 81,
+          "column": 210
+        }
+      ]
+    }
+  ]
+}

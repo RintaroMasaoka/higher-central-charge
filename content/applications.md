@@ -28,11 +28,11 @@ $$
 e^{-2\pi i(n+2/n)c_-/24}\zeta_{n,a}.
 $$
 
-本章の $\propto$ は主要項の正の実数倍を表す。$\zeta_{n,a}$ はこの定義では規格化されていない複素数であり、ゼロにもなり得る。真空なら $\zeta_{n,1}=\mathcal D^{-1}\sum_b d_b^2\theta_b^n$ なので、その位相が第1章の $\zeta_n$ と一致する。[原論文：式 (7)、(8)；補足：Partial rotation of a cylinder in a twisted sector](/references/#ref-sectors)
+本章の $\propto$ は主要項の正の実数倍を表す。$\zeta_{n,a}$ は和の絶対値も含む複素数であり、ゼロにもなり得る。真空なら $\zeta_{n,1}=\mathcal D^{-1}\sum_b d_b^2\theta_b^n$ なので、非ゼロのとき、その位相が第1章の $\zeta_n$ と一致する。[原論文：式 (7)、(8)；補足：Partial rotation of a cylinder in a twisted sector](/references/#ref-sectors)
 
 ## 反対向きの成分をもつ相
 
-詳細な指標計算は、一方向に伝播するエッジについて行った。反対向きの成分もあるエッジでは、二つの成分の中心電荷の差が $c_-$ となる一方、熱的な実数因子には中心電荷の和が関係する。前章で書いた $A_n$ の式を、$c_-=0$ の相へそのまま移すことはできない。
+詳細な指標計算は、一方向に伝播するエッジについて行った。反対向きの成分もあるエッジでは、位相に現れる $c_-$ は二つの成分の中心電荷の差であり、熱的な実数因子にはその和が関係する。そのため、この場合の正の実数因子は両成分の熱的な寄与から評価する。
 
 補足資料は、反対向きの成分を含む二つのエッジを結合した Ishibashi 境界状態から出発する。これは対応する A/B の CFT 基底を同じ係数で対にして足した形式的な状態であり、そのまま B をトレースすると A の単位演算子、すなわち無限温度の状態に対応する。CFT の状態数は無限なので、この形のままでは規格化できない。
 
@@ -53,7 +53,7 @@ $$
 
 を得る。$j$ はエッジの状態を数えるラベル、$Z$ は規格化のための分配関数である。この $\beta_r$ は形式的な境界状態を正則化し、エンタングルメントの重みを表す有効量である。実際のギャップのある内部を作る結合がこのエッジの記述を与えること、さらに摂動を無視して $H_r$ を CFT のハミルトニアンとみなすことは、cut-and-glue の物理的な仮定である。補足の構成は、非カイラルな相でもこの熱密度行列による近似を検討する根拠を与え、論文はその下で部分回転の位相を評価する。[補足：Relationship between Entanglement spectrum and edge theory in non-chiral topological phases](/references/#ref-edge)
 
-補足の $\nu=2/3$ フェルミオン FQH 状態には、この描像を調べる数値例もある。ただしフェルミオンでは周方向の spin structure がモジュラー変換によって変わり、偶数 $n$ と奇数 $n$ の式が異なる。ここでのボソンの境界判定をそのまま適用する対象ではない。
+補足の $\nu=2/3$ フェルミオン FQH 状態には、このエッジの描像を調べる数値例もある。フェルミオンの部分回転は、周方向の spin structure がモジュラー変換で変わることを取り入れ、偶数 $n$ と奇数 $n$ を分けた式で評価される。境界の判定条件は、ここで扱うボソンの相について次章で述べる。
 
 ## MPS のボンドから読む
 
@@ -65,7 +65,7 @@ $$
 
 は、確率 $\lambda_\alpha^2$ と運動量が分かれば直接計算できる。matrix product state（MPS）では、切断を横切る補助ボンド（bond）にシュミット値が格納される。周方向の並進対称性を実装した MPS では、そのボンドの状態に運動量のラベルも付けられる。
 
-無次元運動量 $K_\alpha=p_\alpha L/(2\pi)$ を用いるなら、足す位相は $e^{2\pi iK_\alpha/n}$ である。補足資料では、右半分を回転させる操作を補助ボンドに移す向きにより $e^{-i\varphi\bar K_\alpha}$ と書く。物理的な並進方向とボンドのラベルの定義を合わせれば、同じ部分回転の期待値を表す。
+無次元運動量 $K_\alpha=p_\alpha L/(2\pi)$ を用いるなら、A の並進で足す位相は $e^{2\pi iK_\alpha/n}$ である。補足の MPS では、切断の左側に積算した保存運動量のラベルを $\bar K_\alpha$ と書く。補足は右半分の部分回転を評価し、その操作を補助ボンド上の逆変換 $e^{-i\varphi\bar K_\alpha}$ の挿入として表す。このボンドラベルを使う評価では、以下の原点の校正も行う。[補足：Partially rotate an MPS；Matching iMPS momentum labels to CFT momentums](/references/#ref-mps)
 
 infinite MPS（iMPS）のボンドのラベルには、運動量の原点と電荷の原点に由来する自由度がある。補足では運動量ラベル $\bar K_\alpha$ と電荷ラベル $\bar C_\alpha$ の間に
 
@@ -88,7 +88,7 @@ $$
 
 ## 論文が示した数値例
 
-以下は原論文の計算結果であり、このノートで再実行したシミュレーションではない。
+原論文は、次の二つの系で部分回転を数値評価し、CFT による位相の予測と比較した。
 
 | 系 | 評価方法と対象 | 位相の比較 |
 | --- | --- | --- |
@@ -105,7 +105,7 @@ $$
 
 Ising 相では $d_1=d_\psi=1$、$d_\sigma=\sqrt2$、$\theta_\psi=-1$、$\theta_\sigma=e^{i\pi/8}$、$c_-=1/2$ である。$n=3$ の和は $2e^{3i\pi/8}$ となり、中心電荷の因子を掛けると真空部分回転の位相 $e^{2\pi i/9}$ を得る。これらが原論文 Table I の予測値である。
 
-Laughlin 状態の本文は、周長 $40\ell_B$、ボンド次元 $3200$、軌道当たりのボソン数上限 $5$ での収束を報告する。$\ell_B$ は磁気長である。補足はボンド次元 や上限を変えた比較も示す。これらの例は CFT 近似への支持を与えるが、全ての微視的状態で同じ精度を保証するものではない。[原論文：Numerical results；補足：Numerical performance of partial rotation](/references/#ref-numerics)
+Laughlin 状態の本文は、周長 $40\ell_B$、ボンド次元 $3200$、軌道当たりのボソン数上限 $5$ での収束を報告する。$\ell_B$ は磁気長である。補足はボンド次元や上限を変えた比較も示す。これらの計算は、表に挙げた系で CFT 近似の位相予測を支持している。[原論文：Numerical results；補足：Numerical performance of partial rotation](/references/#ref-numerics)
 
 ## Momentum Polarization との接続
 
@@ -121,7 +121,7 @@ $$
 
 に近づく。ここでは周長と有効エッジ長が位相に残る。固定角での式と微小角での式は、真空を取り出すモジュラー変換と成立する長さの条件が異なる。[補足：Interpolating between higher central charge and momentum polarization](/references/#ref-momentum)
 
-量子 Hall 系での実際の momentum polarization の解析では、$L^2$ の項は Hall 粘性 $\eta_H$ を使って $-\eta_H L^2/(2\pi\hbar)$ と表される。論文はその項をフィットして差し引き、残る $h_a-c_-/24$ から $c_-=1$ とセミオンの $h_s=1/4$ を得た。微小角の位相だけをそのまま高次中心電荷と読まず、周長に依存する項も決定する手順である。
+量子 Hall 系での実際の momentum polarization の解析では、$L^2$ の項は Hall 粘性 $\eta_H$ を使って $-\eta_H L^2/(2\pi\hbar)$ と表される。論文はその項をフィットして差し引き、残る $h_a-c_-/24$ から $c_-=1$ とセミオンの $h_s=1/4$ を得た。
 
 <details id="limits-selfcheck">
 <summary>確認：$L/\xi_r=100$ で $n=2$ と $n=1000$ は同じ近似を使えるか</summary>

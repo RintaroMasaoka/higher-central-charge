@@ -1,0 +1,120 @@
+{
+  "input_sha256": "88b80ca95c57d9821e48156060a83ef7623cef02e5b9fe8cf5fdcdb0ef113bfa",
+  "review_lines": [
+    62,
+    62
+  ],
+  "manual_sweep": {
+    "completed": true,
+    "reviewed_lines": [
+      62,
+      62
+    ]
+  },
+  "dispositions": [],
+  "supplemental_concepts": [
+    {
+      "role": "disciplinary_name",
+      "impact": "high",
+      "referent": "translation of subsystem A around the cylinder by angle 2π/n",
+      "decision": "UNVERIFIED",
+      "reason": "The paper establishes this operator identity, but independent Japanese preference comparison for the full name was not obtained. 部分並進 can denote a different general operation, so it cannot be substituted solely from lexical similarity.",
+      "uncertainty_reason": "The paper establishes this operator identity, but independent Japanese preference comparison for the full name was not obtained. 部分並進 can denote a different general operation, so it cannot be substituted solely from lexical similarity.",
+      "missing_evidence": "Independent Japanese naming comparison or explicit project authority for this cylinder operation.",
+      "blocks_whole_range_pass": true,
+      "comparison": {
+        "current": "部分回転",
+        "english_or_not_applicable": "partial rotation",
+        "alternatives_or_not_applicable": [
+          "partial rotation",
+          "部分並進"
+        ],
+        "audience_reason": "Meaning is locally identifiable; preferred naming cannot be certified from that fact alone."
+      },
+      "id": "manual-1",
+      "surface": "部分回転",
+      "occurrences": [
+        {
+          "line": 62,
+          "column": 54
+        }
+      ]
+    },
+    {
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "argument/unit phase of a nonzero complex number, fixed by normalization in overview",
+      "decision": "UNVERIFIED",
+      "reason": "argument/unit phase of a nonzero complex number, fixed by normalization in overview; no new name is introduced by this delta.",
+      "uncertainty_reason": "This delta review has not completed independent Japanese preference evidence for this existing prerequisite name.",
+      "missing_evidence": "Independent Japanese naming comparison if whole-manuscript acceptance is requested.",
+      "blocks_whole_range_pass": false,
+      "defer_reason": "Referent is fixed by an adjacent explicit formula, prior definition, source proper identity, or reader prerequisite; spelling preference uncertainty here does not change the operation or claim. Any high-impact whole-manuscript first-use decision remains outside this delta verdict.",
+      "id": "manual-2",
+      "surface": "位相",
+      "occurrences": [
+        {
+          "line": 62,
+          "column": 73
+        }
+      ]
+    },
+    {
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "expectation of a unitary in the normalized state",
+      "decision": "UNVERIFIED",
+      "reason": "expectation of a unitary in the normalized state; no new name is introduced by this delta.",
+      "uncertainty_reason": "This delta review has not completed independent Japanese preference evidence for this existing prerequisite name.",
+      "missing_evidence": "Independent Japanese naming comparison if whole-manuscript acceptance is requested.",
+      "blocks_whole_range_pass": false,
+      "defer_reason": "Referent is fixed by an adjacent explicit formula, prior definition, source proper identity, or reader prerequisite; spelling preference uncertainty here does not change the operation or claim. Any high-impact whole-manuscript first-use decision remains outside this delta verdict.",
+      "id": "manual-3",
+      "surface": "期待値",
+      "occurrences": [
+        {
+          "line": 62,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "normalization, applied separately to complex phase and state norm in explicitly distinct clauses",
+      "decision": "UNVERIFIED",
+      "reason": "normalization, applied separately to complex phase and state norm in explicitly distinct clauses; no new name is introduced by this delta.",
+      "uncertainty_reason": "This delta review has not completed independent Japanese preference evidence for this existing prerequisite name.",
+      "missing_evidence": "Independent Japanese naming comparison if whole-manuscript acceptance is requested.",
+      "blocks_whole_range_pass": false,
+      "defer_reason": "Referent is fixed by an adjacent explicit formula, prior definition, source proper identity, or reader prerequisite; spelling preference uncertainty here does not change the operation or claim. Any high-impact whole-manuscript first-use decision remains outside this delta verdict.",
+      "id": "manual-4",
+      "surface": "規格化",
+      "occurrences": [
+        {
+          "line": 62,
+          "column": 43
+        }
+      ]
+    },
+    {
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "zero overlap of original and partially rotated normalized states",
+      "decision": "UNVERIFIED",
+      "reason": "zero overlap of original and partially rotated normalized states; no new name is introduced by this delta.",
+      "uncertainty_reason": "This delta review has not completed independent Japanese preference evidence for this existing prerequisite name.",
+      "missing_evidence": "Independent Japanese naming comparison if whole-manuscript acceptance is requested.",
+      "blocks_whole_range_pass": false,
+      "defer_reason": "Referent is fixed by an adjacent explicit formula, prior definition, source proper identity, or reader prerequisite; spelling preference uncertainty here does not change the operation or claim. Any high-impact whole-manuscript first-use decision remains outside this delta verdict.",
+      "id": "manual-5",
+      "surface": "直交",
+      "occurrences": [
+        {
+          "line": 62,
+          "column": 63
+        }
+      ]
+    }
+  ]
+}

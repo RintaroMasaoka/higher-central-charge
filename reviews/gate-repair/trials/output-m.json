@@ -1,0 +1,35 @@
+{
+  "reviewer": "m",
+  "method_status": "INDEPENDENT_UNVERIFIED",
+  "limits": ["Launch record not inspected", "Permitted extracts read together, not enforced incremental reveal", "No external source verification", "Diagram structural caption only; no pixels", "A is supplied-text review, not whole-site acceptance"],
+  "tasks": {
+    "A": {
+      "source": "original-observable.md",
+      "prefix": "original-overview.md",
+      "subject": "FAIL",
+      "explanation_act": "FAIL",
+      "overall": "FAIL",
+      "records": [
+        {"id":"A1","lines":"3-15","subject":"PASS","explanation_act":"PASS","evidence":"切り; 実際に切って、新しい物理的な端を作る操作ではない","reason":"Local cutting wording licenses partition/physical-edge distinction."},
+        {"id":"A2","lines":"19-44","subject":"PASS","explanation_act":"PASS","evidence":"B に作用する単位行列を先にトレース; 両側の状態はそれぞれ正規直交","reason":"Trace contraction and Schmidt weights reconstruct the overlap; exactness scopes later modeling."},
+        {"id":"A3","lines":"48-59","subject":"PASS","explanation_act":"PASS","evidence":"並進演算子を e^{iP_A delta y} と定義; K=pL/(2pi)","reason":"Assumptions, sign and unit conversion precede phase sum."},
+        {"id":"A4","lines":"63-74","subject":"FAIL","explanation_act":"PASS","evidence":"結合して、ギャップのある内部を作る…一方をトレースすると…熱密度行列","reason":"Gap-opening coupling alone does not supply Schmidt Boltzmann weights; thermal-state identification needs a specified state or explicit extra assumption."},
+        {"id":"A5","lines":"76","subject":"PASS","explanation_act":"PASS","evidence":"摂動のない CFT で近似; 厳密な等式ではなく","reason":"Prior exact trace licenses distinction of approximation status. External provenance unverified; A4 remains frozen."},
+        {"id":"A6","lines":"78-84","subject":"PASS","explanation_act":"FAIL","evidence":"微視的な内部の相関長と無条件に同じものではない","reason":"Bulk-length comparison is unintroduced and supplies no usable relation; thermal-length definition already determines symbol role. Modular derivation is explicitly deferred and unverified."}
+      ]
+    },
+    "B": {
+      "source": "interval-note.md",
+      "prefix": null,
+      "subject": "PASS",
+      "explanation_act": "FAIL",
+      "overall": "FAIL",
+      "records": [
+        {"id":"B1","lines":"3","subject":"PASS","explanation_act":"FAIL","evidence":"まず、端点だけを使う方法に頼ってはいけない","reason":"Prohibits an unproposed strategy before specifying the problem; later example cannot license opening retroactively."},
+        {"id":"B2","lines":"5","subject":"PASS","explanation_act":"PASS","evidence":"4 から 0 に減り; 0 から 1 に増える; 像は [0,4]","reason":"Correct branch behavior and quadratic continuity establish image."},
+        {"id":"B3","lines":"7","subject":"PASS","explanation_act":"PASS","evidence":"単調ではない; 端点に加えて頂点の値も使う","reason":"Locally established branch behavior licenses negative claim and useful extrema procedure."},
+        {"id":"B4","lines":"9","subject":"PASS","explanation_act":"PASS","evidence":"x=-1 と x=1 はどちらも y=1","reason":"In-domain collision resolves explicitly posed inverse-uniqueness question."}
+      ]
+    }
+  }
+}

@@ -69,3 +69,13 @@ const linked = extractReviewBody('Opening paragraph.\n\nLater [conclusion][later
 assert.ok(!linked.units[0].markdown.includes('/future'));
 assert.ok(linked.units[1].markdown.includes('/future'));
 assert.ok(!linked.markdown.includes('HIDDEN_TITLE'));
+assert(result.packets.every(packet => packet.paragraphs <= 1));
+const paced = extractReviewBody('First.\n\n$$\na=b\n$$\n\nSecond.');
+assert.equal(paced.packets.length,2);
+assert(paced.packets[0].markdown.includes('a=b'));
+assert(!paced.packets[0].markdown.includes('Second'));
+assert.throws(() => extractReviewBody('- First.\n\n  Second.'), /multiple prose paragraphs/);
+assert.throws(() => extractReviewBody('<div><p>First.</p><p>Second.</p></div>'), /Unparsed visible HTML/);
+const separated=extractReviewBody('First.\n\n---\n\n![Image](/image.png)\n\n```text\nExample\n```');
+assert(!separated.packets[0].markdown.includes('Image'));
+assert(!separated.packets[0].markdown.includes('Example'));

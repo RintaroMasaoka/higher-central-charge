@@ -1,0 +1,30 @@
+{
+  "input": "/Users/rintaromasaoka/Desktop/Learning/Study/Higher-central-charge/content/applications.md",
+  "input_sha256": "b1641ef94fed178f0dbb699df873298a61c707e7f524ad84020ac47dac3215e5",
+  "review_lines": [
+    68,
+    68
+  ],
+  "kind": "surface_candidates_not_terms_or_defects",
+  "repeated_candidates": [
+    {
+      "id": "s25",
+      "surface": "補足",
+      "occurrences": [
+        {
+          "line": 68,
+          "column": 83
+        },
+        {
+          "line": 68,
+          "column": 135
+        },
+        {
+          "line": 68,
+          "column": 234
+        }
+      ]
+    }
+  ],
+  "structural_candidates": []
+}

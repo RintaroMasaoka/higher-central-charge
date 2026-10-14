@@ -1,0 +1,17 @@
+{
+  "input_sha256": "282282e4cce7b71fe4e33d41d49683366dfac6c0d3f16b9b2260e3b1eaa49704",
+  "review_lines": [26, 26],
+  "manual_sweep": {"completed": true, "reviewed_lines": [26, 26]},
+  "dispositions": [],
+  "supplemental_concepts": [
+    {"id":"s1","surface":"全トレース","occurrences":[{"line":26,"column":7}],"role":"ordinary_syntax","impact":"high","reason":"全は直前の式に対してトレースの対象範囲を指定する修飾語。独立の演算名や新しい分類の導入ではない。対象が全系であるという通常の日本語として通用する。名称選好の未確認項目にしない。"},
+    {"id":"s2","surface":"B の基底についての和","occurrences":[{"line":26,"column":16}],"role":"ordinary_syntax","impact":"high","reason":"どの添字について和を取るかを指定する通常の操作説明。部分トレースの正式名称を置き換えるラベルとして定義・引用されていない。についての和は自然な日本語である。"},
+    {"id":"s3","surface":"全密度行列","occurrences":[{"line":26,"column":34}],"role":"ordinary_syntax","impact":"high","reason":"全は与えられた合成系の密度行列を部分系Aの行列から区別する範囲修飾。続く明示式が指示対象を固定する。全密度行列という独立した専門分類の名前を命名していないため、全系の密度行列という展開形を必須訂正にする根拠はない。内部の密度行列という専門名はs5で別に確認した。"},
+    {"id":"s4","surface":"残った A のトレース","occurrences":[{"line":26,"column":99}],"role":"ordinary_syntax","impact":"high","reason":"先にBについて和を取るという前文の操作に照応して、次に行うAのトレースを指す。残ったは処理順を示す通常の修飾であり、演算名の一部ではない。"},
+    {"id":"s5","surface":"密度行列","occurrences":[{"line":26,"column":35}],"role":"disciplinary_name","impact":"incidental","referent":"与えられた合成系のdensity matrix","decision":"KEEP","reason":"既に導入された行列を同じ専門名で参照する局所的な再出現。密度行列は量子状態を表す行列の認識可能な日本語名である。","evidence":{"locator":"https://www.math.nagoya-u.ac.jp/~masahito/tokubetu/node3.html, 状態及び測定, first paragraph","usage":"量子状態を記述する非負の行列を密度行列（密度作用素）と呼ぶ。","genre":"researcher-authored quantum statistical inference lecture","community":"quantum information / mathematical quantum mechanics","comparison":"density matrixに対応。密度作用素は許容される作用素表現だが、ここで密度行列を変更する必要はない。"}},
+    {"id":"s6","surface":"トレース","occurrences":[{"line":26,"column":8},{"line":26,"column":106}],"role":"disciplinary_name","impact":"incidental","referent":"trace operation already represented by Tr in the supplied equations","decision":"KEEP","reason":"既出の演算に対する通常の名称の再出現。全およびAのは対象範囲の修飾であり、別の演算名を作らない。","evidence":{"locator":"https://cat.phys.s.u-tokyo.ac.jp/lecture/QM2_19/quantum_mechnics_II_0530ver.pdf, quantum mechanics II lecture, density operator discussion","usage":"検索提供の本文抜粋ではTrをトレースあるいは対角和と呼ぶ。PDFの直接取得はtimeout。","genre":"physics lecture","community":"quantum mechanics","access_limit":"Term attestation from indexed passage only; no scientific verification of surrounding derivation.","comparison":"traceのカタカナ名。対角和も可能だが既存のTr表記に自然に対応するトレースを保持する。"}},
+    {"id":"s7","surface":"基底","occurrences":[{"line":26,"column":19}],"role":"disciplinary_name","impact":"incidental","referent":"basis of the supplied subsystem B","decision":"KEEP","reason":"既出の線形代数概念を操作説明の中で指す一般的な専門名。","evidence":{"locator":"https://www.math.nagoya-u.ac.jp/~masahito/tokubetu/node3.html, classical distribution example","usage":"有限次元の量子系で基底への射影という表現を使用。","genre":"researcher-authored quantum statistical inference lecture","community":"quantum information / mathematical quantum mechanics","comparison":"basisに対応する基底。別の専門名へ変更する理由はない。"}},
+    {"id":"s8","surface":"和","occurrences":[{"line":26,"column":26}],"role":"ordinary_syntax","impact":"incidental","reason":"和を取るという通常の算術操作の言い方であり、この文で独立した命名や用語分類を行わない。"},
+    {"id":"s9","surface":"右辺","occurrences":[{"line":26,"column":111}],"role":"ordinary_syntax","impact":"incidental","reason":"直前の式の右側を指す通常の位置表現。新しい科学的対象の名称ではない。"}
+  ]
+}

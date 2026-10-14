@@ -1,0 +1,243 @@
+{
+  "input_sha256": "8c567b50bcebe5d24971923c6f53914a07d7c167301d8dbe329f12b9ac7a4573",
+  "review_lines": [
+    91,
+    91
+  ],
+  "manual_sweep": {
+    "completed": true,
+    "reviewed_lines": [
+      91,
+      91
+    ]
+  },
+  "dispositions": [
+    {
+      "candidate_id": "s17",
+      "surface": "引数",
+      "occurrences": [
+        {
+          "line": 91,
+          "column": 18
+        },
+        {
+          "line": 91,
+          "column": 28
+        },
+        {
+          "line": 91,
+          "column": 68
+        },
+        {
+          "line": 91,
+          "column": 85
+        }
+      ],
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "decision": "KEEP",
+      "reason": "Ordinary function argument tau of the explicit CFT character; no statistical index or new scientific object is named.",
+      "referent": "Ordinary function argument tau of the explicit CFT character; no statistical index or new scientific object is named."
+    }
+  ],
+  "supplemental_concepts": [
+    {
+      "id": "m1",
+      "surface": "指標",
+      "occurrences": [
+        {
+          "line": 91,
+          "column": 3
+        },
+        {
+          "line": 91,
+          "column": 25
+        }
+      ],
+      "role": "disciplinary_name",
+      "impact": "high",
+      "referent": "CFT characters chi_a(tau), defined at derivation:9-13",
+      "decision": "KEEP",
+      "reason": "These are CFT characters under a modular transformation, not a generic indicator. The adopted Japanese word is supported in CFT usage and available to the baseline reader.",
+      "comparison": {
+        "current": "指標",
+        "english_or_not_applicable": "character",
+        "alternatives_or_not_applicable": "キャラクター; character",
+        "audience_reason": "指標 retains recognizable Japanese CFT usage while the nearby chi_a formula fixes the referent. Substitution supplies no recognition advantage for this reader."
+      },
+      "evidence_sources": [
+        {
+          "locator": "https://www2.yukawa.kyoto-u.ac.jp/~eguchi40/Sugawara.pdf#page=12",
+          "usage": "N=4 and N=3 SCA 指標公式 and モジュラー変換公式; extended characters in CFT. Direct web text inspected at lines 57–64.",
+          "genre": "CFT researcher lecture slides",
+          "community": "CFT"
+        },
+        {
+          "locator": "https://www-het.phys.sci.osaka-u.ac.jp/~yamaguch/j/pdf/d.pdf#page=18",
+          "usage": "χ characters, modular S and T transformations including τ→τ+1; Japanese 指標 and モジュラー変換 in running explanation. Search returned actual thesis passage; direct open failed.",
+          "genre": "researcher doctoral thesis",
+          "community": "CFT / string theory"
+        }
+      ]
+    },
+    {
+      "id": "m2",
+      "surface": "変換式",
+      "occurrences": [
+        {
+          "line": 91,
+          "column": 6
+        }
+      ],
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "decision": "KEEP",
+      "reason": "Descriptive expression for the immediately displayed character transformation identity; not the name of a new transform.",
+      "referent": "Descriptive expression for the immediately displayed character transformation identity; not the name of a new transform."
+    },
+    {
+      "id": "m3",
+      "surface": "左辺",
+      "occurrences": [
+        {
+          "line": 91,
+          "column": 12
+        }
+      ],
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "decision": "KEEP",
+      "reason": "Left side of the immediately preceding equation.",
+      "referent": "Left side of the immediately preceding equation."
+    },
+    {
+      "id": "m4",
+      "surface": "右辺",
+      "occurrences": [
+        {
+          "line": 91,
+          "column": 22
+        },
+        {
+          "line": 91,
+          "column": 53
+        }
+      ],
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "decision": "KEEP",
+      "reason": "Right side of the immediately preceding equation.",
+      "referent": "Right side of the immediately preceding equation."
+    },
+    {
+      "id": "m5",
+      "surface": "分子",
+      "occurrences": [
+        {
+          "line": 91,
+          "column": 15
+        },
+        {
+          "line": 91,
+          "column": 82
+        }
+      ],
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "decision": "KEEP",
+      "reason": "Numerator chi_1 of the displayed character ratio, not a chemical molecule.",
+      "referent": "Numerator chi_1 of the displayed character ratio, not a chemical molecule."
+    },
+    {
+      "id": "m6",
+      "surface": "写像",
+      "occurrences": [
+        {
+          "line": 91,
+          "column": 41
+        },
+        {
+          "line": 91,
+          "column": 98
+        }
+      ],
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "decision": "KEEP",
+      "reason": "The explicit rational function tau/(1-n tau), an ordinary mathematical map; no specialized new modular-operation name is being introduced.",
+      "referent": "The explicit rational function tau/(1-n tau), an ordinary mathematical map; no specialized new modular-operation name is being introduced."
+    },
+    {
+      "id": "m7",
+      "surface": "逆写像",
+      "occurrences": [
+        {
+          "line": 91,
+          "column": 88
+        }
+      ],
+      "role": "disciplinary_name",
+      "impact": "high",
+      "referent": "inverse of the explicitly given rational map, z/(1+nz)",
+      "decision": "KEEP",
+      "reason": "The paragraph correctly uses the ordinary inverse-map term for solving the input from the output; it does not mean preimage or reciprocal.",
+      "comparison": {
+        "current": "逆写像",
+        "english_or_not_applicable": "inverse map",
+        "alternatives_or_not_applicable": "逆関数 (when viewing the rational map as a function); inverse map; 逆像 has a distinct referent",
+        "audience_reason": "逆写像 matches the immediately preceding 写像 and makes reversing its action explicit. 逆像 would misname the operation; replacing it by English adds no value."
+      },
+      "evidence_sources": [
+        {
+          "locator": "https://nalab.mind.meiji.ac.jp/~mk/lecture/literacy-2020/mapping.pdf#page=13",
+          "usage": "Part III section 5 is 逆写像, distinct from section 6 部分集合の像と逆像; inverse functions are discussed as examples. Direct PDF opened.",
+          "genre": "researcher-authored university mathematics lecture notes",
+          "community": "mathematical operations used by theoretical-physics readers"
+        },
+        {
+          "locator": "https://www.math.sci.hiroshima-u.ac.jp/~m-mat/TEACH/daisu-nyumon20191010-2.pdf",
+          "usage": "Primary-source search passage gives right and left inverse maps by composition identities f o g=id, and left inverse map in English. Direct PDF open failed; passage inspection is limited to returned primary-source text.",
+          "genre": "researcher-authored university algebra lecture notes",
+          "community": "mathematical operations used by theoretical-physics readers"
+        }
+      ]
+    },
+    {
+      "id": "m8",
+      "surface": "低温",
+      "occurrences": [
+        {
+          "line": 91,
+          "column": 56
+        }
+      ],
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "decision": "KEEP",
+      "reason": "Ordinary thermal regime of the transformed character trace; it describes the large-imaginary-argument evaluation explained at derivation:37 and 79-86, not a newly named state.",
+      "referent": "Ordinary thermal regime of the transformed character trace; it describes the large-imaginary-argument evaluation explained at derivation:37 and 79-86, not a newly named state."
+    },
+    {
+      "id": "m9",
+      "surface": "作用",
+      "occurrences": [
+        {
+          "line": 91,
+          "column": 92
+        }
+      ],
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "decision": "KEEP",
+      "reason": "Applying the displayed inverse map to the numerator argument; ordinary operation verb, not an action functional.",
+      "referent": "Applying the displayed inverse map to the numerator argument; ordinary operation verb, not an action functional."
+    }
+  ],
+  "projection": {
+    "method": "Assigned Markdown paragraph has no hidden comments, metadata, or markup; identity projection of the selected reader-visible line.",
+    "source_sha256": "8c567b50bcebe5d24971923c6f53914a07d7c167301d8dbe329f12b9ac7a4573",
+    "review_body_sha256": "cdc6e97135eb74e9693cb32db99bfdde739df90bef0be611e4a688eb3be782f2"
+  },
+  "verdict": "PASS_WITHIN_ASSIGNED_DELTA",
+  "supported_repairs": []
+}

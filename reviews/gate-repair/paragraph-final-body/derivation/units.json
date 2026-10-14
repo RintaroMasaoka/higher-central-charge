@@ -1,0 +1,206 @@
+[
+  {
+    "index": 1,
+    "markdown": "# 指標からエニオンの和へ\n"
+  },
+  {
+    "index": 2,
+    "markdown": "真空の円筒状態の部分回転は、A の物理的な境界とエンタングルメント境界の二つのトレースに分かれた。ここではまずカイラルなボソンのエッジ CFT で、そのトレースを指標に直す。CFT の中心電荷を $c_-$ と書き、真空の共形重みを $h_1=0$ とする。反対向きの成分を含む相への拡張については、次章で範囲を述べる。\n"
+  },
+  {
+    "index": 3,
+    "markdown": "## 並進を指標に入れる\n"
+  },
+  {
+    "index": 4,
+    "markdown": "本章の規約は\n"
+  },
+  {
+    "index": 5,
+    "markdown": "$$\n\\chi_a(\\tau)=\\operatorname{Tr}_{\\mathcal H_a}\ne^{2\\pi i\\tau(L_0-c_-/24)},\n\\qquad\nH=\\frac{2\\pi v}{L}(L_0-c_-/24)\n$$\n"
+  },
+  {
+    "index": 6,
+    "markdown": "である。$\\mathcal H_a$ は種類 $a$ の CFT 状態空間、$L_0$ はその共形エネルギーを与える演算子である。左と右で伝播方向が反対になることを、$P_l=+H_l/v$、$P_r=-H_r/v$ と表す。この規約では、前章の $e^{iP\\delta y}$ の並進がそれぞれ指標の実部 $+1/n,-1/n$ を与える。\n"
+  },
+  {
+    "index": 7,
+    "markdown": "実際、左側では\n"
+  },
+  {
+    "index": 8,
+    "markdown": "$$\ne^{iP_lL/n}e^{-\\beta_lH_l}\n=e^{2\\pi i(1/n+i\\xi_l/L)(L_0-c_-/24)}.\n$$\n"
+  },
+  {
+    "index": 9,
+    "markdown": "右側でも同じ計算をすると $1/n$ の符号が反転する。よって\n"
+  },
+  {
+    "index": 10,
+    "markdown": "$$\n\\mathcal T_1(2\\pi/n)\\simeq\n\\frac{\\chi_1(i\\xi_l/L+1/n)}{\\chi_1(i\\xi_l/L)}\n\\frac{\\chi_1(i\\xi_r/L-1/n)}{\\chi_1(i\\xi_r/L)}.\n$$\n"
+  },
+  {
+    "index": 11,
+    "markdown": "以降は、この二つの指標の比から部分回転の位相を計算する。[原論文：Analytic derivation、式 (3)](/references/#ref-derivation-source)\n"
+  },
+  {
+    "index": 12,
+    "markdown": "## 左の物理的な境界\n"
+  },
+  {
+    "index": 13,
+    "markdown": "$L\\ll\\xi_l$ なら指標の虚部は大きい。共形重み $h$ の寄与には $e^{-2\\pi(\\xi_l/L)h}$ が掛かるため、真空以外は抑えられる。真空エネルギー $-c_-/24$ を残すと\n"
+  },
+  {
+    "index": 14,
+    "markdown": "$$\n\\frac{\\chi_1(i\\xi_l/L+1/n)}{\\chi_1(i\\xi_l/L)}\n\\simeq e^{-2\\pi i c_-/(24n)}.\n$$\n"
+  },
+  {
+    "index": 15,
+    "markdown": "実数の増大因子 $e^{2\\pi(\\xi_l/L)c_-/24}$ は分子と分母で消える。左の境界から残るのは、この一つの位相である。\n"
+  },
+  {
+    "index": 16,
+    "markdown": "## 右の分母を $S$ 変換する\n"
+  },
+  {
+    "index": 17,
+    "markdown": "右側は $L\\gg\\xi_r$ なので、元の指標の虚部が小さい。モジュラー変換 $S:\\tau\\mapsto-1/\\tau$ によって、虚部を大きくしてから真空を取り出す。\n"
+  },
+  {
+    "index": 18,
+    "markdown": "CFT 指標のモジュラー行列 $S_{ab}$ はエニオンのモジュラーデータと対応する。真空を含む行列要素は $S_{1a}=S_{a1}=d_a/\\mathcal D$ である。したがって\n"
+  },
+  {
+    "index": 19,
+    "markdown": "$$\n\\chi_1(i\\xi_r/L)\n=\\sum_a S_{1a}\\chi_a(iL/\\xi_r)\n\\simeq\\frac1{\\mathcal D}e^{2\\pi(L/\\xi_r)c_-/24}.\n$$\n"
+  },
+  {
+    "index": 20,
+    "markdown": "最後の式では変換先の真空 $a=1$ を残した。分母の主要項は正の実数であり、部分回転の位相を変えない。\n"
+  },
+  {
+    "index": 21,
+    "markdown": "## 右の分子を $ST^nS$ 変換する\n"
+  },
+  {
+    "index": 22,
+    "markdown": "右の分子の引数 $-1/n+i\\xi_r/L$ を、虚部の大きな引数の指標で表すために、モジュラー変換 $ST^nS$ を使う。この $T$ は指標の引数を $\\tau\\mapsto\\tau+1$ と移すモジュラー変換を表す。\n"
+  },
+  {
+    "index": 23,
+    "markdown": "右から順に $S,T^n,S$ を作用させると\n"
+  },
+  {
+    "index": 24,
+    "markdown": "$$\n\\tau\\longmapsto-\\frac1\\tau\n\\longmapsto n-\\frac1\\tau\n\\longmapsto\\frac{\\tau}{1-n\\tau}.\n$$\n"
+  },
+  {
+    "index": 25,
+    "markdown": "この写像で元の引数 $-1/n+i\\xi_r/L$ が得られるように、変換前の引数を求める。逆写像 $z\\mapsto z/(1+nz)$ に $z=-1/n+i\\xi_r/L$ を入れると、正確に\n"
+  },
+  {
+    "index": 26,
+    "markdown": "$$\n\\frac{-1/n+i\\xi_r/L}{1+n(-1/n+i\\xi_r/L)}\n=\\frac1n+\\frac{iL}{n^2\\xi_r}\n$$\n"
+  },
+  {
+    "index": 27,
+    "markdown": "となる。この虚部が大きいための条件が $n^2\\xi_r\\ll L$ である。固定した $n$ ごとにこの条件を満たすと\n"
+  },
+  {
+    "index": 28,
+    "markdown": "$$\n\\chi_1(-1/n+i\\xi_r/L)\n=\\sum_a(ST^nS)_{1a}\\chi_a(1/n+iL/(n^2\\xi_r))\n$$\n"
+  },
+  {
+    "index": 29,
+    "markdown": "の変換先で、係数 $(ST^nS)_{11}$ が非ゼロなら真空を主要項として残せる。\n"
+  },
+  {
+    "index": 30,
+    "markdown": "> \\[折りたたみ見出し] 確認：分子を低温の指標で表すには、どの引数を求めるか\n"
+  },
+  {
+    "index": 31,
+    "markdown": "## 真空係数が統計の和になる\n"
+  },
+  {
+    "index": 32,
+    "markdown": "種類 $a$ の最低共形重みを $h_a$ とする。モジュラー行列 $T$ は種類ごとに対角で、その成分は\n"
+  },
+  {
+    "index": 33,
+    "markdown": "$$\nT_{aa}=e^{2\\pi i(h_a-c_-/24)}\n=\\theta_a e^{-2\\pi i c_-/24}\n$$\n"
+  },
+  {
+    "index": 34,
+    "markdown": "である。$\\theta_a=e^{2\\pi i h_a}$ を使った。したがって二つの $S$ で挟んだ真空係数は\n"
+  },
+  {
+    "index": 35,
+    "markdown": "$$\n\\begin{aligned}\n(ST^nS)_{11}\n&=\\sum_a S_{1a}(T_{aa})^nS_{a1}\\\\\n&=\\frac{e^{-2\\pi i n c_-/24}}{\\mathcal D^2}\n\\sum_a d_a^2\\theta_a^n.\n\\end{aligned}\n$$\n"
+  },
+  {
+    "index": 36,
+    "markdown": "これが、エニオンの和が波動関数の重なりに現れる箇所である。二つの $S$ が重み $d_a^2$ を与え、$T^n$ がトポロジカルスピンの $n$ 乗を与える。\n"
+  },
+  {
+    "index": 37,
+    "markdown": "変換先の真空指標には、虚部に由来する実数因子と、実部 $1/n$ に由来する位相がある。右の分子の主要項は\n"
+  },
+  {
+    "index": 38,
+    "markdown": "$$\n\\chi_1(-1/n+i\\xi_r/L)\n\\simeq\n\\frac1{\\mathcal D^2}\ne^{2\\pi Lc_-/(24n^2\\xi_r)}\ne^{-2\\pi i(n+1/n)c_-/24}\n\\sum_a d_a^2\\theta_a^n.\n$$\n"
+  },
+  {
+    "index": 39,
+    "markdown": "和がゼロなら真空係数も消える。その場合、残りの共形状態や有限サイズ補正を調べる必要があり、この主要項を規格化して $\\zeta_n$ を求めることはできない。\n"
+  },
+  {
+    "index": 40,
+    "markdown": "## 三つの位相をまとめる\n"
+  },
+  {
+    "index": 41,
+    "markdown": "ここまでの位相の出所を並べると、中心電荷に掛かる係数を確認できる。\n"
+  },
+  {
+    "index": 42,
+    "markdown": "| 位相の出所             | 因子                      |\n| ----------------- | ----------------------- |\n| 左の物理的な境界の真空       | $e^{-2\\pi i c_-/(24n)}$ |\n| 右のモジュラー行列 $T^n$   | $e^{-2\\pi i n c_-/24}$  |\n| 右の変換先の真空、実部 $1/n$ | $e^{-2\\pi i c_-/(24n)}$ |\n"
+  },
+  {
+    "index": 43,
+    "markdown": "掛け合わせると\n"
+  },
+  {
+    "index": 44,
+    "markdown": "$$\n\\mathcal T_1(2\\pi/n)\n\\simeq A_n e^{-2\\pi i(n+2/n)c_-/24}\\sum_a d_a^2\\theta_a^n.\n$$\n"
+  },
+  {
+    "index": 45,
+    "markdown": "この理想化したカイラル CFT の計算では\n"
+  },
+  {
+    "index": 46,
+    "markdown": "$$\nA_n=\\frac1{\\mathcal D}\n\\exp\\left[\\frac{2\\pi Lc_-}{24\\xi_r}\\left(\\frac1{n^2}-1\\right)\\right]>0\n$$\n"
+  },
+  {
+    "index": 47,
+    "markdown": "である。主要項が非ゼロなら、規格化した観測値に既知の中心電荷の位相を戻すことで\n"
+  },
+  {
+    "index": 48,
+    "markdown": "$$\ne^{2\\pi i(n+2/n)c_-/24}\n\\frac{\\mathcal T_1(2\\pi/n)}{|\\mathcal T_1(2\\pi/n)|}\n\\simeq\\zeta_n\n$$\n"
+  },
+  {
+    "index": 49,
+    "markdown": "を得る。[原論文：式 (2)、Analytic derivation](/references/#ref-derivation-source)\n"
+  },
+  {
+    "index": 50,
+    "markdown": "この結果の適用範囲は、ボソンの相の真空円筒状態、摂動のないエッジ CFT による近似、非ゼロのエニオン和、固定した $n$、および $n^2\\xi_r\\ll L\\ll\\xi_l$ である。CFT による因子分解が成り立つように、A の二つの端も十分に離れているとする。\n"
+  },
+  {
+    "index": 51,
+    "markdown": "> \\[折りたたみ見出し] 確認：$n=1$ で得た位相は、一周の並進と一致するか\n"
+  }
+]

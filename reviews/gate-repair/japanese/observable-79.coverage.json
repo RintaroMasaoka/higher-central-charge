@@ -1,0 +1,225 @@
+{
+  "input_sha256": "88b80ca95c57d9821e48156060a83ef7623cef02e5b9fe8cf5fdcdb0ef113bfa",
+  "review_lines": [
+    79,
+    79
+  ],
+  "manual_sweep": {
+    "completed": true,
+    "reviewed_lines": [
+      79,
+      79
+    ]
+  },
+  "dispositions": [],
+  "supplemental_concepts": [
+    {
+      "role": "disciplinary_name",
+      "impact": "high",
+      "referent": "effective edge at the entanglement cut, not a new physical edge of a cut sample",
+      "decision": "UNVERIFIED",
+      "reason": "Its identity is explained by A/B division, but its full Japanese name recurs as a scientific handle. Exact-phrase searches found no relevant Japanese topological-matter naming comparison; holographic boundaries were excluded.",
+      "uncertainty_reason": "Its identity is explained by A/B division, but its full Japanese name recurs as a scientific handle. Exact-phrase searches found no relevant Japanese topological-matter naming comparison; holographic boundaries were excluded.",
+      "missing_evidence": "Two same-referent Japanese topological-matter usages or an explicit adopted local naming convention.",
+      "blocks_whole_range_pass": true,
+      "comparison": {
+        "current": "エンタングルメント境界",
+        "english_or_not_applicable": "entanglement cut / effective entanglement edge",
+        "alternatives_or_not_applicable": [
+          "エンタングルメント切断",
+          "entanglement cut"
+        ],
+        "audience_reason": "Meaning is locally identifiable; preferred naming cannot be certified from that fact alone."
+      },
+      "id": "manual-1",
+      "surface": "エンタングルメント境界",
+      "occurrences": [
+        {
+          "line": 79,
+          "column": 31
+        }
+      ]
+    },
+    {
+      "role": "disciplinary_name",
+      "impact": "high",
+      "referent": "normalized Gibbs-form effective reduced density matrix",
+      "decision": "UNVERIFIED",
+      "reason": "The expression is mathematically transparent; exact-phrase search did not yield two relevant Japanese many-body sources. Machine-translated papers were excluded. Missing attestation is not a prose defect.",
+      "uncertainty_reason": "The expression is mathematically transparent; exact-phrase search did not yield two relevant Japanese many-body sources. Machine-translated papers were excluded. Missing attestation is not a prose defect.",
+      "missing_evidence": "Two independent Japanese usages for the Gibbs-form reduced state in the intended community.",
+      "blocks_whole_range_pass": true,
+      "comparison": {
+        "current": "熱密度行列",
+        "english_or_not_applicable": "thermal density matrix",
+        "alternatives_or_not_applicable": [
+          "熱的な密度行列",
+          "Gibbs 状態"
+        ],
+        "audience_reason": "Meaning is locally identifiable; preferred naming cannot be certified from that fact alone."
+      },
+      "id": "manual-2",
+      "surface": "熱密度行列",
+      "occurrences": [
+        {
+          "line": 79,
+          "column": 119
+        }
+      ]
+    },
+    {
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "conformal field theory, original acronym assumed familiar to reader of characters",
+      "decision": "UNVERIFIED",
+      "reason": "conformal field theory, original acronym assumed familiar to reader of characters; no new name is introduced by this delta.",
+      "uncertainty_reason": "This delta review has not completed independent Japanese preference evidence for this existing prerequisite name.",
+      "missing_evidence": "Independent Japanese naming comparison if whole-manuscript acceptance is requested.",
+      "blocks_whole_range_pass": false,
+      "defer_reason": "Referent is fixed by an adjacent explicit formula, prior definition, source proper identity, or reader prerequisite; spelling preference uncertainty here does not change the operation or claim. Any high-impact whole-manuscript first-use decision remains outside this delta verdict.",
+      "id": "manual-3",
+      "surface": "CFT",
+      "occurrences": [
+        {
+          "line": 79,
+          "column": 44
+        }
+      ]
+    },
+    {
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "basis in the all-system trace, not ground state in this occurrence",
+      "decision": "UNVERIFIED",
+      "reason": "basis in the all-system trace, not ground state in this occurrence; no new name is introduced by this delta.",
+      "uncertainty_reason": "This delta review has not completed independent Japanese preference evidence for this existing prerequisite name.",
+      "missing_evidence": "Independent Japanese naming comparison if whole-manuscript acceptance is requested.",
+      "blocks_whole_range_pass": false,
+      "defer_reason": "Referent is fixed by an adjacent explicit formula, prior definition, source proper identity, or reader prerequisite; spelling preference uncertainty here does not change the operation or claim. Any high-impact whole-manuscript first-use decision remains outside this delta verdict.",
+      "id": "manual-4",
+      "surface": "基底",
+      "occurrences": [
+        {
+          "line": 79,
+          "column": 61
+        },
+        {
+          "line": 79,
+          "column": 101
+        }
+      ]
+    },
+    {
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "operator representing the reduced state, fixed by ρ_A=Tr_Bρ",
+      "decision": "UNVERIFIED",
+      "reason": "operator representing the reduced state, fixed by ρ_A=Tr_Bρ; no new name is introduced by this delta.",
+      "uncertainty_reason": "This delta review has not completed independent Japanese preference evidence for this existing prerequisite name.",
+      "missing_evidence": "Independent Japanese naming comparison if whole-manuscript acceptance is requested.",
+      "blocks_whole_range_pass": false,
+      "defer_reason": "Referent is fixed by an adjacent explicit formula, prior definition, source proper identity, or reader prerequisite; spelling preference uncertainty here does not change the operation or claim. Any high-impact whole-manuscript first-use decision remains outside this delta verdict.",
+      "id": "manual-5",
+      "surface": "密度行列",
+      "occurrences": [
+        {
+          "line": 79,
+          "column": 120
+        }
+      ]
+    },
+    {
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "CFT energy operator H used in the Gibbs exponential",
+      "decision": "UNVERIFIED",
+      "reason": "CFT energy operator H used in the Gibbs exponential; no new name is introduced by this delta.",
+      "uncertainty_reason": "This delta review has not completed independent Japanese preference evidence for this existing prerequisite name.",
+      "missing_evidence": "Independent Japanese naming comparison if whole-manuscript acceptance is requested.",
+      "blocks_whole_range_pass": false,
+      "defer_reason": "Referent is fixed by an adjacent explicit formula, prior definition, source proper identity, or reader prerequisite; spelling preference uncertainty here does not change the operation or claim. Any high-impact whole-manuscript first-use decision remains outside this delta verdict.",
+      "id": "manual-6",
+      "surface": "ハミルトニアン",
+      "occurrences": [
+        {
+          "line": 79,
+          "column": 48
+        }
+      ]
+    },
+    {
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "ground state of the full original sample, not the tracing basis",
+      "decision": "UNVERIFIED",
+      "reason": "ground state of the full original sample, not the tracing basis; no new name is introduced by this delta.",
+      "uncertainty_reason": "This delta review has not completed independent Japanese preference evidence for this existing prerequisite name.",
+      "missing_evidence": "Independent Japanese naming comparison if whole-manuscript acceptance is requested.",
+      "blocks_whole_range_pass": false,
+      "defer_reason": "Referent is fixed by an adjacent explicit formula, prior definition, source proper identity, or reader prerequisite; spelling preference uncertainty here does not change the operation or claim. Any high-impact whole-manuscript first-use decision remains outside this delta verdict.",
+      "id": "manual-7",
+      "surface": "基底状態",
+      "occurrences": [
+        {
+          "line": 79,
+          "column": 61
+        },
+        {
+          "line": 79,
+          "column": 101
+        }
+      ]
+    },
+    {
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "β parameter of the effective Gibbs exponential, explained without actual-heating implication",
+      "decision": "UNVERIFIED",
+      "reason": "β parameter of the effective Gibbs exponential, explained without actual-heating implication; no new name is introduced by this delta.",
+      "uncertainty_reason": "This delta review has not completed independent Japanese preference evidence for this existing prerequisite name.",
+      "missing_evidence": "Independent Japanese naming comparison if whole-manuscript acceptance is requested.",
+      "blocks_whole_range_pass": false,
+      "defer_reason": "Referent is fixed by an adjacent explicit formula, prior definition, source proper identity, or reader prerequisite; spelling preference uncertainty here does not change the operation or claim. Any high-impact whole-manuscript first-use decision remains outside this delta verdict.",
+      "id": "manual-8",
+      "surface": "逆温度",
+      "occurrences": [
+        {
+          "line": 79,
+          "column": 135
+        }
+      ]
+    },
+    {
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "decision": "KEEP",
+      "reason": "Geometric/physical boundary is explicitly qualified in these clauses; review the full エンタングルメント境界 separately rather than giving the short everyday noun a new technical role.",
+      "id": "manual-9",
+      "surface": "境界",
+      "occurrences": [
+        {
+          "line": 79,
+          "column": 19
+        },
+        {
+          "line": 79,
+          "column": 40
+        }
+      ]
+    },
+    {
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "decision": "KEEP",
+      "reason": "Ordinary explanatory label for Gibbs/Schmidt probabilities, not a new technical name.",
+      "id": "manual-10",
+      "surface": "重み",
+      "occurrences": [
+        {
+          "line": 79,
+          "column": 116
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "independent_reviewer": "japanese_final_delta",
+  "scope": "Three changed paragraphs only; full naming acceptance and prior reports are outside scope.",
+  "assigned_ranges": [
+    {
+      "chapter": "boundary",
+      "source_sha256": "1449fc165031f74f8e0c221b5529523714eda6b6be6389db754940bb067b3ed2",
+      "range": [
+        57,
+        57
+      ],
+      "verdict": "NO_SUPPORTED_DELTA_WORDING_REPAIR; standalone whole-range naming PASS withheld for pre-existing topological-spin handle"
+    },
+    {
+      "chapter": "derivation",
+      "source_sha256": "8c567b50bcebe5d24971923c6f53914a07d7c167301d8dbe329f12b9ac7a4573",
+      "range": [
+        91,
+        91
+      ],
+      "verdict": "PASS_WITHIN_ASSIGNED_DELTA"
+    },
+    {
+      "chapter": "references",
+      "source_sha256": "e96b9f0672609630f0d2b6b0f88d27b31921771a68820b3a081e10bdf345cf2e",
+      "range": [
+        49,
+        49
+      ],
+      "verdict": "PASS_WITHIN_ASSIGNED_DELTA"
+    }
+  ],
+  "actually_read_context": {
+    "boundary": [
+      [
+        1,
+        98
+      ]
+    ],
+    "derivation": [
+      [
+        1,
+        171
+      ]
+    ],
+    "references": [
+      [
+        30,
+        65
+      ]
+    ]
+  },
+  "unread_ranges": "Other chapters and the remainder of references.md; not assigned.",
+  "evidence_record_read": "Only independently-inspected-evidence.json; no prior judgments, author history, or reports were read.",
+  "supported_repairs": [],
+  "sentence_findings": {
+    "boundary:57": "Quantifier scope, divisibility direction, positivity, and conditional conclusion remain clear in Japanese. Partial theory is descriptive of the previously indexed p-primary factors.",
+    "derivation:91": "Output/input direction is explicit, and その引数 has the immediately preceding right-hand character argument as antecedent. Optional hint repeats the already explicit inverse relation without changing the name character.",
+    "references:49": "Original section titles remain locators; the bosonic and filling qualifiers are retained."
+  },
+  "deferred_incidental_names": [],
+  "standalone_limit": "Boundary spin is high impact and its unchanged Japanese name is not independently recertified here. No supported term-identity defect is found; parent may carry forward an applicable settled original naming judgment. Do not represent this delta report as manuscript-wide naming PASS.",
+  "mechanical_validation": "Run separately; semantic dispositions are the actual manual judgments, not inferred from validator success."
+}

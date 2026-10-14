@@ -1,0 +1,93 @@
+{
+  "input_sha256": "17c382fdce929f71758d0037f48e9031e70105090c232373f8586eb9d53d0ea0",
+  "review_lines": [
+    86,
+    86
+  ],
+  "manual_sweep": {
+    "completed": true,
+    "reviewed_lines": [
+      86,
+      86
+    ]
+  },
+  "dispositions": [],
+  "supplemental_concepts": [
+    {
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "leading asymptotic contribution, with its coefficient and validity supplied by adjacent formula",
+      "decision": "UNVERIFIED",
+      "reason": "leading asymptotic contribution, with its coefficient and validity supplied by adjacent formula; no new name is introduced by this delta.",
+      "uncertainty_reason": "This delta review has not completed independent Japanese preference evidence for this existing prerequisite name.",
+      "missing_evidence": "Independent Japanese naming comparison if whole-manuscript acceptance is requested.",
+      "blocks_whole_range_pass": false,
+      "defer_reason": "Referent is fixed by an adjacent explicit formula, prior definition, source proper identity, or reader prerequisite; spelling preference uncertainty here does not change the operation or claim. Any high-impact whole-manuscript first-use decision remains outside this delta verdict.",
+      "id": "manual-1",
+      "surface": "主要項",
+      "occurrences": [
+        {
+          "line": 86,
+          "column": 34
+        }
+      ]
+    },
+    {
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "vacuum sector labelled 1, fixed before these changed lines",
+      "decision": "UNVERIFIED",
+      "reason": "vacuum sector labelled 1, fixed before these changed lines; no new name is introduced by this delta.",
+      "uncertainty_reason": "This delta review has not completed independent Japanese preference evidence for this existing prerequisite name.",
+      "missing_evidence": "Independent Japanese naming comparison if whole-manuscript acceptance is requested.",
+      "blocks_whole_range_pass": false,
+      "defer_reason": "Referent is fixed by an adjacent explicit formula, prior definition, source proper identity, or reader prerequisite; spelling preference uncertainty here does not change the operation or claim. Any high-impact whole-manuscript first-use decision remains outside this delta verdict.",
+      "id": "manual-2",
+      "surface": "真空",
+      "occurrences": [
+        {
+          "line": 86,
+          "column": 31
+        }
+      ]
+    },
+    {
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "nonvanishing scalar coefficient or sum, stated by explicit mathematical condition",
+      "decision": "UNVERIFIED",
+      "reason": "nonvanishing scalar coefficient or sum, stated by explicit mathematical condition; no new name is introduced by this delta.",
+      "uncertainty_reason": "This delta review has not completed independent Japanese preference evidence for this existing prerequisite name.",
+      "missing_evidence": "Independent Japanese naming comparison if whole-manuscript acceptance is requested.",
+      "blocks_whole_range_pass": false,
+      "defer_reason": "Referent is fixed by an adjacent explicit formula, prior definition, source proper identity, or reader prerequisite; spelling preference uncertainty here does not change the operation or claim. Any high-impact whole-manuscript first-use decision remains outside this delta verdict.",
+      "id": "manual-3",
+      "surface": "非ゼロ",
+      "occurrences": [
+        {
+          "line": 86,
+          "column": 26
+        }
+      ]
+    },
+    {
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "matrix entry multiplying vacuum character, explicitly (ST^nS)_{11}",
+      "decision": "UNVERIFIED",
+      "reason": "matrix entry multiplying vacuum character, explicitly (ST^nS)_{11}; no new name is introduced by this delta.",
+      "uncertainty_reason": "This delta review has not completed independent Japanese preference evidence for this existing prerequisite name.",
+      "missing_evidence": "Independent Japanese naming comparison if whole-manuscript acceptance is requested.",
+      "blocks_whole_range_pass": false,
+      "defer_reason": "Referent is fixed by an adjacent explicit formula, prior definition, source proper identity, or reader prerequisite; spelling preference uncertainty here does not change the operation or claim. Any high-impact whole-manuscript first-use decision remains outside this delta verdict.",
+      "id": "manual-4",
+      "surface": "係数",
+      "occurrences": [
+        {
+          "line": 86,
+          "column": 7
+        }
+      ]
+    }
+  ]
+}

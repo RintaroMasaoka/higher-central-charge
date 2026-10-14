@@ -1,0 +1,12 @@
+{
+  "source": "content/derivation.md",
+  "sha256": "40555f3568618467d620f457bcc42d0d412867f4a3f007ac0b74b181019515de",
+  "projectionSha256": "959439c40f73133b81836a9fc1bd8582f25c06929f977ca56c979a4da3a79667",
+  "packetsSha256": "2494edaa8fca30b54df327123ffd60b737e878b3eba949da1921ed2c26c1eab4",
+  "removed": {
+    "disclosures": 2,
+    "mathHints": 0,
+    "stepPopups": 0
+  },
+  "units": 51
+}

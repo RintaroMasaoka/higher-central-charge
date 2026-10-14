@@ -1,0 +1,12 @@
+{
+  "A": {
+    "task":"Review the supplied teaching passage for subject reasoning and explanation acts in source order. The learner understands CFT characters and basic linear algebra, and is encountering this paper for the first time. Return located verdicts with evidence and the scope of your review. Do not rewrite the passage.",
+    "source":"original-observable.md",
+    "prefix":"original-overview.md"
+  },
+  "B": {
+    "task":"高校で二次関数を学んだ読者に、二乗写像の像と一対一性を説明する学習ノートを審査する。命題の支持と本文の説明行為を順に判定し、箇所と根拠を報告する。代替本文は執筆しない。",
+    "source":"interval-note.md",
+    "prefix":null
+  }
+}

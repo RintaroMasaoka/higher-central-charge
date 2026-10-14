@@ -1,0 +1,85 @@
+{
+  "input_sha256": "9bd9596d2ea22a7db7f1f5543eff5c86e1bded4aed67d72a1a172e18efbc5ef1",
+  "review_lines": [
+    79,
+    79
+  ],
+  "manual_sweep": {
+    "completed": true,
+    "reviewed_lines": [
+      79,
+      79
+    ]
+  },
+  "dispositions": [],
+  "supplemental_concepts": [
+    {
+      "role": "explanatory_gloss",
+      "impact": "high",
+      "referent": "choice of c_- among real solutions giving the same measured exponential",
+      "decision": "UNVERIFIED",
+      "reason": "Here it is a referential explanation of the inverse ambiguity, not a new named invariant. The displayed periodicity identifies the candidates. Japanese preference evidence for the expression in this inverse-measurement context remains unchecked.",
+      "uncertainty_reason": "Here it is a referential explanation of the inverse ambiguity, not a new named invariant. The displayed periodicity identifies the candidates. Japanese preference evidence for the expression in this inverse-measurement context remains unchecked.",
+      "missing_evidence": "Two relevant usages or an adopted explanation convention; absence alone does not warrant CHANGE.",
+      "blocks_whole_range_pass": true,
+      "comparison": {
+        "current": "位相の枝",
+        "english_or_not_applicable": "inverse phase / logarithm branch",
+        "alternatives_or_not_applicable": [
+          "同じ位相を与える中心電荷の候補"
+        ],
+        "audience_reason": "Meaning is locally identifiable; preferred naming cannot be certified from that fact alone."
+      },
+      "id": "manual-1",
+      "surface": "位相の枝",
+      "occurrences": [
+        {
+          "line": 79,
+          "column": 64
+        }
+      ]
+    },
+    {
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "argument/unit phase of a nonzero complex number, fixed by normalization in overview",
+      "decision": "UNVERIFIED",
+      "reason": "argument/unit phase of a nonzero complex number, fixed by normalization in overview; no new name is introduced by this delta.",
+      "uncertainty_reason": "This delta review has not completed independent Japanese preference evidence for this existing prerequisite name.",
+      "missing_evidence": "Independent Japanese naming comparison if whole-manuscript acceptance is requested.",
+      "blocks_whole_range_pass": false,
+      "defer_reason": "Referent is fixed by an adjacent explicit formula, prior definition, source proper identity, or reader prerequisite; spelling preference uncertainty here does not change the operation or claim. Any high-impact whole-manuscript first-use decision remains outside this delta verdict.",
+      "id": "manual-2",
+      "surface": "位相",
+      "occurrences": [
+        {
+          "line": 79,
+          "column": 5
+        },
+        {
+          "line": 79,
+          "column": 64
+        }
+      ]
+    },
+    {
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "central charge c of a CFT, assumed familiar to reader of characters",
+      "decision": "UNVERIFIED",
+      "reason": "central charge c of a CFT, assumed familiar to reader of characters; no new name is introduced by this delta.",
+      "uncertainty_reason": "This delta review has not completed independent Japanese preference evidence for this existing prerequisite name.",
+      "missing_evidence": "Independent Japanese naming comparison if whole-manuscript acceptance is requested.",
+      "blocks_whole_range_pass": false,
+      "defer_reason": "Referent is fixed by an adjacent explicit formula, prior definition, source proper identity, or reader prerequisite; spelling preference uncertainty here does not change the operation or claim. Any high-impact whole-manuscript first-use decision remains outside this delta verdict.",
+      "id": "manual-3",
+      "surface": "中心電荷",
+      "occurrences": [
+        {
+          "line": 79,
+          "column": 36
+        }
+      ]
+    }
+  ]
+}

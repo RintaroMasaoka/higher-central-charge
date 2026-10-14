@@ -1,0 +1,106 @@
+{
+  "input_sha256": "9bd9596d2ea22a7db7f1f5543eff5c86e1bded4aed67d72a1a172e18efbc5ef1",
+  "review_lines": [
+    27,
+    27
+  ],
+  "manual_sweep": {
+    "completed": true,
+    "reviewed_lines": [
+      27,
+      27
+    ]
+  },
+  "dispositions": [],
+  "supplemental_concepts": [
+    {
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "anyon theory with dimension-one simple objects, unchanged English classification",
+      "decision": "UNVERIFIED",
+      "reason": "anyon theory with dimension-one simple objects, unchanged English classification; no new name is introduced by this delta.",
+      "uncertainty_reason": "This delta review has not completed independent Japanese preference evidence for this existing prerequisite name.",
+      "missing_evidence": "Independent Japanese naming comparison if whole-manuscript acceptance is requested.",
+      "blocks_whole_range_pass": false,
+      "defer_reason": "Referent is fixed by an adjacent explicit formula, prior definition, source proper identity, or reader prerequisite; spelling preference uncertainty here does not change the operation or claim. Any high-impact whole-manuscript first-use decision remains outside this delta verdict.",
+      "id": "manual-1",
+      "surface": "Abelian",
+      "occurrences": [
+        {
+          "line": 27,
+          "column": 60
+        }
+      ]
+    },
+    {
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "theory of anyon data, distinct from actual physical central charge modulo eight",
+      "decision": "UNVERIFIED",
+      "reason": "theory of anyon data, distinct from actual physical central charge modulo eight; no new name is introduced by this delta.",
+      "uncertainty_reason": "This delta review has not completed independent Japanese preference evidence for this existing prerequisite name.",
+      "missing_evidence": "Independent Japanese naming comparison if whole-manuscript acceptance is requested.",
+      "blocks_whole_range_pass": false,
+      "defer_reason": "Referent is fixed by an adjacent explicit formula, prior definition, source proper identity, or reader prerequisite; spelling preference uncertainty here does not change the operation or claim. Any high-impact whole-manuscript first-use decision remains outside this delta verdict.",
+      "id": "manual-2",
+      "surface": "エニオン理論",
+      "occurrences": [
+        {
+          "line": 27,
+          "column": 23
+        },
+        {
+          "line": 27,
+          "column": 68
+        }
+      ]
+    },
+    {
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "finite excitation-energy threshold; unchanged established physics name",
+      "decision": "UNVERIFIED",
+      "reason": "finite excitation-energy threshold; unchanged established physics name; no new name is introduced by this delta.",
+      "uncertainty_reason": "This delta review has not completed independent Japanese preference evidence for this existing prerequisite name.",
+      "missing_evidence": "Independent Japanese naming comparison if whole-manuscript acceptance is requested.",
+      "blocks_whole_range_pass": false,
+      "defer_reason": "Referent is fixed by an adjacent explicit formula, prior definition, source proper identity, or reader prerequisite; spelling preference uncertainty here does not change the operation or claim. Any high-impact whole-manuscript first-use decision remains outside this delta verdict.",
+      "id": "manual-3",
+      "surface": "ギャップ",
+      "occurrences": [
+        {
+          "line": 27,
+          "column": 30
+        }
+      ]
+    },
+    {
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "decision": "KEEP",
+      "reason": "Geometric/physical boundary is explicitly qualified in these clauses; review the full エンタングルメント境界 separately rather than giving the short everyday noun a new technical role.",
+      "id": "manual-4",
+      "surface": "境界",
+      "occurrences": [
+        {
+          "line": 27,
+          "column": 38
+        }
+      ]
+    },
+    {
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "decision": "KEEP",
+      "reason": "Ordinary description of cited results, not a proposed technical name for a different classification.",
+      "id": "manual-5",
+      "surface": "分類結果",
+      "occurrences": [
+        {
+          "line": 27,
+          "column": 75
+        }
+      ]
+    }
+  ]
+}

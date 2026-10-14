@@ -1,0 +1,115 @@
+{
+  "input_sha256": "88b80ca95c57d9821e48156060a83ef7623cef02e5b9fe8cf5fdcdb0ef113bfa",
+  "review_lines": [
+    7,
+    7
+  ],
+  "manual_sweep": {
+    "completed": true,
+    "reviewed_lines": [
+      7,
+      7
+    ]
+  },
+  "dispositions": [
+    {
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "decision": "KEEP",
+      "reason": "Number two counts subsystem parts and the later pair of characters; it is not a scientific name.",
+      "candidate_id": "s6",
+      "surface": "二",
+      "occurrences": [
+        {
+          "line": 7,
+          "column": 21
+        },
+        {
+          "line": 7,
+          "column": 103
+        },
+        {
+          "line": 7,
+          "column": 109
+        }
+      ]
+    }
+  ],
+  "supplemental_concepts": [
+    {
+      "role": "disciplinary_name",
+      "impact": "high",
+      "referent": "character of a CFT representation",
+      "decision": "KEEP",
+      "reason": "Reader already knows CFT characters. Both independent CFT authors use 指標 for this object, so it preserves the familiar name.",
+      "comparison": {
+        "current": "指標",
+        "english_or_not_applicable": "character",
+        "alternatives_or_not_applicable": [
+          "キャラクター",
+          "character"
+        ],
+        "audience_reason": "Reader already knows CFT characters. Both independent CFT authors use 指標 for this object, so it preserves the familiar name."
+      },
+      "evidence_sources": [
+        {
+          "locator": "https://www2.yukawa.kyoto-u.ac.jp/~eguchi40/Sugawara.pdf#page=12",
+          "usage": "N=4 and N=3 SCA 指標公式 and モジュラー変換公式; extended characters in CFT. Direct web text inspected at lines 57–64.",
+          "genre": "CFT researcher lecture slides",
+          "community": "CFT"
+        },
+        {
+          "locator": "https://www-het.phys.sci.osaka-u.ac.jp/~yamaguch/j/pdf/d.pdf#page=18",
+          "usage": "χ characters, modular S and T transformations including τ→τ+1; Japanese 指標 and モジュラー変換 in running explanation. Search returned actual thesis passage; direct open failed.",
+          "genre": "researcher doctoral thesis",
+          "community": "CFT / string theory"
+        }
+      ],
+      "id": "manual-1",
+      "surface": "指標",
+      "occurrences": [
+        {
+          "line": 7,
+          "column": 112
+        }
+      ]
+    },
+    {
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "subsystem degrees of freedom in the A/B factorization, ordinary established physics concept",
+      "decision": "UNVERIFIED",
+      "reason": "subsystem degrees of freedom in the A/B factorization, ordinary established physics concept; no new name is introduced by this delta.",
+      "uncertainty_reason": "This delta review has not completed independent Japanese preference evidence for this existing prerequisite name.",
+      "missing_evidence": "Independent Japanese naming comparison if whole-manuscript acceptance is requested.",
+      "blocks_whole_range_pass": false,
+      "defer_reason": "Referent is fixed by an adjacent explicit formula, prior definition, source proper identity, or reader prerequisite; spelling preference uncertainty here does not change the operation or claim. Any high-impact whole-manuscript first-use decision remains outside this delta verdict.",
+      "id": "manual-2",
+      "surface": "自由度",
+      "occurrences": [
+        {
+          "line": 7,
+          "column": 27
+        }
+      ]
+    },
+    {
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "decision": "KEEP",
+      "reason": "Geometric/physical boundary is explicitly qualified in these clauses; review the full エンタングルメント境界 separately rather than giving the short everyday noun a new technical role.",
+      "id": "manual-3",
+      "surface": "境界",
+      "occurrences": [
+        {
+          "line": 7,
+          "column": 54
+        },
+        {
+          "line": 7,
+          "column": 83
+        }
+      ]
+    }
+  ]
+}

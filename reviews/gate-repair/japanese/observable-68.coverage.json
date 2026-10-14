@@ -1,0 +1,253 @@
+{
+  "input_sha256": "88b80ca95c57d9821e48156060a83ef7623cef02e5b9fe8cf5fdcdb0ef113bfa",
+  "review_lines": [
+    68,
+    68
+  ],
+  "manual_sweep": {
+    "completed": true,
+    "reviewed_lines": [
+      68,
+      68
+    ]
+  },
+  "dispositions": [],
+  "supplemental_concepts": [
+    {
+      "role": "disciplinary_name",
+      "impact": "high",
+      "referent": "normalized Gibbs-form effective reduced density matrix",
+      "decision": "UNVERIFIED",
+      "reason": "The expression is mathematically transparent; exact-phrase search did not yield two relevant Japanese many-body sources. Machine-translated papers were excluded. Missing attestation is not a prose defect.",
+      "uncertainty_reason": "The expression is mathematically transparent; exact-phrase search did not yield two relevant Japanese many-body sources. Machine-translated papers were excluded. Missing attestation is not a prose defect.",
+      "missing_evidence": "Two independent Japanese usages for the Gibbs-form reduced state in the intended community.",
+      "blocks_whole_range_pass": true,
+      "comparison": {
+        "current": "熱密度行列",
+        "english_or_not_applicable": "thermal density matrix",
+        "alternatives_or_not_applicable": [
+          "熱的な密度行列",
+          "Gibbs 状態"
+        ],
+        "audience_reason": "Meaning is locally identifiable; preferred naming cannot be certified from that fact alone."
+      },
+      "id": "manual-1",
+      "surface": "熱密度行列",
+      "occurrences": [
+        {
+          "line": 68,
+          "column": 118
+        }
+      ]
+    },
+    {
+      "role": "disciplinary_name",
+      "impact": "high",
+      "referent": "join opposing edge theories across an entanglement cut to describe gapped bulk",
+      "decision": "UNVERIFIED",
+      "reason": "Original English handle is retained and meaning explained. Japanese usage preference comparison was not completed; no new Japanese technical handle is invented.",
+      "uncertainty_reason": "Original English handle is retained and meaning explained. Japanese usage preference comparison was not completed; no new Japanese technical handle is invented.",
+      "missing_evidence": "A second relevant physics source and Japanese audience naming comparison for the original-English handle.",
+      "blocks_whole_range_pass": true,
+      "comparison": {
+        "current": "cut-and-glue",
+        "english_or_not_applicable": "cut-and-glue",
+        "alternatives_or_not_applicable": [
+          "cut-and-glue approach",
+          "切断面を挟むエッジの結合"
+        ],
+        "audience_reason": "Meaning is locally identifiable; preferred naming cannot be certified from that fact alone."
+      },
+      "id": "manual-2",
+      "surface": "cut-and-glue",
+      "occurrences": [
+        {
+          "line": 68,
+          "column": 72
+        }
+      ]
+    },
+    {
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "propagating edge degrees of freedom, already anchored to left/right boundary Hamiltonians",
+      "decision": "UNVERIFIED",
+      "reason": "propagating edge degrees of freedom, already anchored to left/right boundary Hamiltonians; no new name is introduced by this delta.",
+      "uncertainty_reason": "This delta review has not completed independent Japanese preference evidence for this existing prerequisite name.",
+      "missing_evidence": "Independent Japanese naming comparison if whole-manuscript acceptance is requested.",
+      "blocks_whole_range_pass": false,
+      "defer_reason": "Referent is fixed by an adjacent explicit formula, prior definition, source proper identity, or reader prerequisite; spelling preference uncertainty here does not change the operation or claim. Any high-impact whole-manuscript first-use decision remains outside this delta verdict.",
+      "id": "manual-3",
+      "surface": "エッジ",
+      "occurrences": [
+        {
+          "line": 68,
+          "column": 26
+        },
+        {
+          "line": 68,
+          "column": 47
+        },
+        {
+          "line": 68,
+          "column": 101
+        }
+      ]
+    },
+    {
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "finite excitation-energy threshold; unchanged established physics name",
+      "decision": "UNVERIFIED",
+      "reason": "finite excitation-energy threshold; unchanged established physics name; no new name is introduced by this delta.",
+      "uncertainty_reason": "This delta review has not completed independent Japanese preference evidence for this existing prerequisite name.",
+      "missing_evidence": "Independent Japanese naming comparison if whole-manuscript acceptance is requested.",
+      "blocks_whole_range_pass": false,
+      "defer_reason": "Referent is fixed by an adjacent explicit formula, prior definition, source proper identity, or reader prerequisite; spelling preference uncertainty here does not change the operation or claim. Any high-impact whole-manuscript first-use decision remains outside this delta verdict.",
+      "id": "manual-4",
+      "surface": "ギャップ",
+      "occurrences": [
+        {
+          "line": 68,
+          "column": 59
+        }
+      ]
+    },
+    {
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "conformal field theory, original acronym assumed familiar to reader of characters",
+      "decision": "UNVERIFIED",
+      "reason": "conformal field theory, original acronym assumed familiar to reader of characters; no new name is introduced by this delta.",
+      "uncertainty_reason": "This delta review has not completed independent Japanese preference evidence for this existing prerequisite name.",
+      "missing_evidence": "Independent Japanese naming comparison if whole-manuscript acceptance is requested.",
+      "blocks_whole_range_pass": false,
+      "defer_reason": "Referent is fixed by an adjacent explicit formula, prior definition, source proper identity, or reader prerequisite; spelling preference uncertainty here does not change the operation or claim. Any high-impact whole-manuscript first-use decision remains outside this delta verdict.",
+      "id": "manual-5",
+      "surface": "CFT",
+      "occurrences": [
+        {
+          "line": 68,
+          "column": 30
+        }
+      ]
+    },
+    {
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "subsystem degrees of freedom in the A/B factorization, ordinary established physics concept",
+      "decision": "UNVERIFIED",
+      "reason": "subsystem degrees of freedom in the A/B factorization, ordinary established physics concept; no new name is introduced by this delta.",
+      "uncertainty_reason": "This delta review has not completed independent Japanese preference evidence for this existing prerequisite name.",
+      "missing_evidence": "Independent Japanese naming comparison if whole-manuscript acceptance is requested.",
+      "blocks_whole_range_pass": false,
+      "defer_reason": "Referent is fixed by an adjacent explicit formula, prior definition, source proper identity, or reader prerequisite; spelling preference uncertainty here does not change the operation or claim. Any high-impact whole-manuscript first-use decision remains outside this delta verdict.",
+      "id": "manual-6",
+      "surface": "自由度",
+      "occurrences": [
+        {
+          "line": 68,
+          "column": 50
+        }
+      ]
+    },
+    {
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "matrix/operator trace, whose subsystem is specified by adjacent words/formula",
+      "decision": "UNVERIFIED",
+      "reason": "matrix/operator trace, whose subsystem is specified by adjacent words/formula; no new name is introduced by this delta.",
+      "uncertainty_reason": "This delta review has not completed independent Japanese preference evidence for this existing prerequisite name.",
+      "missing_evidence": "Independent Japanese naming comparison if whole-manuscript acceptance is requested.",
+      "blocks_whole_range_pass": false,
+      "defer_reason": "Referent is fixed by an adjacent explicit formula, prior definition, source proper identity, or reader prerequisite; spelling preference uncertainty here does not change the operation or claim. Any high-impact whole-manuscript first-use decision remains outside this delta verdict.",
+      "id": "manual-7",
+      "surface": "トレース",
+      "occurrences": [
+        {
+          "line": 68,
+          "column": 6
+        },
+        {
+          "line": 68,
+          "column": 95
+        }
+      ]
+    },
+    {
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "long-wavelength regime in which edge CFT supplies effective description",
+      "decision": "UNVERIFIED",
+      "reason": "long-wavelength regime in which edge CFT supplies effective description; no new name is introduced by this delta.",
+      "uncertainty_reason": "This delta review has not completed independent Japanese preference evidence for this existing prerequisite name.",
+      "missing_evidence": "Independent Japanese naming comparison if whole-manuscript acceptance is requested.",
+      "blocks_whole_range_pass": false,
+      "defer_reason": "Referent is fixed by an adjacent explicit formula, prior definition, source proper identity, or reader prerequisite; spelling preference uncertainty here does not change the operation or claim. Any high-impact whole-manuscript first-use decision remains outside this delta verdict.",
+      "id": "manual-8",
+      "surface": "長波長",
+      "occurrences": [
+        {
+          "line": 68,
+          "column": 22
+        }
+      ]
+    },
+    {
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "geometric surface separating subsystem A from B, not physical cleavage",
+      "decision": "UNVERIFIED",
+      "reason": "geometric surface separating subsystem A from B, not physical cleavage; no new name is introduced by this delta.",
+      "uncertainty_reason": "This delta review has not completed independent Japanese preference evidence for this existing prerequisite name.",
+      "missing_evidence": "Independent Japanese naming comparison if whole-manuscript acceptance is requested.",
+      "blocks_whole_range_pass": false,
+      "defer_reason": "Referent is fixed by an adjacent explicit formula, prior definition, source proper identity, or reader prerequisite; spelling preference uncertainty here does not change the operation or claim. Any high-impact whole-manuscript first-use decision remains outside this delta verdict.",
+      "id": "manual-9",
+      "surface": "切断面",
+      "occurrences": [
+        {
+          "line": 68,
+          "column": 38
+        }
+      ]
+    },
+    {
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "operator representing the reduced state, fixed by ρ_A=Tr_Bρ",
+      "decision": "UNVERIFIED",
+      "reason": "operator representing the reduced state, fixed by ρ_A=Tr_Bρ; no new name is introduced by this delta.",
+      "uncertainty_reason": "This delta review has not completed independent Japanese preference evidence for this existing prerequisite name.",
+      "missing_evidence": "Independent Japanese naming comparison if whole-manuscript acceptance is requested.",
+      "blocks_whole_range_pass": false,
+      "defer_reason": "Referent is fixed by an adjacent explicit formula, prior definition, source proper identity, or reader prerequisite; spelling preference uncertainty here does not change the operation or claim. Any high-impact whole-manuscript first-use decision remains outside this delta verdict.",
+      "id": "manual-10",
+      "surface": "密度行列",
+      "occurrences": [
+        {
+          "line": 68,
+          "column": 105
+        },
+        {
+          "line": 68,
+          "column": 119
+        }
+      ]
+    },
+    {
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "decision": "KEEP",
+      "reason": "Ordinary approximate status; mathematical object and omitted perturbations are expressly supplied.",
+      "id": "manual-11",
+      "surface": "近似",
+      "occurrences": [
+        {
+          "line": 68,
+          "column": 126
+        }
+      ]
+    }
+  ]
+}

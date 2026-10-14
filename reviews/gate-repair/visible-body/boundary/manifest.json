@@ -1,0 +1,11 @@
+{
+  "source": "content/boundary.md",
+  "sha256": "9bd9596d2ea22a7db7f1f5543eff5c86e1bded4aed67d72a1a172e18efbc5ef1",
+  "projectionSha256": "ce4c58f6db15fa9ce266d85eb0cba37254d848104e84bb721c4f32fdffffc2a8",
+  "removed": {
+    "disclosures": 2,
+    "mathHints": 0,
+    "stepPopups": 0
+  },
+  "units": 35
+}

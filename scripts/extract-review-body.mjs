@@ -13,9 +13,12 @@ try {
   await mkdir(output); // Do not overwrite an earlier review revision.
   await writeFile(resolve(output, 'body.md'), result.markdown);
   await writeFile(resolve(output, 'units.json'), JSON.stringify(result.units, null, 2));
+  const packets = JSON.stringify(result.packets, null, 2);
+  await writeFile(resolve(output, 'packets.json'), packets);
   await writeFile(resolve(output, 'manifest.json'), JSON.stringify({ source: resolve(sourcePath),
     sha256: createHash('sha256').update(source).digest('hex'),
     projectionSha256: createHash('sha256').update(result.markdown).digest('hex'),
+    packetsSha256: createHash('sha256').update(packets).digest('hex'),
     removed: result.removed, units: result.units.length,
   }, null, 2));
   console.log(`Extracted ${result.units.length} units to ${output}`);

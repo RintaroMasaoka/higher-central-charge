@@ -1,0 +1,12 @@
+{
+  "source": "content/observable.md",
+  "sha256": "88b80ca95c57d9821e48156060a83ef7623cef02e5b9fe8cf5fdcdb0ef113bfa",
+  "projectionSha256": "4d215d29bd1b1792cd0229d1ad3af01efe7b2ab0bd685ca019799c1a06082a83",
+  "packetsSha256": "3bdd6c0550e7ba661d3291c9a591de8f4cc7093e8c147d062e323708815ac291",
+  "removed": {
+    "disclosures": 1,
+    "mathHints": 0,
+    "stepPopups": 0
+  },
+  "units": 31
+}

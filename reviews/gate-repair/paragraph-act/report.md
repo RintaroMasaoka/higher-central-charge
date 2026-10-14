@@ -1,0 +1,13 @@
+# Explanation-act lane report
+
+Verdict: PASS for the revealed candidate's speech-act/rhetorical suitability.
+
+Coverage: 132 consecutive packets, each frozen before the next reveal: overview-p1 through overview-p20; observable-p1 through observable-p19; derivation-p1 through derivation-p29; applications-p1 through applications-p30; boundary-p1 through boundary-p24; references-p1 through references-p10. All unit verdicts are PASS; no FAIL or UNKNOWN units.
+
+Perspective: first-encounter explanation acts only. Baseline: CFT characters and basic complex/matrix arithmetic; the paper is new. Only the acquired prefix, current packet, and the canonical explanation-acts.md and reader-review.md governed judgments. No manuscript, implementation, state, extraction files, old reports, history, or suffix was read. The figure packet was judged only for its textual role; no separate visual verdict is signed.
+
+The path consistently poses an operative subject question, supplies its objects and calculation, and returns to a usable result. Consequential qualifications were compared before acceptance: nonzero sums accompany normalization or vacuum extraction; approximation assumptions identify the change from an exact trace to its evaluation; the independent central-charge input accompanies the physical use of an anyon-theory result; alternate limits, cuts, labels, and source conventions concern two actually competing operations or representations. Their negative statements perform local distinctions or delimit an operation rather than presume an erroneous reader stance.
+
+Conditions recur at the final extraction, numerical use, boundary decision, and source correspondence. Each recurrence was judged for its current use, not passed simply because it could be scientifically necessary. The result scopes and final decision paragraph collect dispersed premises for reuse. The reference items identify how the displayed source formula and the note's adopted representation correspond. Optional confirmation headings ask the learner to apply already supplied relations without asserting that they made an error.
+
+Limits: this verdict does not certify scientific truth, premise availability, terminology, notation design, visual relations, rendering, or production. Those perspectives require their own separately frozen evidence. A record attempt for observable-p14 was rejected for an unbound context quote, and a following next command was denied by the freeze guard; no new packet was revealed. The record was corrected to exact current/prefix quotes and successfully frozen before continuation.

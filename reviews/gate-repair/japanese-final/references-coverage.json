@@ -1,0 +1,138 @@
+{
+  "input_sha256": "e96b9f0672609630f0d2b6b0f88d27b31921771a68820b3a081e10bdf345cf2e",
+  "review_lines": [
+    49,
+    49
+  ],
+  "manual_sweep": {
+    "completed": true,
+    "reviewed_lines": [
+      49,
+      49
+    ]
+  },
+  "dispositions": [],
+  "supplemental_concepts": [
+    {
+      "id": "m1",
+      "surface": "原論文",
+      "occurrences": [
+        {
+          "line": 49,
+          "column": 1
+        }
+      ],
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "decision": "KEEP",
+      "reason": "Source pointer to the paper, not a scientific name.",
+      "referent": "Source pointer to the paper, not a scientific name."
+    },
+    {
+      "id": "m2",
+      "surface": "Kitaev model",
+      "occurrences": [
+        {
+          "line": 49,
+          "column": 12
+        }
+      ],
+      "role": "proper_name",
+      "impact": "incidental",
+      "decision": "KEEP",
+      "reason": "Exact original figure locator containing the model eponym; preserves identity without proposing a Japanese rendering.",
+      "referent": "Kitaev honeycomb model in original Fig. 2"
+    },
+    {
+      "id": "m3",
+      "surface": "ボソン Laughlin 状態",
+      "occurrences": [
+        {
+          "line": 49,
+          "column": 33
+        }
+      ],
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "decision": "KEEP",
+      "reason": "Incidental source locator for Fig. 3; bosonic qualifier preserves the statistics of the specified Laughlin state. It is already encountered in the body, not a first-use definition.",
+      "referent": "bosonic Laughlin state at nu=1/2",
+      "evidence": {
+        "locator": "https://tohoku.repo.nii.ac.jp/record/131045/files/200325-Ito-3250-1.pdf",
+        "usage": "Primary doctoral-thesis search passage calls nu=1/q a Laughlin state and states that q is even for boson systems and odd for fermion systems.",
+        "genre": "physics doctoral thesis",
+        "community": "fractional quantum Hall theory"
+      },
+      "comparison": {
+        "current": "ボソン Laughlin 状態",
+        "english_or_not_applicable": "bosonic Laughlin state",
+        "alternatives_or_not_applicable": "ボソニック Laughlin 状態; ボソンの Laughlin 状態; ラフリン状態",
+        "audience_reason": "The mixed-script original surname preserves a directly searchable figure locator; the qualifier is recognizable and has no identity drift."
+      }
+    },
+    {
+      "id": "m4",
+      "surface": "位相の予測",
+      "occurrences": [
+        {
+          "line": 49,
+          "column": 58
+        }
+      ],
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "decision": "KEEP",
+      "reason": "Descriptive source locator for the complex phase predictions in Table I; not a phase-of-matter prediction.",
+      "referent": "Descriptive source locator for the complex phase predictions in Table I; not a phase-of-matter prediction."
+    },
+    {
+      "id": "m5",
+      "surface": "Extracting higher central charge of the Kitaev honeycomb model",
+      "occurrences": [
+        {
+          "line": 49,
+          "column": 69
+        }
+      ],
+      "role": "proper_name",
+      "impact": "incidental",
+      "decision": "KEEP",
+      "reason": "Quoted original source subsection title; original English is retained for location, not admitted as a new Japanese term."
+    },
+    {
+      "id": "m6",
+      "surface": "Extracting higher central charge of the $\\nu=1/2$ bosonic Laughlin state",
+      "occurrences": [
+        {
+          "line": 49,
+          "column": 136
+        }
+      ],
+      "role": "proper_name",
+      "impact": "incidental",
+      "decision": "KEEP",
+      "reason": "Quoted original source subsection title; filling and bosonic statistics remain intact."
+    },
+    {
+      "id": "m7",
+      "surface": "Numerical performance of partial rotation",
+      "occurrences": [
+        {
+          "line": 49,
+          "column": 214
+        }
+      ],
+      "role": "proper_name",
+      "impact": "incidental",
+      "decision": "KEEP",
+      "reason": "Quoted exact original supplementary subsection title locating the numerical discussion; no translated name introduced."
+    }
+  ],
+  "projection": {
+    "method": "Assigned Markdown paragraph has no hidden comments, metadata, or markup; identity projection of the selected reader-visible line.",
+    "source_sha256": "e96b9f0672609630f0d2b6b0f88d27b31921771a68820b3a081e10bdf345cf2e",
+    "review_body_sha256": "0c0258cebc9cceadb450e6b9bc170053f6e7cb9c9b045f4413bc209d1e95b08c"
+  },
+  "verdict": "PASS_WITHIN_ASSIGNED_DELTA",
+  "supported_repairs": []
+}

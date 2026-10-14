@@ -46,7 +46,7 @@ Ryohei Kobayashi, Taige Wang, Tomohiro Soejima, Roger S. K. Mong, Shinsei Ryu, *
 
 <!-- reference: numerics -->
 
-原論文 Fig. 2（Kitaev model）、Fig. 3（ボソン Laughlin 状態）、Table I（位相の予測）。補足 *Extracting higher central charge of the Kitaev honeycomb model* と *Extracting higher central charge of the $\nu=1/2$ bosonic Laughlin state*、特に *Numerical performance of partial rotation* を参照する。数値の再現は本ノートの対象に含めていない。
+原論文 Fig. 2（Kitaev model）、Fig. 3（ボソン Laughlin 状態）、Table I（位相の予測）。補足 *Extracting higher central charge of the Kitaev honeycomb model* と *Extracting higher central charge of the $\nu=1/2$ bosonic Laughlin state*、特に *Numerical performance of partial rotation* を参照する。
 
 <!-- /reference -->
 
@@ -62,7 +62,7 @@ Ryohei Kobayashi, Taige Wang, Tomohiro Soejima, Roger S. K. Mong, Shinsei Ryu, *
 
 <!-- reference: criteria -->
 
-本文 *Definition and properties of higher central charge* と補足 *Complete determination of edge gappability for bosonic Abelian phases* が、整数の条件と有限の測定手順の直接の出典である。論文は高次中心電荷の必要条件について Ng らの結果、Abelian の十分条件について Kaidi らの結果を用いる。本ノートはこれらの分類定理を再証明せず、ボソンのエニオン理論に適用する条件を述べた上で使う。
+本文 *Definition and properties of higher central charge* と補足 *Complete determination of edge gappability for bosonic Abelian phases* が、整数の条件と有限の測定手順の直接の出典である。論文は高次中心電荷の必要条件について Ng らの結果、Abelian の十分条件について Kaidi らの結果を用いる。境界の判定では、これらの分類定理をボソンのエニオン理論に適用する。
 
 補足の $n=2\mathcal D^2$ での中心電荷抽出について、本ノートは指数関数の位相の周期を明示し、実際の $c_-=0$ の確認を独立の入力としている。エニオンの和が与える $c_-\pmod8$ と、物理的な相の実際の $c_-$ は区別する。
 

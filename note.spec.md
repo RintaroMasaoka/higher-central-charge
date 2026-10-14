@@ -27,6 +27,8 @@ The objective requires a connected route from a wave function to an observable a
 ## Conventions and invariants
 Preserve d_a, θ_a, c_-, ζ_n, N_FS and source anyon labels. Distinguish modular T from partial translation. Define character and momentum sign consistently, documenting the source sign mismatch in reviews. Use physical displacement L/n to avoid ambiguous angle/momentum units. Positive real proportionality applies to the leading asymptotic term only. Never divide by zero or interchange fixed-n and momentum-polarization limits. Japanese terms retain English identification where community usage is unresolved; no audit labels in the manuscript.
 
+In the MPS comparison, project K_alpha=p_alpha L/(2pi) belongs to the selected physical A generator. Source bar K_alpha is a left-accumulated virtual-bond conserved label; the source's right-half operation inserts its inverse transformation. Do not identify these labels by an unestablished sign-only map. Preserve the source-side operation and its origin calibration as a pair. This follows from the supplemental momentum-conservation, partial-MPS rotation and label-calibration definitions.
+
 ## Protected human realizations
 None.
 
@@ -38,6 +40,10 @@ literature/papers/2303.04822/source/main.tex and supp_mat.tex, local paper.pdf; 
 
 ## Acceptance checks
 Source-bound audit; fresh sequential visible-body reader; scientific and notation checks; Japanese wording coverage; math/extraction/build; desktop/mobile light/dark UI; GitHub source upload and live Pages verification. Record each unresolved gate explicitly.
+
+Assign exactly one decision perspective to each fresh independent reviewer; the coordinator combines coverage and verdicts. Reader inference availability and explanation-act suitability use separate lanes. Sequentially reveal at most one paragraph with its attached equation or figure and freeze its lane judgment before the next reveal. Scientific fact checking, Japanese terminology, visual and production gates retain their own perspectives rather than borrowing a reader signature.
+
+In the act lane, review what each consequential utterance asks the reader to attend to, accept or revise, and what its position signals as important, doubtful, exceptional or expected. Use only the acquired prefix. A true condition, or prevention of an actual wrong inference, does not by itself license its wording, prominence or placement. Compare feasible realizations while holding required scientific content fixed; inspect cumulative reminders and contrasts. Negative results remain admissible when they answer the subject question. Require located evidence and revision-bound records rather than free-form assurances.
 
 ## Open decisions
 Additional learner background is unknown. Explain the necessary local relationships without claiming personal mastery.

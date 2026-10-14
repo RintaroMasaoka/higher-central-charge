@@ -1,0 +1,115 @@
+{
+  "input_sha256": "17c382fdce929f71758d0037f48e9031e70105090c232373f8586eb9d53d0ea0",
+  "review_lines": [
+    33,
+    33
+  ],
+  "manual_sweep": {
+    "completed": true,
+    "reviewed_lines": [
+      33,
+      33
+    ]
+  },
+  "dispositions": [],
+  "supplemental_concepts": [
+    {
+      "role": "disciplinary_name",
+      "impact": "high",
+      "referent": "character of a CFT representation",
+      "decision": "KEEP",
+      "reason": "Reader already knows CFT characters. Both independent CFT authors use 指標 for this object, so it preserves the familiar name.",
+      "comparison": {
+        "current": "指標",
+        "english_or_not_applicable": "character",
+        "alternatives_or_not_applicable": [
+          "キャラクター",
+          "character"
+        ],
+        "audience_reason": "Reader already knows CFT characters. Both independent CFT authors use 指標 for this object, so it preserves the familiar name."
+      },
+      "evidence_sources": [
+        {
+          "locator": "https://www2.yukawa.kyoto-u.ac.jp/~eguchi40/Sugawara.pdf#page=12",
+          "usage": "N=4 and N=3 SCA 指標公式 and モジュラー変換公式; extended characters in CFT. Direct web text inspected at lines 57–64.",
+          "genre": "CFT researcher lecture slides",
+          "community": "CFT"
+        },
+        {
+          "locator": "https://www-het.phys.sci.osaka-u.ac.jp/~yamaguch/j/pdf/d.pdf#page=18",
+          "usage": "χ characters, modular S and T transformations including τ→τ+1; Japanese 指標 and モジュラー変換 in running explanation. Search returned actual thesis passage; direct open failed.",
+          "genre": "researcher doctoral thesis",
+          "community": "CFT / string theory"
+        }
+      ],
+      "id": "manual-1",
+      "surface": "指標",
+      "occurrences": [
+        {
+          "line": 33,
+          "column": 10
+        }
+      ]
+    },
+    {
+      "role": "disciplinary_name",
+      "impact": "high",
+      "referent": "translation of subsystem A around the cylinder by angle 2π/n",
+      "decision": "UNVERIFIED",
+      "reason": "The paper establishes this operator identity, but independent Japanese preference comparison for the full name was not obtained. 部分並進 can denote a different general operation, so it cannot be substituted solely from lexical similarity.",
+      "uncertainty_reason": "The paper establishes this operator identity, but independent Japanese preference comparison for the full name was not obtained. 部分並進 can denote a different general operation, so it cannot be substituted solely from lexical similarity.",
+      "missing_evidence": "Independent Japanese naming comparison or explicit project authority for this cylinder operation.",
+      "blocks_whole_range_pass": true,
+      "comparison": {
+        "current": "部分回転",
+        "english_or_not_applicable": "partial rotation",
+        "alternatives_or_not_applicable": [
+          "partial rotation",
+          "部分並進"
+        ],
+        "audience_reason": "Meaning is locally identifiable; preferred naming cannot be certified from that fact alone."
+      },
+      "id": "manual-2",
+      "surface": "部分回転",
+      "occurrences": [
+        {
+          "line": 33,
+          "column": 16
+        }
+      ]
+    },
+    {
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "argument/unit phase of a nonzero complex number, fixed by normalization in overview",
+      "decision": "UNVERIFIED",
+      "reason": "argument/unit phase of a nonzero complex number, fixed by normalization in overview; no new name is introduced by this delta.",
+      "uncertainty_reason": "This delta review has not completed independent Japanese preference evidence for this existing prerequisite name.",
+      "missing_evidence": "Independent Japanese naming comparison if whole-manuscript acceptance is requested.",
+      "blocks_whole_range_pass": false,
+      "defer_reason": "Referent is fixed by an adjacent explicit formula, prior definition, source proper identity, or reader prerequisite; spelling preference uncertainty here does not change the operation or claim. Any high-impact whole-manuscript first-use decision remains outside this delta verdict.",
+      "id": "manual-3",
+      "surface": "位相",
+      "occurrences": [
+        {
+          "line": 33,
+          "column": 21
+        }
+      ]
+    },
+    {
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "decision": "KEEP",
+      "reason": "Number two counts subsystem parts and the later pair of characters; it is not a scientific name.",
+      "id": "manual-4",
+      "surface": "二",
+      "occurrences": [
+        {
+          "line": 33,
+          "column": 7
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,217 @@
+{
+  "input_sha256": "a3ce2718ed23076fa6b51118ab337fd2be832ef4423b9cca051753f9c5297349",
+  "review_lines": [
+    56,
+    56
+  ],
+  "manual_sweep": {
+    "completed": true,
+    "reviewed_lines": [
+      56,
+      56
+    ]
+  },
+  "dispositions": [],
+  "supplemental_concepts": [
+    {
+      "role": "disciplinary_name",
+      "impact": "high",
+      "referent": "modular transformation of CFT characters",
+      "decision": "KEEP",
+      "reason": "Both sources couple this Japanese name directly to characters. The explicit τ map fixes the mathematical operation and distinguishes it from spatial translation.",
+      "comparison": {
+        "current": "モジュラー変換",
+        "english_or_not_applicable": "modular transformation",
+        "alternatives_or_not_applicable": [
+          "モジュラ変換",
+          "modular transformation"
+        ],
+        "audience_reason": "Both sources couple this Japanese name directly to characters. The explicit τ map fixes the mathematical operation and distinguishes it from spatial translation."
+      },
+      "evidence_sources": [
+        {
+          "locator": "https://www2.yukawa.kyoto-u.ac.jp/~eguchi40/Sugawara.pdf#page=12",
+          "usage": "N=4 and N=3 SCA 指標公式 and モジュラー変換公式; extended characters in CFT. Direct web text inspected at lines 57–64.",
+          "genre": "CFT researcher lecture slides",
+          "community": "CFT"
+        },
+        {
+          "locator": "https://www-het.phys.sci.osaka-u.ac.jp/~yamaguch/j/pdf/d.pdf#page=18",
+          "usage": "χ characters, modular S and T transformations including τ→τ+1; Japanese 指標 and モジュラー変換 in running explanation. Search returned actual thesis passage; direct open failed.",
+          "genre": "researcher doctoral thesis",
+          "community": "CFT / string theory"
+        }
+      ],
+      "id": "manual-1",
+      "surface": "モジュラー変換",
+      "occurrences": [
+        {
+          "line": 56,
+          "column": 84
+        }
+      ]
+    },
+    {
+      "role": "disciplinary_name",
+      "impact": "high",
+      "referent": "translation of subsystem A around the cylinder by angle 2π/n",
+      "decision": "UNVERIFIED",
+      "reason": "The paper establishes this operator identity, but independent Japanese preference comparison for the full name was not obtained. 部分並進 can denote a different general operation, so it cannot be substituted solely from lexical similarity.",
+      "uncertainty_reason": "The paper establishes this operator identity, but independent Japanese preference comparison for the full name was not obtained. 部分並進 can denote a different general operation, so it cannot be substituted solely from lexical similarity.",
+      "missing_evidence": "Independent Japanese naming comparison or explicit project authority for this cylinder operation.",
+      "blocks_whole_range_pass": true,
+      "comparison": {
+        "current": "部分回転",
+        "english_or_not_applicable": "partial rotation",
+        "alternatives_or_not_applicable": [
+          "partial rotation",
+          "部分並進"
+        ],
+        "audience_reason": "Meaning is locally identifiable; preferred naming cannot be certified from that fact alone."
+      },
+      "id": "manual-2",
+      "surface": "部分回転",
+      "occurrences": [
+        {
+          "line": 56,
+          "column": 57
+        }
+      ]
+    },
+    {
+      "role": "disciplinary_name",
+      "impact": "high",
+      "referent": "fermion boundary condition around the circumferential circle, transformed modularly",
+      "decision": "UNVERIFIED",
+      "reason": "English identifies a standard geometric/fermion concept, not ordinary magnetic spin texture. This delta explains its operation but does not define its two boundary conditions; Japanese community preference remains unverified.",
+      "uncertainty_reason": "English identifies a standard geometric/fermion concept, not ordinary magnetic spin texture. This delta explains its operation but does not define its two boundary conditions; Japanese community preference remains unverified.",
+      "missing_evidence": "Two Japanese fermionic CFT/topological-matter usages comparing original English with スピン構造.",
+      "blocks_whole_range_pass": true,
+      "comparison": {
+        "current": "spin structure",
+        "english_or_not_applicable": "spin structure",
+        "alternatives_or_not_applicable": [
+          "スピン構造",
+          "spin structure"
+        ],
+        "audience_reason": "Meaning is locally identifiable; preferred naming cannot be certified from that fact alone."
+      },
+      "id": "manual-3",
+      "surface": "spin structure",
+      "occurrences": [
+        {
+          "line": 56,
+          "column": 68
+        }
+      ]
+    },
+    {
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "propagating edge degrees of freedom, already anchored to left/right boundary Hamiltonians",
+      "decision": "UNVERIFIED",
+      "reason": "propagating edge degrees of freedom, already anchored to left/right boundary Hamiltonians; no new name is introduced by this delta.",
+      "uncertainty_reason": "This delta review has not completed independent Japanese preference evidence for this existing prerequisite name.",
+      "missing_evidence": "Independent Japanese naming comparison if whole-manuscript acceptance is requested.",
+      "blocks_whole_range_pass": false,
+      "defer_reason": "Referent is fixed by an adjacent explicit formula, prior definition, source proper identity, or reader prerequisite; spelling preference uncertainty here does not change the operation or claim. Any high-impact whole-manuscript first-use decision remains outside this delta verdict.",
+      "id": "manual-4",
+      "surface": "エッジ",
+      "occurrences": [
+        {
+          "line": 56,
+          "column": 33
+        }
+      ]
+    },
+    {
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "fermionic state/statistics, a standard contrast with bosonic theory",
+      "decision": "UNVERIFIED",
+      "reason": "fermionic state/statistics, a standard contrast with bosonic theory; no new name is introduced by this delta.",
+      "uncertainty_reason": "This delta review has not completed independent Japanese preference evidence for this existing prerequisite name.",
+      "missing_evidence": "Independent Japanese naming comparison if whole-manuscript acceptance is requested.",
+      "blocks_whole_range_pass": false,
+      "defer_reason": "Referent is fixed by an adjacent explicit formula, prior definition, source proper identity, or reader prerequisite; spelling preference uncertainty here does not change the operation or claim. Any high-impact whole-manuscript first-use decision remains outside this delta verdict.",
+      "id": "manual-5",
+      "surface": "フェルミオン",
+      "occurrences": [
+        {
+          "line": 56,
+          "column": 15
+        },
+        {
+          "line": 56,
+          "column": 50
+        }
+      ]
+    },
+    {
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "fractional quantum Hall state, an unchanged source label rather than a proposed Japanese translation",
+      "decision": "UNVERIFIED",
+      "reason": "fractional quantum Hall state, an unchanged source label rather than a proposed Japanese translation; no new name is introduced by this delta.",
+      "uncertainty_reason": "This delta review has not completed independent Japanese preference evidence for this existing prerequisite name.",
+      "missing_evidence": "Independent Japanese naming comparison if whole-manuscript acceptance is requested.",
+      "blocks_whole_range_pass": false,
+      "defer_reason": "Referent is fixed by an adjacent explicit formula, prior definition, source proper identity, or reader prerequisite; spelling preference uncertainty here does not change the operation or claim. Any high-impact whole-manuscript first-use decision remains outside this delta verdict.",
+      "id": "manual-6",
+      "surface": "FQH",
+      "occurrences": [
+        {
+          "line": 56,
+          "column": 22
+        }
+      ]
+    },
+    {
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "bosonic state/statistics, governing scope already set in overview",
+      "decision": "UNVERIFIED",
+      "reason": "bosonic state/statistics, governing scope already set in overview; no new name is introduced by this delta.",
+      "uncertainty_reason": "This delta review has not completed independent Japanese preference evidence for this existing prerequisite name.",
+      "missing_evidence": "Independent Japanese naming comparison if whole-manuscript acceptance is requested.",
+      "blocks_whole_range_pass": false,
+      "defer_reason": "Referent is fixed by an adjacent explicit formula, prior definition, source proper identity, or reader prerequisite; spelling preference uncertainty here does not change the operation or claim. Any high-impact whole-manuscript first-use decision remains outside this delta verdict.",
+      "id": "manual-7",
+      "surface": "ボソン",
+      "occurrences": [
+        {
+          "line": 56,
+          "column": 144
+        }
+      ]
+    },
+    {
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "decision": "KEEP",
+      "reason": "Geometric/physical boundary is explicitly qualified in these clauses; review the full エンタングルメント境界 separately rather than giving the short everyday noun a new technical role.",
+      "id": "manual-8",
+      "surface": "境界",
+      "occurrences": [
+        {
+          "line": 56,
+          "column": 130
+        }
+      ]
+    },
+    {
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "decision": "KEEP",
+      "reason": "Conditions to draw a conclusion, referring to explicitly written integer and central-charge requirements; not a new technical term.",
+      "id": "manual-9",
+      "surface": "判定条件",
+      "occurrences": [
+        {
+          "line": 56,
+          "column": 133
+        }
+      ]
+    }
+  ]
+}

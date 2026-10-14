@@ -1,0 +1,23 @@
+{
+  "unit": "answer.md",
+  "release_order": 2,
+  "heading_record_already_frozen": true,
+  "perspective": "explanation-act only",
+  "quote": "中心電荷の因子は $e^{-2\\pi i(3)c_-/24}=e^{-2\\pi i c_-/8}$ となり、Gauss–Milgram 関係の $\\zeta_1=e^{2\\pi i c_-/8}$ と打ち消し合うため、主要項の位相は $1$ となる。一周の並進は恒等操作であり、規格化した状態での期待値は $1$ なので、その位相も $1$ である。",
+  "content": "States a cancellation giving unit leading phase, followed by the unit phase of a normalized expectation for a full-turn identity operation. Scientific validity is not adjudicated in this lane.",
+  "act": "Answers the pending selfcheck through the displayed factors, then supplies the physical consistency comparison.",
+  "presupposition": "Uses the established central-charge correction and Gauss–Milgram relation; asks for no repudiation of a prior reader belief.",
+  "first_pass_significance": "Presents the cancellation as the operative calculation and the full-turn observation as its useful interpretation. It does not elevate an imagined mistake or warning into the purpose of the check.",
+  "context_license": [
+    "確認：$n=1$ の主要項の位相は $1$ になるか",
+    "角度 $2\\pi/n$ は円筒の周を $n$ 等分した一つ分の移動に対応する。",
+    "$\\zeta_1=e^{2\\pi i c_-/8}$",
+    "$e^{2\\pi i(n+2/n)c_-/24}\\frac{\\mathcal T_1(2\\pi/n)}{|\\mathcal T_1(2\\pi/n)|}\\simeq\\zeta_n$"
+  ],
+  "resolution_and_return": "Makes the answer to the heading determinate and connects the leading phase to the full-turn interpretation of the observable.",
+  "content_preserving_comparison": "Removing the cancellation would leave the specific leading-term question answered only by a result about the operation, losing the shown connection to the derived expression. Removing the full-turn statement would preserve the arithmetic answer but remove the independent interpretation that makes n=1 a diagnostic case. Combining both into an unsupported announcement of consistency would obscure why the comparison works. The present two sentences retain both relations with appropriate relative prominence.",
+  "cumulative_effect": "The heading invites a check; the answer resolves it immediately through a calculation and interpretation. Across these two units, focus stays on the observable and its leading phase, with no defensive corrective detour or repeated qualification.",
+  "verdict": "PASS",
+  "limits": "Scoped local explanation-act judgment only. It does not certify scientific accuracy, prerequisite availability, Japanese usage, visuals, production, the full manuscript, or the supplied context's first-encounter suitability.",
+  "sha256": "80aa815292eb15130501feb1d1c41cfd72b1a720a015debacf4a399852fd6894"
+}

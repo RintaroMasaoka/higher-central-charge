@@ -1,0 +1,106 @@
+{
+  "input_sha256": "393c256c0bbf0eafd4ce2a3829164fe36639361a9b2def5d4e28db5d879d4e4a",
+  "review_lines": [
+    26,
+    26
+  ],
+  "manual_sweep": {
+    "completed": true,
+    "reviewed_lines": [
+      26,
+      26
+    ]
+  },
+  "dispositions": [],
+  "supplemental_concepts": [
+    {
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "modulus of the complex sum, defined by displayed vertical bars",
+      "decision": "UNVERIFIED",
+      "reason": "modulus of the complex sum, defined by displayed vertical bars; no new name is introduced by this delta.",
+      "uncertainty_reason": "This delta review has not completed independent Japanese preference evidence for this existing prerequisite name.",
+      "missing_evidence": "Independent Japanese naming comparison if whole-manuscript acceptance is requested.",
+      "blocks_whole_range_pass": false,
+      "defer_reason": "Referent is fixed by an adjacent explicit formula, prior definition, source proper identity, or reader prerequisite; spelling preference uncertainty here does not change the operation or claim. Any high-impact whole-manuscript first-use decision remains outside this delta verdict.",
+      "id": "manual-1",
+      "surface": "絶対値",
+      "occurrences": [
+        {
+          "line": 26,
+          "column": 15
+        }
+      ]
+    },
+    {
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "argument/unit phase of a nonzero complex number, fixed by normalization in overview",
+      "decision": "UNVERIFIED",
+      "reason": "argument/unit phase of a nonzero complex number, fixed by normalization in overview; no new name is introduced by this delta.",
+      "uncertainty_reason": "This delta review has not completed independent Japanese preference evidence for this existing prerequisite name.",
+      "missing_evidence": "Independent Japanese naming comparison if whole-manuscript acceptance is requested.",
+      "blocks_whole_range_pass": false,
+      "defer_reason": "Referent is fixed by an adjacent explicit formula, prior definition, source proper identity, or reader prerequisite; spelling preference uncertainty here does not change the operation or claim. Any high-impact whole-manuscript first-use decision remains outside this delta verdict.",
+      "id": "manual-2",
+      "surface": "位相",
+      "occurrences": [
+        {
+          "line": 26,
+          "column": 22
+        },
+        {
+          "line": 26,
+          "column": 40
+        }
+      ]
+    },
+    {
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "normalization, applied separately to complex phase and state norm in explicitly distinct clauses",
+      "decision": "UNVERIFIED",
+      "reason": "normalization, applied separately to complex phase and state norm in explicitly distinct clauses; no new name is introduced by this delta.",
+      "uncertainty_reason": "This delta review has not completed independent Japanese preference evidence for this existing prerequisite name.",
+      "missing_evidence": "Independent Japanese naming comparison if whole-manuscript acceptance is requested.",
+      "blocks_whole_range_pass": false,
+      "defer_reason": "Referent is fixed by an adjacent explicit formula, prior definition, source proper identity, or reader prerequisite; spelling preference uncertainty here does not change the operation or claim. Any high-impact whole-manuscript first-use decision remains outside this delta verdict.",
+      "id": "manual-3",
+      "surface": "規格化",
+      "occurrences": [
+        {
+          "line": 26,
+          "column": 9
+        }
+      ]
+    },
+    {
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "decision": "KEEP",
+      "reason": "Geometric/physical boundary is explicitly qualified in these clauses; review the full エンタングルメント境界 separately rather than giving the short everyday noun a new technical role.",
+      "id": "manual-4",
+      "surface": "境界",
+      "occurrences": [
+        {
+          "line": 26,
+          "column": 30
+        }
+      ]
+    },
+    {
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "decision": "KEEP",
+      "reason": "Descriptive obstruction to existence of a gapped boundary; no new formal obstruction invariant named by this noun.",
+      "id": "manual-5",
+      "surface": "障害",
+      "occurrences": [
+        {
+          "line": 26,
+          "column": 34
+        }
+      ]
+    }
+  ]
+}

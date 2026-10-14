@@ -55,6 +55,7 @@ export function extractReviewBody(source: string) {
       const ref = node.value?.trim().match(/^<!-- reference: ([a-z0-9-]+) -->$/);
       if (ref) return [{ type: 'html', value: `<a id="ref-${ref[1]}"></a>` }];
       if (/^\s*<!--/.test(node.value ?? '')) return [];
+      if (!/^\s*<a id="[a-zA-Z0-9_-]+"><\/a>\s*$/.test(node.value ?? '')) throw new Error('Unparsed visible HTML requires structured projection');
     }
     return [{ ...node, title: undefined, children: node.children?.flatMap(project) }];
   };
@@ -71,5 +72,31 @@ export function extractReviewBody(source: string) {
     const used = new Set(usedReferences(node as Node));
     return { index: index + 1, markdown: render([node, ...definitions.filter(d => used.has(d.identifier))]) };
   });
-  return { markdown: render(children), units, removed };
+  const packets: { index: number; markdown: string; paragraphs: number }[] = [];
+  let pending: RootContent[] = [];
+  let current: RootContent[] = [];
+  const paragraphCount = (node: Node): number =>
+    (node.type === 'paragraph' && !node.children?.every(child => child.type === 'image') ? 1 : 0)
+    + (node.children ?? []).reduce((sum, child) => sum + paragraphCount(child), 0);
+  const flush = () => {
+    if (!current.length) return;
+    const paragraphs = current.reduce((sum, node) => sum + paragraphCount(node as Node), 0);
+    if (paragraphs > 1) throw new Error('Reader packet contains multiple prose paragraphs');
+    const used = new Set(current.flatMap(node => usedReferences(node as Node)));
+    packets.push({ index:packets.length + 1, markdown:render([...current, ...definitions.filter(d => used.has(d.identifier))]), paragraphs });
+    current = [];
+  };
+  for (const node of children.filter(n => n.type !== 'definition')) {
+    if (node.type === 'heading' || node.type === 'html') {
+      flush(); pending.push(node);
+    } else if (paragraphCount(node as Node) > 0) {
+      flush(); current = [...pending, node]; pending = [];
+    } else if (node.type === 'math' || node.type === 'table' || (node.type === 'paragraph' && paragraphCount(node as Node) === 0)) {
+      current.push(...pending, node); pending = [];
+    } else {
+      flush(); current = [...pending, node]; pending = []; flush();
+    }
+  }
+  current.push(...pending); flush();
+  return { markdown: render(children), units, packets, removed };
 }

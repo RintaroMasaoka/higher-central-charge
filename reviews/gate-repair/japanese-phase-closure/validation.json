@@ -1,0 +1,1 @@
+{"ok":true,"candidate_count":1,"source_sha256":"d6f45b0e8231c55124696789293e80e385064039cbd7c7c76ff27e0895e70cf5","review_lines":[167,169],"command":"python3 /Users/rintaromasaoka/Desktop/Skills/study-note/scripts/validate_japanese_coverage.py inventory.json coverage.json","scope":"Mechanical binding only; semantic verdict is in report.md and coverage.json"}

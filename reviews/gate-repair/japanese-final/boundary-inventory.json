@@ -1,0 +1,218 @@
+{
+  "input": "/Users/rintaromasaoka/Desktop/Learning/Study/Higher-central-charge/content/boundary.md",
+  "input_sha256": "1449fc165031f74f8e0c221b5529523714eda6b6be6389db754940bb067b3ed2",
+  "review_lines": [
+    57,
+    57
+  ],
+  "kind": "surface_candidates_not_terms_or_defects",
+  "repeated_candidates": [
+    {
+      "id": "s8",
+      "surface": "となる",
+      "occurrences": [
+        {
+          "line": 57,
+          "column": 89
+        },
+        {
+          "line": 57,
+          "column": 314
+        },
+        {
+          "line": 57,
+          "column": 438
+        }
+      ]
+    },
+    {
+      "id": "s16",
+      "surface": "スピン",
+      "occurrences": [
+        {
+          "line": 57,
+          "column": 292
+        },
+        {
+          "line": 57,
+          "column": 352
+        },
+        {
+          "line": 57,
+          "column": 362
+        }
+      ]
+    },
+    {
+      "id": "s19",
+      "surface": "互",
+      "occurrences": [
+        {
+          "line": 57,
+          "column": 52
+        },
+        {
+          "line": 57,
+          "column": 126
+        },
+        {
+          "line": 57,
+          "column": 318
+        }
+      ]
+    },
+    {
+      "id": "s20",
+      "surface": "位相",
+      "occurrences": [
+        {
+          "line": 57,
+          "column": 326
+        },
+        {
+          "line": 57,
+          "column": 398
+        },
+        {
+          "line": 57,
+          "column": 430
+        }
+      ]
+    },
+    {
+      "id": "s22",
+      "surface": "全",
+      "occurrences": [
+        {
+          "line": 57,
+          "column": 289
+        },
+        {
+          "line": 57,
+          "column": 395
+        },
+        {
+          "line": 57,
+          "column": 418
+        }
+      ]
+    },
+    {
+      "id": "s26",
+      "surface": "切",
+      "occurrences": [
+        {
+          "line": 57,
+          "column": 142
+        },
+        {
+          "line": 57,
+          "column": 181
+        },
+        {
+          "line": 57,
+          "column": 280
+        }
+      ]
+    },
+    {
+      "id": "s27",
+      "surface": "割",
+      "occurrences": [
+        {
+          "line": 57,
+          "column": 140
+        },
+        {
+          "line": 57,
+          "column": 161
+        },
+        {
+          "line": 57,
+          "column": 179
+        },
+        {
+          "line": 57,
+          "column": 278
+        }
+      ]
+    },
+    {
+      "id": "s28",
+      "surface": "十分条件",
+      "occurrences": [
+        {
+          "line": 57,
+          "column": 18
+        },
+        {
+          "line": 57,
+          "column": 93
+        },
+        {
+          "line": 57,
+          "column": 243
+        },
+        {
+          "line": 57,
+          "column": 409
+        }
+      ]
+    },
+    {
+      "id": "s32",
+      "surface": "和",
+      "occurrences": [
+        {
+          "line": 57,
+          "column": 311
+        },
+        {
+          "line": 57,
+          "column": 374
+        },
+        {
+          "line": 57,
+          "column": 382
+        }
+      ]
+    },
+    {
+      "id": "s45",
+      "surface": "積",
+      "occurrences": [
+        {
+          "line": 57,
+          "column": 342
+        },
+        {
+          "line": 57,
+          "column": 366
+        },
+        {
+          "line": 57,
+          "column": 384
+        }
+      ]
+    },
+    {
+      "id": "s46",
+      "surface": "素",
+      "occurrences": [
+        {
+          "line": 57,
+          "column": 55
+        },
+        {
+          "line": 57,
+          "column": 129
+        },
+        {
+          "line": 57,
+          "column": 321
+        }
+      ]
+    }
+  ],
+  "structural_candidates": []
+}

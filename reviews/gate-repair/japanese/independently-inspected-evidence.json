@@ -1,0 +1,38 @@
+{
+  "sugawara": {
+    "locator": "https://www2.yukawa.kyoto-u.ac.jp/~eguchi40/Sugawara.pdf#page=12",
+    "usage": "N=4 and N=3 SCA 指標公式 and モジュラー変換公式; extended characters in CFT. Direct web text inspected at lines 57–64.",
+    "genre": "CFT researcher lecture slides",
+    "community": "CFT"
+  },
+  "yamaguchi": {
+    "locator": "https://www-het.phys.sci.osaka-u.ac.jp/~yamaguch/j/pdf/d.pdf#page=18",
+    "usage": "χ characters, modular S and T transformations including τ→τ+1; Japanese 指標 and モジュラー変換 in running explanation. Search returned actual thesis passage; direct open failed.",
+    "genre": "researcher doctoral thesis",
+    "community": "CFT / string theory"
+  },
+  "orii": {
+    "locator": "https://www2.yukawa.kyoto-u.ac.jp/~soken.editorial/sokendenshi/vol46/3/時間反転対称な位相的場の理論.pdf#page=78",
+    "usage": "Table 4.1 at manuscript page 77: 高次中心電荷の自明性 and 可換/非可換エニオン系. Direct web text inspected at lines 3985–3991.",
+    "genre": "scholarly TQFT review / thesis",
+    "community": "anyon theory / topological phases"
+  },
+  "kasama": {
+    "locator": "https://www.jstage.jst.go.jp/article/natsugaku/4/0/4_173/_pdf/-char/ja#page=8",
+    "usage": "高次の中心電荷（higher central charges）in running prose, page 180; direct web text inspected at lines 451–455.",
+    "genre": "物性若手夏の学校 researcher lecture text",
+    "community": "topological quantum matter"
+  },
+  "miyazaki": {
+    "locator": "https://opac.agulin.aoyama.ac.jp/iwjs0011opc/bdyview.do?bodyid=TF02037564&elmid=Body&fname=tf02037564-1.pdf&loginflg=on&once=true#page=53",
+    "usage": "Directly inspected web PDF lines 3048–3051 at PDF page 53 name −log(ρ_A) エンタングルメントハミルトニアン and connect its eigenvalues to entanglement spectrum.",
+    "genre": "physics doctoral thesis",
+    "community": "many-body quantum information"
+  },
+  "okunishi": {
+    "locator": "https://kaken.nii.ac.jp/ja/file/KAKENHI-PROJECT-17H02931/17H02931seika.pdf",
+    "usage": "エンタングルメントハミルトニアン in running Japanese many-body/CFT prose with reduced-state thermal interpretation. Actual report passage returned by search.",
+    "genre": "researcher-authored research report",
+    "community": "many-body entanglement / CFT"
+  }
+}

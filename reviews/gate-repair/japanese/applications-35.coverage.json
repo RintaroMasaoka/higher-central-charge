@@ -1,0 +1,153 @@
+{
+  "input_sha256": "a3ce2718ed23076fa6b51118ab337fd2be832ef4423b9cca051753f9c5297349",
+  "review_lines": [
+    35,
+    35
+  ],
+  "manual_sweep": {
+    "completed": true,
+    "reviewed_lines": [
+      35,
+      35
+    ]
+  },
+  "dispositions": [],
+  "supplemental_concepts": [
+    {
+      "role": "disciplinary_name",
+      "impact": "high",
+      "referent": "character of a CFT representation",
+      "decision": "KEEP",
+      "reason": "Reader already knows CFT characters. Both independent CFT authors use 指標 for this object, so it preserves the familiar name.",
+      "comparison": {
+        "current": "指標",
+        "english_or_not_applicable": "character",
+        "alternatives_or_not_applicable": [
+          "キャラクター",
+          "character"
+        ],
+        "audience_reason": "Reader already knows CFT characters. Both independent CFT authors use 指標 for this object, so it preserves the familiar name."
+      },
+      "evidence_sources": [
+        {
+          "locator": "https://www2.yukawa.kyoto-u.ac.jp/~eguchi40/Sugawara.pdf#page=12",
+          "usage": "N=4 and N=3 SCA 指標公式 and モジュラー変換公式; extended characters in CFT. Direct web text inspected at lines 57–64.",
+          "genre": "CFT researcher lecture slides",
+          "community": "CFT"
+        },
+        {
+          "locator": "https://www-het.phys.sci.osaka-u.ac.jp/~yamaguch/j/pdf/d.pdf#page=18",
+          "usage": "χ characters, modular S and T transformations including τ→τ+1; Japanese 指標 and モジュラー変換 in running explanation. Search returned actual thesis passage; direct open failed.",
+          "genre": "researcher doctoral thesis",
+          "community": "CFT / string theory"
+        }
+      ],
+      "id": "manual-1",
+      "surface": "指標",
+      "occurrences": [
+        {
+          "line": 35,
+          "column": 4
+        }
+      ]
+    },
+    {
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "argument/unit phase of a nonzero complex number, fixed by normalization in overview",
+      "decision": "UNVERIFIED",
+      "reason": "argument/unit phase of a nonzero complex number, fixed by normalization in overview; no new name is introduced by this delta.",
+      "uncertainty_reason": "This delta review has not completed independent Japanese preference evidence for this existing prerequisite name.",
+      "missing_evidence": "Independent Japanese naming comparison if whole-manuscript acceptance is requested.",
+      "blocks_whole_range_pass": false,
+      "defer_reason": "Referent is fixed by an adjacent explicit formula, prior definition, source proper identity, or reader prerequisite; spelling preference uncertainty here does not change the operation or claim. Any high-impact whole-manuscript first-use decision remains outside this delta verdict.",
+      "id": "manual-2",
+      "surface": "位相",
+      "occurrences": [
+        {
+          "line": 35,
+          "column": 45
+        }
+      ]
+    },
+    {
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "propagating edge degrees of freedom, already anchored to left/right boundary Hamiltonians",
+      "decision": "UNVERIFIED",
+      "reason": "propagating edge degrees of freedom, already anchored to left/right boundary Hamiltonians; no new name is introduced by this delta.",
+      "uncertainty_reason": "This delta review has not completed independent Japanese preference evidence for this existing prerequisite name.",
+      "missing_evidence": "Independent Japanese naming comparison if whole-manuscript acceptance is requested.",
+      "blocks_whole_range_pass": false,
+      "defer_reason": "Referent is fixed by an adjacent explicit formula, prior definition, source proper identity, or reader prerequisite; spelling preference uncertainty here does not change the operation or claim. Any high-impact whole-manuscript first-use decision remains outside this delta verdict.",
+      "id": "manual-3",
+      "surface": "エッジ",
+      "occurrences": [
+        {
+          "line": 35,
+          "column": 18
+        },
+        {
+          "line": 35,
+          "column": 39
+        }
+      ]
+    },
+    {
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "central charge c of a CFT, assumed familiar to reader of characters",
+      "decision": "UNVERIFIED",
+      "reason": "central charge c of a CFT, assumed familiar to reader of characters; no new name is introduced by this delta.",
+      "uncertainty_reason": "This delta review has not completed independent Japanese preference evidence for this existing prerequisite name.",
+      "missing_evidence": "Independent Japanese naming comparison if whole-manuscript acceptance is requested.",
+      "blocks_whole_range_pass": false,
+      "defer_reason": "Referent is fixed by an adjacent explicit formula, prior definition, source proper identity, or reader prerequisite; spelling preference uncertainty here does not change the operation or claim. Any high-impact whole-manuscript first-use decision remains outside this delta verdict.",
+      "id": "manual-4",
+      "surface": "中心電荷",
+      "occurrences": [
+        {
+          "line": 35,
+          "column": 65
+        }
+      ]
+    },
+    {
+      "role": "explanatory_gloss",
+      "impact": "incidental",
+      "referent": "positive real multiplicative factor in the asymptotic expression, not a new named invariant",
+      "decision": "UNVERIFIED",
+      "reason": "positive real multiplicative factor in the asymptotic expression, not a new named invariant; no new name is introduced by this delta.",
+      "uncertainty_reason": "This delta review has not completed independent Japanese preference evidence for this existing prerequisite name.",
+      "missing_evidence": "Independent Japanese naming comparison if whole-manuscript acceptance is requested.",
+      "blocks_whole_range_pass": false,
+      "defer_reason": "Referent is fixed by an adjacent explicit formula, prior definition, source proper identity, or reader prerequisite; spelling preference uncertainty here does not change the operation or claim. Any high-impact whole-manuscript first-use decision remains outside this delta verdict.",
+      "id": "manual-5",
+      "surface": "実数因子",
+      "occurrences": [
+        {
+          "line": 35,
+          "column": 78
+        },
+        {
+          "line": 35,
+          "column": 105
+        }
+      ]
+    },
+    {
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "decision": "KEEP",
+      "reason": "Number two counts subsystem parts and the later pair of characters; it is not a scientific name.",
+      "id": "manual-6",
+      "surface": "二",
+      "occurrences": [
+        {
+          "line": 35,
+          "column": 59
+        }
+      ]
+    }
+  ]
+}
