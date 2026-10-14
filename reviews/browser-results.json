@@ -1,5 +1,5 @@
 {
-  "origin": "http://127.0.0.1:4177",
+  "origin": "https://rintaromasaoka.github.io",
   "prefix": "/higher-central-charge",
   "results": [
     {
@@ -35,7 +35,7 @@
       "overflow": false,
       "images": [
         {
-          "src": "http://127.0.0.1:4177/diagrams/partial-rotation.svg",
+          "src": "https://rintaromasaoka.github.io/higher-central-charge/diagrams/partial-rotation.svg",
           "loaded": true
         }
       ],
@@ -162,7 +162,7 @@
       "overflow": false,
       "images": [
         {
-          "src": "http://127.0.0.1:4177/diagrams/partial-rotation.svg",
+          "src": "https://rintaromasaoka.github.io/higher-central-charge/diagrams/partial-rotation.svg",
           "loaded": true
         }
       ],
@@ -289,7 +289,7 @@
       "overflow": false,
       "images": [
         {
-          "src": "http://127.0.0.1:4177/diagrams/partial-rotation.svg",
+          "src": "https://rintaromasaoka.github.io/higher-central-charge/diagrams/partial-rotation.svg",
           "loaded": true
         }
       ],
@@ -416,7 +416,7 @@
       "overflow": false,
       "images": [
         {
-          "src": "http://127.0.0.1:4177/diagrams/partial-rotation.svg",
+          "src": "https://rintaromasaoka.github.io/higher-central-charge/diagrams/partial-rotation.svg",
           "loaded": true
         }
       ],
