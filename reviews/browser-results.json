@@ -1,5 +1,5 @@
 {
-  "origin": "http://127.0.0.1:4177",
+  "origin": "https://rintaromasaoka.github.io",
   "prefix": "/higher-central-charge",
   "results": [
     {
@@ -15,11 +15,11 @@
       "overflow": false,
       "images": [
         {
-          "src": "http://127.0.0.1:4177/diagrams/semion-sum-phase.png",
+          "src": "https://rintaromasaoka.github.io/higher-central-charge/diagrams/semion-sum-phase.png",
           "loaded": true
         },
         {
-          "src": "http://127.0.0.1:4177/diagrams/stacked-phase-product.png",
+          "src": "https://rintaromasaoka.github.io/higher-central-charge/diagrams/stacked-phase-product.png",
           "loaded": true
         }
       ],
@@ -44,19 +44,19 @@
       "overflow": false,
       "images": [
         {
-          "src": "http://127.0.0.1:4177/diagrams/partial-rotation.png",
+          "src": "https://rintaromasaoka.github.io/higher-central-charge/diagrams/partial-rotation.png",
           "loaded": true
         },
         {
-          "src": "http://127.0.0.1:4177/diagrams/schmidt-trace.png",
+          "src": "https://rintaromasaoka.github.io/higher-central-charge/diagrams/schmidt-trace.png",
           "loaded": true
         },
         {
-          "src": "http://127.0.0.1:4177/diagrams/schmidt-complex-sum.png",
+          "src": "https://rintaromasaoka.github.io/higher-central-charge/diagrams/schmidt-complex-sum.png",
           "loaded": true
         },
         {
-          "src": "http://127.0.0.1:4177/diagrams/two-edge-density.png",
+          "src": "https://rintaromasaoka.github.io/higher-central-charge/diagrams/two-edge-density.png",
           "loaded": true
         }
       ],
@@ -81,11 +81,11 @@
       "overflow": false,
       "images": [
         {
-          "src": "http://127.0.0.1:4177/diagrams/modular-inverse-map.png",
+          "src": "https://rintaromasaoka.github.io/higher-central-charge/diagrams/modular-inverse-map.png",
           "loaded": true
         },
         {
-          "src": "http://127.0.0.1:4177/diagrams/three-phase-correction.png",
+          "src": "https://rintaromasaoka.github.io/higher-central-charge/diagrams/three-phase-correction.png",
           "loaded": true
         }
       ],
@@ -110,15 +110,15 @@
       "overflow": false,
       "images": [
         {
-          "src": "http://127.0.0.1:4177/diagrams/mps-bond-rotation.png",
+          "src": "https://rintaromasaoka.github.io/higher-central-charge/diagrams/mps-bond-rotation.png",
           "loaded": true
         },
         {
-          "src": "http://127.0.0.1:4177/diagrams/orbital-realspace-cuts.png",
+          "src": "https://rintaromasaoka.github.io/higher-central-charge/diagrams/orbital-realspace-cuts.png",
           "loaded": true
         },
         {
-          "src": "http://127.0.0.1:4177/diagrams/asymptotic-regimes.png",
+          "src": "https://rintaromasaoka.github.io/higher-central-charge/diagrams/asymptotic-regimes.png",
           "loaded": true
         }
       ],
@@ -145,7 +145,7 @@
       "overflow": false,
       "images": [
         {
-          "src": "http://127.0.0.1:4177/diagrams/boundary-integer-membership.png",
+          "src": "https://rintaromasaoka.github.io/higher-central-charge/diagrams/boundary-integer-membership.png",
           "loaded": true
         }
       ],
@@ -190,11 +190,11 @@
       "overflow": false,
       "images": [
         {
-          "src": "http://127.0.0.1:4177/diagrams/semion-sum-phase.png",
+          "src": "https://rintaromasaoka.github.io/higher-central-charge/diagrams/semion-sum-phase.png",
           "loaded": true
         },
         {
-          "src": "http://127.0.0.1:4177/diagrams/stacked-phase-product.png",
+          "src": "https://rintaromasaoka.github.io/higher-central-charge/diagrams/stacked-phase-product.png",
           "loaded": true
         }
       ],
@@ -219,19 +219,19 @@
       "overflow": false,
       "images": [
         {
-          "src": "http://127.0.0.1:4177/diagrams/partial-rotation.png",
+          "src": "https://rintaromasaoka.github.io/higher-central-charge/diagrams/partial-rotation.png",
           "loaded": true
         },
         {
-          "src": "http://127.0.0.1:4177/diagrams/schmidt-trace.png",
+          "src": "https://rintaromasaoka.github.io/higher-central-charge/diagrams/schmidt-trace.png",
           "loaded": true
         },
         {
-          "src": "http://127.0.0.1:4177/diagrams/schmidt-complex-sum.png",
+          "src": "https://rintaromasaoka.github.io/higher-central-charge/diagrams/schmidt-complex-sum.png",
           "loaded": true
         },
         {
-          "src": "http://127.0.0.1:4177/diagrams/two-edge-density.png",
+          "src": "https://rintaromasaoka.github.io/higher-central-charge/diagrams/two-edge-density.png",
           "loaded": true
         }
       ],
@@ -256,11 +256,11 @@
       "overflow": false,
       "images": [
         {
-          "src": "http://127.0.0.1:4177/diagrams/modular-inverse-map.png",
+          "src": "https://rintaromasaoka.github.io/higher-central-charge/diagrams/modular-inverse-map.png",
           "loaded": true
         },
         {
-          "src": "http://127.0.0.1:4177/diagrams/three-phase-correction.png",
+          "src": "https://rintaromasaoka.github.io/higher-central-charge/diagrams/three-phase-correction.png",
           "loaded": true
         }
       ],
@@ -285,15 +285,15 @@
       "overflow": false,
       "images": [
         {
-          "src": "http://127.0.0.1:4177/diagrams/mps-bond-rotation.png",
+          "src": "https://rintaromasaoka.github.io/higher-central-charge/diagrams/mps-bond-rotation.png",
           "loaded": true
         },
         {
-          "src": "http://127.0.0.1:4177/diagrams/orbital-realspace-cuts.png",
+          "src": "https://rintaromasaoka.github.io/higher-central-charge/diagrams/orbital-realspace-cuts.png",
           "loaded": true
         },
         {
-          "src": "http://127.0.0.1:4177/diagrams/asymptotic-regimes.png",
+          "src": "https://rintaromasaoka.github.io/higher-central-charge/diagrams/asymptotic-regimes.png",
           "loaded": true
         }
       ],
@@ -320,7 +320,7 @@
       "overflow": false,
       "images": [
         {
-          "src": "http://127.0.0.1:4177/diagrams/boundary-integer-membership.png",
+          "src": "https://rintaromasaoka.github.io/higher-central-charge/diagrams/boundary-integer-membership.png",
           "loaded": true
         }
       ],
@@ -365,11 +365,11 @@
       "overflow": false,
       "images": [
         {
-          "src": "http://127.0.0.1:4177/diagrams/semion-sum-phase.png",
+          "src": "https://rintaromasaoka.github.io/higher-central-charge/diagrams/semion-sum-phase.png",
           "loaded": true
         },
         {
-          "src": "http://127.0.0.1:4177/diagrams/stacked-phase-product.png",
+          "src": "https://rintaromasaoka.github.io/higher-central-charge/diagrams/stacked-phase-product.png",
           "loaded": true
         }
       ],
@@ -394,19 +394,19 @@
       "overflow": false,
       "images": [
         {
-          "src": "http://127.0.0.1:4177/diagrams/partial-rotation.png",
+          "src": "https://rintaromasaoka.github.io/higher-central-charge/diagrams/partial-rotation.png",
           "loaded": true
         },
         {
-          "src": "http://127.0.0.1:4177/diagrams/schmidt-trace.png",
+          "src": "https://rintaromasaoka.github.io/higher-central-charge/diagrams/schmidt-trace.png",
           "loaded": true
         },
         {
-          "src": "http://127.0.0.1:4177/diagrams/schmidt-complex-sum.png",
+          "src": "https://rintaromasaoka.github.io/higher-central-charge/diagrams/schmidt-complex-sum.png",
           "loaded": true
         },
         {
-          "src": "http://127.0.0.1:4177/diagrams/two-edge-density.png",
+          "src": "https://rintaromasaoka.github.io/higher-central-charge/diagrams/two-edge-density.png",
           "loaded": true
         }
       ],
@@ -431,11 +431,11 @@
       "overflow": false,
       "images": [
         {
-          "src": "http://127.0.0.1:4177/diagrams/modular-inverse-map.png",
+          "src": "https://rintaromasaoka.github.io/higher-central-charge/diagrams/modular-inverse-map.png",
           "loaded": true
         },
         {
-          "src": "http://127.0.0.1:4177/diagrams/three-phase-correction.png",
+          "src": "https://rintaromasaoka.github.io/higher-central-charge/diagrams/three-phase-correction.png",
           "loaded": true
         }
       ],
@@ -460,15 +460,15 @@
       "overflow": false,
       "images": [
         {
-          "src": "http://127.0.0.1:4177/diagrams/mps-bond-rotation.png",
+          "src": "https://rintaromasaoka.github.io/higher-central-charge/diagrams/mps-bond-rotation.png",
           "loaded": true
         },
         {
-          "src": "http://127.0.0.1:4177/diagrams/orbital-realspace-cuts.png",
+          "src": "https://rintaromasaoka.github.io/higher-central-charge/diagrams/orbital-realspace-cuts.png",
           "loaded": true
         },
         {
-          "src": "http://127.0.0.1:4177/diagrams/asymptotic-regimes.png",
+          "src": "https://rintaromasaoka.github.io/higher-central-charge/diagrams/asymptotic-regimes.png",
           "loaded": true
         }
       ],
@@ -495,7 +495,7 @@
       "overflow": false,
       "images": [
         {
-          "src": "http://127.0.0.1:4177/diagrams/boundary-integer-membership.png",
+          "src": "https://rintaromasaoka.github.io/higher-central-charge/diagrams/boundary-integer-membership.png",
           "loaded": true
         }
       ],
@@ -540,11 +540,11 @@
       "overflow": false,
       "images": [
         {
-          "src": "http://127.0.0.1:4177/diagrams/semion-sum-phase.png",
+          "src": "https://rintaromasaoka.github.io/higher-central-charge/diagrams/semion-sum-phase.png",
           "loaded": true
         },
         {
-          "src": "http://127.0.0.1:4177/diagrams/stacked-phase-product.png",
+          "src": "https://rintaromasaoka.github.io/higher-central-charge/diagrams/stacked-phase-product.png",
           "loaded": true
         }
       ],
@@ -569,19 +569,19 @@
       "overflow": false,
       "images": [
         {
-          "src": "http://127.0.0.1:4177/diagrams/partial-rotation.png",
+          "src": "https://rintaromasaoka.github.io/higher-central-charge/diagrams/partial-rotation.png",
           "loaded": true
         },
         {
-          "src": "http://127.0.0.1:4177/diagrams/schmidt-trace.png",
+          "src": "https://rintaromasaoka.github.io/higher-central-charge/diagrams/schmidt-trace.png",
           "loaded": true
         },
         {
-          "src": "http://127.0.0.1:4177/diagrams/schmidt-complex-sum.png",
+          "src": "https://rintaromasaoka.github.io/higher-central-charge/diagrams/schmidt-complex-sum.png",
           "loaded": true
         },
         {
-          "src": "http://127.0.0.1:4177/diagrams/two-edge-density.png",
+          "src": "https://rintaromasaoka.github.io/higher-central-charge/diagrams/two-edge-density.png",
           "loaded": true
         }
       ],
@@ -606,11 +606,11 @@
       "overflow": false,
       "images": [
         {
-          "src": "http://127.0.0.1:4177/diagrams/modular-inverse-map.png",
+          "src": "https://rintaromasaoka.github.io/higher-central-charge/diagrams/modular-inverse-map.png",
           "loaded": true
         },
         {
-          "src": "http://127.0.0.1:4177/diagrams/three-phase-correction.png",
+          "src": "https://rintaromasaoka.github.io/higher-central-charge/diagrams/three-phase-correction.png",
           "loaded": true
         }
       ],
@@ -635,15 +635,15 @@
       "overflow": false,
       "images": [
         {
-          "src": "http://127.0.0.1:4177/diagrams/mps-bond-rotation.png",
+          "src": "https://rintaromasaoka.github.io/higher-central-charge/diagrams/mps-bond-rotation.png",
           "loaded": true
         },
         {
-          "src": "http://127.0.0.1:4177/diagrams/orbital-realspace-cuts.png",
+          "src": "https://rintaromasaoka.github.io/higher-central-charge/diagrams/orbital-realspace-cuts.png",
           "loaded": true
         },
         {
-          "src": "http://127.0.0.1:4177/diagrams/asymptotic-regimes.png",
+          "src": "https://rintaromasaoka.github.io/higher-central-charge/diagrams/asymptotic-regimes.png",
           "loaded": true
         }
       ],
@@ -670,7 +670,7 @@
       "overflow": false,
       "images": [
         {
-          "src": "http://127.0.0.1:4177/diagrams/boundary-integer-membership.png",
+          "src": "https://rintaromasaoka.github.io/higher-central-charge/diagrams/boundary-integer-membership.png",
           "loaded": true
         }
       ],

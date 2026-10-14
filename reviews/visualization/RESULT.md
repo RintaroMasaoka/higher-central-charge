@@ -60,3 +60,14 @@ this revision does not claim unconditional Japanese manuscript acceptance.
 
 No numerical simulation was rerun and no schematic spectrum/profile is presented
 as measured data. No canonical skill snapshot is published.
+
+## Publication
+
+Published content commit: `a9a38a0529a4db20e8f533602acff74c7788bf84`.
+GitHub Actions run `38552062019` completed build and Pages deployment successfully.
+Live site: `https://rintaromasaoka.github.io/higher-central-charge/`.
+The live 24 route/viewport/theme combinations passed the same browser checks;
+`reviews/browser-results.json` now records the public origin. All twelve served
+PNG SHA256 values match the final local exports, and all twelve source/output
+hash pairs match their regeneration inventories. The local verification server
+was stopped after testing.
