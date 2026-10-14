@@ -1,5 +1,5 @@
 {
-  "origin": "https://rintaromasaoka.github.io",
+  "origin": "http://127.0.0.1:4177",
   "prefix": "/higher-central-charge",
   "results": [
     {
@@ -11,7 +11,7 @@
       "theme": "light",
       "heading": "高次中心電荷と境界のギャップ",
       "mathErrors": 0,
-      "math": 100,
+      "math": 111,
       "overflow": false,
       "images": [],
       "fonts": [
@@ -35,7 +35,7 @@
       "overflow": false,
       "images": [
         {
-          "src": "https://rintaromasaoka.github.io/higher-central-charge/diagrams/partial-rotation.svg",
+          "src": "http://127.0.0.1:4177/diagrams/partial-rotation.svg",
           "loaded": true
         }
       ],
@@ -138,7 +138,7 @@
       "theme": "dark",
       "heading": "高次中心電荷と境界のギャップ",
       "mathErrors": 0,
-      "math": 100,
+      "math": 111,
       "overflow": false,
       "images": [],
       "fonts": [
@@ -162,7 +162,7 @@
       "overflow": false,
       "images": [
         {
-          "src": "https://rintaromasaoka.github.io/higher-central-charge/diagrams/partial-rotation.svg",
+          "src": "http://127.0.0.1:4177/diagrams/partial-rotation.svg",
           "loaded": true
         }
       ],
@@ -265,7 +265,7 @@
       "theme": "light",
       "heading": "高次中心電荷と境界のギャップ",
       "mathErrors": 0,
-      "math": 100,
+      "math": 111,
       "overflow": false,
       "images": [],
       "fonts": [
@@ -289,7 +289,7 @@
       "overflow": false,
       "images": [
         {
-          "src": "https://rintaromasaoka.github.io/higher-central-charge/diagrams/partial-rotation.svg",
+          "src": "http://127.0.0.1:4177/diagrams/partial-rotation.svg",
           "loaded": true
         }
       ],
@@ -392,7 +392,7 @@
       "theme": "dark",
       "heading": "高次中心電荷と境界のギャップ",
       "mathErrors": 0,
-      "math": 100,
+      "math": 111,
       "overflow": false,
       "images": [],
       "fonts": [
@@ -416,7 +416,7 @@
       "overflow": false,
       "images": [
         {
-          "src": "https://rintaromasaoka.github.io/higher-central-charge/diagrams/partial-rotation.svg",
+          "src": "http://127.0.0.1:4177/diagrams/partial-rotation.svg",
           "loaded": true
         }
       ],

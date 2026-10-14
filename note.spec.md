@@ -12,6 +12,8 @@ Enable a first-time reader of arXiv:2303.04822v4 to reconstruct how partial rota
 ## Audience
 The learner has not read the paper and explicitly understands CFT characters. Other personal expertise is unconfirmed. Establish locally the Schmidt trace identity, anyon data, this paper's modular transformations, vacuum dominance, and phase extraction. Definitions alone must not be treated as understanding of the mechanism.
 
+For an unfamiliar relation or named result, distinguish the depth needed here: its meaning and role, how to use it, its mechanism, or its proof. Showing a usable formula is not evidence that the learner understands what the result connects. Keep the meaning and inputs needed for the next step visible; provide an adjacent explanatory disclosure or a precise, accessible learning reference for relevant unfamiliar background whose development can be deferred. A citation giving authority alone is not that learning route. CFT characters are the only confirmed specialized baseline; do not silently promote other results to known prerequisites. This does not require proving every imported theorem.
+
 ## Derivation
 The objective requires a connected route from a wave function to an observable and then to a boundary obstruction. Develop the central derivation and elementary examples. Explain supplemental generalizations as applications; reproducing iDMRG or categorical proofs would exceed this route. Preserve physical hypotheses instead of promoting source agreement to a microscopic proof.
 

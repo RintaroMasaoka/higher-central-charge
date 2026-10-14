@@ -1,0 +1,38 @@
+{
+  "review_lane": "explanation-act suitability only",
+  "unit": "opened Gauss-Milgram disclosure, paragraph 2",
+  "verdict": "PASS",
+  "frozen_after": "open-act-1.json",
+  "scope_exclusions": ["scientific truth", "mathematical certification", "source verification", "prerequisite sufficiency", "Japanese terminology"],
+  "evidence": {
+    "paragraph": "である。右辺の絶対値は $1$ なので、和の絶対値は $\\mathcal D$ である。したがって、$\\zeta_n$ の定義で $n=1$ とした分母は $\\mathcal D$ に等しく、上の式の左辺がそのまま $\\zeta_1$ になる。$n=1$ の高次中心電荷は、このようにエニオンのデータから境界の中心電荷の情報を取り出す。関係式とその背景は [Kitaev, *Anyons in an exactly solved model and beyond*, Appendix E 冒頭の式 (172) と Appendix D.2](https://arxiv.org/pdf/cond-mat/0506438#page=66)を参照できる。",
+    "available_prefix": "Established zeta_n definition divides the weighted phase sum by its absolute value. Opened paragraph 1 has just presented (sum_a d_a^2 theta_a)/D = exp(2 pi i c_-/8). The prior visible main text already announces the n=1 relation and the mod-8 information."
+  },
+  "content_and_act": {
+    "verdict": "PASS",
+    "claim": "The displayed relation fixes the sum's absolute value as D; this identifies the n=1 denominator in the zeta_n definition and hence identifies the displayed left side as zeta_1. The result extracts boundary central-charge information from anyon data. A cited location offers the relation and its background.",
+    "act": "Resolve the normalization comparison left open by paragraph 1, connect the relation to the defined invariant, return to the disclosure's motivating subject, and supply an optional source location.",
+    "presupposed_stance": "The reader is following the announced relation and needs its connection to the existing zeta_n definition. No error, resistance, or special skeptical stance is imputed."
+  },
+  "first_pass_signal": {
+    "verdict": "PASS",
+    "record": "なので and したがって signal an inference from the immediately preceding equation to its normalization and then to zeta_1. このように marks the resulting interpretation as the payoff of that comparison. 情報, read with the already visible mod-8 paragraph, frames the outcome at the previously established level. The source sentence is presented as a place the reader can consult, without suggesting that consultation is needed before proceeding."
+  },
+  "available_license": {
+    "verdict": "PASS",
+    "record": "The current left side divides by D while the established zeta_n definition divides by the sum's absolute value. This materially competing normalization makes the explicit comparison relevant at this exact location. The disclosure heading and prior visible n=1 connection license the return to internal data and boundary information. The equation's named external relation licenses an optional provenance pointer."
+  },
+  "resolution_and_return": {
+    "verdict": "PASS",
+    "record": "The paragraph makes explicit why the displayed left side is the already defined zeta_1. The reader can now use the Gauss-Milgram relation as the stated n=1 internal/boundary connection instead of retaining two unexplained normalizations. The closing interpretation returns directly to that subject; the citation makes the asserted relation and background locatable. This record judges those communicative functions, not the validity of the inference or cited location."
+  },
+  "realization_comparison": {
+    "verdict": "PASS",
+    "record": "Omitting the absolute-value and denominator comparison would preserve paragraph 1's equation but leave the reader to identify D with the definition's denominator unaided. The actual two-sentence comparison fills that specific relation without a warning about possible mistakes. Omitting the final interpretation would preserve the formal identification while weakening the return to the disclosure's purpose. Omitting the citation would retain the local explanation but remove its explicit consultation route; the actual placement keeps that route subordinate to the completed local relation."
+  },
+  "continuity_and_cumulative_effect": {
+    "verdict": "PASS",
+    "record": "Paragraph 1 supplies the weighted-sum relation; paragraph 2 identifies its normalization with the defined n=1 invariant and states the payoff. The repeated internal/boundary connection now follows the completed identification and closes the disclosure, rather than accumulating caution or defensive restatement. The citation follows the local explanation and does not displace it. Paragraph 1's frozen verdict remains unchanged; paragraph 2 supplies new forward progress rather than retrospective license."
+  },
+  "limits": "No source was opened. No scientific, mathematical, prerequisite, or Japanese terminology acceptance is certified by this act-lane PASS."
+}

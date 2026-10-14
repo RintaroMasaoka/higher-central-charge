@@ -1,0 +1,17 @@
+{
+  "perspective": "subject/prerequisite",
+  "packet": "opened disclosure paragraph 1 and attached equation only",
+  "verdict": "PASS",
+  "scope": "The paragraph supplies the imported relation's conceptual connection and arithmetic operation at this prefix. It does not yet complete the derivation of normalized zeta_1.",
+  "evidence": [
+    "The established context defines theta_a as a rotation phase, d_a as positive quantum dimensions, D as sqrt(sum_a d_a^2), and c_- as the boundary central-charge difference.",
+    "The paragraph explicitly instructs the reader to add theta_a with weights d_a^2 and divide the result by D.",
+    "The attached equation identifies that computed bulk quantity with exp(2 pi i c_-/8), the boundary-central-charge phase."
+  ],
+  "required_depth": "The learner can reconstruct what quantities the imported relation connects and how its left side is computed using the supplied definitions and complex arithmetic. Proving the external theorem is outside this packet's goal; no additional specialist prerequisite is needed to read this equality as an imported relation.",
+  "remaining_unavailable": [
+    "The paragraph does not explicitly extract |sum_a d_a^2 theta_a| = D from the unit modulus of the right side.",
+    "The paragraph does not explicitly substitute that modulus into the established definition zeta_1 = sum_a d_a^2 theta_a / |sum_a d_a^2 theta_a|. Thus the normalization step toward zeta_1 has not yet been presented in this opened packet."
+  ],
+  "boundary": "No continuation inferred. No explanatory-act, Japanese wording, or scientific-truth verdict issued."
+}

@@ -1,0 +1,1973 @@
+{
+  "gate_version": 3,
+  "lane": "act",
+  "config_sha256": "8ab26512d1dc1e80de22089303722d85f81a8adb2e3a9239432fe5dcc2b2238f",
+  "sources": [
+    {
+      "path": "content/overview.md",
+      "source_sha256": "3122665b5216b39ec528533b899d1c430be6f6f773cf2f515771311079d8c0b8",
+      "projection_path": "reviews/reader-depth/body/overview/body.md",
+      "projection_sha256": "43fbaa1906738ccd70e67c6072bc398d05957b4021e6837f74aa937b4322f06d",
+      "packets_path": "reviews/reader-depth/body/overview/packets.json",
+      "packets_sha256": "2237497cdabffe3df93ebaa7f92a75c7fba448d924d1f9aeafc28016145ec674"
+    },
+    {
+      "path": "content/observable.md",
+      "source_sha256": "282282e4cce7b71fe4e33d41d49683366dfac6c0d3f16b9b2260e3b1eaa49704",
+      "projection_path": "reviews/reader-depth/body/observable/body.md",
+      "projection_sha256": "e125c5a6455b2dd96d0023a53fe2c36192380dd24a670e4c5b3e754fbec7c0e8",
+      "packets_path": "reviews/reader-depth/body/observable/packets.json",
+      "packets_sha256": "989b92a782e29eb4e6115947663475a694c335d6903eda347447e5da3c0207bf"
+    },
+    {
+      "path": "content/derivation.md",
+      "source_sha256": "d6f45b0e8231c55124696789293e80e385064039cbd7c7c76ff27e0895e70cf5",
+      "projection_path": "reviews/reader-depth/body/derivation/body.md",
+      "projection_sha256": "b5437631346ad1e9c36c94c37bede2f66b974e603ea31d21361e49b03f5e21f2",
+      "packets_path": "reviews/reader-depth/body/derivation/packets.json",
+      "packets_sha256": "3e1d22262bc6b0a49ca5debab9a98c9d47d8f7104fd9017516135734dc6c5265"
+    },
+    {
+      "path": "content/applications.md",
+      "source_sha256": "b1641ef94fed178f0dbb699df873298a61c707e7f524ad84020ac47dac3215e5",
+      "projection_path": "reviews/reader-depth/body/applications/body.md",
+      "projection_sha256": "f1af4e461d366f67451434752a43947cfcde06f3580937b832356d967fca23b4",
+      "packets_path": "reviews/reader-depth/body/applications/packets.json",
+      "packets_sha256": "0281c4e3dcae3d04e5bd3cee3f53d8060afaa54ceded8a1197865fe08b3e6b81"
+    },
+    {
+      "path": "content/boundary.md",
+      "source_sha256": "1449fc165031f74f8e0c221b5529523714eda6b6be6389db754940bb067b3ed2",
+      "projection_path": "reviews/reader-depth/body/boundary/body.md",
+      "projection_sha256": "86d061833a272767237d3cacdc609009255301b2cd1b5c7911f786fd393a2154",
+      "packets_path": "reviews/reader-depth/body/boundary/packets.json",
+      "packets_sha256": "266d53674e14b97b740ad307fcdbb18cd87457335d1fe0aecd20fb7a046aa0d1"
+    },
+    {
+      "path": "content/references.md",
+      "source_sha256": "e96b9f0672609630f0d2b6b0f88d27b31921771a68820b3a081e10bdf345cf2e",
+      "projection_path": "reviews/reader-depth/body/references/body.md",
+      "projection_sha256": "016fdc6e3f310b030e4c2c12ea00ea5d460bcfb108a20e615745fd7eaa3c27fa",
+      "packets_path": "reviews/reader-depth/body/references/packets.json",
+      "packets_sha256": "c70708b0be67e40052b537af8494557490b9748d4e41b473294fa0ff63fca87d"
+    }
+  ],
+  "units": [
+    {
+      "id": "overview-p1",
+      "path": "content/overview.md",
+      "source_sha256": "3122665b5216b39ec528533b899d1c430be6f6f773cf2f515771311079d8c0b8",
+      "text": "# 高次中心電荷と境界のギャップ\n\n二次元の系で、内部には励起を作るための有限のエネルギーが必要なのに、端にはいくらでも低いエネルギーの励起が残ることがある。内部のギャップを保ったまま、端の相互作用を変えて、この励起にもギャップを開けられるだろうか。ここで扱うのは、外部対称性の保存を追加条件に課さない、ボソンの $(2+1)$ 次元トポロジカル相と真空との境界である。\n",
+      "text_sha256": "79ea1b2b6e66b6c9d0b1476f8fa678b18f169ffc91bf112f5c821bece572c467",
+      "paragraphs": 1
+    },
+    {
+      "id": "overview-p2",
+      "path": "content/overview.md",
+      "source_sha256": "3122665b5216b39ec528533b899d1c430be6f6f773cf2f515771311079d8c0b8",
+      "text": "境界に沿って反対向きに進む自由度の中心電荷の差を **カイラル中心電荷** $c_-$ と呼ぶ。$c_-\\ne0$ は熱 Hall 応答に現れ、完全にギャップの開いた境界を妨げる。しかし、$c_-=0$ でも、内部の準粒子の統計に由来する障害が残る場合がある。この障害の一部を数で表すのが **高次中心電荷**（higher central charge）$\\zeta_n$ である。\n",
+      "text_sha256": "f9ef16be3b1816c279d4d2cb7e3b504ccc62ffbef4bb96b8cfcf16a453de9777",
+      "paragraphs": 1
+    },
+    {
+      "id": "overview-p3",
+      "path": "content/overview.md",
+      "source_sha256": "3122665b5216b39ec528533b899d1c430be6f6f773cf2f515771311079d8c0b8",
+      "text": "Kobayashi らの論文は、この数を円筒上の一つの基底状態から取り出す方法を提案する。円筒の半分だけを周方向へずらし、元の状態との重なりを計算すると、その複素位相に $\\zeta_n$ が現れる。[原論文：Introduction、Definition and properties、Main result](/references/#ref-primary)\n",
+      "text_sha256": "643756817f2211723f1561612464ef087d6061ae48b7b19361819c9217746fe8",
+      "paragraphs": 1
+    },
+    {
+      "id": "overview-p4",
+      "path": "content/overview.md",
+      "source_sha256": "3122665b5216b39ec528533b899d1c430be6f6f773cf2f515771311079d8c0b8",
+      "text": "## エニオンの統計を一つの和にする\n\nトポロジカル相の準粒子は、互いに交換したり周囲を回ったりすると、ボソン・フェルミオンより一般的な統計を示す。この準粒子の種類を **エニオン** $a$ で表し、何もない種類を $1$ と書く。各種類に、次の二つのデータを割り当てる。\n\n| データ                  | 意味                              | 真空 $1$       |\n| -------------------- | ------------------------------- | ------------ |\n| 量子次元 $d_a$           | 多数のエニオンを組み合わせたときの融合状態数の増大を表す正の数 | $d_1=1$      |\n| トポロジカルスピン $\\theta_a$ | エニオンを一回 $2\\pi$ 回転させるときの位相       | $\\theta_1=1$ |\n",
+      "text_sha256": "0890e3402499553c0fd3a318b06836696f650e5e6bea20c0db8ee7fb4f02c418",
+      "paragraphs": 1
+    },
+    {
+      "id": "overview-p5",
+      "path": "content/overview.md",
+      "source_sha256": "3122665b5216b39ec528533b899d1c430be6f6f773cf2f515771311079d8c0b8",
+      "text": "Abelian エニオンでは $d_a=1$ である。non-Abelian エニオンでは融合の結果に複数の可能性があり、$d_a$ は一般に $1$ より大きい。全量子次元は $\\mathcal D=\\sqrt{\\sum_a d_a^2}$ と定義する。\n",
+      "text_sha256": "9ff2b2e6d1a316279596dae5fbcf1bdb7a00b837d6ce93b90fc2c32d3c1c3084",
+      "paragraphs": 1
+    },
+    {
+      "id": "overview-p6",
+      "path": "content/overview.md",
+      "source_sha256": "3122665b5216b39ec528533b899d1c430be6f6f773cf2f515771311079d8c0b8",
+      "text": "正整数 $n$ ごとに、各回転位相の $n$ 乗を重み $d_a^2$ で加える。その和がゼロでないとき、長さを $1$ に規格化した複素数を\n\n$$\n\\zeta_n=\\frac{\\sum_a d_a^2\\theta_a^n}{\\left|\\sum_a d_a^2\\theta_a^n\\right|}\n$$\n",
+      "text_sha256": "ba4603bbe4cc26bb6deaec508968fcf59caa9bab8301b4af28ac1885afc407a4",
+      "paragraphs": 1
+    },
+    {
+      "id": "overview-p7",
+      "path": "content/overview.md",
+      "source_sha256": "3122665b5216b39ec528533b899d1c430be6f6f773cf2f515771311079d8c0b8",
+      "text": "と定義する。この規格化は和の絶対値を除いて位相を取り出す。境界への障害は、この位相を使って調べる。\n",
+      "text_sha256": "d9b2ede0343a493bc358e5e4fb85238a999353674cf13e503df4275fb2aff928",
+      "paragraphs": 1
+    },
+    {
+      "id": "overview-p8",
+      "path": "content/overview.md",
+      "source_sha256": "3122665b5216b39ec528533b899d1c430be6f6f773cf2f515771311079d8c0b8",
+      "text": "$n=1$ の和は、内部のエニオンの統計と境界のカイラル中心電荷を結びつける。[Gauss–Milgram 関係](#gauss-milgram)によれば、ここで扱うボソンのトポロジカル相では\n\n$$\n\\zeta_1=e^{2\\pi i c_-/8}\n$$\n",
+      "text_sha256": "f2668d9707bdff8f4388fd5d98bf7a3894432b7912db9b85b1b61c53b8f5a288",
+      "paragraphs": 1
+    },
+    {
+      "id": "overview-p9",
+      "path": "content/overview.md",
+      "source_sha256": "3122665b5216b39ec528533b899d1c430be6f6f773cf2f515771311079d8c0b8",
+      "text": "となる。したがって $\\zeta_1$ が伝えるのは $c_-$ の $8$ を法とする値である。物理的な境界にギャップが開くには、実際の $c_-=0$ も必要なので、この確認には中心電荷を独立に決める情報を使う。$n$ を変えると、同じ $\\zeta_1$ をもつ相の統計をさらに区別できる。\n",
+      "text_sha256": "a2ac9d8e486aa95f832d38328a448b8963972befe81db7040c0ad52787e93d07",
+      "paragraphs": 1
+    },
+    {
+      "id": "overview-p10",
+      "path": "content/overview.md",
+      "source_sha256": "3122665b5216b39ec528533b899d1c430be6f6f773cf2f515771311079d8c0b8",
+      "text": "> \\[折りたたみ見出し] Gauss–Milgram 関係：エニオンの和と中心電荷のつながり\n",
+      "text_sha256": "216a43461872e6f650b859f59078772a93c530ab6e4bb397c02f760aac23c633",
+      "paragraphs": 1
+    },
+    {
+      "id": "overview-p11",
+      "path": "content/overview.md",
+      "source_sha256": "3122665b5216b39ec528533b899d1c430be6f6f773cf2f515771311079d8c0b8",
+      "text": "## セミオンの計算\n\n$\\mathrm U(1)_2$ のエニオンは真空 $1$ とセミオン $s$ の二種類で、$d_1=d_s=1$、$\\theta_s=i$ である。したがって和は $1+i^n$ となる。\n\n| $n$ | $1+i^n$ | $\\zeta_n$     |\n| --- | ------- | ------------- |\n| $1$ | $1+i$   | $e^{i\\pi/4}$  |\n| $2$ | $0$     | 定義されない        |\n| $3$ | $1-i$   | $e^{-i\\pi/4}$ |\n| $4$ | $2$     | $1$           |\n",
+      "text_sha256": "998deedff0bce95540963f765e45f96ef6d1432cc8e54680c27049d0efd304e6",
+      "paragraphs": 1
+    },
+    {
+      "id": "overview-p12",
+      "path": "content/overview.md",
+      "source_sha256": "3122665b5216b39ec528533b899d1c430be6f6f773cf2f515771311079d8c0b8",
+      "text": "$c_-=1$ を代入すると $\\zeta_1=e^{i\\pi/4}$ が再現される。$n=2$ のゼロは、二つのエニオンの寄与が逆位相で打ち消し合うためである。後の CFT 計算でも、この場合は主要項の真空係数が消える。\n",
+      "text_sha256": "3d84f6ce1d71a6fa527448b0eb834d3d180f2c10ebb7638f0d5573a4f13fdc74",
+      "paragraphs": 1
+    },
+    {
+      "id": "overview-p13",
+      "path": "content/overview.md",
+      "source_sha256": "3122665b5216b39ec528533b899d1c430be6f6f773cf2f515771311079d8c0b8",
+      "text": "## $c_-=0$ でも残る障害\n\n$\\mathrm U(1)_2$ と逆向きの $\\mathrm U(1)_{-4}$ を積み重ねた相を考える。中心電荷は $1+(-1)=0$ になる。独立な二つの相を重ねると、エニオンは種類の組になり、量子次元とトポロジカルスピンはそれぞれ掛け合わされる。このため $\\sum_a d_a^2\\theta_a^n$ も二つの和の積になる。\n",
+      "text_sha256": "ef37114a3853bc62c94f0db39e55dd8a9ad3098e8920fea1b2d176af8c567035",
+      "paragraphs": 1
+    },
+    {
+      "id": "overview-p14",
+      "path": "content/overview.md",
+      "source_sha256": "3122665b5216b39ec528533b899d1c430be6f6f773cf2f515771311079d8c0b8",
+      "text": "$\\mathrm U(1)_{-4}$ では種類を $j=0,1,2,3$ で表し、$d_j=1$、$\\theta_j=e^{-i\\pi j^2/4}$ とする。$n=3$ の二つの和を計算すると\n\n$$\n\\sum_{a\\in\\mathrm U(1)_2}\\theta_a^3=1-i,\n\\qquad\n\\sum_{j=0}^3\\theta_j^3=2e^{-3i\\pi/4}.\n$$\n",
+      "text_sha256": "9eadb3d872785690ba4d6e87130dc5cb9b6b7e7668c16aeb22d3e37e9cb8c3d4",
+      "paragraphs": 1
+    },
+    {
+      "id": "overview-p15",
+      "path": "content/overview.md",
+      "source_sha256": "3122665b5216b39ec528533b899d1c430be6f6f773cf2f515771311079d8c0b8",
+      "text": "その積は $-2\\sqrt2$ なので、積の相では $\\zeta_3=-1$ である。\n",
+      "text_sha256": "8839950ebf1f287a44279108ae5ddb1b4705b2e673ea0f95898cca436916bc94",
+      "paragraphs": 1
+    },
+    {
+      "id": "overview-p16",
+      "path": "content/overview.md",
+      "source_sha256": "3122665b5216b39ec528533b899d1c430be6f6f773cf2f515771311079d8c0b8",
+      "text": "すべての $\\theta_a$ が $1$ に戻る共通の最小正整数を **Frobenius–Schur 指数** $N_{\\mathrm{FS}}$ と呼ぶ。すなわち $\\theta_a^{N_{\\mathrm{FS}}}=1$ が全種類で成立する。この例では $N_{\\mathrm{FS}}=8$ で、$\\gcd(3,8)=1$ である。ギャップの開いた境界があるなら、$N_{\\mathrm{FS}}$ と互いに素な $n$ では $\\zeta_n=1$ が必要である、という既知の定理を使うと、この例の境界にはギャップを開けられない。[原論文：Definition and properties](/references/#ref-criteria)\n",
+      "text_sha256": "bec3dac5d0847c07016b95a7a4a872509f5a5e270d86f8301f4484fc05b8b231",
+      "paragraphs": 1
+    },
+    {
+      "id": "overview-p17",
+      "path": "content/overview.md",
+      "source_sha256": "3122665b5216b39ec528533b899d1c430be6f6f773cf2f515771311079d8c0b8",
+      "text": "> \\[折りたたみ見出し] $\\mathrm U(1)_{-4}$ の四項を確認する\n",
+      "text_sha256": "8788ea6312d2d8af81333bb866aebdf8d19d3c8a420b780b7ce0649450c98f33",
+      "paragraphs": 1
+    },
+    {
+      "id": "overview-p18",
+      "path": "content/overview.md",
+      "source_sha256": "3122665b5216b39ec528533b899d1c430be6f6f773cf2f515771311079d8c0b8",
+      "text": "## 波動関数から測るために\n\n上の計算には全エニオンの $d_a$ と $\\theta_a$ が必要だった。次章では、これらを先に列挙する代わりに、円筒上の状態 $|\\Psi_1\\rangle$ の一部だけを回転させる。\n",
+      "text_sha256": "63729443929d0e9784aff0927a865951ca0c1db01577c4b3ff1b3f799cce6f40",
+      "paragraphs": 1
+    },
+    {
+      "id": "overview-p19",
+      "path": "content/overview.md",
+      "source_sha256": "3122665b5216b39ec528533b899d1c430be6f6f773cf2f515771311079d8c0b8",
+      "text": "真空セクターの状態を $|\\Psi_1\\rangle$ とし、部分回転後との重なりを $\\mathcal T_1(2\\pi/n)$ と書く。その主要項は、条件を満たす固定した $n$ に対して\n\n$$\n\\mathcal T_1(2\\pi/n)\n\\sim A_n e^{-2\\pi i(n+2/n)c_-/24}\\sum_a d_a^2\\theta_a^n,\n\\qquad A_n>0\n$$\n",
+      "text_sha256": "4f584ef2987f81431f1e17fdcc4f1b30bbd62c8fa3c678180e2c23c488de7c8c",
+      "paragraphs": 1
+    },
+    {
+      "id": "overview-p20",
+      "path": "content/overview.md",
+      "source_sha256": "3122665b5216b39ec528533b899d1c430be6f6f773cf2f515771311079d8c0b8",
+      "text": "となる。$\\sim$ はここでは CFT 近似と大きさの条件の下で得られる主要項を表す。$A_n$ は正の実数であり、位相には寄与しない。観測した位相に中心電荷の因子を戻すと $\\zeta_n$ が得られる。この関係がどの状態、どの切断、どの長さの範囲で導かれるかを、[部分回転](/observable/)と[指標による導出](/derivation/)で確かめる。\n",
+      "text_sha256": "ef956249a3ab5c1f14b0c6acab0cbe5f4f08485cc1dad4e253920e509ae361c6",
+      "paragraphs": 1
+    },
+    {
+      "id": "overview-p21",
+      "path": "content/overview.md",
+      "source_sha256": "3122665b5216b39ec528533b899d1c430be6f6f773cf2f515771311079d8c0b8",
+      "text": "> \\[折りたたみ見出し] 確認：$\\zeta_1=1$ が分かれば $c_-=0$ といえるか\n",
+      "text_sha256": "ca678a84fd9f3643bc57992f6d8704ab49f775feb51b8e4ed82595ee4a18a165",
+      "paragraphs": 1
+    },
+    {
+      "id": "observable-p1",
+      "path": "content/observable.md",
+      "source_sha256": "282282e4cce7b71fe4e33d41d49683366dfac6c0d3f16b9b2260e3b1eaa49704",
+      "text": "# 波動関数の部分回転\n\n円筒の軸方向を $x$、周方向を $y$ とし、周長を $L$ とする。円筒を軸に垂直な円で切り、左側を A、右側を B と呼ぶ。A の自由度だけを $y$ 方向に距離 $L/n$ ずらす操作を $T_{\\mathrm A;2\\pi/n}$ と書く。角度 $2\\pi/n$ は円筒の周を $n$ 等分した一つ分の移動に対応する。\n\n![A を周方向に L/n だけ移動し B は固定する円筒。A の左端は物理的な境界、A と B の間はエンタングルメント切断。](/diagrams/partial-rotation.svg)\n",
+      "text_sha256": "904404983fbf42b3bfde57ed9f72a601abcc37bead6a560fa765602ac491ad56",
+      "paragraphs": 1
+    },
+    {
+      "id": "observable-p2",
+      "path": "content/observable.md",
+      "source_sha256": "282282e4cce7b71fe4e33d41d49683366dfac6c0d3f16b9b2260e3b1eaa49704",
+      "text": "図の A/B の分割は、同じ試料の状態を二つの部分の自由度で表すために行う。A の左端にある試料の物理的な境界と、A の右端で B とのエンタングルメントを記述する境界が、この分割によって区別される。この二つが次章の二つの指標に対応する。\n",
+      "text_sha256": "4e854726f2c0fc089d83971eeee8badb8f0e65c30ef1030533133325cb8e1e93",
+      "paragraphs": 1
+    },
+    {
+      "id": "observable-p3",
+      "path": "content/observable.md",
+      "source_sha256": "282282e4cce7b71fe4e33d41d49683366dfac6c0d3f16b9b2260e3b1eaa49704",
+      "text": "円筒上の基底状態には、円筒の穴を通るトポロジカルな種類を区別した状態 $|\\Psi_a\\rangle$ がある。ここでは真空の種類 $a=1$ を選ぶ。その状態の部分回転の期待値を\n\n$$\n\\mathcal T_1(2\\pi/n)=\\langle\\Psi_1|T_{\\mathrm A;2\\pi/n}|\\Psi_1\\rangle\n$$\n",
+      "text_sha256": "2f236aa6d654d9544ecd8cff9094ae8d75997e302ff7266089027340f4b34837",
+      "paragraphs": 1
+    },
+    {
+      "id": "observable-p4",
+      "path": "content/observable.md",
+      "source_sha256": "282282e4cce7b71fe4e33d41d49683366dfac6c0d3f16b9b2260e3b1eaa49704",
+      "text": "と定義する。ユニタリな操作の期待値なので絶対値は $1$ 以下だが、一般には複素数である。格子の円筒では、$L/n$ が許された格子並進になる周長と $n$ を選ぶ必要がある。[原論文：Main result、Fig. 1](/references/#ref-primary)\n",
+      "text_sha256": "8e6d47fc1f135b128fc3033c6618b025ceedc77dee8235c477b4e8a8e1090ab2",
+      "paragraphs": 1
+    },
+    {
+      "id": "observable-p5",
+      "path": "content/observable.md",
+      "source_sha256": "282282e4cce7b71fe4e33d41d49683366dfac6c0d3f16b9b2260e3b1eaa49704",
+      "text": "## 部分トレースとの関係\n\n密度行列を $\\rho=|\\Psi_1\\rangle\\langle\\Psi_1|$ とし、B の自由度をトレースしたものを $\\rho_{\\mathrm A}=\\operatorname{Tr}_{\\mathrm B}\\rho$ とする。$T_{\\mathrm A;2\\pi/n}$ は A にしか作用しないので\n\n$$\n\\mathcal T_1(2\\pi/n)\n=\\operatorname{Tr}_{\\mathrm A}\\bigl(\\rho_{\\mathrm A}T_{\\mathrm A;2\\pi/n}\\bigr)\n$$\n",
+      "text_sha256": "6a2ea0eb03c526a8ad283362b7583eda21ad0dc58bf6dad40d325a5c559bba86",
+      "paragraphs": 1
+    },
+    {
+      "id": "observable-p6",
+      "path": "content/observable.md",
+      "source_sha256": "282282e4cce7b71fe4e33d41d49683366dfac6c0d3f16b9b2260e3b1eaa49704",
+      "text": "が成立する。全トレースのうち B の基底についての和を先に取ると、全密度行列 $|\\Psi_1\\rangle\\langle\\Psi_1|$ から $\\rho_{\\mathrm A}$ が得られる。残った A のトレースが右辺である。\n",
+      "text_sha256": "de61b21494742a42de1a0f73b06eb04a1c1da3118a9d68fb8bba877f60fc9c32",
+      "paragraphs": 1
+    },
+    {
+      "id": "observable-p7",
+      "path": "content/observable.md",
+      "source_sha256": "282282e4cce7b71fe4e33d41d49683366dfac6c0d3f16b9b2260e3b1eaa49704",
+      "text": "規格化した状態のシュミット分解（Schmidt decomposition）を\n\n$$\n|\\Psi_1\\rangle=\\sum_\\alpha\\lambda_\\alpha\n|\\alpha\\rangle_{\\mathrm A}|\\alpha\\rangle_{\\mathrm B},\n\\qquad \\lambda_\\alpha\\ge0,\n\\qquad \\sum_\\alpha\\lambda_\\alpha^2=1\n$$\n",
+      "text_sha256": "709edab4504379c6e21ea1d70f8e683d33083543734e027164440abac5185c42",
+      "paragraphs": 1
+    },
+    {
+      "id": "observable-p8",
+      "path": "content/observable.md",
+      "source_sha256": "282282e4cce7b71fe4e33d41d49683366dfac6c0d3f16b9b2260e3b1eaa49704",
+      "text": "と書く。両側の状態はそれぞれ正規直交するため、B をトレースすると\n\n$$\n\\rho_{\\mathrm A}=\\sum_\\alpha\\lambda_\\alpha^2\n|\\alpha\\rangle_{\\mathrm A}\\langle\\alpha|_{\\mathrm A}\n$$\n",
+      "text_sha256": "edae8da567a6e8ceec745db0c7b7de934bc629d7079f008a62f61c7774404391",
+      "paragraphs": 1
+    },
+    {
+      "id": "observable-p9",
+      "path": "content/observable.md",
+      "source_sha256": "282282e4cce7b71fe4e33d41d49683366dfac6c0d3f16b9b2260e3b1eaa49704",
+      "text": "となる。したがって部分回転は、各シュミット状態での並進の期待値を確率 $\\lambda_\\alpha^2$ で加えた量である。\n",
+      "text_sha256": "2a0ca637b184dd102ed1ff6c395490e484634831dc9cffa7c5ee474683256223",
+      "paragraphs": 1
+    },
+    {
+      "id": "observable-p10",
+      "path": "content/observable.md",
+      "source_sha256": "282282e4cce7b71fe4e33d41d49683366dfac6c0d3f16b9b2260e3b1eaa49704",
+      "text": "## 周方向の運動量を使う\n\n周方向の並進対称性があり、シュミット状態を運動量固有状態に選べるとする。$\\hbar=1$ とし、A の並進生成子の固有値を $p_\\alpha$ と書く。ここでは並進演算子を $e^{iP_{\\mathrm A}\\delta y}$ と定義するので、距離 $\\delta y=L/n$ の部分回転は\n\n$$\n\\mathcal T_1(2\\pi/n)\n=\\sum_\\alpha\\lambda_\\alpha^2e^{ip_\\alpha L/n}\n$$\n",
+      "text_sha256": "96b231902ea58aca4d191cddcf664424336da692163b4304f47946ba9cdf8fb1",
+      "paragraphs": 1
+    },
+    {
+      "id": "observable-p11",
+      "path": "content/observable.md",
+      "source_sha256": "282282e4cce7b71fe4e33d41d49683366dfac6c0d3f16b9b2260e3b1eaa49704",
+      "text": "となる。各状態の運動量が複素平面上の向きを決め、シュミット確率がその向きの重みを決める。異なる状態の向きが打ち消し合えば、絶対値は小さくなる。\n",
+      "text_sha256": "31d8cad16b502c659de9f700cdf6d6032498661cae1e397209b3378766e1534f",
+      "paragraphs": 1
+    },
+    {
+      "id": "observable-p12",
+      "path": "content/observable.md",
+      "source_sha256": "282282e4cce7b71fe4e33d41d49683366dfac6c0d3f16b9b2260e3b1eaa49704",
+      "text": "角度 $\\varphi$ で表すと移動距離は $L\\varphi/(2\\pi)$ なので、同じ式は $\\sum_\\alpha\\lambda_\\alpha^2 e^{ip_\\alpha L\\varphi/(2\\pi)}$ となる。無次元の運動量 $K_\\alpha=p_\\alpha L/(2\\pi)$ を使えば $\\sum_\\alpha\\lambda_\\alpha^2e^{iK_\\alpha\\varphi}$ である。物理的な運動量、角度、無次元の運動量をこのように対応させることで、回転の単位を固定できる。\n",
+      "text_sha256": "fc00d655416e392387ff3f417eb93c67a4ddd0d77f070cc44337ffd42a860810",
+      "paragraphs": 1
+    },
+    {
+      "id": "observable-p13",
+      "path": "content/observable.md",
+      "source_sha256": "282282e4cce7b71fe4e33d41d49683366dfac6c0d3f16b9b2260e3b1eaa49704",
+      "text": "> \\[折りたたみ見出し] 確認：二つのシュミット確率が $1/2$ で、並進固有値が $1,-1$ ならどうなるか\n",
+      "text_sha256": "81c86601bd49677d798948dc3b25bde5a520195e7e4d8de6327fa1ce66d7480e",
+      "paragraphs": 1
+    },
+    {
+      "id": "observable-p14",
+      "path": "content/observable.md",
+      "source_sha256": "282282e4cce7b71fe4e33d41d49683366dfac6c0d3f16b9b2260e3b1eaa49704",
+      "text": "## エンタングルメント境界を CFT で表す\n\nこの厳密なトレースを評価するために、論文は長波長のエッジ CFT を使う。切断面を挟む左右のエッジ自由度を結合して、ギャップのある内部を作る cut-and-glue の描像を用い、片側をトレースしたエッジの密度行列を、有効な温度での熱密度行列として近似する。\n",
+      "text_sha256": "61efbe99c4e97a686fed79db42472266d757b435cb207843a5e9a612f0207ea3",
+      "paragraphs": 1
+    },
+    {
+      "id": "observable-p15",
+      "path": "content/observable.md",
+      "source_sha256": "282282e4cce7b71fe4e33d41d49683366dfac6c0d3f16b9b2260e3b1eaa49704",
+      "text": "A の二つの端が十分離れているとき、低エネルギーの記述として\n\n$$\n\\rho_{\\mathrm A}\\simeq\n\\frac{e^{-\\beta_lH_l}}{\\operatorname{Tr}e^{-\\beta_lH_l}}\n\\otimes\n\\frac{e^{-\\beta_rH_r}}{\\operatorname{Tr}e^{-\\beta_rH_r}}\n$$\n",
+      "text_sha256": "bf9774739269b5bfcc755e1db63f4e9cddc84465f19928fa6daf618cea2e4f0b",
+      "paragraphs": 1
+    },
+    {
+      "id": "observable-p16",
+      "path": "content/observable.md",
+      "source_sha256": "282282e4cce7b71fe4e33d41d49683366dfac6c0d3f16b9b2260e3b1eaa49704",
+      "text": "を用いる。$H_l$ は左の物理的な境界、$H_r$ は右のエンタングルメント境界の CFT ハミルトニアンである。左は基底状態を選ぶため $\\beta_l$ が大きい。右の $\\beta_r$ は、基底状態のエンタングルメントの重みを熱密度行列の形で表すための有効な逆温度である。\n",
+      "text_sha256": "a47768431c19d3daf332df3575242a44ed1a4a6d55c3a1da1abaa52c3fb14091",
+      "paragraphs": 1
+    },
+    {
+      "id": "observable-p17",
+      "path": "content/observable.md",
+      "source_sha256": "282282e4cce7b71fe4e33d41d49683366dfac6c0d3f16b9b2260e3b1eaa49704",
+      "text": "エンタングルメントハミルトニアンには一般に CFT からの摂動が含まれる。以下の計算は、その摂動を無視し、上の熱密度行列を摂動のない CFT で近似するという物理的な仮定の下で行う。論文はこの近似による予測を数値結果と比較している。[原論文：Analytic derivation；補足：Relationship between Entanglement spectrum and edge theory in non-chiral topological phases](/references/#ref-edge)\n",
+      "text_sha256": "8f05342f63eda69b9440acafcec973e8839647fcb767725c28f4a8f60a0a880b",
+      "paragraphs": 1
+    },
+    {
+      "id": "observable-p18",
+      "path": "content/observable.md",
+      "source_sha256": "282282e4cce7b71fe4e33d41d49683366dfac6c0d3f16b9b2260e3b1eaa49704",
+      "text": "エッジの速度を $v$ とし、$\\xi_l=v\\beta_l$、$\\xi_r=v\\beta_r$ とおく。これらはこの CFT の有効温度を長さに換算した量である。左を低温、右を高温として評価し、さらに回転後のモジュラー変換先でも低温にするため、次章では\n\n$$\nn^2\\xi_r\\ll L\\ll\\xi_l\n$$\n",
+      "text_sha256": "10ef8177641eeaa5a6c0795bb4ec95dd32b280d44a69cb4e04c50363cb0e9517",
+      "paragraphs": 1
+    },
+    {
+      "id": "observable-p19",
+      "path": "content/observable.md",
+      "source_sha256": "282282e4cce7b71fe4e33d41d49683366dfac6c0d3f16b9b2260e3b1eaa49704",
+      "text": "を使う。ここでの $\\xi_r=v\\beta_r$ は、エンタングルメント境界の指標の虚部を決める長さである。\n",
+      "text_sha256": "65bb36c044a6ad57db630baa4c1ea75454de1ae10c30eedd46a24c267794c669",
+      "paragraphs": 1
+    },
+    {
+      "id": "derivation-p1",
+      "path": "content/derivation.md",
+      "source_sha256": "d6f45b0e8231c55124696789293e80e385064039cbd7c7c76ff27e0895e70cf5",
+      "text": "# 指標からエニオンの和へ\n\n真空の円筒状態の部分回転は、A の物理的な境界とエンタングルメント境界の二つのトレースに分かれた。ここではまずカイラルなボソンのエッジ CFT で、そのトレースを指標に直す。CFT の中心電荷を $c_-$ と書き、真空の共形重みを $h_1=0$ とする。反対向きの成分を含む相への拡張については、次章で範囲を述べる。\n",
+      "text_sha256": "377949ae9da67241b8078653c50056127c7380b1d766316f3f8ec080b937d503",
+      "paragraphs": 1
+    },
+    {
+      "id": "derivation-p2",
+      "path": "content/derivation.md",
+      "source_sha256": "d6f45b0e8231c55124696789293e80e385064039cbd7c7c76ff27e0895e70cf5",
+      "text": "## 並進を指標に入れる\n\n本章の規約は\n\n$$\n\\chi_a(\\tau)=\\operatorname{Tr}_{\\mathcal H_a}\ne^{2\\pi i\\tau(L_0-c_-/24)},\n\\qquad\nH=\\frac{2\\pi v}{L}(L_0-c_-/24)\n$$\n",
+      "text_sha256": "602576bfabcbb0efd3f8c7ffe8ff80069b4fee71077bb0846c648ab7f5878827",
+      "paragraphs": 1
+    },
+    {
+      "id": "derivation-p3",
+      "path": "content/derivation.md",
+      "source_sha256": "d6f45b0e8231c55124696789293e80e385064039cbd7c7c76ff27e0895e70cf5",
+      "text": "である。$\\mathcal H_a$ は種類 $a$ の CFT 状態空間、$L_0$ はその共形エネルギーを与える演算子である。左と右で伝播方向が反対になることを、$P_l=+H_l/v$、$P_r=-H_r/v$ と表す。この規約では、前章の $e^{iP\\delta y}$ の並進がそれぞれ指標の実部 $+1/n,-1/n$ を与える。\n",
+      "text_sha256": "5d973ecc3b00d8f663989e9cf86aedf5148ce06e21e1b770f7fe2cb4bb615612",
+      "paragraphs": 1
+    },
+    {
+      "id": "derivation-p4",
+      "path": "content/derivation.md",
+      "source_sha256": "d6f45b0e8231c55124696789293e80e385064039cbd7c7c76ff27e0895e70cf5",
+      "text": "実際、左側では\n\n$$\ne^{iP_lL/n}e^{-\\beta_lH_l}\n=e^{2\\pi i(1/n+i\\xi_l/L)(L_0-c_-/24)}.\n$$\n",
+      "text_sha256": "673a45e2bb50b1f8e4678a62b1745d937783db1c6b83a3dd99b8e11f97e93803",
+      "paragraphs": 1
+    },
+    {
+      "id": "derivation-p5",
+      "path": "content/derivation.md",
+      "source_sha256": "d6f45b0e8231c55124696789293e80e385064039cbd7c7c76ff27e0895e70cf5",
+      "text": "右側でも同じ計算をすると $1/n$ の符号が反転する。よって\n\n$$\n\\mathcal T_1(2\\pi/n)\\simeq\n\\frac{\\chi_1(i\\xi_l/L+1/n)}{\\chi_1(i\\xi_l/L)}\n\\frac{\\chi_1(i\\xi_r/L-1/n)}{\\chi_1(i\\xi_r/L)}.\n$$\n",
+      "text_sha256": "0f8bd7e73f547acfd86fcb7f5c26db741b5806345b84b9e4e58213405f56bb38",
+      "paragraphs": 1
+    },
+    {
+      "id": "derivation-p6",
+      "path": "content/derivation.md",
+      "source_sha256": "d6f45b0e8231c55124696789293e80e385064039cbd7c7c76ff27e0895e70cf5",
+      "text": "以降は、この二つの指標の比から部分回転の位相を計算する。[原論文：Analytic derivation、式 (3)](/references/#ref-derivation-source)\n",
+      "text_sha256": "078bc3030424c5bf8fab8197a91ac2094196c316f6dbde5d4d6d394d7056e459",
+      "paragraphs": 1
+    },
+    {
+      "id": "derivation-p7",
+      "path": "content/derivation.md",
+      "source_sha256": "d6f45b0e8231c55124696789293e80e385064039cbd7c7c76ff27e0895e70cf5",
+      "text": "## 左の物理的な境界\n\n$L\\ll\\xi_l$ なら指標の虚部は大きい。共形重み $h$ の寄与には $e^{-2\\pi(\\xi_l/L)h}$ が掛かるため、真空以外は抑えられる。真空エネルギー $-c_-/24$ を残すと\n\n$$\n\\frac{\\chi_1(i\\xi_l/L+1/n)}{\\chi_1(i\\xi_l/L)}\n\\simeq e^{-2\\pi i c_-/(24n)}.\n$$\n",
+      "text_sha256": "7a5bed4a6bf077d5ba7ba17bdcd5f0f4b5429e33761827331ffcbb976ebf21fa",
+      "paragraphs": 1
+    },
+    {
+      "id": "derivation-p8",
+      "path": "content/derivation.md",
+      "source_sha256": "d6f45b0e8231c55124696789293e80e385064039cbd7c7c76ff27e0895e70cf5",
+      "text": "実数の増大因子 $e^{2\\pi(\\xi_l/L)c_-/24}$ は分子と分母で消える。左の境界から残るのは、この一つの位相である。\n",
+      "text_sha256": "1b491d17fd4eeea842604ef031f7c244b894ae7a8d9ab357c148717af3ccd3dc",
+      "paragraphs": 1
+    },
+    {
+      "id": "derivation-p9",
+      "path": "content/derivation.md",
+      "source_sha256": "d6f45b0e8231c55124696789293e80e385064039cbd7c7c76ff27e0895e70cf5",
+      "text": "## 右の分母を $S$ 変換する\n\n右側は $L\\gg\\xi_r$ なので、元の指標の虚部が小さい。モジュラー変換 $S:\\tau\\mapsto-1/\\tau$ によって、虚部を大きくしてから真空を取り出す。\n",
+      "text_sha256": "06432949aef89b1e86fa77a6a013c357862550d427c4dc6498cfe0fbcd9b333a",
+      "paragraphs": 1
+    },
+    {
+      "id": "derivation-p10",
+      "path": "content/derivation.md",
+      "source_sha256": "d6f45b0e8231c55124696789293e80e385064039cbd7c7c76ff27e0895e70cf5",
+      "text": "CFT 指標のモジュラー行列 $S_{ab}$ はエニオンのモジュラーデータと対応する。真空を含む行列要素は $S_{1a}=S_{a1}=d_a/\\mathcal D$ である。したがって\n\n$$\n\\chi_1(i\\xi_r/L)\n=\\sum_a S_{1a}\\chi_a(iL/\\xi_r)\n\\simeq\\frac1{\\mathcal D}e^{2\\pi(L/\\xi_r)c_-/24}.\n$$\n",
+      "text_sha256": "72b2b989d474b9c9212b2fdac71fd3a4ade285b86be83f5d2db2d992e24c0f22",
+      "paragraphs": 1
+    },
+    {
+      "id": "derivation-p11",
+      "path": "content/derivation.md",
+      "source_sha256": "d6f45b0e8231c55124696789293e80e385064039cbd7c7c76ff27e0895e70cf5",
+      "text": "最後の式では変換先の真空 $a=1$ を残した。分母の主要項は正の実数であり、部分回転の位相を変えない。\n",
+      "text_sha256": "13918b7ba9adea7dac41c0910066cc300ffe146af60c6b54d57736df879d665a",
+      "paragraphs": 1
+    },
+    {
+      "id": "derivation-p12",
+      "path": "content/derivation.md",
+      "source_sha256": "d6f45b0e8231c55124696789293e80e385064039cbd7c7c76ff27e0895e70cf5",
+      "text": "## 右の分子を $ST^nS$ 変換する\n\n右の分子の引数 $-1/n+i\\xi_r/L$ を、虚部の大きな引数の指標で表すために、モジュラー変換 $ST^nS$ を使う。この $T$ は指標の引数を $\\tau\\mapsto\\tau+1$ と移すモジュラー変換を表す。\n",
+      "text_sha256": "68e9933728b981b437666a702f1d26a9b0b00e5087c8a15c250ed1140967985d",
+      "paragraphs": 1
+    },
+    {
+      "id": "derivation-p13",
+      "path": "content/derivation.md",
+      "source_sha256": "d6f45b0e8231c55124696789293e80e385064039cbd7c7c76ff27e0895e70cf5",
+      "text": "右から順に $S,T^n,S$ を作用させると\n\n$$\n\\tau\\longmapsto-\\frac1\\tau\n\\longmapsto n-\\frac1\\tau\n\\longmapsto\\frac{\\tau}{1-n\\tau}.\n$$\n",
+      "text_sha256": "dd8d386d9a3db8ae07f91722ffcbdb3be9d136d81d11917284fb8815ddd1293a",
+      "paragraphs": 1
+    },
+    {
+      "id": "derivation-p14",
+      "path": "content/derivation.md",
+      "source_sha256": "d6f45b0e8231c55124696789293e80e385064039cbd7c7c76ff27e0895e70cf5",
+      "text": "この写像で元の引数 $-1/n+i\\xi_r/L$ が得られるように、変換前の引数を求める。逆写像 $z\\mapsto z/(1+nz)$ に $z=-1/n+i\\xi_r/L$ を入れると、正確に\n\n$$\n\\frac{-1/n+i\\xi_r/L}{1+n(-1/n+i\\xi_r/L)}\n=\\frac1n+\\frac{iL}{n^2\\xi_r}\n$$\n",
+      "text_sha256": "9b52f440635548384cecdc1c70e928237a22dcf6a4128c0b62d63d73be38b877",
+      "paragraphs": 1
+    },
+    {
+      "id": "derivation-p15",
+      "path": "content/derivation.md",
+      "source_sha256": "d6f45b0e8231c55124696789293e80e385064039cbd7c7c76ff27e0895e70cf5",
+      "text": "となる。この虚部が大きいための条件が $n^2\\xi_r\\ll L$ である。固定した $n$ ごとにこの条件を満たすと\n\n$$\n\\chi_1(-1/n+i\\xi_r/L)\n=\\sum_a(ST^nS)_{1a}\\chi_a(1/n+iL/(n^2\\xi_r))\n$$\n",
+      "text_sha256": "d324be4dc82f687b5c69975ed3fcc08289852217f884d0f7c7e93eecd5342a2e",
+      "paragraphs": 1
+    },
+    {
+      "id": "derivation-p16",
+      "path": "content/derivation.md",
+      "source_sha256": "d6f45b0e8231c55124696789293e80e385064039cbd7c7c76ff27e0895e70cf5",
+      "text": "の変換先で、係数 $(ST^nS)_{11}$ が非ゼロなら真空を主要項として残せる。\n",
+      "text_sha256": "fb825356f2ba75574d1e6f7aa6b8d361bf768519a962a5faa73ac748da156df4",
+      "paragraphs": 1
+    },
+    {
+      "id": "derivation-p17",
+      "path": "content/derivation.md",
+      "source_sha256": "d6f45b0e8231c55124696789293e80e385064039cbd7c7c76ff27e0895e70cf5",
+      "text": "> \\[折りたたみ見出し] 確認：分子を低温の指標で表すには、どの引数を求めるか\n",
+      "text_sha256": "6e12379f305804f5905895049bbb0343baaace3b281bbbfbf50e36103e473bca",
+      "paragraphs": 1
+    },
+    {
+      "id": "derivation-p18",
+      "path": "content/derivation.md",
+      "source_sha256": "d6f45b0e8231c55124696789293e80e385064039cbd7c7c76ff27e0895e70cf5",
+      "text": "## 真空係数が統計の和になる\n\n種類 $a$ の最低共形重みを $h_a$ とする。モジュラー行列 $T$ は種類ごとに対角で、その成分は\n\n$$\nT_{aa}=e^{2\\pi i(h_a-c_-/24)}\n=\\theta_a e^{-2\\pi i c_-/24}\n$$\n",
+      "text_sha256": "eff57eed49458a80e2a7a09479adce278973fdae4375771a466078b32b4907f5",
+      "paragraphs": 1
+    },
+    {
+      "id": "derivation-p19",
+      "path": "content/derivation.md",
+      "source_sha256": "d6f45b0e8231c55124696789293e80e385064039cbd7c7c76ff27e0895e70cf5",
+      "text": "である。$\\theta_a=e^{2\\pi i h_a}$ を使った。したがって二つの $S$ で挟んだ真空係数は\n\n$$\n\\begin{aligned}\n(ST^nS)_{11}\n&=\\sum_a S_{1a}(T_{aa})^nS_{a1}\\\\\n&=\\frac{e^{-2\\pi i n c_-/24}}{\\mathcal D^2}\n\\sum_a d_a^2\\theta_a^n.\n\\end{aligned}\n$$\n",
+      "text_sha256": "18c7f1aaefd54be56e1a81ed2aa36e1839254419f1bb1de5a444090c9736423b",
+      "paragraphs": 1
+    },
+    {
+      "id": "derivation-p20",
+      "path": "content/derivation.md",
+      "source_sha256": "d6f45b0e8231c55124696789293e80e385064039cbd7c7c76ff27e0895e70cf5",
+      "text": "これが、エニオンの和が波動関数の重なりに現れる箇所である。二つの $S$ が重み $d_a^2$ を与え、$T^n$ がトポロジカルスピンの $n$ 乗を与える。\n",
+      "text_sha256": "0b00949a6117795621c1ebf8c9c98898bc647cc334bc2e2e291ad3c9bff97b10",
+      "paragraphs": 1
+    },
+    {
+      "id": "derivation-p21",
+      "path": "content/derivation.md",
+      "source_sha256": "d6f45b0e8231c55124696789293e80e385064039cbd7c7c76ff27e0895e70cf5",
+      "text": "変換先の真空指標には、虚部に由来する実数因子と、実部 $1/n$ に由来する位相がある。右の分子の主要項は\n\n$$\n\\chi_1(-1/n+i\\xi_r/L)\n\\simeq\n\\frac1{\\mathcal D^2}\ne^{2\\pi Lc_-/(24n^2\\xi_r)}\ne^{-2\\pi i(n+1/n)c_-/24}\n\\sum_a d_a^2\\theta_a^n.\n$$\n",
+      "text_sha256": "e5f80df4d3bb956347925031b6ea7fd5c9964a867502b3ff391fdc787a7f613e",
+      "paragraphs": 1
+    },
+    {
+      "id": "derivation-p22",
+      "path": "content/derivation.md",
+      "source_sha256": "d6f45b0e8231c55124696789293e80e385064039cbd7c7c76ff27e0895e70cf5",
+      "text": "和がゼロなら真空係数も消える。その場合、残りの共形状態や有限サイズ補正を調べる必要があり、この主要項を規格化して $\\zeta_n$ を求めることはできない。\n",
+      "text_sha256": "7937de0e7dc8dbedf92d3a026649b88ba55db4c582a27f4a444a43b2c26e7c81",
+      "paragraphs": 1
+    },
+    {
+      "id": "derivation-p23",
+      "path": "content/derivation.md",
+      "source_sha256": "d6f45b0e8231c55124696789293e80e385064039cbd7c7c76ff27e0895e70cf5",
+      "text": "## 三つの位相をまとめる\n\nここまでの位相の出所を並べると、中心電荷に掛かる係数を確認できる。\n\n| 位相の出所             | 因子                      |\n| ----------------- | ----------------------- |\n| 左の物理的な境界の真空       | $e^{-2\\pi i c_-/(24n)}$ |\n| 右のモジュラー行列 $T^n$   | $e^{-2\\pi i n c_-/24}$  |\n| 右の変換先の真空、実部 $1/n$ | $e^{-2\\pi i c_-/(24n)}$ |\n",
+      "text_sha256": "df6e6d040de33ac510619829bde461f1b0cd037ae129e557b5b0662b2ca5a234",
+      "paragraphs": 1
+    },
+    {
+      "id": "derivation-p24",
+      "path": "content/derivation.md",
+      "source_sha256": "d6f45b0e8231c55124696789293e80e385064039cbd7c7c76ff27e0895e70cf5",
+      "text": "掛け合わせると\n\n$$\n\\mathcal T_1(2\\pi/n)\n\\simeq A_n e^{-2\\pi i(n+2/n)c_-/24}\\sum_a d_a^2\\theta_a^n.\n$$\n",
+      "text_sha256": "8f75ab05dd1f7b35501e16a7e683c1a76a45f36bdce34551ff4795270dfb8811",
+      "paragraphs": 1
+    },
+    {
+      "id": "derivation-p25",
+      "path": "content/derivation.md",
+      "source_sha256": "d6f45b0e8231c55124696789293e80e385064039cbd7c7c76ff27e0895e70cf5",
+      "text": "この理想化したカイラル CFT の計算では\n\n$$\nA_n=\\frac1{\\mathcal D}\n\\exp\\left[\\frac{2\\pi Lc_-}{24\\xi_r}\\left(\\frac1{n^2}-1\\right)\\right]>0\n$$\n",
+      "text_sha256": "ca5a262bc0c8e9ccb341947eec3ece4e6a9f99c9a4c9a44334cc1963efb7ea70",
+      "paragraphs": 1
+    },
+    {
+      "id": "derivation-p26",
+      "path": "content/derivation.md",
+      "source_sha256": "d6f45b0e8231c55124696789293e80e385064039cbd7c7c76ff27e0895e70cf5",
+      "text": "である。主要項が非ゼロなら、規格化した観測値に既知の中心電荷の位相を戻すことで\n\n$$\ne^{2\\pi i(n+2/n)c_-/24}\n\\frac{\\mathcal T_1(2\\pi/n)}{|\\mathcal T_1(2\\pi/n)|}\n\\simeq\\zeta_n\n$$\n",
+      "text_sha256": "4096b29c57d254e2ba3c063d1529a5fb572be460ba7104d6567c259d3a97c39e",
+      "paragraphs": 1
+    },
+    {
+      "id": "derivation-p27",
+      "path": "content/derivation.md",
+      "source_sha256": "d6f45b0e8231c55124696789293e80e385064039cbd7c7c76ff27e0895e70cf5",
+      "text": "を得る。[原論文：式 (2)、Analytic derivation](/references/#ref-derivation-source)\n",
+      "text_sha256": "4a0433cda878bb3b5ff68c250a4566f1f4a91374e41ff780d2a7897f8e580478",
+      "paragraphs": 1
+    },
+    {
+      "id": "derivation-p28",
+      "path": "content/derivation.md",
+      "source_sha256": "d6f45b0e8231c55124696789293e80e385064039cbd7c7c76ff27e0895e70cf5",
+      "text": "この結果の適用範囲は、ボソンの相の真空円筒状態、摂動のないエッジ CFT による近似、非ゼロのエニオン和、固定した $n$、および $n^2\\xi_r\\ll L\\ll\\xi_l$ である。CFT による因子分解が成り立つように、A の二つの端も十分に離れているとする。\n",
+      "text_sha256": "2ca9c720b852f6a5678df16ba55922b16c2d0c17e72ab8fdb8aa19c21c1be94e",
+      "paragraphs": 1
+    },
+    {
+      "id": "derivation-p29",
+      "path": "content/derivation.md",
+      "source_sha256": "d6f45b0e8231c55124696789293e80e385064039cbd7c7c76ff27e0895e70cf5",
+      "text": "> \\[折りたたみ見出し] 確認：$n=1$ の主要項の位相は $1$ になるか\n",
+      "text_sha256": "22b5107e0b8b2c90d2798b689a904aba0b20d30f4c80aed9234c7991f7235f1c",
+      "paragraphs": 1
+    },
+    {
+      "id": "applications-p1",
+      "path": "content/applications.md",
+      "source_sha256": "b1641ef94fed178f0dbb699df873298a61c707e7f524ad84020ac47dac3215e5",
+      "text": "# 異なるセクターと数値評価\n\n前章では真空の円筒状態を用いた。状態のトポロジカルな種類を変えると、部分回転にはその種類の共形重みと、異なるモジュラー行列要素が現れる。この違いは、数値計算で状態を選ぶときにも重要になる。\n",
+      "text_sha256": "72f54729c0278572373bd8ab1fef905d526bf55c0c7d3e7f006552520f96412d",
+      "paragraphs": 1
+    },
+    {
+      "id": "applications-p2",
+      "path": "content/applications.md",
+      "source_sha256": "b1641ef94fed178f0dbb699df873298a61c707e7f524ad84020ac47dac3215e5",
+      "text": "## 真空以外の円筒状態\n\n種類 $a$ の状態では二つの指標を $\\chi_a$ に置き換える。左の物理的な境界の最低共形重みを $h_a$ とすると、左の比は $e^{2\\pi i(h_a-c_-/24)/n}$ である。右の分母の真空係数は $S_{a1}=d_a/\\mathcal D>0$、右の分子の真空係数は\n\n$$\n(ST^nS)_{a1}\n=\\frac{e^{-2\\pi i n c_-/24}}{\\mathcal D}\n\\sum_b S_{ab}d_b\\theta_b^n\n$$\n",
+      "text_sha256": "07309ae392b0253cc5435b9b384f26f6fc404220a1b06e9461c7307e5e8a7f75",
+      "paragraphs": 1
+    },
+    {
+      "id": "applications-p3",
+      "path": "content/applications.md",
+      "source_sha256": "b1641ef94fed178f0dbb699df873298a61c707e7f524ad84020ac47dac3215e5",
+      "text": "となる。$b$ は変換途中で足し合わせるエニオンの種類である。\n",
+      "text_sha256": "53058e464e0a920be3813fe9c8b18a008b487b3be21d62903412e781b3478d6e",
+      "paragraphs": 1
+    },
+    {
+      "id": "applications-p4",
+      "path": "content/applications.md",
+      "source_sha256": "b1641ef94fed178f0dbb699df873298a61c707e7f524ad84020ac47dac3215e5",
+      "text": "論文はこの最後の和を **twisted higher central charge**\n\n$$\n\\zeta_{n,a}:=\\sum_b S_{ab}d_b\\theta_b^n\n$$\n",
+      "text_sha256": "5a98b4ad589ffd7633bdf19d569be2d72210ff4f8920257b267e4ca2ef071eda",
+      "paragraphs": 1
+    },
+    {
+      "id": "applications-p5",
+      "path": "content/applications.md",
+      "source_sha256": "b1641ef94fed178f0dbb699df873298a61c707e7f524ad84020ac47dac3215e5",
+      "text": "と呼び、次の主要項を得る。\n\n$$\n\\mathcal T_a(2\\pi/n)\n\\propto e^{2\\pi i h_a/n}\ne^{-2\\pi i(n+2/n)c_-/24}\\zeta_{n,a}.\n$$\n",
+      "text_sha256": "344d1a9cafbb8880c2b0fdf35d37f363e6c5402c27e4df7262eb538166298864",
+      "paragraphs": 1
+    },
+    {
+      "id": "applications-p6",
+      "path": "content/applications.md",
+      "source_sha256": "b1641ef94fed178f0dbb699df873298a61c707e7f524ad84020ac47dac3215e5",
+      "text": "本章の $\\propto$ は主要項の正の実数倍を表す。$\\zeta_{n,a}$ は和の絶対値も含む複素数であり、ゼロにもなり得る。真空なら $\\zeta_{n,1}=\\mathcal D^{-1}\\sum_b d_b^2\\theta_b^n$ なので、非ゼロのとき、その位相が第1章の $\\zeta_n$ と一致する。[原論文：式 (7)、(8)；補足：Partial rotation of a cylinder in a twisted sector](/references/#ref-sectors)\n",
+      "text_sha256": "d8d263390f6a9ed4abe75d13ce0a788afdbcfecc40a5b044b1ffc5352254d66d",
+      "paragraphs": 1
+    },
+    {
+      "id": "applications-p7",
+      "path": "content/applications.md",
+      "source_sha256": "b1641ef94fed178f0dbb699df873298a61c707e7f524ad84020ac47dac3215e5",
+      "text": "## 反対向きの成分をもつ相\n\n詳細な指標計算は、一方向に伝播するエッジについて行った。反対向きの成分もあるエッジでは、位相に現れる $c_-$ は二つの成分の中心電荷の差であり、熱的な実数因子にはその和が関係する。そのため、この場合の正の実数因子は両成分の熱的な寄与から評価する。\n",
+      "text_sha256": "d1e21f475b3b5836b2d270b350c81ba88ae8375c63f297521e540d69318348a1",
+      "paragraphs": 1
+    },
+    {
+      "id": "applications-p8",
+      "path": "content/applications.md",
+      "source_sha256": "b1641ef94fed178f0dbb699df873298a61c707e7f524ad84020ac47dac3215e5",
+      "text": "補足資料は、反対向きの成分を含む二つのエッジを結合した Ishibashi 境界状態から出発する。これは対応する A/B の CFT 基底を同じ係数で対にして足した形式的な状態であり、そのまま B をトレースすると A の単位演算子、すなわち無限温度の状態に対応する。CFT の状態数は無限なので、この形のままでは規格化できない。\n",
+      "text_sha256": "d93823730f723a316a1e662f101c9dc94a1f50897a3069bb8bfd16efe9b25ad2",
+      "paragraphs": 1
+    },
+    {
+      "id": "applications-p9",
+      "path": "content/applications.md",
+      "source_sha256": "b1641ef94fed178f0dbb699df873298a61c707e7f524ad84020ac47dac3215e5",
+      "text": "有限の重みを与える仕組みは、A のエッジハミルトニアンのエネルギー固有状態を $|j\\rangle_{\\mathrm A}$、対応する B の状態を $|j\\rangle_{\\mathrm B}$、エネルギーを $E_j$ として表せる。有効な正の逆温度 $\\beta_r$ で正則化した対の状態を\n\n$$\n|\\Psi_{\\beta_r}\\rangle=\\frac1{\\sqrt Z}\\sum_j e^{-\\beta_r E_j/2}|j\\rangle_{\\mathrm A}|j\\rangle_{\\mathrm B},\n\\qquad Z=\\sum_j e^{-\\beta_r E_j}\n$$\n",
+      "text_sha256": "691805bb6155ce1248a220dc37684a7ef557840ba2a422b6ae16dcb2064ee093",
+      "paragraphs": 1
+    },
+    {
+      "id": "applications-p10",
+      "path": "content/applications.md",
+      "source_sha256": "b1641ef94fed178f0dbb699df873298a61c707e7f524ad84020ac47dac3215e5",
+      "text": "とすれば、B の正規直交性から\n\n$$\n\\operatorname{Tr}_{\\mathrm B}|\\Psi_{\\beta_r}\\rangle\\langle\\Psi_{\\beta_r}|\n=\\frac1Z\\sum_j e^{-\\beta_r E_j}|j\\rangle_{\\mathrm A}\\langle j|_{\\mathrm A}\n=\\frac{e^{-\\beta_r H_r}}Z\n$$\n",
+      "text_sha256": "15ca2ac75e4bd7cbe25d46873ffc79440c3a270eea96e7b3a8c008e3751c4da6",
+      "paragraphs": 1
+    },
+    {
+      "id": "applications-p11",
+      "path": "content/applications.md",
+      "source_sha256": "b1641ef94fed178f0dbb699df873298a61c707e7f524ad84020ac47dac3215e5",
+      "text": "を得る。$j$ はエッジの状態を数えるラベル、$Z$ は規格化のための分配関数である。この $\\beta_r$ は形式的な境界状態を正則化し、エンタングルメントの重みを表す有効量である。実際のギャップのある内部を作る結合がこのエッジの記述を与えること、さらに摂動を無視して $H_r$ を CFT のハミルトニアンとみなすことは、cut-and-glue の物理的な仮定である。補足の構成は、非カイラルな相でもこの熱密度行列による近似を検討する根拠を与え、論文はその下で部分回転の位相を評価する。[補足：Relationship between Entanglement spectrum and edge theory in non-chiral topological phases](/references/#ref-edge)\n",
+      "text_sha256": "fa65da3a4525ddc91fa5fddfd080f10689e0fa905ab2df09a0550a2b1485df52",
+      "paragraphs": 1
+    },
+    {
+      "id": "applications-p12",
+      "path": "content/applications.md",
+      "source_sha256": "b1641ef94fed178f0dbb699df873298a61c707e7f524ad84020ac47dac3215e5",
+      "text": "補足の $\\nu=2/3$ フェルミオン FQH 状態には、このエッジの描像を調べる数値例もある。フェルミオンの部分回転は、周方向の spin structure がモジュラー変換で変わることを取り入れ、偶数 $n$ と奇数 $n$ を分けた式で評価される。境界の判定条件は、ここで扱うボソンの相について次章で述べる。\n",
+      "text_sha256": "ad5d73ad49e556be206e20fec33a93191f298d4f2ec45ad4146d6a74609f8880",
+      "paragraphs": 1
+    },
+    {
+      "id": "applications-p13",
+      "path": "content/applications.md",
+      "source_sha256": "b1641ef94fed178f0dbb699df873298a61c707e7f524ad84020ac47dac3215e5",
+      "text": "## MPS のボンドから読む\n\n前々章でシュミット分解から得た式\n\n$$\n\\mathcal T_a(2\\pi/n)=\\sum_\\alpha\\lambda_\\alpha^2e^{ip_\\alpha L/n}\n$$\n",
+      "text_sha256": "6a1f0e0cd7f45e99045d744218503e70b29a6f300aa0d57fb3a80c7e7af079bf",
+      "paragraphs": 1
+    },
+    {
+      "id": "applications-p14",
+      "path": "content/applications.md",
+      "source_sha256": "b1641ef94fed178f0dbb699df873298a61c707e7f524ad84020ac47dac3215e5",
+      "text": "は、確率 $\\lambda_\\alpha^2$ と運動量が分かれば直接計算できる。matrix product state（MPS）では、切断を横切る補助ボンド（bond）にシュミット値が格納される。周方向の並進対称性を実装した MPS では、そのボンドの状態に運動量のラベルも付けられる。\n",
+      "text_sha256": "d10cb4e3f9de979a6707dc256daf5349dce637a743e7756ba90b68b614b34aa4",
+      "paragraphs": 1
+    },
+    {
+      "id": "applications-p15",
+      "path": "content/applications.md",
+      "source_sha256": "b1641ef94fed178f0dbb699df873298a61c707e7f524ad84020ac47dac3215e5",
+      "text": "無次元運動量 $K_\\alpha=p_\\alpha L/(2\\pi)$ を用いるなら、A の並進で足す位相は $e^{2\\pi iK_\\alpha/n}$ である。補足の MPS では、切断の左側に積算した保存運動量のラベルを $\\bar K_\\alpha$ と書く。補足は右半分の部分回転を評価し、その操作を補助ボンド上の逆変換 $e^{-i\\varphi\\bar K_\\alpha}$ の挿入として表す。このボンドラベルを使う評価では、以下の原点の校正も行う。[補足：Partially rotate an MPS；Matching iMPS momentum labels to CFT momentums](/references/#ref-mps)\n",
+      "text_sha256": "22c46709a452e700d388a878cc664990723bc684051f8063001dbcd1e8799d14",
+      "paragraphs": 1
+    },
+    {
+      "id": "applications-p16",
+      "path": "content/applications.md",
+      "source_sha256": "b1641ef94fed178f0dbb699df873298a61c707e7f524ad84020ac47dac3215e5",
+      "text": "infinite MPS（iMPS）のボンドのラベルには、運動量の原点と電荷の原点に由来する自由度がある。補足では運動量ラベル $\\bar K_\\alpha$ と電荷ラベル $\\bar C_\\alpha$ の間に\n\n$$\n\\bar K_\\alpha\\longmapsto\\bar K_\\alpha+x_1\\bar C_\\alpha+x_0,\n\\qquad x_0,x_1\\in\\mathbb Z\n$$\n",
+      "text_sha256": "9463571aee5bc16d4fd408019268d0bfc1d8b8f52d6b8f0370fc5d666a4bbfae",
+      "paragraphs": 1
+    },
+    {
+      "id": "applications-p17",
+      "path": "content/applications.md",
+      "source_sha256": "b1641ef94fed178f0dbb699df873298a61c707e7f524ad84020ac47dac3215e5",
+      "text": "という曖昧さがあることを説明する。$x_0$ を変えるだけでも全体の部分回転の位相が変わるため、この校正は位相を抽出するための一部である。\n",
+      "text_sha256": "3d95859b8b34ca7ea661558bc12a21b011abb8ad8e16598f24b211085fb6efb0",
+      "paragraphs": 1
+    },
+    {
+      "id": "applications-p18",
+      "path": "content/applications.md",
+      "source_sha256": "b1641ef94fed178f0dbb699df873298a61c707e7f524ad84020ac47dac3215e5",
+      "text": "論文の Laughlin 状態では、エンタングルメントスペクトルをエッジ CFT のスペクトルと対応させて校正する。真空の最低状態に電荷と運動量のラベル $0$ を割り当て、反対符号の電荷の状態が同じ運動量ラベルをもつように選ぶ。セミオンのセクターでは二つの最低状態に電荷 $\\pm1/2$ と運動量ラベル $0$ を割り当てる。さらに物理的な境界からの位相との対応を含めて、CFT の部分回転と比較する。[補足：Matching iMPS momentum labels to CFT momentums](/references/#ref-mps)\n",
+      "text_sha256": "2d65ec09f3d140cc3a061132e8fd077179bd6d23d93c2848237fccde3eac4f90",
+      "paragraphs": 1
+    },
+    {
+      "id": "applications-p19",
+      "path": "content/applications.md",
+      "source_sha256": "b1641ef94fed178f0dbb699df873298a61c707e7f524ad84020ac47dac3215e5",
+      "text": "## 軌道の切断と実空間の切断\n\n量子 Hall 系の円筒では、Landau 準位の軌道を一列に並べて MPS を作る。軌道は $x$ 方向のある位置を中心にもつが、有限の幅で広がっている。このため、あるボンドで軌道列を二つに分けることと、実空間を $x=x_c$ で A と B に分けることは異なる。\n",
+      "text_sha256": "2c59a6ea23f17e9cba7cb854d00a1359e69ed9a30703f9019f3bb26b053e73cb",
+      "paragraphs": 1
+    },
+    {
+      "id": "applications-p20",
+      "path": "content/applications.md",
+      "source_sha256": "b1641ef94fed178f0dbb699df873298a61c707e7f524ad84020ac47dac3215e5",
+      "text": "本ノートの CFT 式で必要なのは実空間の切断である。論文は real-space entanglement spectrum（RSES）の方法を使い、各軌道が A と B にもつ重みに応じて MPS のテンソル（tensor）を分ける。その後 A 側の自由度をボンドの左、B 側を右へ並べ直し、実空間のシュミット分解を得る。このボンドから部分回転を計算する。\n",
+      "text_sha256": "8211172e46c7436a48bca363c7e8d113bb2ddb5f2dfe6cb178a9d645dab69ca0",
+      "paragraphs": 1
+    },
+    {
+      "id": "applications-p21",
+      "path": "content/applications.md",
+      "source_sha256": "b1641ef94fed178f0dbb699df873298a61c707e7f524ad84020ac47dac3215e5",
+      "text": "切断位置はセクターの選択にも関わる。$\\nu=1/2$ ボソン Laughlin 状態の薄い円筒での占有パターンは $\\cdots010101\\cdots$ である。論文の規約では、$0$ に対応する軌道の中心を通る実空間切断が真空、$1$ の中心を通る切断がセミオンのセクターに対応する。[補足：Orbital cut v.s. real-space cut](/references/#ref-mps)\n",
+      "text_sha256": "370a83c1822ac219973dbe942bed8f5e914a51d1e05438d5ec3677048324d36e",
+      "paragraphs": 1
+    },
+    {
+      "id": "applications-p22",
+      "path": "content/applications.md",
+      "source_sha256": "b1641ef94fed178f0dbb699df873298a61c707e7f524ad84020ac47dac3215e5",
+      "text": "## 論文が示した数値例\n\n原論文は、次の二つの系で部分回転を数値評価し、CFT による位相の予測と比較した。\n\n| 系                                | 評価方法と対象                                        | 位相の比較                             |\n| -------------------------------- | ---------------------------------------------- | --------------------------------- |\n| Kitaev honeycomb model の Ising 相 | Majorana 表現とエンタングルメントスペクトル。真空にはフェルミオン偶奇の射影も入れる | 原論文 Fig. 2 の $n=3,4$ で CFT の予測へ収束 |\n| $\\nu=1/2$ ボソン Laughlin 状態        | iDMRG で得た iMPS、運動量ラベルの校正、実空間切断                 | 原論文 Fig. 3 の真空とセミオンの位相が予測へ収束      |\n",
+      "text_sha256": "a01c77ec29765847ec6383934fac55780ffc0dfaaad7fba9f27ce3c06f9b1c7e",
+      "paragraphs": 1
+    },
+    {
+      "id": "applications-p23",
+      "path": "content/applications.md",
+      "source_sha256": "b1641ef94fed178f0dbb699df873298a61c707e7f524ad84020ac47dac3215e5",
+      "text": "例えば真空セミオン相では $c_-=1$、$\\zeta_3=e^{-i\\pi/4}$ なので\n\n$$\n\\operatorname{phase}\\mathcal T_1(2\\pi/3)\n=e^{-2\\pi i(3+2/3)/24}e^{-i\\pi/4}\n=e^{-5\\pi i/9}=e^{13\\pi i/9}.\n$$\n",
+      "text_sha256": "abf7d8d8e98e6e5c84df35299d311214286cb49ef2b591c9b1e242df568b51c9",
+      "paragraphs": 1
+    },
+    {
+      "id": "applications-p24",
+      "path": "content/applications.md",
+      "source_sha256": "b1641ef94fed178f0dbb699df873298a61c707e7f524ad84020ac47dac3215e5",
+      "text": "Ising 相では $d_1=d_\\psi=1$、$d_\\sigma=\\sqrt2$、$\\theta_\\psi=-1$、$\\theta_\\sigma=e^{i\\pi/8}$、$c_-=1/2$ である。$n=3$ の和は $2e^{3i\\pi/8}$ となり、中心電荷の因子を掛けると真空部分回転の位相 $e^{2\\pi i/9}$ を得る。これらが原論文 Table I の予測値である。\n",
+      "text_sha256": "7cb0839552cba1049f17dfcf3969681583ba8449d13c8ea5da64200623d58881",
+      "paragraphs": 1
+    },
+    {
+      "id": "applications-p25",
+      "path": "content/applications.md",
+      "source_sha256": "b1641ef94fed178f0dbb699df873298a61c707e7f524ad84020ac47dac3215e5",
+      "text": "Laughlin 状態の本文は、周長 $40\\ell_B$、ボンド次元 $3200$、軌道当たりのボソン数上限 $5$ での収束を報告する。$\\ell_B$ は磁気長である。補足はボンド次元や上限を変えた比較も示す。これらの計算は、表に挙げた系で CFT 近似の位相予測を支持している。[原論文：Numerical results；補足：Numerical performance of partial rotation](/references/#ref-numerics)\n",
+      "text_sha256": "8146751e96bc645ffa1218562b762909b96db25788349bfe0bbd5c18691c9d4d",
+      "paragraphs": 1
+    },
+    {
+      "id": "applications-p26",
+      "path": "content/applications.md",
+      "source_sha256": "b1641ef94fed178f0dbb699df873298a61c707e7f524ad84020ac47dac3215e5",
+      "text": "## Momentum Polarization との接続\n\n固定した $n$ で周長を大きくすると、変換先の虚部 $L/(n^2\\xi_r)$ が大きくなり、エニオンの和を抽出できた。一方、周長を固定して $n$ を大きくすると、この条件は失われる。微小角の極限は **momentum polarization** に対応し、別の漸近式になる。\n",
+      "text_sha256": "34b13e208e55070aed9fea4c634d6ee9653f15ce9241adb51694750675d7631e",
+      "paragraphs": 1
+    },
+    {
+      "id": "applications-p27",
+      "path": "content/applications.md",
+      "source_sha256": "b1641ef94fed178f0dbb699df873298a61c707e7f524ad84020ac47dac3215e5",
+      "text": "補足は、$n\\xi_r\\gg L$、$L\\gg\\xi_r$ の領域で、右の指標に $S$ 変換を使う。変換先は $-1/(i\\xi_r/L-1/n)$ であり、その虚部が十分大きければ真空を残せる。その結果の位相は\n\n$$\n\\mathcal T_a(2\\pi/n)\\propto\n\\exp\\left[\\frac{2\\pi i}{n}\n\\left(h_a-\\frac{c_-}{24}-\\frac{c_-L^2}{24\\xi_r^2}\\right)\\right]\n$$\n",
+      "text_sha256": "a18ef73a3b6019aa5ec1e7e64e125477722920e8e3de34c3176647f2a0cd50c9",
+      "paragraphs": 1
+    },
+    {
+      "id": "applications-p28",
+      "path": "content/applications.md",
+      "source_sha256": "b1641ef94fed178f0dbb699df873298a61c707e7f524ad84020ac47dac3215e5",
+      "text": "に近づく。ここでは周長と有効エッジ長が位相に残る。固定角での式と微小角での式は、真空を取り出すモジュラー変換と成立する長さの条件が異なる。[補足：Interpolating between higher central charge and momentum polarization](/references/#ref-momentum)\n",
+      "text_sha256": "f7a27e0a505c6e1a1da8a1faf9993ec8456893ca628813500fa845f796e85e47",
+      "paragraphs": 1
+    },
+    {
+      "id": "applications-p29",
+      "path": "content/applications.md",
+      "source_sha256": "b1641ef94fed178f0dbb699df873298a61c707e7f524ad84020ac47dac3215e5",
+      "text": "量子 Hall 系での実際の momentum polarization の解析では、$L^2$ の項は Hall 粘性 $\\eta_H$ を使って $-\\eta_H L^2/(2\\pi\\hbar)$ と表される。論文はその項をフィットして差し引き、残る $h_a-c_-/24$ から $c_-=1$ とセミオンの $h_s=1/4$ を得た。\n",
+      "text_sha256": "a4463cfb4569617177b1425fc622ce77cdd55399a6302da903bdb04efab74d1e",
+      "paragraphs": 1
+    },
+    {
+      "id": "applications-p30",
+      "path": "content/applications.md",
+      "source_sha256": "b1641ef94fed178f0dbb699df873298a61c707e7f524ad84020ac47dac3215e5",
+      "text": "> \\[折りたたみ見出し] 確認：$L/\\xi_r=100$ で $n=2$ と $n=1000$ は同じ近似を使えるか\n",
+      "text_sha256": "5592d2ebd4927110d6b80cb625ed060e6d164cc3ac43f4bff0fb86f00a58aae2",
+      "paragraphs": 1
+    },
+    {
+      "id": "boundary-p1",
+      "path": "content/boundary.md",
+      "source_sha256": "1449fc165031f74f8e0c221b5529523714eda6b6be6389db754940bb067b3ed2",
+      "text": "# 境界のギャップを判定する条件\n\n部分回転は、中心電荷の位相を補正するとエニオンの和の位相を与える。ここでは、その位相から境界についてどこまで結論できるかを整理する。対象は外部対称性の保存を要求しないボソンの相と真空の境界である。実際の $c_-=0$ の確認と、エニオン統計の障害の確認を合わせる必要がある。\n",
+      "text_sha256": "5019fc9f909dfc39a8262cec8d6bfeaca15e161174934cd60093dd3e242814db",
+      "paragraphs": 1
+    },
+    {
+      "id": "boundary-p2",
+      "path": "content/boundary.md",
+      "source_sha256": "1449fc165031f74f8e0c221b5529523714eda6b6be6389db754940bb067b3ed2",
+      "text": "## 一般の相で使える必要条件\n\nFrobenius–Schur 指数 $N_{\\mathrm{FS}}$ は、全てのトポロジカルスピンが $\\theta_a^{N_{\\mathrm{FS}}}=1$ となる最小の正整数だった。ギャップの開いた境界をもつなら\n\n$$\n\\gcd(n,N_{\\mathrm{FS}})=1\n\\quad\\Longrightarrow\\quad\n\\zeta_n=1\n$$\n",
+      "text_sha256": "310928351337d367d137858bd8e99630627e704d792613c489bc741d39fcf9de",
+      "paragraphs": 1
+    },
+    {
+      "id": "boundary-p3",
+      "path": "content/boundary.md",
+      "source_sha256": "1449fc165031f74f8e0c221b5529523714eda6b6be6389db754940bb067b3ed2",
+      "text": "が必要である。この条件は non-Abelian な相にも使える。$N_{\\mathrm{FS}}$ と互いに素な $n$ で一つでも $\\zeta_n\\ne1$ が得られれば、境界への障害が分かる。\n",
+      "text_sha256": "f7ee76060f28d5a957a42728193961df0725158d5bd375bbd82d14ca527ca6bc",
+      "paragraphs": 1
+    },
+    {
+      "id": "boundary-p4",
+      "path": "content/boundary.md",
+      "source_sha256": "1449fc165031f74f8e0c221b5529523714eda6b6be6389db754940bb067b3ed2",
+      "text": "測定から使うときは、真空セクター、実空間切断、位相の校正、固定 $n$ の CFT 近似の範囲を確認し、中心電荷の因子を補正する。$c_-=0$ が独立に確定している場合には、観測した主要項の位相が直接 $\\zeta_n$ となる。[原論文：Definition and properties](/references/#ref-criteria)\n",
+      "text_sha256": "f78ba6446e6b3c63f49e996cbffc124e3a73c1e9f522200ff1966f386e3d22eb",
+      "paragraphs": 1
+    },
+    {
+      "id": "boundary-p5",
+      "path": "content/boundary.md",
+      "source_sha256": "1449fc165031f74f8e0c221b5529523714eda6b6be6389db754940bb067b3ed2",
+      "text": "## Abelian な相での十分条件\n\nAbelian なボソンのエニオン理論では、より広い整数の集合\n\n$$\n\\gcd\\left(n,\\frac{N_{\\mathrm{FS}}}{\\gcd(n,N_{\\mathrm{FS}})}\\right)=1\n$$\n",
+      "text_sha256": "b70357f11c5defb222086baff55545cc307adf37b1be09eeee9b23178a69ebe1",
+      "paragraphs": 1
+    },
+    {
+      "id": "boundary-p6",
+      "path": "content/boundary.md",
+      "source_sha256": "1449fc165031f74f8e0c221b5529523714eda6b6be6389db754940bb067b3ed2",
+      "text": "に対する全ての $\\zeta_n=1$ が、エニオン理論のギャップの開いた境界に必要十分となる。これは論文が参照する Abelian エニオン理論の分類結果である。\n",
+      "text_sha256": "232d0909b88b2d5219e14387e285e2010918ef5f4af0ba81cd2e0bb7d0464b85",
+      "paragraphs": 1
+    },
+    {
+      "id": "boundary-p7",
+      "path": "content/boundary.md",
+      "source_sha256": "1449fc165031f74f8e0c221b5529523714eda6b6be6389db754940bb067b3ed2",
+      "text": "整数の条件の違いは、$N_{\\mathrm{FS}}=12$ で確かめられる。$n=4$ は $12$ と互いに素ではないが、$\\gcd(4,12)=4$ を取り除くと $\\gcd(4,3)=1$ なので、Abelian の条件には含まれる。したがって、単に $N_{\\mathrm{FS}}$ と互いに素な $n$ を全部調べることと、Abelian の十分条件を全部調べることは異なる。\n",
+      "text_sha256": "15b9f9883a1fa5635819f05d3f4240fc1802c29ca2132cf0365aa1384a31052b",
+      "paragraphs": 1
+    },
+    {
+      "id": "boundary-p8",
+      "path": "content/boundary.md",
+      "source_sha256": "1449fc165031f74f8e0c221b5529523714eda6b6be6389db754940bb067b3ed2",
+      "text": "物理的な相に対しては、これに実際の $c_-=0$ を合わせて境界の判定に使う。エニオンデータの中心電荷は $8$ を法として決まるため、エニオンを増やさず中心電荷を加える可逆相の情報も必要になる。[原論文：Definition and properties；補足：Complete determination of edge gappability for bosonic Abelian phases](/references/#ref-criteria)\n",
+      "text_sha256": "ba7f8e5802e51662a03f39efaaafad9f04e2352e1008fcdc1c123257da48772c",
+      "paragraphs": 1
+    },
+    {
+      "id": "boundary-p9",
+      "path": "content/boundary.md",
+      "source_sha256": "1449fc165031f74f8e0c221b5529523714eda6b6be6389db754940bb067b3ed2",
+      "text": "## $N_{\\mathrm{FS}}$ を先に知らない場合\n\n補足資料は、全量子次元 $\\mathcal D$ が分かれば有限個の部分回転で Abelian の統計の障害を覆える手順を示す。Abelian では全ての $d_a=1$ なので、$\\mathcal D^2$ は真空を含むエニオン種類の数となる。全量子次元は、エンタングルメントエントロピーの面積則 $S_{\\mathrm A}\\simeq\\alpha L-\\log\\mathcal D$ の普遍的な定数項、すなわちトポロジカルエンタングルメントエントロピーから求められる。面積則の係数 $\\alpha$ を除く解析と整数への同定が必要である。\n",
+      "text_sha256": "691de899a16b9938a1dd6ff63f7892d82f246161273bc5bf325360551bf01057",
+      "paragraphs": 1
+    },
+    {
+      "id": "boundary-p10",
+      "path": "content/boundary.md",
+      "source_sha256": "1449fc165031f74f8e0c221b5529523714eda6b6be6389db754940bb067b3ed2",
+      "text": "まず $\\mathcal D^2$ を素因数分解し\n\n$$\n\\mathcal D^2=\\prod_{j=1}^{M}p_j^{k_j}\n$$\n",
+      "text_sha256": "27b5e79c183ce5209a62ae952ff91a00996e35f3409b8171218c7a2c6a4d0f4a",
+      "paragraphs": 1
+    },
+    {
+      "id": "boundary-p11",
+      "path": "content/boundary.md",
+      "source_sha256": "1449fc165031f74f8e0c221b5529523714eda6b6be6389db754940bb067b3ed2",
+      "text": "と書く。$p_j$ は異なる素数、$k_j$ はその指数である。Abelian エニオン理論は、$p_j^{k_j}$ 種類をもつ部分理論の積に分解できる。各部分理論の Frobenius–Schur 指数 $N_j$ は $p_j$ の冪であり、$p_j=2$ なら $N_j\\le2^{k_j+1}$、奇素数なら $N_j\\le p_j^{k_j}$ となる。その結果、$N_{\\mathrm{FS}}$ は $2\\mathcal D^2$ を割り切る。これらは補足で用いられる Abelian 分類の入力である。\n",
+      "text_sha256": "731d7de39945300854de5dcfb5110fb15185bc1cf1c02ffb68c9ac71adc72705",
+      "paragraphs": 1
+    },
+    {
+      "id": "boundary-p12",
+      "path": "content/boundary.md",
+      "source_sha256": "1449fc165031f74f8e0c221b5529523714eda6b6be6389db754940bb067b3ed2",
+      "text": "この上限を用い、$\\widetilde k_j=k_j+1$（$p_j=2$）、$\\widetilde k_j=k_j$（奇素数）と定める。各 $j$ に対して\n\n$$\nn=\\frac{m\\,2\\mathcal D^2}{p_j^{\\widetilde k_j}},\n\\qquad 1\\le m\\le p_j^{\\widetilde k_j},\n\\qquad \\gcd(m,p_j)=1\n$$\n",
+      "text_sha256": "4b33dd5f16bf0db210467c3727f16475a9b651d8efdadfd5c7bbedda471d94c1",
+      "paragraphs": 1
+    },
+    {
+      "id": "boundary-p13",
+      "path": "content/boundary.md",
+      "source_sha256": "1449fc165031f74f8e0c221b5529523714eda6b6be6389db754940bb067b3ed2",
+      "text": "という有限個の $n$ を選び、中心電荷の因子を補正した部分回転の位相を調べる。\n",
+      "text_sha256": "17d503f5a04ddcebd36127e12146bcac71ca3e618c493cc5dda76e38ebcd1d27",
+      "paragraphs": 1
+    },
+    {
+      "id": "boundary-p14",
+      "path": "content/boundary.md",
+      "source_sha256": "1449fc165031f74f8e0c221b5529523714eda6b6be6389db754940bb067b3ed2",
+      "text": "なぜこの選択で十分なのか。$2\\mathcal D^2/p_j^{\\widetilde k_j}$ は、他の部分理論の $N_i$ では割り切れるため、それらの全ての $\\theta_a^n$ を $1$ にする。したがって他の部分理論の和は正の種類数になる。一方、選んだ部分理論の素数 $p_j$ とは互いに素であり、$m$ を走らせると $N_j$ を法とする互いに素な全ての剰余を覆う。残る位相は、この部分理論に必要な高次中心電荷の組である。\n",
+      "text_sha256": "282ca6e1f3517fd0da34e0b66831d73a789a040e1f8f0be15fc1617fbd80d1b4",
+      "paragraphs": 1
+    },
+    {
+      "id": "boundary-p15",
+      "path": "content/boundary.md",
+      "source_sha256": "1449fc165031f74f8e0c221b5529523714eda6b6be6389db754940bb067b3ed2",
+      "text": "これが先ほどの Abelian の十分条件を覆うことも確かめよう。異なる素数の冪である $N_j$ は互いに素なので、$N_{\\mathrm{FS}}=\\prod_jN_j$ となる。十分条件を満たす $n$ に対して、各 $N_j$ は $n$ と互いに素であるか、$n$ を割り切る。実際、$p_j$ が $n$ を割るのに $N_j$ が $n$ を割り切らなければ、$N_{\\mathrm{FS}}/\\gcd(n,N_{\\mathrm{FS}})$ にも $p_j$ が残り、十分条件の最大公約数は $1$ にならない。$N_j$ が $n$ を割り切る部分理論では、全てのスピンの $n$ 乗が $1$ なので和は正となる。互いに素な場合の位相は上の測定集合が覆っている。積に分解した理論ではスピンも各部分理論のスピンの積となり、全体の和は各部分理論の和の積となるため、測定した全ての位相が $1$ なら、十分条件に含まれる全ての $n$ で全体の位相も $1$ となる。\n",
+      "text_sha256": "c3f36e369e61b052a309dfd0987a2b69df5a73cd49c3faa9d143182c8b9979ec",
+      "paragraphs": 1
+    },
+    {
+      "id": "boundary-p16",
+      "path": "content/boundary.md",
+      "source_sha256": "1449fc165031f74f8e0c221b5529523714eda6b6be6389db754940bb067b3ed2",
+      "text": "> \\[折りたたみ見出し] 例：$\\mathcal D^2=12$ ならどの $n$ を選ぶか\n",
+      "text_sha256": "cd171b78fcb6cbb5656efa85b00115d1c14a4fa8b1aecf5b1ab6c0e011ba4c11",
+      "paragraphs": 1
+    },
+    {
+      "id": "boundary-p17",
+      "path": "content/boundary.md",
+      "source_sha256": "1449fc165031f74f8e0c221b5529523714eda6b6be6389db754940bb067b3ed2",
+      "text": "## 中心電荷を決めるときの位相の周期\n\n補足資料は $n=2\\mathcal D^2$ も提案する。この $n$ は $N_{\\mathrm{FS}}$ の倍数なので、エニオンの和は正の種類数となり\n\n$$\n\\frac{\\mathcal T_1(2\\pi/n)}{|\\mathcal T_1(2\\pi/n)|}\n\\simeq e^{-2\\pi i(n+2/n)c_-/24}\n$$\n",
+      "text_sha256": "4423e8a48a4602573e342644d6825e15f22194d710e4f25d90d2c2994dec9662",
+      "paragraphs": 1
+    },
+    {
+      "id": "boundary-p18",
+      "path": "content/boundary.md",
+      "source_sha256": "1449fc165031f74f8e0c221b5529523714eda6b6be6389db754940bb067b3ed2",
+      "text": "が得られる。この指数関数の周期により、$c_-$ の変化が\n\n$$\n\\Delta c_-\\in\\frac{24n}{n^2+2}\\mathbb Z\n$$\n",
+      "text_sha256": "787cdc05387980183cc5a22b5536b09529bacbc05bfd6f71b8ba8e6e929e5dbb",
+      "paragraphs": 1
+    },
+    {
+      "id": "boundary-p19",
+      "path": "content/boundary.md",
+      "source_sha256": "1449fc165031f74f8e0c221b5529523714eda6b6be6389db754940bb067b3ed2",
+      "text": "なら同じ位相を与える。$c_-$ を実数として一意に決めるには、独立の中心電荷測定や、許される範囲を定める物理的な情報を使って位相の枝を選ぶ。\n",
+      "text_sha256": "42c0970b4f9c9fb86bd6b6b44af56cc07c12be5d1c213aee8b021a6093c08fda",
+      "paragraphs": 1
+    },
+    {
+      "id": "boundary-p20",
+      "path": "content/boundary.md",
+      "source_sha256": "1449fc165031f74f8e0c221b5529523714eda6b6be6389db754940bb067b3ed2",
+      "text": "例えばエニオンが真空一種類だけなら $\\mathcal D^2=1$ で、提案される角度は $n=2$ である。この位相の周期は $8$ となる。$E_8$ 相の $c_-=8$ でも、$E_8$ 相を三つ重ねた $c_-=24$ でも、観測位相は $1$ である。エニオンの高次中心電荷も全て $1$ だが、熱的なカイラリティがあるため真空との境界にはギャップを開けられない。この例では、独立の中心電荷測定が境界への障害を捉える。\n",
+      "text_sha256": "b821ed4733d6bfc69e92e97b8b1c0ec0666e848681dce349d2550cdb40a8dffb",
+      "paragraphs": 1
+    },
+    {
+      "id": "boundary-p21",
+      "path": "content/boundary.md",
+      "source_sha256": "1449fc165031f74f8e0c221b5529523714eda6b6be6389db754940bb067b3ed2",
+      "text": "## 有限の手順と周長の費用\n\nCFT 近似から有限集合の各位相を読むには、各 $n$ で $L\\gg n^2\\xi_r$ が必要になる。大きな $n$ を含むほど、必要な周長が二乗で増える。\n",
+      "text_sha256": "bbe3a7920f2fc6774cb6d1c52f4104d084c6570ec30645760b1fb9ada18851a6",
+      "paragraphs": 1
+    },
+    {
+      "id": "boundary-p22",
+      "path": "content/boundary.md",
+      "source_sha256": "1449fc165031f74f8e0c221b5529523714eda6b6be6389db754940bb067b3ed2",
+      "text": "補足のボソン Laughlin の見積もりでは $\\xi_r\\simeq\\pi\\sqrt{2/3}\\,\\ell_B$ である。$n=5$ なら $n^2\\xi_r\\simeq64\\ell_B$ となるため、その値を十分上回る周長が望まれる。[補足：Numerical performance of partial rotation](/references/#ref-numerics)\n",
+      "text_sha256": "04d6f9fce612e4400534526ac229db4a591f40f95d4d2e7de05799ad2ed5ebc8",
+      "paragraphs": 1
+    },
+    {
+      "id": "boundary-p23",
+      "path": "content/boundary.md",
+      "source_sha256": "1449fc165031f74f8e0c221b5529523714eda6b6be6389db754940bb067b3ed2",
+      "text": "境界判定を行う際は、実際の $c_-$ を確認し、Abelian かどうかと整数の判定集合を確定し、それぞれの部分回転が固定角の領域にあることを調べる。この条件の下で、補正した位相の一つが非自明なら障害を得る。Abelian の十分条件を覆う全ての位相が $1$ で、実際の $c_-=0$ も確定したなら、既知の分類結果を通じてギャップの開いた境界の存在を結論できる。\n",
+      "text_sha256": "54d5d23d27bb1a42f4150c2f8ec9e8b2fdea88c32c6bb2f73c8dedcca2de9450",
+      "paragraphs": 1
+    },
+    {
+      "id": "boundary-p24",
+      "path": "content/boundary.md",
+      "source_sha256": "1449fc165031f74f8e0c221b5529523714eda6b6be6389db754940bb067b3ed2",
+      "text": "> \\[折りたたみ見出し] 確認：数個の互いに素な $n$ で位相が $1$ なら、non-Abelian な相の境界を判定できるか\n",
+      "text_sha256": "a63f5a94918965b8d79bca00cb4ebfa1c464fa562e31e4b40ee27748b207863c",
+      "paragraphs": 1
+    },
+    {
+      "id": "references-p1",
+      "path": "content/references.md",
+      "source_sha256": "e96b9f0672609630f0d2b6b0f88d27b31921771a68820b3a081e10bdf345cf2e",
+      "text": "# 文献と式の対応\n\n## 原論文\n\n<a id=\"ref-primary\"></a>\n\nRyohei Kobayashi, Taige Wang, Tomohiro Soejima, Roger S. K. Mong, Shinsei Ryu, *Extracting higher central charge from a single wave function*, [arXiv:2303.04822v4](https://arxiv.org/abs/2303.04822v4)、[Phys. Rev. Lett. 132, 016602 (2024)](https://doi.org/10.1103/PhysRevLett.132.016602)。本ノートは保存したv4のPDF（本文と補足資料、全21ページ）を式番号・表示の基準とし、取得した `main.tex` と `supp_mat.tex` も照合している。\n",
+      "text_sha256": "f25d5e69b4b241ead192660dd20d255bf45d0ddc41ebbee1754931179ac700fd",
+      "paragraphs": 1
+    },
+    {
+      "id": "references-p2",
+      "path": "content/references.md",
+      "source_sha256": "e96b9f0672609630f0d2b6b0f88d27b31921771a68820b3a081e10bdf345cf2e",
+      "text": "導入の境界問題は Introduction、$\\zeta_n$ の定義は本文式 (1)、部分回転の主結果は式 (2)、幾何は Fig. 1 を参照する。本ノート中の式には原論文の式番号を付けていない。\n",
+      "text_sha256": "dc05e7244888b6287bdcef1cd80ca5935506af56ac2e7fa624a61bd554275547",
+      "paragraphs": 1
+    },
+    {
+      "id": "references-p3",
+      "path": "content/references.md",
+      "source_sha256": "e96b9f0672609630f0d2b6b0f88d27b31921771a68820b3a081e10bdf345cf2e",
+      "text": "## 指標計算\n\n<a id=\"ref-derivation-source\"></a>\n\n原論文の Analytic derivation、式 (3) の指標の比、式 (4) の左境界の真空近似、式 (5)、(6) の右境界のモジュラー変換が本ノートの導出に対応する。原論文式 (3) の後に記された運動量の符号と、同式の指標の実部には、標準的な $e^{2\\pi i\\tau(L_0-c/24)}$ の定義で符号の不一致がある。本ノートは指標の引数を採用し、$e^{+iP\\delta y}$ に対する $P_l=+H_l/v$、$P_r=-H_r/v$ を明示して計算を揃えた。\n",
+      "text_sha256": "cb72cc23729687b451d2435df5f653102441af4840f82a1d27fa90e0bfe41f0f",
+      "paragraphs": 1
+    },
+    {
+      "id": "references-p4",
+      "path": "content/references.md",
+      "source_sha256": "e96b9f0672609630f0d2b6b0f88d27b31921771a68820b3a081e10bdf345cf2e",
+      "text": "## エンタングルメント境界\n\n<a id=\"ref-edge\"></a>\n\n本文 Analytic derivation の cut-and-glue の仮定と、補足資料 *Relationship between Entanglement spectrum and edge theory in non-chiral topological phases*。補足の Ishibashi 境界状態は、A/B の対応する基底を同じ係数で対にした形式的な状態であり、B のトレースは A の単位演算子、すなわち無限温度の状態に対応する。そのままでは規格化できない。本文の有限の有効逆温度では、対の係数を $e^{-\\beta_r E_j/2}$ で正則化し、トレースから $e^{-\\beta_r H_r}/Z$ を得る。微視的な結合をこのエッジの熱密度行列で近似することは物理的な仮定である。エンタングルメントハミルトニアンの摂動を無視する近似は本文でも明示されている。\n",
+      "text_sha256": "6274ca219e08a5ff376243f73229dcbfe69697e699add9f8bbfc74dddab7bcbd",
+      "paragraphs": 1
+    },
+    {
+      "id": "references-p5",
+      "path": "content/references.md",
+      "source_sha256": "e96b9f0672609630f0d2b6b0f88d27b31921771a68820b3a081e10bdf345cf2e",
+      "text": "## セクターの一般化\n\n<a id=\"ref-sectors\"></a>\n\n本文式 (7)、(8)、および補足 *Partial rotation of a cylinder in a twisted sector*。本文の $\\zeta_{n,a}$ は和そのものの名称であり、規格化された位相 $\\zeta_n$ とは定義が異なる。\n",
+      "text_sha256": "749c291245611c569f4cd15b48486d342ca485a071cd3add94d88ed1bc68a233",
+      "paragraphs": 1
+    },
+    {
+      "id": "references-p6",
+      "path": "content/references.md",
+      "source_sha256": "e96b9f0672609630f0d2b6b0f88d27b31921771a68820b3a081e10bdf345cf2e",
+      "text": "## MPS と実空間切断\n\n<a id=\"ref-mps\"></a>\n\n本文 Numerical results の Laughlin 状態の説明、および補足 *Evaluating the action of partial rotation of an MPS wave function*。特に *Partially rotate an MPS*、*Matching iMPS momentum labels to CFT momentums*、*Orbital cut v.s. real-space cut* を参照する。本ノートのシュミット分解では係数を $\\lambda_\\alpha$、確率を $\\lambda_\\alpha^2$ とする。補足にある一部のシュミット分解の $\\lambda_\\alpha^2$ 表記は、規格化した分解の係数としては採用していない。\n",
+      "text_sha256": "39b61acfb3afb63228539589bf3596bba1407d402a28703033ccd84118b549af",
+      "paragraphs": 1
+    },
+    {
+      "id": "references-p7",
+      "path": "content/references.md",
+      "source_sha256": "e96b9f0672609630f0d2b6b0f88d27b31921771a68820b3a081e10bdf345cf2e",
+      "text": "## 数値結果\n\n<a id=\"ref-numerics\"></a>\n\n原論文 Fig. 2（Kitaev model）、Fig. 3（ボソン Laughlin 状態）、Table I（位相の予測）。補足 *Extracting higher central charge of the Kitaev honeycomb model* と *Extracting higher central charge of the $\\nu=1/2$ bosonic Laughlin state*、特に *Numerical performance of partial rotation* を参照する。\n",
+      "text_sha256": "8767a251cc05769612ae177b4092804dc1849e77277c5041cf421ecbc7922a17",
+      "paragraphs": 1
+    },
+    {
+      "id": "references-p8",
+      "path": "content/references.md",
+      "source_sha256": "e96b9f0672609630f0d2b6b0f88d27b31921771a68820b3a081e10bdf345cf2e",
+      "text": "## Momentum Polarization\n\n<a id=\"ref-momentum\"></a>\n\n本文式 (9)、補足 *Interpolating between higher central charge and momentum polarization*、および *Extracting higher central charge from scratch* の量子 Hall 系の Hall 粘性を含む式 (81) を参照する。微小角の近似と固定 $n$ の近似は、異なる長さの条件を用いる。\n",
+      "text_sha256": "86b192337dfb11d6b22fd790d1c4db7c2197e4cf82110bfa4fe6cdd5ca4fec96",
+      "paragraphs": 1
+    },
+    {
+      "id": "references-p9",
+      "path": "content/references.md",
+      "source_sha256": "e96b9f0672609630f0d2b6b0f88d27b31921771a68820b3a081e10bdf345cf2e",
+      "text": "## 境界の判定条件\n\n<a id=\"ref-criteria\"></a>\n\n本文 *Definition and properties of higher central charge* と補足 *Complete determination of edge gappability for bosonic Abelian phases* が、整数の条件と有限の測定手順の直接の出典である。論文は高次中心電荷の必要条件について Ng らの結果、Abelian の十分条件について Kaidi らの結果を用いる。境界の判定では、これらの分類定理をボソンのエニオン理論に適用する。\n",
+      "text_sha256": "b65a850eabb0a3dafe0f54a2d2207b2ecdc0790ebf888cb376ff4eb3ec426c34",
+      "paragraphs": 1
+    },
+    {
+      "id": "references-p10",
+      "path": "content/references.md",
+      "source_sha256": "e96b9f0672609630f0d2b6b0f88d27b31921771a68820b3a081e10bdf345cf2e",
+      "text": "補足の $n=2\\mathcal D^2$ での中心電荷抽出について、本ノートは指数関数の位相の周期を明示し、実際の $c_-=0$ の確認を独立の入力としている。エニオンの和が与える $c_-\\pmod8$ と、物理的な相の実際の $c_-$ は区別する。\n",
+      "text_sha256": "8d8853eaa240614f2da2cefc0626b07f7a585275883566869a1871de11223b09",
+      "paragraphs": 1
+    }
+  ],
+  "index": 21,
+  "revealed": false,
+  "records": [
+    {
+      "id": "overview-p1",
+      "lane": "act",
+      "source_sha256": "3122665b5216b39ec528533b899d1c430be6f6f773cf2f515771311079d8c0b8",
+      "text_sha256": "79ea1b2b6e66b6c9d0b1476f8fa678b18f169ffc91bf112f5c821bece572c467",
+      "verdict": "PASS",
+      "active_question": "内部のギャップを保ったまま境界をギャップ化できるか。",
+      "cumulative_effect": "物理的な問いと扱う境界の条件を同じ入口で確定する。",
+      "moves": [
+        {
+          "quote": "内部のギャップを保ったまま、端の相互作用を変えて、この励起にもギャップを開けられるだろうか。",
+          "proposition_status": "研究対象を問う疑問文。",
+          "act_and_presupposition": "境界ギャップ化の可能性に注意を向ける。読者の既存の誤解を想定しない。",
+          "first_pass_signal": "境界の低エネルギー励起がこのノートの中心課題になる。",
+          "context_license": {
+            "quote": "端にはいくらでも低いエネルギーの励起が残ることがある。",
+            "why_here": "直前に導入した現象に対する操作可能性を問う。"
+          },
+          "comparison": {
+            "alternative": "問いを省き扱う相だけを記す。",
+            "signal_change": "対象の範囲は残るが何を知りたいかが弱まる。",
+            "content_preserved": "系と境界の範囲は保存される。"
+          },
+          "verdict": "PASS"
+        },
+        {
+          "quote": "外部対称性の保存を追加条件に課さない",
+          "proposition_status": "対象範囲の条件。",
+          "act_and_presupposition": "問いの範囲を定める。",
+          "first_pass_signal": "相互作用変更の条件が明確になる。",
+          "context_license": {
+            "quote": "端の相互作用を変えて",
+            "why_here": "許される変更の範囲に直接かかわる。"
+          },
+          "comparison": {
+            "alternative": "対称性条件を省く。",
+            "signal_change": "ギャップ化の問いの範囲が曖昧になる。",
+            "content_preserved": "主要な問いは残るが指定された適用範囲は失われる。"
+          },
+          "verdict": "PASS"
+        }
+      ]
+    },
+    {
+      "id": "overview-p2",
+      "lane": "act",
+      "source_sha256": "3122665b5216b39ec528533b899d1c430be6f6f773cf2f515771311079d8c0b8",
+      "text_sha256": "f9ef16be3b1816c279d4d2cb7e3b504ccc62ffbef4bb96b8cfcf16a453de9777",
+      "verdict": "PASS",
+      "active_question": "中心電荷差が消えても残る境界ギャップ化の障害は何か。",
+      "cumulative_effect": "前段のギャップ化の問いから高次中心電荷の役割へ焦点が絞られる。",
+      "moves": [
+        {
+          "quote": "しかし、$c_-=0$ でも、内部の準粒子の統計に由来する障害が残る場合がある。",
+          "proposition_status": "限定つきの障害の存在主張。",
+          "act_and_presupposition": "直前の障害指標の適用範囲を区別する。読者が誤ったと断定しない。",
+          "first_pass_signal": "中心電荷差を消した後にも調べる理由がある。",
+          "context_license": {
+            "quote": "$c_-\\ne0$ は熱 Hall 応答に現れ、完全にギャップの開いた境界を妨げる。",
+            "why_here": "直前の指標では扱えない残りの問いを立てる。"
+          },
+          "comparison": {
+            "alternative": "両障害を列挙して対比を省く。",
+            "signal_change": "ゼロの場合にも調査が必要な接続が弱まる。",
+            "content_preserved": "両指標の存在は残る。"
+          },
+          "verdict": "PASS"
+        }
+      ]
+    },
+    {
+      "id": "overview-p3",
+      "lane": "act",
+      "source_sha256": "3122665b5216b39ec528533b899d1c430be6f6f773cf2f515771311079d8c0b8",
+      "text_sha256": "643756817f2211723f1561612464ef087d6061ae48b7b19361819c9217746fe8",
+      "verdict": "PASS",
+      "active_question": "高次中心電荷を状態からどう測るか。",
+      "cumulative_effect": "境界の障害から実際の測定操作へ移る。",
+      "moves": [
+        {
+          "quote": "円筒の半分だけを周方向へずらし、元の状態との重なりを計算すると、その複素位相に $\\zeta_n$ が現れる。",
+          "proposition_status": "論文の提案する測定関係の予告。",
+          "act_and_presupposition": "操作と出力を対応づけて後の説明を待てる形にする。",
+          "first_pass_signal": "数の意味から数の抽出方法に進む。",
+          "context_license": {
+            "quote": "この障害の一部を数で表すのが **高次中心電荷**（higher central charge）$\\zeta_n$ である。",
+            "why_here": "直前に導入した数をどこから得るかに応える。"
+          },
+          "comparison": {
+            "alternative": "論文名だけを紹介する。",
+            "signal_change": "学習対象の操作と観測量が見えなくなる。",
+            "content_preserved": "帰属のみ残る。"
+          },
+          "verdict": "PASS"
+        }
+      ]
+    },
+    {
+      "id": "overview-p4",
+      "lane": "act",
+      "source_sha256": "3122665b5216b39ec528533b899d1c430be6f6f773cf2f515771311079d8c0b8",
+      "text_sha256": "0890e3402499553c0fd3a318b06836696f650e5e6bea20c0db8ee7fb4f02c418",
+      "verdict": "PASS",
+      "active_question": "和を作るための準粒子データは何か。",
+      "cumulative_effect": "測定の予告後、数の定義を支える分類とデータに戻る自然な導入。",
+      "moves": [
+        {
+          "quote": "各種類に、次の二つのデータを割り当てる。",
+          "proposition_status": "定義の案内。",
+          "act_and_presupposition": "表を入力データとして読ませる。",
+          "first_pass_signal": "量子次元と回転位相を並行して保持する必要がある。",
+          "context_license": {
+            "quote": "エニオンの統計を一つの和にする",
+            "why_here": "見出しが約束する和の構成に必要なデータの導入。"
+          },
+          "comparison": {
+            "alternative": "表を案内なしで提示する。",
+            "signal_change": "表の役割が少し不明瞭になる。",
+            "content_preserved": "表の定義は残る。"
+          },
+          "verdict": "PASS"
+        }
+      ]
+    },
+    {
+      "id": "overview-p5",
+      "lane": "act",
+      "source_sha256": "3122665b5216b39ec528533b899d1c430be6f6f773cf2f515771311079d8c0b8",
+      "text_sha256": "9ff2b2e6d1a316279596dae5fbcf1bdb7a00b837d6ce93b90fc2c32d3c1c3084",
+      "verdict": "PASS",
+      "active_question": "量子次元の種別差と全体の量はどう表すか。",
+      "cumulative_effect": "表の量子次元を具体化し総量を定義する。専門分類の理解度は本レーンでは認証しない。",
+      "moves": [
+        {
+          "quote": "Abelian エニオンでは $d_a=1$ である。non-Abelian エニオンでは融合の結果に複数の可能性があり、$d_a$ は一般に $1$ より大きい。",
+          "proposition_status": "量子次元の二分類の説明。",
+          "act_and_presupposition": "入力データの幅を比較させる。",
+          "first_pass_signal": "すべて同じ重みになる場合と異なる場合がある。",
+          "context_license": {
+            "quote": "多数のエニオンを組み合わせたときの融合状態数の増大を表す正の数",
+            "why_here": "直前の定義を種類の違いへ適用する。"
+          },
+          "comparison": {
+            "alternative": "分類を省き全量子次元のみ定義する。",
+            "signal_change": "量子次元の役割を具体化する機会が減る。",
+            "content_preserved": "総量の定義は保存。"
+          },
+          "verdict": "PASS"
+        }
+      ]
+    },
+    {
+      "id": "overview-p6",
+      "lane": "act",
+      "source_sha256": "3122665b5216b39ec528533b899d1c430be6f6f773cf2f515771311079d8c0b8",
+      "text_sha256": "ba4603bbe4cc26bb6deaec508968fcf59caa9bab8301b4af28ac1885afc407a4",
+      "verdict": "PASS",
+      "active_question": "高次中心電荷を二つのデータからどう定義するか。",
+      "cumulative_effect": "構成操作が式と並んで示され、指標の姿が確定する。",
+      "moves": [
+        {
+          "quote": "その和がゼロでないとき、長さを $1$ に規格化した複素数を",
+          "proposition_status": "定義の適用条件と操作。",
+          "act_and_presupposition": "分母の絶対値を計算できる範囲を指定する。",
+          "first_pass_signal": "和そのものから位相のみを取り出す指標である。",
+          "context_license": {
+            "quote": "各回転位相の $n$ 乗を重み $d_a^2$ で加える。",
+            "why_here": "今作った複素数に対する規格化を直ちに指定する。"
+          },
+          "comparison": {
+            "alternative": "ゼロ条件を式の後に回す。",
+            "signal_change": "最初の式使用時に適用範囲の確認が遅れる。",
+            "content_preserved": "式と条件は残る。"
+          },
+          "verdict": "PASS"
+        }
+      ]
+    },
+    {
+      "id": "overview-p7",
+      "lane": "act",
+      "source_sha256": "3122665b5216b39ec528533b899d1c430be6f6f773cf2f515771311079d8c0b8",
+      "text_sha256": "d9b2ede0343a493bc358e5e4fb85238a999353674cf13e503df4275fb2aff928",
+      "verdict": "PASS",
+      "active_question": "定義した規格化が測定と境界の問いに何を残すか。",
+      "cumulative_effect": "式を位相として読み直し、冒頭の問題へ接続する。",
+      "moves": [
+        {
+          "quote": "この規格化は和の絶対値を除いて位相を取り出す。境界への障害は、この位相を使って調べる。",
+          "proposition_status": "式の解釈と用途の説明。",
+          "act_and_presupposition": "読者に計算結果のどの成分を使うか指定する。",
+          "first_pass_signal": "複素数の大きさより方向が論点である。",
+          "context_license": {
+            "quote": "その複素位相に $\\zeta_n$ が現れる。",
+            "why_here": "測定予告の位相と直前の定義を結ぶ。"
+          },
+          "comparison": {
+            "alternative": "定義の終了だけ記す。",
+            "signal_change": "定義の役割を読者が自分で回収する必要がある。",
+            "content_preserved": "式は残るが用途の接続は失われる。"
+          },
+          "verdict": "PASS"
+        }
+      ]
+    },
+    {
+      "id": "overview-p8",
+      "lane": "act",
+      "source_sha256": "3122665b5216b39ec528533b899d1c430be6f6f773cf2f515771311079d8c0b8",
+      "text_sha256": "f2668d9707bdff8f4388fd5d98bf7a3894432b7912db9b85b1b61c53b8f5a288",
+      "verdict": "PASS",
+      "active_question": "一次の位相は既知の境界指標とどうつながるか。",
+      "cumulative_effect": "高次指標の入口として一次の関係を置く。リンク先は未閲覧で認証しない。",
+      "moves": [
+        {
+          "quote": "$n=1$ の和は、内部のエニオンの統計と境界のカイラル中心電荷を結びつける。",
+          "proposition_status": "関係式の役割提示。",
+          "act_and_presupposition": "別々に導入した内部と境界の量を同時に見るよう促す。",
+          "first_pass_signal": "一次の特別な役割を理解した後で高次へ進む。",
+          "context_license": {
+            "quote": "しかし、$c_-=0$ でも、内部の準粒子の統計に由来する障害が残る場合がある。",
+            "why_here": "冒頭の二指標の関係を数式で明確にする。"
+          },
+          "comparison": {
+            "alternative": "関係式だけを提示する。",
+            "signal_change": "式の比較対象と役割の回収を読者に委ねる。",
+            "content_preserved": "等式は保存。"
+          },
+          "verdict": "PASS"
+        }
+      ]
+    },
+    {
+      "id": "overview-p9",
+      "lane": "act",
+      "source_sha256": "3122665b5216b39ec528533b899d1c430be6f6f773cf2f515771311079d8c0b8",
+      "text_sha256": "a2ac9d8e486aa95f832d38328a448b8963972befe81db7040c0ad52787e93d07",
+      "verdict": "PASS",
+      "active_question": "一次の位相が境界判定に伝える範囲と高次を使う理由は何か。",
+      "cumulative_effect": "初めて指標の情報量を限定し、追加の測定情報と高次の使い道を区別する。",
+      "moves": [
+        {
+          "quote": "物理的な境界にギャップが開くには、実際の $c_-=0$ も必要なので、この確認には中心電荷を独立に決める情報を使う。",
+          "proposition_status": "境界判定に必要な別情報の指定。",
+          "act_and_presupposition": "直前の位相をどこまで判定に使えるか制限する。",
+          "first_pass_signal": "位相と実際の中心電荷を同じ情報として扱わず別に確認する。",
+          "context_license": {
+            "quote": "したがって $\\zeta_1$ が伝えるのは $c_-$ の $8$ を法とする値である。",
+            "why_here": "情報の周期性と冒頭の非ゼロ障害が現在同時に利用可能。"
+          },
+          "comparison": {
+            "alternative": "mod 8 の説明に実際のゼロ条件を直接添える。",
+            "signal_change": "ほぼ同じ使用範囲を示す。現行は確認操作まで指定する。",
+            "content_preserved": "周期性、境界条件、独立情報の必要性は保存。"
+          },
+          "verdict": "PASS"
+        },
+        {
+          "quote": "$n$ を変えると、同じ $\\zeta_1$ をもつ相の統計をさらに区別できる。",
+          "proposition_status": "高次指標の比較能力の予告。",
+          "act_and_presupposition": "一次の限界から高次の用途へ戻す。",
+          "first_pass_signal": "追加の位相を調べる必要がある。",
+          "context_license": {
+            "quote": "正整数 $n$ ごとに、各回転位相の $n$ 乗を重み $d_a^2$ で加える。",
+            "why_here": "定義の可変指数の役割を説明する。"
+          },
+          "comparison": {
+            "alternative": "この文を省く。",
+            "signal_change": "高次を使う動機が残りの読みに延期される。",
+            "content_preserved": "一次の情報範囲は保存。"
+          },
+          "verdict": "PASS"
+        }
+      ]
+    },
+    {
+      "id": "overview-p10",
+      "lane": "act",
+      "source_sha256": "3122665b5216b39ec528533b899d1c430be6f6f773cf2f515771311079d8c0b8",
+      "text_sha256": "216a43461872e6f650b859f59078772a93c530ab6e4bb397c02f760aac23c633",
+      "verdict": "PASS",
+      "active_question": "一次の関係をさらに知りたいときどこへ進むか。",
+      "cumulative_effect": "説明への入口を提示し、閉じた読みでは本筋を継続できる。内容自体は未確認。",
+      "moves": [
+        {
+          "quote": "Gauss–Milgram 関係：エニオンの和と中心電荷のつながり",
+          "proposition_status": "開示の内容を指す見出し。",
+          "act_and_presupposition": "既出関係の背景を探す読者へ入口を示す。",
+          "first_pass_signal": "関係の説明は選択して開ける位置にある。",
+          "context_license": {
+            "quote": "内部のエニオンの統計と境界のカイラル中心電荷を結びつける。",
+            "why_here": "直前の関係式と同じ関係を名指ししている。"
+          },
+          "comparison": {
+            "alternative": "関係名だけの見出し。",
+            "signal_change": "背景に何を得られるかが不明瞭になる。",
+            "content_preserved": "開示の存在は保存。"
+          },
+          "verdict": "PASS"
+        }
+      ]
+    },
+    {
+      "id": "overview-p11",
+      "lane": "act",
+      "source_sha256": "3122665b5216b39ec528533b899d1c430be6f6f773cf2f515771311079d8c0b8",
+      "text_sha256": "998deedff0bce95540963f765e45f96ef6d1432cc8e54680c27049d0efd304e6",
+      "verdict": "PASS",
+      "active_question": "指数を変えると和と位相がどう変わるか。",
+      "cumulative_effect": "定義を小さなデータ集合に適用する実例が来る。",
+      "moves": [
+        {
+          "quote": "したがって和は $1+i^n$ となる。",
+          "proposition_status": "入力データからの計算提示。",
+          "act_and_presupposition": "表で指数ごとの違いを比較させる。",
+          "first_pass_signal": "高次位相を自分で計算できる具体例である。",
+          "context_license": {
+            "quote": "$d_1=d_s=1$、$\\theta_s=i$ である。",
+            "why_here": "同じ段落の入力を既出の和の式へ当てる。"
+          },
+          "comparison": {
+            "alternative": "表だけ出す。",
+            "signal_change": "表の生成規則が弱まる。",
+            "content_preserved": "計算値は残る。"
+          },
+          "verdict": "PASS"
+        }
+      ]
+    },
+    {
+      "id": "overview-p12",
+      "lane": "act",
+      "source_sha256": "3122665b5216b39ec528533b899d1c430be6f6f773cf2f515771311079d8c0b8",
+      "text_sha256": "3d84f6ce1d71a6fa527448b0eb834d3d180f2c10ebb7638f0d5573a4f13fdc74",
+      "verdict": "FAIL",
+      "active_question": "例の一次位相とゼロの和をどう読むか。",
+      "cumulative_effect": "ゼロは説明されるが末尾の未導入の CFT 係数へ注意が逸れる。",
+      "moves": [
+        {
+          "quote": "後の CFT 計算でも、この場合は主要項の真空係数が消える。",
+          "proposition_status": "後続計算との対応の予告。",
+          "act_and_presupposition": "未導入の主要項と真空係数を現在の相殺へ結び、後で回収することを求める。",
+          "first_pass_signal": "今の例の理解にも専門的な係数が重要らしいが、その役割は見えない。",
+          "context_license": {
+            "quote": "$n=2$ のゼロは、二つのエニオンの寄与が逆位相で打ち消し合うためである。",
+            "why_here": "ゼロという共通結果はあるが、現在の具体例で CFT 係数を知らせる読者使用は確定しない。"
+          },
+          "comparison": {
+            "alternative": "対応を CFT 主要項の導入位置へ置く。",
+            "signal_change": "現在は具体例の相殺に集中でき、後で比較可能な対象として対応を読める。",
+            "content_preserved": "相殺と係数消失の対応は後続位置で保存できる。"
+          },
+          "verdict": "FAIL"
+        }
+      ]
+    },
+    {
+      "id": "overview-p13",
+      "lane": "act",
+      "source_sha256": "3122665b5216b39ec528533b899d1c430be6f6f773cf2f515771311079d8c0b8",
+      "text_sha256": "ef37114a3853bc62c94f0db39e55dd8a9ad3098e8920fea1b2d176af8c567035",
+      "verdict": "PASS",
+      "active_question": "中心電荷差がゼロの例で高次の障害をどう計算するか。",
+      "cumulative_effect": "最初の問いの未決の場合へ実例を進める。p12の予告の問題は凍結したまま。",
+      "moves": [
+        {
+          "quote": "独立な二つの相を重ねると、エニオンは種類の組になり、量子次元とトポロジカルスピンはそれぞれ掛け合わされる。",
+          "proposition_status": "積み重ね計算の規則。",
+          "act_and_presupposition": "新しい例の和を計算するための操作を示す。",
+          "first_pass_signal": "二つの例を一つの相へまとめる規則が使える。",
+          "context_license": {
+            "quote": "$\\mathrm U(1)_2$ と逆向きの $\\mathrm U(1)_{-4}$ を積み重ねた相を考える。",
+            "why_here": "現在の例が要求する構成操作に直結。"
+          },
+          "comparison": {
+            "alternative": "和が積になる結果のみ示す。",
+            "signal_change": "結果の入力構造が隠れる。",
+            "content_preserved": "和の積は残る。"
+          },
+          "verdict": "PASS"
+        }
+      ]
+    },
+    {
+      "id": "overview-p14",
+      "lane": "act",
+      "source_sha256": "3122665b5216b39ec528533b899d1c430be6f6f773cf2f515771311079d8c0b8",
+      "text_sha256": "9eadb3d872785690ba4d6e87130dc5cb9b6b7e7668c16aeb22d3e37e9cb8c3d4",
+      "verdict": "PASS",
+      "active_question": "積み重ねた相の三次の和の入力は何か。",
+      "cumulative_effect": "抽象的な積規則を数値計算へつなぐ。",
+      "moves": [
+        {
+          "quote": "$n=3$ の二つの和を計算すると",
+          "proposition_status": "具体的な指数を選んだ計算案内。",
+          "act_and_presupposition": "積を作る二つの値に注意を向ける。",
+          "first_pass_signal": "三次の値がゼロ中心電荷の例の判定を進める。",
+          "context_license": {
+            "quote": "このため $\\sum_a d_a^2\\theta_a^n$ も二つの和の積になる。",
+            "why_here": "積規則の二つの因子を具体的に示す。"
+          },
+          "comparison": {
+            "alternative": "二つの式だけを示す。",
+            "signal_change": "計算の目的は前段から回収できるが進行の案内が薄くなる。",
+            "content_preserved": "入力と値は残る。"
+          },
+          "verdict": "PASS"
+        }
+      ]
+    },
+    {
+      "id": "overview-p15",
+      "lane": "act",
+      "source_sha256": "3122665b5216b39ec528533b899d1c430be6f6f773cf2f515771311079d8c0b8",
+      "text_sha256": "8839950ebf1f287a44279108ae5ddb1b4705b2e673ea0f95898cca436916bc94",
+      "verdict": "PASS",
+      "active_question": "二つの和の積から三次の位相はどう得られるか。",
+      "cumulative_effect": "計算を一つの位相に完結させる。",
+      "moves": [
+        {
+          "quote": "その積は $-2\\sqrt2$ なので、積の相では $\\zeta_3=-1$ である。",
+          "proposition_status": "計算結果と規格化結果。",
+          "act_and_presupposition": "計算の終点を明確にし境界解釈に使う値を確定する。",
+          "first_pass_signal": "実数の負符号が位相 -1 として残る。",
+          "context_license": {
+            "quote": "長さを $1$ に規格化した複素数を",
+            "why_here": "既出定義を直前の二因子の積に適用する。"
+          },
+          "comparison": {
+            "alternative": "積だけ示す。",
+            "signal_change": "高次中心電荷の値の回収を読者に委ねる。",
+            "content_preserved": "和の数値は保存。"
+          },
+          "verdict": "PASS"
+        }
+      ]
+    },
+    {
+      "id": "overview-p16",
+      "lane": "act",
+      "source_sha256": "3122665b5216b39ec528533b899d1c430be6f6f773cf2f515771311079d8c0b8",
+      "text_sha256": "bec3dac5d0847c07016b95a7a4a872509f5a5e270d86f8301f4484fc05b8b231",
+      "verdict": "PASS",
+      "active_question": "三次位相 -1 を境界ギャップ化の判定にどう使うか。",
+      "cumulative_effect": "指数の条件と必要条件を同じ適用箇所で示し、例の境界結論を得る。定理の理解深度や科学的妥当性は別レーン。",
+      "moves": [
+        {
+          "quote": "ギャップの開いた境界があるなら、$N_{\\mathrm{FS}}$ と互いに素な $n$ では $\\zeta_n=1$ が必要である、という既知の定理を使うと、この例の境界にはギャップを開けられない。",
+          "proposition_status": "既知定理を輸入した例への適用。",
+          "act_and_presupposition": "既に計算した位相を必要条件と照合させる。",
+          "first_pass_signal": "今までの例の計算が境界障害という目的に達する。証明はここで提供されない。",
+          "context_license": {
+            "quote": "この例では $N_{\\mathrm{FS}}=8$ で、$\\gcd(3,8)=1$ である。",
+            "why_here": "指数条件を直前に示し三次の値への適用を可能にする。"
+          },
+          "comparison": {
+            "alternative": "ギャップ化不能の結論だけを書く。",
+            "signal_change": "どの判定条件に反したかが消える。",
+            "content_preserved": "結論のみ保存。"
+          },
+          "verdict": "PASS"
+        }
+      ]
+    },
+    {
+      "id": "overview-p17",
+      "lane": "act",
+      "source_sha256": "3122665b5216b39ec528533b899d1c430be6f6f773cf2f515771311079d8c0b8",
+      "text_sha256": "8788ea6312d2d8af81333bb866aebdf8d19d3c8a420b780b7ce0649450c98f33",
+      "verdict": "PASS",
+      "active_question": "二番目の相の和を明示的に確認する入口はどこか。",
+      "cumulative_effect": "計算の確認経路を本筋の後に置く。閉じた内容は未認証。",
+      "moves": [
+        {
+          "quote": "$\\mathrm U(1)_{-4}$ の四項を確認する",
+          "proposition_status": "計算確認への開示見出し。",
+          "act_and_presupposition": "和の具体的な項を見たい読者へ行き先を示す。",
+          "first_pass_signal": "結論へ至った計算を必要に応じて確認できる。",
+          "context_license": {
+            "quote": "種類を $j=0,1,2,3$ で表し",
+            "why_here": "直前の四種類の和の省略された計算に対応する。"
+          },
+          "comparison": {
+            "alternative": "詳細とだけ名づける。",
+            "signal_change": "何の確認ができるか曖昧になる。",
+            "content_preserved": "開示入口は保存。"
+          },
+          "verdict": "PASS"
+        }
+      ]
+    },
+    {
+      "id": "overview-p18",
+      "lane": "act",
+      "source_sha256": "3122665b5216b39ec528533b899d1c430be6f6f773cf2f515771311079d8c0b8",
+      "text_sha256": "63729443929d0e9784aff0927a865951ca0c1db01577c4b3ff1b3f799cce6f40",
+      "verdict": "PASS",
+      "active_question": "全エニオンの列挙を状態の操作で置き換えるにはどうするか。",
+      "cumulative_effect": "完成した統計データ計算から測定へ課題を移し、冒頭の論文提案を回収する。",
+      "moves": [
+        {
+          "quote": "上の計算には全エニオンの $d_a$ と $\\theta_a$ が必要だった。",
+          "proposition_status": "直前の計算の入力要求の回顧。",
+          "act_and_presupposition": "別方式へ進む理由を既読計算から示す。",
+          "first_pass_signal": "測定法は入力データの列挙という実務的要求を替える。",
+          "context_license": {
+            "quote": "各回転位相の $n$ 乗を重み $d_a^2$ で加える。",
+            "why_here": "実際に使用した全種類の和から入力要件を振り返る。"
+          },
+          "comparison": {
+            "alternative": "次章の操作だけを予告する。",
+            "signal_change": "新方式を学ぶ理由が弱くなる。",
+            "content_preserved": "新操作の内容は残る。"
+          },
+          "verdict": "PASS"
+        }
+      ]
+    },
+    {
+      "id": "overview-p19",
+      "lane": "act",
+      "source_sha256": "3122665b5216b39ec528533b899d1c430be6f6f773cf2f515771311079d8c0b8",
+      "text_sha256": "4f584ef2987f81431f1e17fdcc4f1b30bbd62c8fa3c678180e2c23c488de7c8c",
+      "verdict": "PASS",
+      "active_question": "部分回転の重なりにエニオンの和がどこに現れるか。",
+      "cumulative_effect": "測定される量と和の対応を式で予告する。条件の内容はこの単位では未確定で、適用可能性の認証はしない。",
+      "moves": [
+        {
+          "quote": "その主要項は、条件を満たす固定した $n$ に対して",
+          "proposition_status": "条件つき漸近式の導入。",
+          "act_and_presupposition": "公式を主要項として読ませ、全ての指数へ無条件に適用する姿勢を求めない。",
+          "first_pass_signal": "測定と和の対応が示されるが適用条件を続けて確認する必要がある。",
+          "context_license": {
+            "quote": "円筒上の状態 $|\\Psi_1\\rangle$ の一部だけを回転させる。",
+            "why_here": "直前の新操作の出力を数式で示す位置。"
+          },
+          "comparison": {
+            "alternative": "条件や主要項の標識なしに式を出す。",
+            "signal_change": "一般の厳密式という受け取りが強まる。",
+            "content_preserved": "式の形のみ保存。"
+          },
+          "verdict": "PASS"
+        }
+      ]
+    },
+    {
+      "id": "overview-p20",
+      "lane": "act",
+      "source_sha256": "3122665b5216b39ec528533b899d1c430be6f6f773cf2f515771311079d8c0b8",
+      "text_sha256": "ef956249a3ab5c1f14b0c6acab0cbe5f4f08485cc1dad4e253920e509ae361c6",
+      "verdict": "PASS",
+      "active_question": "測定位相から高次中心電荷をどう取り出し条件をどこで確認するか。",
+      "cumulative_effect": "主要項式の位相成分を読み解き、条件を確認する後続経路を指定する。経路の内容は未認証。",
+      "moves": [
+        {
+          "quote": "$A_n$ は正の実数であり、位相には寄与しない。観測した位相に中心電荷の因子を戻すと $\\zeta_n$ が得られる。",
+          "proposition_status": "式の振幅と位相の区別と抽出操作。",
+          "act_and_presupposition": "測定出力に対して何を計算するか指示する。",
+          "first_pass_signal": "振幅を捨て、既知の中心電荷位相を補正すると目的の指標になる。",
+          "context_license": {
+            "quote": "A_n>0",
+            "why_here": "直前の式で指定した符号条件が位相解釈を決める。"
+          },
+          "comparison": {
+            "alternative": "目的の指標が得られるとの結論のみ残す。",
+            "signal_change": "何を除き何を戻すかの操作が見えなくなる。",
+            "content_preserved": "抽出可能性の結論は保存。"
+          },
+          "verdict": "PASS"
+        },
+        {
+          "quote": "この関係がどの状態、どの切断、どの長さの範囲で導かれるかを、[部分回転](/observable/)と[指標による導出](/derivation/)で確かめる。",
+          "proposition_status": "条件確認の学習経路指定。",
+          "act_and_presupposition": "公式の実際の適用範囲を後続で調べるよう促す。",
+          "first_pass_signal": "現在の式は導出への見取り図であり使用条件は次の学習課題。",
+          "context_license": {
+            "quote": "$\\sim$ はここでは CFT 近似と大きさの条件の下で得られる主要項を表す。",
+            "why_here": "明示された近似条件の具体化への入口を示す。"
+          },
+          "comparison": {
+            "alternative": "条件を詳しく調べるとだけ記す。",
+            "signal_change": "どこで何を確認するかの実行可能性が下がる。",
+            "content_preserved": "条件確認の必要性は残る。"
+          },
+          "verdict": "PASS"
+        }
+      ]
+    },
+    {
+      "id": "overview-p21",
+      "lane": "act",
+      "source_sha256": "3122665b5216b39ec528533b899d1c430be6f6f773cf2f515771311079d8c0b8",
+      "text_sha256": "ca678a84fd9f3643bc57992f6d8704ab49f775feb51b8e4ed82595ee4a18a165",
+      "verdict": "PASS",
+      "active_question": "測定に使う中心電荷情報を一次位相だけから得られるか。",
+      "cumulative_effect": "測定式に中心電荷因子が現れた直後、既出の情報量区別を確認問題として回収する。閉じた内部は未認証。",
+      "moves": [
+        {
+          "quote": "確認：$\\zeta_1=1$ が分かれば $c_-=0$ といえるか",
+          "proposition_status": "既出関係の適用確認を問う開示見出し。",
+          "act_and_presupposition": "読者に位相から取り出せる情報の範囲を判断させる。読者が実際に誤解したとは主張しない。",
+          "first_pass_signal": "測定の中心電荷補正に一次位相を代用できるかが重要な確認になる。",
+          "context_license": {
+            "quote": "観測した位相に中心電荷の因子を戻すと $\\zeta_n$ が得られる。",
+            "why_here": "補正に中心電荷が必要となったため、既出の mod 8 区別には新たな使用場面がある。"
+          },
+          "comparison": {
+            "alternative": "確認入口を省く。",
+            "signal_change": "学んだ情報範囲の区別を測定操作へ適用する機会が減る。",
+            "content_preserved": "既出の mod 8 の説明と測定式は保存。"
+          },
+          "verdict": "PASS"
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "kind": "reveal",
+      "id": "overview-p1",
+      "time": "2026-10-14T09:00:00.903Z"
+    },
+    {
+      "kind": "record",
+      "id": "overview-p1",
+      "time": "2026-10-14T09:00:26.860Z",
+      "verdict": "PASS"
+    },
+    {
+      "kind": "reveal",
+      "id": "overview-p2",
+      "time": "2026-10-14T09:00:32.691Z"
+    },
+    {
+      "kind": "record",
+      "id": "overview-p2",
+      "time": "2026-10-14T09:00:48.373Z",
+      "verdict": "PASS"
+    },
+    {
+      "kind": "reveal",
+      "id": "overview-p3",
+      "time": "2026-10-14T09:00:48.866Z"
+    },
+    {
+      "kind": "record",
+      "id": "overview-p3",
+      "time": "2026-10-14T09:01:02.422Z",
+      "verdict": "PASS"
+    },
+    {
+      "kind": "reveal",
+      "id": "overview-p4",
+      "time": "2026-10-14T09:01:02.613Z"
+    },
+    {
+      "kind": "record",
+      "id": "overview-p4",
+      "time": "2026-10-14T09:01:16.404Z",
+      "verdict": "PASS"
+    },
+    {
+      "kind": "reveal",
+      "id": "overview-p5",
+      "time": "2026-10-14T09:01:16.610Z"
+    },
+    {
+      "kind": "record",
+      "id": "overview-p5",
+      "time": "2026-10-14T09:01:29.200Z",
+      "verdict": "PASS"
+    },
+    {
+      "kind": "reveal",
+      "id": "overview-p6",
+      "time": "2026-10-14T09:01:29.549Z"
+    },
+    {
+      "kind": "record",
+      "id": "overview-p6",
+      "time": "2026-10-14T09:01:43.375Z",
+      "verdict": "PASS"
+    },
+    {
+      "kind": "reveal",
+      "id": "overview-p7",
+      "time": "2026-10-14T09:01:43.597Z"
+    },
+    {
+      "kind": "record",
+      "id": "overview-p7",
+      "time": "2026-10-14T09:01:55.321Z",
+      "verdict": "PASS"
+    },
+    {
+      "kind": "reveal",
+      "id": "overview-p8",
+      "time": "2026-10-14T09:01:55.521Z"
+    },
+    {
+      "kind": "record",
+      "id": "overview-p8",
+      "time": "2026-10-14T09:02:07.466Z",
+      "verdict": "PASS"
+    },
+    {
+      "kind": "reveal",
+      "id": "overview-p9",
+      "time": "2026-10-14T09:02:07.651Z"
+    },
+    {
+      "kind": "record",
+      "id": "overview-p9",
+      "time": "2026-10-14T09:02:27.713Z",
+      "verdict": "PASS"
+    },
+    {
+      "kind": "reveal",
+      "id": "overview-p10",
+      "time": "2026-10-14T09:02:28.133Z"
+    },
+    {
+      "kind": "record",
+      "id": "overview-p10",
+      "time": "2026-10-14T09:02:45.344Z",
+      "verdict": "PASS"
+    },
+    {
+      "kind": "reveal",
+      "id": "overview-p11",
+      "time": "2026-10-14T09:02:45.594Z"
+    },
+    {
+      "kind": "record",
+      "id": "overview-p11",
+      "time": "2026-10-14T09:02:56.090Z",
+      "verdict": "PASS"
+    },
+    {
+      "kind": "reveal",
+      "id": "overview-p12",
+      "time": "2026-10-14T09:02:56.385Z"
+    },
+    {
+      "kind": "record",
+      "id": "overview-p12",
+      "time": "2026-10-14T09:03:36.500Z",
+      "verdict": "FAIL"
+    },
+    {
+      "kind": "reveal",
+      "id": "overview-p13",
+      "time": "2026-10-14T09:03:36.700Z"
+    },
+    {
+      "kind": "record",
+      "id": "overview-p13",
+      "time": "2026-10-14T09:03:49.579Z",
+      "verdict": "PASS"
+    },
+    {
+      "kind": "reveal",
+      "id": "overview-p14",
+      "time": "2026-10-14T09:03:49.830Z"
+    },
+    {
+      "kind": "record",
+      "id": "overview-p14",
+      "time": "2026-10-14T09:04:01.371Z",
+      "verdict": "PASS"
+    },
+    {
+      "kind": "reveal",
+      "id": "overview-p15",
+      "time": "2026-10-14T09:04:01.596Z"
+    },
+    {
+      "kind": "record",
+      "id": "overview-p15",
+      "time": "2026-10-14T09:04:15.106Z",
+      "verdict": "PASS"
+    },
+    {
+      "kind": "reveal",
+      "id": "overview-p16",
+      "time": "2026-10-14T09:04:15.597Z"
+    },
+    {
+      "kind": "record",
+      "id": "overview-p16",
+      "time": "2026-10-14T09:04:30.007Z",
+      "verdict": "PASS"
+    },
+    {
+      "kind": "reveal",
+      "id": "overview-p17",
+      "time": "2026-10-14T09:04:30.250Z"
+    },
+    {
+      "kind": "record",
+      "id": "overview-p17",
+      "time": "2026-10-14T09:04:43.347Z",
+      "verdict": "PASS"
+    },
+    {
+      "kind": "reveal",
+      "id": "overview-p18",
+      "time": "2026-10-14T09:04:43.867Z"
+    },
+    {
+      "kind": "record",
+      "id": "overview-p18",
+      "time": "2026-10-14T09:04:57.217Z",
+      "verdict": "PASS"
+    },
+    {
+      "kind": "reveal",
+      "id": "overview-p19",
+      "time": "2026-10-14T09:04:57.456Z"
+    },
+    {
+      "kind": "record",
+      "id": "overview-p19",
+      "time": "2026-10-14T09:05:13.552Z",
+      "verdict": "PASS"
+    },
+    {
+      "kind": "reveal",
+      "id": "overview-p20",
+      "time": "2026-10-14T09:05:13.751Z"
+    },
+    {
+      "kind": "record",
+      "id": "overview-p20",
+      "time": "2026-10-14T09:05:33.646Z",
+      "verdict": "PASS"
+    },
+    {
+      "kind": "reveal",
+      "id": "overview-p21",
+      "time": "2026-10-14T09:05:33.853Z"
+    },
+    {
+      "kind": "record",
+      "id": "overview-p21",
+      "time": "2026-10-14T09:06:07.147Z",
+      "verdict": "PASS"
+    }
+  ]
+}

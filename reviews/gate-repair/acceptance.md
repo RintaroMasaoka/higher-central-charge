@@ -1,5 +1,7 @@
 # Current Gate And Publication Status
 
+Historical scope notice: `../reader-depth/` supersedes this record for reader-level explanatory adequacy. The 132-PASS run below established its original narrower checks; it did not inspect whether unfamiliar imported identities had adequate conceptual support and learning entries. Do not reuse it as certification of that later obligation. Original evidence hashes and verdicts remain unchanged.
+
 ## Governing Contract
 
 Each fresh independent reviewer owns exactly one decision perspective. Sequential reading releases at most one prose paragraph with immediately attached mathematical/visual content, freezes that lane's judgment, then releases the next. The coordinator combines coverage; no reviewer co-signs another perspective.

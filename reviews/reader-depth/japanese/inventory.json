@@ -1,0 +1,142 @@
+{
+  "input": "/Users/rintaromasaoka/Desktop/Learning/Study/Higher-central-charge/content/overview.md",
+  "input_sha256": "3122665b5216b39ec528533b899d1c430be6f6f773cf2f515771311079d8c0b8",
+  "review_lines": [
+    28,
+    45
+  ],
+  "kind": "surface_candidates_not_terms_or_defects",
+  "repeated_candidates": [
+    {
+      "id": "s8",
+      "surface": "である",
+      "occurrences": [
+        {
+          "line": 34,
+          "column": 46
+        },
+        {
+          "line": 45,
+          "column": 1
+        },
+        {
+          "line": 45,
+          "column": 41
+        }
+      ]
+    },
+    {
+      "id": "s21",
+      "surface": "エニオン",
+      "occurrences": [
+        {
+          "line": 28,
+          "column": 14
+        },
+        {
+          "line": 37,
+          "column": 27
+        },
+        {
+          "line": 45,
+          "column": 143
+        }
+      ]
+    },
+    {
+      "id": "s28",
+      "surface": "中心電荷",
+      "occurrences": [
+        {
+          "line": 34,
+          "column": 92
+        },
+        {
+          "line": 37,
+          "column": 34
+        },
+        {
+          "line": 45,
+          "column": 156
+        }
+      ]
+    },
+    {
+      "id": "s45",
+      "surface": "和",
+      "occurrences": [
+        {
+          "line": 28,
+          "column": 8
+        },
+        {
+          "line": 37,
+          "column": 32
+        },
+        {
+          "line": 45,
+          "column": 21
+        }
+      ]
+    },
+    {
+      "id": "s47",
+      "surface": "境界",
+      "occurrences": [
+        {
+          "line": 28,
+          "column": 22
+        },
+        {
+          "line": 34,
+          "column": 54
+        },
+        {
+          "line": 39,
+          "column": 83
+        },
+        {
+          "line": 45,
+          "column": 153
+        }
+      ]
+    },
+    {
+      "id": "s52",
+      "surface": "式",
+      "occurrences": [
+        {
+          "line": 39,
+          "column": 110
+        },
+        {
+          "line": 45,
+          "column": 99
+        },
+        {
+          "line": 45,
+          "column": 250
+        }
+      ]
+    },
+    {
+      "id": "s71",
+      "surface": "関係",
+      "occurrences": [
+        {
+          "line": 28,
+          "column": 55
+        },
+        {
+          "line": 37,
+          "column": 24
+        },
+        {
+          "line": 39,
+          "column": 107
+        }
+      ]
+    }
+  ],
+  "structural_candidates": []
+}

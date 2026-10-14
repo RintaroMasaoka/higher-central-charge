@@ -1,0 +1,772 @@
+{
+  "input_sha256": "3122665b5216b39ec528533b899d1c430be6f6f773cf2f515771311079d8c0b8",
+  "review_lines": [
+    28,
+    45
+  ],
+  "decision_perspective": "Japanese scholarly wording only",
+  "manual_sweep": {
+    "completed": true,
+    "reviewed_lines": [
+      28,
+      45
+    ]
+  },
+  "dispositions": [
+    {
+      "candidate_id": "s8",
+      "surface": "である",
+      "occurrences": [
+        {
+          "line": 34,
+          "column": 46
+        },
+        {
+          "line": 45,
+          "column": 1
+        },
+        {
+          "line": 45,
+          "column": 41
+        }
+      ],
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "reason": "Japanese copular endings; none names an entity or operation."
+    },
+    {
+      "candidate_id": "s21",
+      "surface": "エニオン",
+      "occurrences": [
+        {
+          "line": 28,
+          "column": 14
+        },
+        {
+          "line": 37,
+          "column": 27
+        },
+        {
+          "line": 45,
+          "column": 143
+        }
+      ],
+      "role": "disciplinary_name",
+      "impact": "high",
+      "referent": "anyon type a",
+      "decision": "KEEP",
+      "reason": "The same referent is named in two independent Japanese physics expositions; compatible variants do not justify a forced substitution.",
+      "comparison": {
+        "current": "エニオン",
+        "english_or_not_applicable": "anyon",
+        "alternatives_or_not_applicable": "アニオン; anyon",
+        "audience_reason": "Current wording preserves the existing local definition and is recognizable in Japanese topological-phase physics; alternatives are legitimate variants where attested."
+      },
+      "evidence_sources": [
+        {
+          "locator": "https://www2.yukawa.kyoto-u.ac.jp/~soken.editorial/sokendenshi/vol46/3/時間反転対称な位相的場の理論.pdf#sec1.2-p17",
+          "usage": "エニオン names the anyon objects.",
+          "genre": "Japanese physics master's thesis published in Soryushiron Kenkyu",
+          "community": "2+1D TQFT and anyon physics"
+        },
+        {
+          "locator": "https://www.jstage.jst.go.jp/article/natsugaku/4/0/4_173/_pdf/-char/ja#p182-eq20",
+          "usage": "エニオン and エニオン・データ name the quasiparticle types and their data.",
+          "genre": "Japanese condensed-matter summer-school lecture text",
+          "community": "topological phases and entanglement"
+        }
+      ]
+    },
+    {
+      "candidate_id": "s28",
+      "surface": "中心電荷",
+      "occurrences": [
+        {
+          "line": 34,
+          "column": 92
+        },
+        {
+          "line": 37,
+          "column": 34
+        },
+        {
+          "line": 45,
+          "column": 156
+        }
+      ],
+      "role": "disciplinary_name",
+      "impact": "high",
+      "referent": "shorthand for previously defined chiral central charge c_- in all three scoped uses",
+      "decision": "KEEP",
+      "reason": "The same referent is named in two independent Japanese physics expositions; compatible variants do not justify a forced substitution.",
+      "comparison": {
+        "current": "中心電荷",
+        "english_or_not_applicable": "chiral central charge",
+        "alternatives_or_not_applicable": "カイラル中心電荷; カイラル・セントラルチャージ",
+        "audience_reason": "Current wording preserves the existing local definition and is recognizable in Japanese topological-phase physics; alternatives are legitimate variants where attested."
+      },
+      "evidence_sources": [
+        {
+          "locator": "https://www2.yukawa.kyoto-u.ac.jp/~soken.editorial/sokendenshi/vol46/3/時間反転対称な位相的場の理論.pdf#sec4.1.2-p80",
+          "usage": "カイラル中心電荷 names c_-.",
+          "genre": "Japanese physics master's thesis published in Soryushiron Kenkyu",
+          "community": "2+1D TQFT and anyon physics"
+        },
+        {
+          "locator": "https://www.jstage.jst.go.jp/article/natsugaku/4/0/4_173/_pdf/-char/ja#p179-eq18",
+          "usage": "カイラル中心電荷 names c_L-c_R; later カイラル・セントラルチャージ is a legitimate variant.",
+          "genre": "Japanese condensed-matter summer-school lecture text",
+          "community": "topological phases and entanglement"
+        }
+      ]
+    },
+    {
+      "candidate_id": "s45",
+      "surface": "和",
+      "occurrences": [
+        {
+          "line": 28,
+          "column": 8
+        },
+        {
+          "line": 37,
+          "column": 32
+        },
+        {
+          "line": 45,
+          "column": 21
+        }
+      ],
+      "role": "ordinary_syntax",
+      "impact": "high",
+      "reason": "Explicit arithmetic sum of weighted complex spin factors, not an invented name for a scientific structure."
+    },
+    {
+      "candidate_id": "s47",
+      "surface": "境界",
+      "occurrences": [
+        {
+          "line": 28,
+          "column": 22
+        },
+        {
+          "line": 34,
+          "column": 54
+        },
+        {
+          "line": 39,
+          "column": 83
+        },
+        {
+          "line": 45,
+          "column": 153
+        }
+      ],
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "reason": "Actual spatial interface with the vacuum; this noun is not a replacement name for a boundary state, operator, mode, or formal charge."
+    },
+    {
+      "candidate_id": "s52",
+      "surface": "式",
+      "occurrences": [
+        {
+          "line": 39,
+          "column": 110
+        },
+        {
+          "line": 45,
+          "column": 99
+        },
+        {
+          "line": 45,
+          "column": 250
+        }
+      ],
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "reason": "A displayed mathematical expression or a numbered equation citation, not a scientific name."
+    },
+    {
+      "candidate_id": "s71",
+      "surface": "関係",
+      "occurrences": [
+        {
+          "line": 28,
+          "column": 55
+        },
+        {
+          "line": 37,
+          "column": 24
+        },
+        {
+          "line": 39,
+          "column": 107
+        }
+      ],
+      "role": "disciplinary_name",
+      "impact": "high",
+      "referent": "Gauss–Milgram relation between spin sum and c_-; final use points back to it",
+      "decision": "UNVERIFIED",
+      "reason": "Japanese sources use Gauss 和公式/ガウス和の公式 for this relation; neither searched source supplies direct Japanese preferred-usage support for the exact mixed-script full name.",
+      "comparison": {
+        "current": "関係",
+        "english_or_not_applicable": "Gauss–Milgram formula",
+        "alternatives_or_not_applicable": "Gauss–Milgram 公式; ガウス和の公式",
+        "audience_reason": "Retain pending evidence; absent preferred-usage evidence is not a wording defect."
+      },
+      "uncertainty_reason": "Japanese sources use Gauss 和公式/ガウス和の公式 for this relation; neither searched source supplies direct Japanese preferred-usage support for the exact mixed-script full name.",
+      "missing_evidence": "Two independent Japanese running-prose sources in the intended anyon/topological-phase community, or an explicit adopted project authority, comparing these same referents.",
+      "evidence_sources": [
+        {
+          "locator": "https://www2.yukawa.kyoto-u.ac.jp/~soken.editorial/sokendenshi/vol46/3/時間反転対称な位相的場の理論.pdf#p48-eq2.63",
+          "usage": "Same spin/signature relation appears under Gauss 和公式.",
+          "genre": "Japanese physics master's thesis published in Soryushiron Kenkyu",
+          "community": "2+1D TQFT and anyon physics"
+        },
+        {
+          "locator": "https://www.jstage.jst.go.jp/article/natsugaku/4/0/4_173/_pdf/-char/ja#p183-eq23",
+          "usage": "Same normalized spin/c_- relation is called ガウス和の公式.",
+          "genre": "Japanese condensed-matter summer-school lecture text",
+          "community": "topological phases and entanglement"
+        }
+      ],
+      "blocks_range_pass": true
+    }
+  ],
+  "supplemental_concepts": [
+    {
+      "id": "full-chiral",
+      "surface": "カイラル中心電荷",
+      "occurrences": [
+        {
+          "line": 28,
+          "column": 25
+        },
+        {
+          "line": 39,
+          "column": 86
+        }
+      ],
+      "role": "disciplinary_name",
+      "impact": "high",
+      "referent": "c_-",
+      "decision": "KEEP",
+      "reason": "The same referent is named in two independent Japanese physics expositions; compatible variants do not justify a forced substitution.",
+      "comparison": {
+        "current": "カイラル中心電荷",
+        "english_or_not_applicable": "chiral central charge",
+        "alternatives_or_not_applicable": "キラル中心電荷; カイラル・セントラルチャージ",
+        "audience_reason": "Current wording preserves the existing local definition and is recognizable in Japanese topological-phase physics; alternatives are legitimate variants where attested."
+      },
+      "evidence_sources": [
+        {
+          "locator": "https://www2.yukawa.kyoto-u.ac.jp/~soken.editorial/sokendenshi/vol46/3/時間反転対称な位相的場の理論.pdf#sec4.1.2-p80",
+          "usage": "カイラル中心電荷 names c_-.",
+          "genre": "Japanese physics master's thesis published in Soryushiron Kenkyu",
+          "community": "2+1D TQFT and anyon physics"
+        },
+        {
+          "locator": "https://www.jstage.jst.go.jp/article/natsugaku/4/0/4_173/_pdf/-char/ja#p179-eq18",
+          "usage": "カイラル中心電荷 names c_L-c_R; later カイラル・セントラルチャージ is a legitimate variant.",
+          "genre": "Japanese condensed-matter summer-school lecture text",
+          "community": "topological phases and entanglement"
+        }
+      ]
+    },
+    {
+      "id": "full-higher",
+      "surface": "高次中心電荷",
+      "occurrences": [
+        {
+          "line": 45,
+          "column": 130
+        }
+      ],
+      "role": "disciplinary_name",
+      "impact": "high",
+      "referent": "ζ_n normalized weighted spin sum",
+      "decision": "KEEP",
+      "reason": "The same referent is named in two independent Japanese physics expositions; compatible variants do not justify a forced substitution.",
+      "comparison": {
+        "current": "高次中心電荷",
+        "english_or_not_applicable": "higher central charge",
+        "alternatives_or_not_applicable": "高次の中心電荷; 高階中心電荷",
+        "audience_reason": "Current wording preserves the existing local definition and is recognizable in Japanese topological-phase physics; alternatives are legitimate variants where attested."
+      },
+      "evidence_sources": [
+        {
+          "locator": "https://www2.yukawa.kyoto-u.ac.jp/~soken.editorial/sokendenshi/vol46/3/時間反転対称な位相的場の理論.pdf#sec4.1.2-p81-eq4.21",
+          "usage": "高次中心電荷（Higher central charge） names the normalized spin sum.",
+          "genre": "Japanese physics master's thesis published in Soryushiron Kenkyu",
+          "community": "2+1D TQFT and anyon physics"
+        },
+        {
+          "locator": "https://www.jstage.jst.go.jp/article/natsugaku/4/0/4_173/_pdf/-char/ja#p183-eq24",
+          "usage": "高次の中心電荷 names ζ_n from the normalized weighted spin sum.",
+          "genre": "Japanese condensed-matter summer-school lecture text",
+          "community": "topological phases and entanglement"
+        }
+      ]
+    },
+    {
+      "id": "full-gauss",
+      "surface": "Gauss–Milgram 関係",
+      "occurrences": [
+        {
+          "line": 28,
+          "column": 41
+        },
+        {
+          "line": 37,
+          "column": 10
+        }
+      ],
+      "role": "disciplinary_name",
+      "impact": "high",
+      "referent": "Gauss–Milgram relation between spin sum and c_-; final use points back to it",
+      "decision": "UNVERIFIED",
+      "reason": "Japanese sources use Gauss 和公式/ガウス和の公式 for this relation; neither searched source supplies direct Japanese preferred-usage support for the exact mixed-script full name.",
+      "comparison": {
+        "current": "関係",
+        "english_or_not_applicable": "Gauss–Milgram formula",
+        "alternatives_or_not_applicable": "Gauss–Milgram 公式; ガウス和の公式",
+        "audience_reason": "Retain pending evidence; absent preferred-usage evidence is not a wording defect."
+      },
+      "uncertainty_reason": "Japanese sources use Gauss 和公式/ガウス和の公式 for this relation; neither searched source supplies direct Japanese preferred-usage support for the exact mixed-script full name.",
+      "missing_evidence": "Two independent Japanese running-prose sources in the intended anyon/topological-phase community, or an explicit adopted project authority, comparing these same referents.",
+      "evidence_sources": [
+        {
+          "locator": "https://www2.yukawa.kyoto-u.ac.jp/~soken.editorial/sokendenshi/vol46/3/時間反転対称な位相的場の理論.pdf#p48-eq2.63",
+          "usage": "Same spin/signature relation appears under Gauss 和公式.",
+          "genre": "Japanese physics master's thesis published in Soryushiron Kenkyu",
+          "community": "2+1D TQFT and anyon physics"
+        },
+        {
+          "locator": "https://www.jstage.jst.go.jp/article/natsugaku/4/0/4_173/_pdf/-char/ja#p183-eq23",
+          "usage": "Same normalized spin/c_- relation is called ガウス和の公式.",
+          "genre": "Japanese condensed-matter summer-school lecture text",
+          "community": "topological phases and entanglement"
+        }
+      ],
+      "blocks_range_pass": true
+    },
+    {
+      "id": "total-dimension",
+      "surface": "全量子次元",
+      "occurrences": [
+        {
+          "line": 39,
+          "column": 39
+        }
+      ],
+      "role": "disciplinary_name",
+      "impact": "high",
+      "referent": "D=sqrt(sum d_a^2)",
+      "decision": "UNVERIFIED",
+      "reason": "Kasa directly supports the form in running prose; the independent Japanese book index attestation is insufficient to compare same-referent running prose.",
+      "comparison": {
+        "current": "全量子次元",
+        "english_or_not_applicable": "total quantum dimension",
+        "alternatives_or_not_applicable": "総量子次元; トータル量子次元",
+        "audience_reason": "Retain pending evidence; absent preferred-usage evidence is not a wording defect."
+      },
+      "uncertainty_reason": "Kasa directly supports the form in running prose; the independent Japanese book index attestation is insufficient to compare same-referent running prose.",
+      "missing_evidence": "Two independent Japanese running-prose sources in the intended anyon/topological-phase community, or an explicit adopted project authority, comparing these same referents.",
+      "evidence_sources": [
+        {
+          "locator": "https://www.jstage.jst.go.jp/article/natsugaku/4/0/4_173/_pdf/-char/ja#p178",
+          "usage": "全量子次元 compares Z2 and Ising phases.",
+          "genre": "Japanese condensed-matter summer-school lecture text",
+          "community": "topological phases and entanglement"
+        },
+        {
+          "locator": "https://www.saiensu.co.jp/preview/2017-978-4-7819-9925-8/SDB25_sample.pdf#index",
+          "usage": "全量子次元 appears in the index; no same-referent running passage reviewed.",
+          "genre": "Book preview index",
+          "community": "quantum entanglement / QFT"
+        }
+      ],
+      "blocks_range_pass": true
+    },
+    {
+      "id": "rotation-phase",
+      "surface": "回転位相",
+      "occurrences": [
+        {
+          "line": 39,
+          "column": 7
+        }
+      ],
+      "role": "explanatory_gloss",
+      "impact": "high",
+      "referent": "θ_a already defined as topological spin",
+      "decision": "UNVERIFIED",
+      "reason": "This is a transparent local explanatory gloss, but not an independently attested preferred disciplinary name; Orii calls θ(a) トポロジカルスピン while Kasa uses that label for h_a. No positive defect follows.",
+      "comparison": {
+        "current": "回転位相",
+        "english_or_not_applicable": "topological spin, here expressed as the 2π-rotation phase",
+        "alternatives_or_not_applicable": "トポロジカルスピン; 回転による位相",
+        "audience_reason": "Retain pending evidence; absent preferred-usage evidence is not a wording defect."
+      },
+      "uncertainty_reason": "This is a transparent local explanatory gloss, but not an independently attested preferred disciplinary name; Orii calls θ(a) トポロジカルスピン while Kasa uses that label for h_a. No positive defect follows.",
+      "missing_evidence": "Two independent Japanese running-prose sources in the intended anyon/topological-phase community, or an explicit adopted project authority, comparing these same referents.",
+      "evidence_sources": [
+        {
+          "locator": "https://www2.yukawa.kyoto-u.ac.jp/~soken.editorial/sokendenshi/vol46/3/時間反転対称な位相的場の理論.pdf#p47-eq2.59",
+          "usage": "トポロジカルスピン labels θ(a).",
+          "genre": "Japanese physics master's thesis published in Soryushiron Kenkyu",
+          "community": "2+1D TQFT and anyon physics"
+        },
+        {
+          "locator": "https://www.jstage.jst.go.jp/article/natsugaku/4/0/4_173/_pdf/-char/ja#p182",
+          "usage": "トポロジカル・スピン labels h_a, so this is not the same referent for preferred θ nomenclature.",
+          "genre": "Japanese condensed-matter summer-school lecture text",
+          "community": "topological phases and entanglement"
+        }
+      ],
+      "blocks_range_pass": true
+    },
+    {
+      "id": "bosonic-phase",
+      "surface": "ボソンのトポロジカル相",
+      "occurrences": [
+        {
+          "line": 28,
+          "column": 84
+        }
+      ],
+      "role": "disciplinary_name",
+      "impact": "high",
+      "referent": "bosonic topological phase under the declared note scope",
+      "decision": "UNVERIFIED",
+      "reason": "Both shorter トポロジカル相 and longer トポロジカル秩序相 occur in Kasa; exact compound usage and alternatives have not been established by two independent same-referent passages.",
+      "comparison": {
+        "current": "ボソンのトポロジカル相",
+        "english_or_not_applicable": "bosonic topological phase / bosonic topological order",
+        "alternatives_or_not_applicable": "ボソン系のトポロジカル相; ボソンのトポロジカル秩序相",
+        "audience_reason": "Retain pending evidence; absent preferred-usage evidence is not a wording defect."
+      },
+      "uncertainty_reason": "Both shorter トポロジカル相 and longer トポロジカル秩序相 occur in Kasa; exact compound usage and alternatives have not been established by two independent same-referent passages.",
+      "missing_evidence": "Two independent Japanese running-prose sources in the intended anyon/topological-phase community, or an explicit adopted project authority, comparing these same referents.",
+      "evidence_sources": [
+        {
+          "locator": "https://www.jstage.jst.go.jp/article/natsugaku/4/0/4_173/_pdf/-char/ja#p178-p179",
+          "usage": "トポロジカル相 and トポロジカル秩序相 are used in the anyon context.",
+          "genre": "Japanese condensed-matter summer-school lecture text",
+          "community": "topological phases and entanglement"
+        }
+      ],
+      "blocks_range_pass": true
+    },
+    {
+      "id": "summary-handle",
+      "surface": "Gauss–Milgram 関係：エニオンの和と中心電荷のつながり",
+      "occurrences": [
+        {
+          "line": 37,
+          "column": 10
+        }
+      ],
+      "role": "explanatory_gloss",
+      "impact": "high",
+      "referent": "Gauss–Milgram relation between spin sum and c_-; final use points back to it",
+      "decision": "UNVERIFIED",
+      "reason": "The HTML summary is the scientific handle for the disclosure; scanner did not recognize it. Its named relationship requires the same unresolved naming comparison as full-gauss.",
+      "comparison": {
+        "current": "関係",
+        "english_or_not_applicable": "Gauss–Milgram formula",
+        "alternatives_or_not_applicable": "Gauss–Milgram 公式; ガウス和の公式",
+        "audience_reason": "Retain pending evidence; absent preferred-usage evidence is not a wording defect."
+      },
+      "uncertainty_reason": "Japanese sources use Gauss 和公式/ガウス和の公式 for this relation; neither searched source supplies direct Japanese preferred-usage support for the exact mixed-script full name.",
+      "missing_evidence": "Two independent Japanese running-prose sources in the intended anyon/topological-phase community, or an explicit adopted project authority, comparing these same referents.",
+      "evidence_sources": [
+        {
+          "locator": "https://www2.yukawa.kyoto-u.ac.jp/~soken.editorial/sokendenshi/vol46/3/時間反転対称な位相的場の理論.pdf#p48-eq2.63",
+          "usage": "Same spin/signature relation appears under Gauss 和公式.",
+          "genre": "Japanese physics master's thesis published in Soryushiron Kenkyu",
+          "community": "2+1D TQFT and anyon physics"
+        },
+        {
+          "locator": "https://www.jstage.jst.go.jp/article/natsugaku/4/0/4_173/_pdf/-char/ja#p183-eq23",
+          "usage": "Same normalized spin/c_- relation is called ガウス和の公式.",
+          "genre": "Japanese condensed-matter summer-school lecture text",
+          "community": "topological phases and entanglement"
+        }
+      ],
+      "blocks_range_pass": true
+    },
+    {
+      "id": "statistics",
+      "surface": "統計",
+      "occurrences": [
+        {
+          "line": 28,
+          "column": 19
+        },
+        {
+          "line": 34,
+          "column": 137
+        }
+      ],
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "Anyon exchange/braiding statistics, not statistical inference.",
+      "decision": "KEEP",
+      "reason": "Established ordinary mathematical/physical usage in context; this local meaning does not establish an outside-range naming verdict.",
+      "evidence": "Direct contextual referent: assigned equations and elementary complex arithmetic; for gap/statistics Kasa p178–183 uses the same physical operations.",
+      "comparison": {
+        "current": "統計",
+        "english_or_not_applicable": "Context-specific ordinary mathematical/physical terminology",
+        "alternatives_or_not_applicable": "No alternative is required by observed wording",
+        "audience_reason": "Preserves recognizable elementary terminology"
+      },
+      "deferred": false
+    },
+    {
+      "id": "complex-phase",
+      "surface": "位相",
+      "occurrences": [
+        {
+          "line": 39,
+          "column": 9
+        },
+        {
+          "line": 39,
+          "column": 99
+        }
+      ],
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "Complex multiplicative phase, not a phase of matter; elementary complex arithmetic is supplied reader knowledge.",
+      "decision": "KEEP",
+      "reason": "Established ordinary mathematical/physical usage in context; this local meaning does not establish an outside-range naming verdict.",
+      "evidence": "Direct contextual referent: assigned equations and elementary complex arithmetic; for gap/statistics Kasa p178–183 uses the same physical operations.",
+      "comparison": {
+        "current": "位相",
+        "english_or_not_applicable": "Context-specific ordinary mathematical/physical terminology",
+        "alternatives_or_not_applicable": "No alternative is required by observed wording",
+        "audience_reason": "Preserves recognizable elementary terminology"
+      },
+      "deferred": false
+    },
+    {
+      "id": "modulo",
+      "surface": "法とする値",
+      "occurrences": [
+        {
+          "line": 34,
+          "column": 41
+        }
+      ],
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "Value modulo 8, not a physical law.",
+      "decision": "KEEP",
+      "reason": "Established ordinary mathematical/physical usage in context; this local meaning does not establish an outside-range naming verdict.",
+      "evidence": "Direct contextual referent: assigned equations and elementary complex arithmetic; for gap/statistics Kasa p178–183 uses the same physical operations.",
+      "comparison": {
+        "current": "法とする値",
+        "english_or_not_applicable": "Context-specific ordinary mathematical/physical terminology",
+        "alternatives_or_not_applicable": "No alternative is required by observed wording",
+        "audience_reason": "Preserves recognizable elementary terminology"
+      },
+      "deferred": false
+    },
+    {
+      "id": "gap",
+      "surface": "ギャップが開く",
+      "occurrences": [
+        {
+          "line": 34,
+          "column": 57
+        }
+      ],
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "Opening an excitation gap at the boundary.",
+      "decision": "KEEP",
+      "reason": "Established ordinary mathematical/physical usage in context; this local meaning does not establish an outside-range naming verdict.",
+      "evidence": "Direct contextual referent: assigned equations and elementary complex arithmetic; for gap/statistics Kasa p178–183 uses the same physical operations.",
+      "comparison": {
+        "current": "ギャップが開く",
+        "english_or_not_applicable": "Context-specific ordinary mathematical/physical terminology",
+        "alternatives_or_not_applicable": "No alternative is required by observed wording",
+        "audience_reason": "Preserves recognizable elementary terminology"
+      },
+      "deferred": false
+    },
+    {
+      "id": "weight",
+      "surface": "重み",
+      "occurrences": [
+        {
+          "line": 39,
+          "column": 24
+        }
+      ],
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "Arithmetic coefficient d_a^2 in a finite sum, not statistical sampling weight.",
+      "decision": "KEEP",
+      "reason": "Established ordinary mathematical/physical usage in context; this local meaning does not establish an outside-range naming verdict.",
+      "evidence": "Direct contextual referent: assigned equations and elementary complex arithmetic; for gap/statistics Kasa p178–183 uses the same physical operations.",
+      "comparison": {
+        "current": "重み",
+        "english_or_not_applicable": "Context-specific ordinary mathematical/physical terminology",
+        "alternatives_or_not_applicable": "No alternative is required by observed wording",
+        "audience_reason": "Preserves recognizable elementary terminology"
+      },
+      "deferred": false
+    },
+    {
+      "id": "absolute",
+      "surface": "絶対値",
+      "occurrences": [
+        {
+          "line": 45,
+          "column": 8
+        },
+        {
+          "line": 45,
+          "column": 23
+        }
+      ],
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "Ordinary complex modulus operation.",
+      "decision": "KEEP",
+      "reason": "Established ordinary mathematical/physical usage in context; this local meaning does not establish an outside-range naming verdict.",
+      "evidence": "Direct contextual referent: assigned equations and elementary complex arithmetic; for gap/statistics Kasa p178–183 uses the same physical operations.",
+      "comparison": {
+        "current": "絶対値",
+        "english_or_not_applicable": "Context-specific ordinary mathematical/physical terminology",
+        "alternatives_or_not_applicable": "No alternative is required by observed wording",
+        "audience_reason": "Preserves recognizable elementary terminology"
+      },
+      "deferred": false
+    },
+    {
+      "id": "denominator",
+      "surface": "分母",
+      "occurrences": [
+        {
+          "line": 45,
+          "column": 75
+        }
+      ],
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "Ordinary fraction denominator.",
+      "decision": "KEEP",
+      "reason": "Established ordinary mathematical/physical usage in context; this local meaning does not establish an outside-range naming verdict.",
+      "evidence": "Direct contextual referent: assigned equations and elementary complex arithmetic; for gap/statistics Kasa p178–183 uses the same physical operations.",
+      "comparison": {
+        "current": "分母",
+        "english_or_not_applicable": "Context-specific ordinary mathematical/physical terminology",
+        "alternatives_or_not_applicable": "No alternative is required by observed wording",
+        "audience_reason": "Preserves recognizable elementary terminology"
+      },
+      "deferred": false
+    },
+    {
+      "id": "left",
+      "surface": "左辺",
+      "occurrences": [
+        {
+          "line": 45,
+          "column": 101
+        }
+      ],
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "Ordinary left-hand side of the displayed equality.",
+      "decision": "KEEP",
+      "reason": "Established ordinary mathematical/physical usage in context; this local meaning does not establish an outside-range naming verdict.",
+      "evidence": "Direct contextual referent: assigned equations and elementary complex arithmetic; for gap/statistics Kasa p178–183 uses the same physical operations.",
+      "comparison": {
+        "current": "左辺",
+        "english_or_not_applicable": "Context-specific ordinary mathematical/physical terminology",
+        "alternatives_or_not_applicable": "No alternative is required by observed wording",
+        "audience_reason": "Preserves recognizable elementary terminology"
+      },
+      "deferred": false
+    },
+    {
+      "id": "right",
+      "surface": "右辺",
+      "occurrences": [
+        {
+          "line": 45,
+          "column": 5
+        }
+      ],
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "Ordinary right-hand side of the displayed equality.",
+      "decision": "KEEP",
+      "reason": "Established ordinary mathematical/physical usage in context; this local meaning does not establish an outside-range naming verdict.",
+      "evidence": "Direct contextual referent: assigned equations and elementary complex arithmetic; for gap/statistics Kasa p178–183 uses the same physical operations.",
+      "comparison": {
+        "current": "右辺",
+        "english_or_not_applicable": "Context-specific ordinary mathematical/physical terminology",
+        "alternatives_or_not_applicable": "No alternative is required by observed wording",
+        "audience_reason": "Preserves recognizable elementary terminology"
+      },
+      "deferred": false
+    },
+    {
+      "id": "each-anyon",
+      "surface": "各エニオン",
+      "occurrences": [
+        {
+          "line": 39,
+          "column": 1
+        }
+      ],
+      "role": "disciplinary_name",
+      "impact": "high",
+      "referent": "anyon type a",
+      "decision": "KEEP",
+      "reason": "The same referent is named in two independent Japanese physics expositions; compatible variants do not justify a forced substitution.",
+      "comparison": {
+        "current": "エニオン",
+        "english_or_not_applicable": "anyon",
+        "alternatives_or_not_applicable": "アニオン; anyon",
+        "audience_reason": "Current wording preserves the existing local definition and is recognizable in Japanese topological-phase physics; alternatives are legitimate variants where attested."
+      },
+      "evidence_sources": [
+        {
+          "locator": "https://www2.yukawa.kyoto-u.ac.jp/~soken.editorial/sokendenshi/vol46/3/時間反転対称な位相的場の理論.pdf#sec1.2-p17",
+          "usage": "エニオン names the anyon objects.",
+          "genre": "Japanese physics master's thesis published in Soryushiron Kenkyu",
+          "community": "2+1D TQFT and anyon physics"
+        },
+        {
+          "locator": "https://www.jstage.jst.go.jp/article/natsugaku/4/0/4_173/_pdf/-char/ja#p182-eq20",
+          "usage": "エニオン and エニオン・データ name the quasiparticle types and their data.",
+          "genre": "Japanese condensed-matter summer-school lecture text",
+          "community": "topological phases and entanglement"
+        }
+      ]
+    }
+  ],
+  "context_read_ranges": [
+    [
+      5,
+      5
+    ],
+    [
+      11,
+      26
+    ],
+    [
+      51,
+      60
+    ]
+  ],
+  "verdict": "UNVERIFIED; no supported wording defects; unqualified range PASS blocked by unresolved high-impact names",
+  "supported_defects": [],
+  "outside_range_acceptance": false
+}

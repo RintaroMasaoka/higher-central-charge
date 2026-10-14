@@ -35,6 +35,14 @@ try {
           await page.screenshot({path:`reviews/screenshots/${chapter.id}-${viewport.width}-${theme}.png`,fullPage:true});
       }
       await page.goto(origin + prefix + '/overview/', {waitUntil:'networkidle'});
+      const gaussMilgram = page.locator('#gauss-milgram');
+      assert.equal(await gaussMilgram.evaluate(el=>el.open),false,'background starts folded');
+      await page.locator('article a[href="#gauss-milgram"]').click();
+      assert(await gaussMilgram.evaluate(el=>el.open),'first-use link opens background');
+      assert.equal(await gaussMilgram.locator('.katex-display').count(),1,'background relation renders');
+      assert(await gaussMilgram.getByRole('link',{name:/Kitaev/}).getAttribute('href'),'background source entry');
+      await gaussMilgram.locator('summary').click();
+      assert.equal(await gaussMilgram.evaluate(el=>el.open),false,'background closes');
       const disclosure = page.locator('details').first();
       await disclosure.locator('summary').click();
       assert(await disclosure.evaluate(el=>el.open));

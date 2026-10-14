@@ -1,0 +1,23 @@
+{
+  "perspective": "subject/prerequisite adequacy",
+  "unit": "semion phase calculation: concluding paragraph",
+  "verdict": "pass",
+  "frozen": true,
+  "scope": "Required depth, available objects and operations, and the next inference only. No scientific-truth, explanation-act, or Japanese-language verdict.",
+  "reader": "First-time paper reader with elementary complex arithmetic and CFT characters.",
+  "evidence_status": "The provided formula, model data, and worked table are prior available evidence; this review does not certify their first-encounter presentation.",
+  "available_evidence": [
+    "For a nonzero sum, zeta_n is sum_a d_a^2 theta_a^n divided by its modulus.",
+    "zeta_1 = exp(2 pi i c_minus / 8).",
+    "Types 1 and s have dimensions 1 and twists 1 and i.",
+    "The worked table gives n=1: 1+i, phase exp(i pi/4); n=2: 0, undefined; n=3: 1-i, phase exp(-i pi/4); n=4: 2, phase 1."
+  ],
+  "reviewed_paragraph": "$c_-=1$ を代入すると $\\zeta_1=e^{i\\pi/4}$ が再現される。$n=2$ のゼロは、二つのエニオンの寄与が逆位相で打ち消し合うためである。",
+  "required_operations": [
+    "Substitute c_minus=1 into 2 pi i c_minus/8 and simplify to i pi/4.",
+    "Use d_1=d_s=1 and theta_s=i to reconstruct the n=2 contributions as 1 and i^2=-1, whose sum is zero."
+  ],
+  "depth_assessment": "Both operations fall within the stated elementary-complex-arithmetic prerequisite. The formula, model data, and table supply every object needed; no additional CFT or topological prerequisite is required to perform these local checks. An explicit intermediate equation 1+i^2=1-1=0 is optional at this reader level, not required to bridge an unavailable operation.",
+  "next_inference": "The reader can connect the table's first phase to substitution in the supplied c_minus relation and can reconstruct why the n=2 sum vanishes. The already supplied nonzero-sum condition and table determine that the n=2 phase is undefined; the paragraph requires no further inference.",
+  "required_revision": null
+}

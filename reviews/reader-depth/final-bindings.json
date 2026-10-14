@@ -1,0 +1,21 @@
+{
+  "final_source_sha256": "585f69ba1317de945f1859a41e5e52cab6c03c5e071f4245fde617fc36dd2c10",
+  "closed_review_source_sha256": "3122665b5216b39ec528533b899d1c430be6f6f773cf2f515771311079d8c0b8",
+  "delta": "Only the final semion paragraph sentence was removed after the frozen 21-packet runs; Gauss first-use, disclosure and Japanese range28-45 are byte-identical.",
+  "verified_reconstruction": true,
+  "records": {
+    "open-subject-1.json": "eb94edde16c309e2cc7403868f384cca3878d9cfd86b4f8c44bd4424fe9676a0",
+    "open-subject-2.json": "d21234f519503e653f9cc91c353e3d202b221f853ff31b3d25750f1e2fdcfb3e",
+    "open-act-1.json": "a4a4d9de2d051bbe08f9a20ed7a8c9fbaa662be545b1441dcf8edf91fba3c72f",
+    "open-act-2.json": "d64bb760912052fcfbfbc72a6c253847bd8a6b3434cf82be70eda296e3c165a7",
+    "semion-subject.json": "bfc8c57937ab5e98c924bfc93dbdeb5c36219ba9c36d3474bda2987df46dbfcd",
+    "semion-act.json": "3db597a0887af9cfee81d678c9a290509803600d32090235c703043b416091c5",
+    "runtime-a.json": "cf96d51a623721d1c54b8898d524cb128dfc9e4ddbccdf184f5ac335b063b0f1",
+    "runtime-b.json": "4ad7a1c15bf43765cb5064360baf8fb7f8157c2b7df67f7cc03db61a4912b195",
+    "runtime-c.json": "52ffdd98763b50f6dff973efe81e374bd27f09a787dedda401bf8db335930f5c"
+  },
+  "canonical_reference_hashes": {
+    "authoring.md": "839abf20cd01274847d78f1f09beb1e9c270e4fe4e8c95a3881703e4c629e85f",
+    "reader-review.md": "a5258fa020825eeb225af5d6c8512eaa4018b5967b12f63fc396431698026793"
+  }
+}

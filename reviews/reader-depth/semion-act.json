@@ -1,0 +1,30 @@
+{
+  "perspective": "explanation-act suitability only",
+  "verdict": "PASS",
+  "scope": "One supplied paragraph; supplied prior evidence is context, not independently certified first-encounter material.",
+  "paragraph": "$c_-=1$ を代入すると $\\zeta_1=e^{i\\pi/4}$ が再現される。$n=2$ のゼロは、二つのエニオンの寄与が逆位相で打ち消し合うためである。",
+  "active_question": "Calculate the semion weighted phase sum.",
+  "reader_baseline": "First-time paper reader with CFT characters and elementary complex arithmetic known.",
+  "moves": [
+    {
+      "quote": "$c_-=1$ を代入すると $\\zeta_1=e^{i\\pi/4}$ が再現される。",
+      "act": "Connect the already calculated n=1 phase with substitution into the stated central-charge relation.",
+      "presupposition": "The reader has seen the n=1 table entry and the relation zeta_1=exp(2 pi i c_-/8). It presupposes no reader error or doubt.",
+      "first_pass_signal": "The table's first phase is a result that can be compared with the central-charge relation; 再現される signals agreement between two routes.",
+      "available_license": "The supplied prior relation and table explicitly provide the two results being connected. The sentence makes a concrete substitution rather than offering a generic reassurance.",
+      "resolution_and_return": "The reader can identify the table's n=1 phase as the value produced by c_-=1 in the preceding relation.",
+      "realization_comparison": "Omitting this sentence retains the table and formula but removes their explicit connection through this substitution. A direct equality after substitution would retain the same connection and substantially the same first-pass use. The present comparison adds no unsupported correction."
+    },
+    {
+      "quote": "$n=2$ のゼロは、二つのエニオンの寄与が逆位相で打ち消し合うためである。",
+      "act": "Explain the zero in the table by relating it to cancellation of the two contributions.",
+      "presupposition": "The reader has seen the two anyon types, their dimensions and twists, and the n=2 zero. No mistaken expectation of a nonzero result is imposed.",
+      "first_pass_signal": "The zero has a specific arithmetic mechanism within the same calculation. Its brief explanation draws attention to how the sum vanishes, without presenting it as a reader failure or a defensive exception.",
+      "available_license": "The active question asks for the weighted phase calculation; the prior table contains a zero with undefined phase, and the supplied anyon data identify the contributions whose cancellation explains that entry.",
+      "resolution_and_return": "The reader can connect the n=2 zero to the relation between the two summands rather than treating the table entry as an unexplained outcome.",
+      "realization_comparison": "Omission preserves the tabulated outcome but loses the explicit mechanism. Displaying the two opposite summands would make the arithmetic more explicit while performing the same explanatory act; determining whether that extra arithmetic is prerequisite is outside this verdict. The current causal sentence is licensed by the current calculation."
+    }
+  ],
+  "cumulative_effect": "Within the supplied bounded path, the paragraph first connects one computed phase to the previously stated relation, then explains another computed sum. Both moves return to the same semion calculation. There is no repeated warning, unsupported correction, or defensive diversion in this packet. No verdict is given on unavailable earlier or later paragraphs.",
+  "excluded_certifications": ["scientific correctness", "prerequisite sufficiency", "Japanese disciplinary wording", "full manuscript acceptance"]
+}

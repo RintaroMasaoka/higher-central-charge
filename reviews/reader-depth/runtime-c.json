@@ -1,0 +1,26 @@
+{
+  "case": "C",
+  "perspective": "subject-reader adequacy",
+  "verdict": "PASS",
+  "scope": "Only the supplied paragraph, supported baseline and stated local objective; scientific truth and explanation-act suitability are unassessed.",
+  "demanded_depth": {
+    "operation": "Additional phase after shifting tau to tau + 1/n",
+    "required": ["application"],
+    "reason": "The local objective is to compute the additional phase. Learning characters or modular properties is outside this passage's objective, and the relevant definition and elementary complex-exponential operation are already established."
+  },
+  "available_support": {
+    "baseline": "CFT characters including chi_a(tau) = Tr_{H_a} exp[2 pi i tau (L_0 - c/24)], conformal weights h, and the elementary effect of adding a real part to tau.",
+    "prior": "No additional prefix is needed for this bounded operation.",
+    "current_quote": "指標の引数を $\\tau$ から $\\tau+1/n$ へ移すと、$L_0$ 固有値 $h$ の項には $e^{2\\pi i(h-c/24)/n}$ が掛かる。",
+    "learning_entry": "No deferred learning entry is needed for the established baseline and local objective."
+  },
+  "exact_witness": {
+    "premise_demanding_relation": "The multiplicative factor e^{2 pi i(h-c/24)/n} after tau -> tau + 1/n.",
+    "baseline_witness": "The supplied trace definition makes each eigenvalue-h contribution proportional to exp[2 pi i tau (h-c/24)].",
+    "reconstructible_object_and_operation": "Substitute tau + 1/n in that contribution and factor its exponential into the original term and exp[2 pi i(h-c/24)/n].",
+    "next_usable_inference": "For each character term with eigenvalue h, the reader can calculate the additional phase from h, c and n.",
+    "located_gap": "None within the assigned baseline/required-depth perspective."
+  },
+  "unresolved_support": [],
+  "frozen": true
+}

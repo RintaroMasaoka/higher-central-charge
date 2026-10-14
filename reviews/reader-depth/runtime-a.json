@@ -1,0 +1,26 @@
+{
+  "case": "A",
+  "perspective": "subject-reader adequacy",
+  "verdict": "FAIL",
+  "scope": "Only the supplied paragraph, attached identity and exact prior context; scientific truth and explanation-act suitability are unassessed.",
+  "demanded_depth": {
+    "result": "Gauss–Milgram relation",
+    "required": ["meaning and role", "application"],
+    "reason": "The objective asks the learner to understand how internal anyon statistics encode boundary central-charge information and use the phase. A proof is not required, but the connection imported by the identity must become intelligible."
+  },
+  "available_support": {
+    "baseline": "CFT characters and elementary complex arithmetic; no familiarity with anyon theorems established.",
+    "prior": "c_- is boundary chiral central charge; d_a are positive quantum dimensions; theta_a are rotation phases; zeta_n is the normalized phase of the sum d_a^2 theta_a^n; all symbols introduced.",
+    "current_quote": "n=1 では、ボソンのトポロジカル相の Gauss–Milgram 関係から",
+    "attached_equation": "zeta_1 = exp(2 pi i c_- / 8)",
+    "learning_entry": "None supplied."
+  },
+  "exact_witness": {
+    "premise_demanding_relation": "Gauss–Milgram 関係から, together with zeta_1 = exp(2 pi i c_- / 8)",
+    "reconstructible_object_and_operation": "The reader can identify the internal weighted rotation-phase sum as the source of zeta_1 and relate its complex argument to 2 pi c_- / 8 using the supplied equation.",
+    "next_usable_inference": "Given zeta_1, its argument determines c_- modulo 8; shifts by 8 leave the exponential unchanged.",
+    "located_gap": "At the named invocation of Gauss–Milgram, the passage supplies the equality but no explanatory support for why this internal statistical quantity connects to the boundary central charge. Naming the result does not establish that understanding for this baseline."
+  },
+  "unresolved_support": "A meaning-and-role account of the imported bulk-statistics/boundary-central-charge relation, or a nearby explicit deferral with a precise usable learning entry. No optional proof is demanded.",
+  "frozen": true
+}

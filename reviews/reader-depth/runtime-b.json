@@ -1,0 +1,26 @@
+{
+  "case": "B",
+  "perspective": "subject-reader adequacy",
+  "verdict": "FAIL",
+  "scope": "Only the supplied paragraph and baseline; historical source validity, scientific truth and explanation-act effects are unassessed.",
+  "demanded_depth": {
+    "result": "Bayes relation",
+    "required": ["meaning and role", "application"],
+    "reason": "The objective includes understanding how observing B changes belief in A, alongside calculation. A general probability-theory proof is not required."
+  },
+  "available_support": {
+    "baseline": "Event probability, conditional-probability notation and elementary algebra; Bayes relation is new.",
+    "prior": "No additional teaching prefix supplied.",
+    "current_quote": "観測 $B$ の後の確率は、Bayes の定理 $P(A\\mid B)=P(B\\mid A)P(A)/P(B)$ で求める。観測前の確率と尤度を代入すれば、観測後の確率を計算できる。[Bayes (1763), An Essay towards solving a Problem in the Doctrine of Chances]",
+    "learning_entry": "Historical citation without a located teaching passage or explanatory disclosure."
+  },
+  "exact_witness": {
+    "premise_demanding_relation": "P(A|B) = P(B|A)P(A)/P(B), invoked as Bayes の定理",
+    "reconstructible_object_and_operation": "Conditional-probability notation lets the reader distinguish the probability of A given B from that of B given A. The supplied formula and elementary algebra allow substitution and evaluation when P(B) is nonzero and the inputs are supplied.",
+    "next_usable_inference": "The numerical posterior can be calculated from P(A), P(B|A) and P(B). Algebra also gives P(A|B)/P(A) = P(B|A)/P(B) when both denominators are nonzero.",
+    "located_gap": "The assertion that substituting the prior and likelihood produces the posterior does not explain the role of P(B), or why the likelihood relative to P(B) governs the change in belief. This conceptual connection is required by the objective and is not established by the stated baseline or a usable support route.",
+    "terminology_support": "The unfamiliar term 尤度 is used without an explicit mapping to P(B|A); the notation permits evaluation of the displayed expression but does not by itself establish that term's role."
+  },
+  "unresolved_support": "A meaning-and-role explanation connecting observation, relative likelihood and normalization to the posterior, including the mapping of 尤度 to the conditional probability, or an explicit deferral with a precise usable teaching entry. No general proof is demanded.",
+  "frozen": true
+}

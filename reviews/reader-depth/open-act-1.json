@@ -1,0 +1,39 @@
+{
+  "review_lane": "explanation-act suitability only",
+  "unit": "opened Gauss-Milgram disclosure, paragraph 1 and attached equation",
+  "verdict": "PASS",
+  "frozen_before_continuation": true,
+  "scope_exclusions": ["scientific truth", "prerequisite sufficiency", "Japanese terminology", "later disclosure paragraphs"],
+  "evidence": {
+    "heading": "Gauss–Milgram 関係：エニオンの和と中心電荷のつながり",
+    "paragraph": "各エニオンの回転位相 $\\theta_a$ を重み $d_a^2$ で足し、全量子次元 $\\mathcal D=\\sqrt{\\sum_a d_a^2}$ で割ると、境界のカイラル中心電荷から決まる位相になる。この関係を式で書くと",
+    "equation": "\\frac{1}{\\mathcal D}\\sum_a d_a^2\\theta_a=e^{2\\pi i c_-/8}",
+    "available_prefix": "Prior visible paragraph identifies the n=1 internal-statistics/boundary-charge connection, links this disclosure, and gives zeta_1 = exp(2 pi i c_-/8); the next visible paragraph states the mod-8 information. Established symbol meanings are supplied in the review packet."
+  },
+  "content_and_act": {
+    "verdict": "PASS",
+    "claim": "The weighted sum of anyon rotation phases, divided by the total quantum dimension, equals the phase determined by the boundary chiral central charge.",
+    "act": "Expose the Gauss-Milgram relation behind the already announced n=1 connection, first as an operation on the anyon data and then as an equation.",
+    "presupposed_stance": "The reader has chosen to open the disclosure to see the relation named in its heading. No mistaken belief, objection, or demand for a theorem proof is attributed to the reader."
+  },
+  "first_pass_signal": {
+    "verdict": "PASS",
+    "record": "The opening subject 各エニオンの回転位相 and the sequence 重み d_a^2 で足し / D で割る foreground the construction from internal data. 境界のカイラル中心電荷から決まる位相 makes the boundary relation the outcome. この関係を式で書くと signals that the attached equation is the explicit form of that same relation, treated as established rather than as a newly promised proof."
+  },
+  "available_license": {
+    "verdict": "PASS",
+    "record": "The supplied prefix has already asserted zeta_1 = exp(2 pi i c_-/8) and directed the reader to a Gauss-Milgram disclosure. The disclosure heading explicitly asks for エニオンの和と中心電荷のつながり. Displaying the weighted sum and its normalization directly serves that invitation and the stated goal of understanding the n=1 connection."
+  },
+  "resolution_and_return": {
+    "verdict": "PASS",
+    "record": "The reader can locate the anyon inputs on the left and the boundary charge on the right, and identify the precise weighted sum and D normalization in the named relation. This paragraph does not yet explicitly compare division by D with the previously defined division by the sum's absolute value; that is a remaining subject relation, not an obstructive act or a certified omission in this bounded act lane."
+  },
+  "realization_comparison": {
+    "verdict": "PASS",
+    "record": "Keeping the equation but omitting the prose would retain the formal relation, while removing the direct verbal identification of its sum, weight, normalization, and boundary outcome. The actual prose gives the reader an operation-to-result route into the equation. A realization that also identified the absolute-value normalization could advance the remaining comparison, but that possible additional content does not make the present assertion a detour."
+  },
+  "continuity_and_cumulative_effect": {
+    "verdict": "PASS",
+    "record": "The equation repeats the previously visible right-hand phase but adds the unnormalized anyon sum and D factor, so the repetition now reveals the named relation rather than merely reminding the reader of the same result. No accumulated warning, reassurance, correction, or defensive qualification appears in the supplied path. The continuation is withheld and cannot license or invalidate this frozen paragraph verdict."
+  }
+}
