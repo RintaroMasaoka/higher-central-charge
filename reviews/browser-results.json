@@ -1,5 +1,5 @@
 {
-  "origin": "https://rintaromasaoka.github.io",
+  "origin": "http://127.0.0.1:4177",
   "prefix": "/higher-central-charge",
   "results": [
     {
@@ -11,9 +11,18 @@
       "theme": "light",
       "heading": "高次中心電荷と境界のギャップ",
       "mathErrors": 0,
-      "math": 159,
+      "math": 166,
       "overflow": false,
-      "images": [],
+      "images": [
+        {
+          "src": "http://127.0.0.1:4177/diagrams/semion-sum-phase.png",
+          "loaded": true
+        },
+        {
+          "src": "http://127.0.0.1:4177/diagrams/stacked-phase-product.png",
+          "loaded": true
+        }
+      ],
       "fonts": [
         "KaTeX_Caligraphic",
         "KaTeX_Main",
@@ -35,7 +44,19 @@
       "overflow": false,
       "images": [
         {
-          "src": "https://rintaromasaoka.github.io/higher-central-charge/diagrams/partial-rotation.svg",
+          "src": "http://127.0.0.1:4177/diagrams/partial-rotation.png",
+          "loaded": true
+        },
+        {
+          "src": "http://127.0.0.1:4177/diagrams/schmidt-trace.png",
+          "loaded": true
+        },
+        {
+          "src": "http://127.0.0.1:4177/diagrams/schmidt-complex-sum.png",
+          "loaded": true
+        },
+        {
+          "src": "http://127.0.0.1:4177/diagrams/two-edge-density.png",
           "loaded": true
         }
       ],
@@ -56,9 +77,18 @@
       "theme": "light",
       "heading": "指標からエニオンの和へ",
       "mathErrors": 0,
-      "math": 75,
+      "math": 87,
       "overflow": false,
-      "images": [],
+      "images": [
+        {
+          "src": "http://127.0.0.1:4177/diagrams/modular-inverse-map.png",
+          "loaded": true
+        },
+        {
+          "src": "http://127.0.0.1:4177/diagrams/three-phase-correction.png",
+          "loaded": true
+        }
+      ],
       "fonts": [
         "KaTeX_Caligraphic",
         "KaTeX_Main",
@@ -76,9 +106,22 @@
       "theme": "light",
       "heading": "異なるセクターと数値評価",
       "mathErrors": 0,
-      "math": 85,
+      "math": 93,
       "overflow": false,
-      "images": [],
+      "images": [
+        {
+          "src": "http://127.0.0.1:4177/diagrams/mps-bond-rotation.png",
+          "loaded": true
+        },
+        {
+          "src": "http://127.0.0.1:4177/diagrams/orbital-realspace-cuts.png",
+          "loaded": true
+        },
+        {
+          "src": "http://127.0.0.1:4177/diagrams/asymptotic-regimes.png",
+          "loaded": true
+        }
+      ],
       "fonts": [
         "KaTeX_AMS",
         "KaTeX_Caligraphic",
@@ -98,9 +141,14 @@
       "theme": "light",
       "heading": "境界のギャップを判定する条件",
       "mathErrors": 0,
-      "math": 112,
+      "math": 115,
       "overflow": false,
-      "images": [],
+      "images": [
+        {
+          "src": "http://127.0.0.1:4177/diagrams/boundary-integer-membership.png",
+          "loaded": true
+        }
+      ],
       "fonts": [
         "KaTeX_AMS",
         "KaTeX_Caligraphic",
@@ -138,9 +186,18 @@
       "theme": "dark",
       "heading": "高次中心電荷と境界のギャップ",
       "mathErrors": 0,
-      "math": 159,
+      "math": 166,
       "overflow": false,
-      "images": [],
+      "images": [
+        {
+          "src": "http://127.0.0.1:4177/diagrams/semion-sum-phase.png",
+          "loaded": true
+        },
+        {
+          "src": "http://127.0.0.1:4177/diagrams/stacked-phase-product.png",
+          "loaded": true
+        }
+      ],
       "fonts": [
         "KaTeX_Caligraphic",
         "KaTeX_Main",
@@ -162,7 +219,19 @@
       "overflow": false,
       "images": [
         {
-          "src": "https://rintaromasaoka.github.io/higher-central-charge/diagrams/partial-rotation.svg",
+          "src": "http://127.0.0.1:4177/diagrams/partial-rotation.png",
+          "loaded": true
+        },
+        {
+          "src": "http://127.0.0.1:4177/diagrams/schmidt-trace.png",
+          "loaded": true
+        },
+        {
+          "src": "http://127.0.0.1:4177/diagrams/schmidt-complex-sum.png",
+          "loaded": true
+        },
+        {
+          "src": "http://127.0.0.1:4177/diagrams/two-edge-density.png",
           "loaded": true
         }
       ],
@@ -183,9 +252,18 @@
       "theme": "dark",
       "heading": "指標からエニオンの和へ",
       "mathErrors": 0,
-      "math": 75,
+      "math": 87,
       "overflow": false,
-      "images": [],
+      "images": [
+        {
+          "src": "http://127.0.0.1:4177/diagrams/modular-inverse-map.png",
+          "loaded": true
+        },
+        {
+          "src": "http://127.0.0.1:4177/diagrams/three-phase-correction.png",
+          "loaded": true
+        }
+      ],
       "fonts": [
         "KaTeX_Caligraphic",
         "KaTeX_Main",
@@ -203,9 +281,22 @@
       "theme": "dark",
       "heading": "異なるセクターと数値評価",
       "mathErrors": 0,
-      "math": 85,
+      "math": 93,
       "overflow": false,
-      "images": [],
+      "images": [
+        {
+          "src": "http://127.0.0.1:4177/diagrams/mps-bond-rotation.png",
+          "loaded": true
+        },
+        {
+          "src": "http://127.0.0.1:4177/diagrams/orbital-realspace-cuts.png",
+          "loaded": true
+        },
+        {
+          "src": "http://127.0.0.1:4177/diagrams/asymptotic-regimes.png",
+          "loaded": true
+        }
+      ],
       "fonts": [
         "KaTeX_AMS",
         "KaTeX_Caligraphic",
@@ -225,9 +316,14 @@
       "theme": "dark",
       "heading": "境界のギャップを判定する条件",
       "mathErrors": 0,
-      "math": 112,
+      "math": 115,
       "overflow": false,
-      "images": [],
+      "images": [
+        {
+          "src": "http://127.0.0.1:4177/diagrams/boundary-integer-membership.png",
+          "loaded": true
+        }
+      ],
       "fonts": [
         "KaTeX_AMS",
         "KaTeX_Caligraphic",
@@ -265,9 +361,18 @@
       "theme": "light",
       "heading": "高次中心電荷と境界のギャップ",
       "mathErrors": 0,
-      "math": 159,
+      "math": 166,
       "overflow": false,
-      "images": [],
+      "images": [
+        {
+          "src": "http://127.0.0.1:4177/diagrams/semion-sum-phase.png",
+          "loaded": true
+        },
+        {
+          "src": "http://127.0.0.1:4177/diagrams/stacked-phase-product.png",
+          "loaded": true
+        }
+      ],
       "fonts": [
         "KaTeX_Caligraphic",
         "KaTeX_Main",
@@ -289,7 +394,19 @@
       "overflow": false,
       "images": [
         {
-          "src": "https://rintaromasaoka.github.io/higher-central-charge/diagrams/partial-rotation.svg",
+          "src": "http://127.0.0.1:4177/diagrams/partial-rotation.png",
+          "loaded": true
+        },
+        {
+          "src": "http://127.0.0.1:4177/diagrams/schmidt-trace.png",
+          "loaded": true
+        },
+        {
+          "src": "http://127.0.0.1:4177/diagrams/schmidt-complex-sum.png",
+          "loaded": true
+        },
+        {
+          "src": "http://127.0.0.1:4177/diagrams/two-edge-density.png",
           "loaded": true
         }
       ],
@@ -310,9 +427,18 @@
       "theme": "light",
       "heading": "指標からエニオンの和へ",
       "mathErrors": 0,
-      "math": 75,
+      "math": 87,
       "overflow": false,
-      "images": [],
+      "images": [
+        {
+          "src": "http://127.0.0.1:4177/diagrams/modular-inverse-map.png",
+          "loaded": true
+        },
+        {
+          "src": "http://127.0.0.1:4177/diagrams/three-phase-correction.png",
+          "loaded": true
+        }
+      ],
       "fonts": [
         "KaTeX_Caligraphic",
         "KaTeX_Main",
@@ -330,9 +456,22 @@
       "theme": "light",
       "heading": "異なるセクターと数値評価",
       "mathErrors": 0,
-      "math": 85,
+      "math": 93,
       "overflow": false,
-      "images": [],
+      "images": [
+        {
+          "src": "http://127.0.0.1:4177/diagrams/mps-bond-rotation.png",
+          "loaded": true
+        },
+        {
+          "src": "http://127.0.0.1:4177/diagrams/orbital-realspace-cuts.png",
+          "loaded": true
+        },
+        {
+          "src": "http://127.0.0.1:4177/diagrams/asymptotic-regimes.png",
+          "loaded": true
+        }
+      ],
       "fonts": [
         "KaTeX_AMS",
         "KaTeX_Caligraphic",
@@ -352,9 +491,14 @@
       "theme": "light",
       "heading": "境界のギャップを判定する条件",
       "mathErrors": 0,
-      "math": 112,
+      "math": 115,
       "overflow": false,
-      "images": [],
+      "images": [
+        {
+          "src": "http://127.0.0.1:4177/diagrams/boundary-integer-membership.png",
+          "loaded": true
+        }
+      ],
       "fonts": [
         "KaTeX_AMS",
         "KaTeX_Caligraphic",
@@ -392,9 +536,18 @@
       "theme": "dark",
       "heading": "高次中心電荷と境界のギャップ",
       "mathErrors": 0,
-      "math": 159,
+      "math": 166,
       "overflow": false,
-      "images": [],
+      "images": [
+        {
+          "src": "http://127.0.0.1:4177/diagrams/semion-sum-phase.png",
+          "loaded": true
+        },
+        {
+          "src": "http://127.0.0.1:4177/diagrams/stacked-phase-product.png",
+          "loaded": true
+        }
+      ],
       "fonts": [
         "KaTeX_Caligraphic",
         "KaTeX_Main",
@@ -416,7 +569,19 @@
       "overflow": false,
       "images": [
         {
-          "src": "https://rintaromasaoka.github.io/higher-central-charge/diagrams/partial-rotation.svg",
+          "src": "http://127.0.0.1:4177/diagrams/partial-rotation.png",
+          "loaded": true
+        },
+        {
+          "src": "http://127.0.0.1:4177/diagrams/schmidt-trace.png",
+          "loaded": true
+        },
+        {
+          "src": "http://127.0.0.1:4177/diagrams/schmidt-complex-sum.png",
+          "loaded": true
+        },
+        {
+          "src": "http://127.0.0.1:4177/diagrams/two-edge-density.png",
           "loaded": true
         }
       ],
@@ -437,9 +602,18 @@
       "theme": "dark",
       "heading": "指標からエニオンの和へ",
       "mathErrors": 0,
-      "math": 75,
+      "math": 87,
       "overflow": false,
-      "images": [],
+      "images": [
+        {
+          "src": "http://127.0.0.1:4177/diagrams/modular-inverse-map.png",
+          "loaded": true
+        },
+        {
+          "src": "http://127.0.0.1:4177/diagrams/three-phase-correction.png",
+          "loaded": true
+        }
+      ],
       "fonts": [
         "KaTeX_Caligraphic",
         "KaTeX_Main",
@@ -457,9 +631,22 @@
       "theme": "dark",
       "heading": "異なるセクターと数値評価",
       "mathErrors": 0,
-      "math": 85,
+      "math": 93,
       "overflow": false,
-      "images": [],
+      "images": [
+        {
+          "src": "http://127.0.0.1:4177/diagrams/mps-bond-rotation.png",
+          "loaded": true
+        },
+        {
+          "src": "http://127.0.0.1:4177/diagrams/orbital-realspace-cuts.png",
+          "loaded": true
+        },
+        {
+          "src": "http://127.0.0.1:4177/diagrams/asymptotic-regimes.png",
+          "loaded": true
+        }
+      ],
       "fonts": [
         "KaTeX_AMS",
         "KaTeX_Caligraphic",
@@ -479,9 +666,14 @@
       "theme": "dark",
       "heading": "境界のギャップを判定する条件",
       "mathErrors": 0,
-      "math": 112,
+      "math": 115,
       "overflow": false,
-      "images": [],
+      "images": [
+        {
+          "src": "http://127.0.0.1:4177/diagrams/boundary-integer-membership.png",
+          "loaded": true
+        }
+      ],
       "fonts": [
         "KaTeX_AMS",
         "KaTeX_Caligraphic",

@@ -18,6 +18,14 @@ try {
         await page.goto(origin + prefix + '/' + chapter.id + '/', {waitUntil:'networkidle'});
         await page.locator('article h1').waitFor();
         await page.evaluate(() => document.fonts.ready);
+        for (const image of await page.locator('article img').all()) {
+          await image.scrollIntoViewIfNeeded();
+          await image.evaluate(img => img.decode());
+          const box = await image.boundingBox();
+          assert(box.width <= viewport.width, 'figure fits viewport');
+          const id = await image.evaluate(img => img.src.split('/').pop().replace('.png',''));
+          await image.screenshot({path:`reviews/screenshots/figure-${id}-${viewport.width}-${theme}.png`});
+        }
         const state = await page.evaluate(() => ({
           heading:document.querySelector('article h1').textContent,
           mathErrors:document.querySelectorAll('.katex-error').length,

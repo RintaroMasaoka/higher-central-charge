@@ -1,0 +1,202 @@
+{
+  "id": "partial-rotation",
+  "renderer": "KaTeX 0.16.22, Chrome screenshot at 2x",
+  "sourceSha256": "58f1b5e82f7ff88308c50e990aa27050e60377b3cab0ab50c1193bbf8e2cc02d",
+  "outputSha256": "3de165b2db1271119df14faa07fe58e9ffc8f14fdb94a64b11b088693fdeb306",
+  "width": 560,
+  "height": 760,
+  "inventory": [
+    {
+      "tex": "\\text{Unwrapped cylinder}",
+      "x": 166.140625,
+      "y": 11.75,
+      "fontSize": 26,
+      "anchor": "center",
+      "role": "panel or encoding description",
+      "index": 0,
+      "width": 227.71875,
+      "height": 32.5,
+      "typeset": true
+    },
+    {
+      "tex": "\\text{Before}",
+      "x": 243.671875,
+      "y": 53.75,
+      "fontSize": 26,
+      "anchor": "center",
+      "role": "panel or encoding description",
+      "index": 1,
+      "width": 72.65625,
+      "height": 32.5,
+      "typeset": true
+    },
+    {
+      "tex": "y=L",
+      "x": 26.5,
+      "y": 83.5,
+      "fontSize": 25,
+      "anchor": "right",
+      "role": "periodic coordinate",
+      "index": 2,
+      "width": 63.5,
+      "height": 33,
+      "typeset": true
+    },
+    {
+      "tex": "y=0",
+      "x": 31.03125,
+      "y": 275.5,
+      "fontSize": 25,
+      "anchor": "right",
+      "role": "periodic coordinate",
+      "index": 3,
+      "width": 58.96875,
+      "height": 33,
+      "typeset": true
+    },
+    {
+      "tex": "\\mathrm A",
+      "x": 225.25,
+      "y": 182.75,
+      "fontSize": 26,
+      "anchor": "center",
+      "role": "region",
+      "index": 4,
+      "width": 19.5,
+      "height": 32.5,
+      "typeset": true
+    },
+    {
+      "tex": "\\mathrm B",
+      "x": 445.7890625,
+      "y": 182.75,
+      "fontSize": 26,
+      "anchor": "center",
+      "role": "region",
+      "index": 5,
+      "width": 18.421875,
+      "height": 32.5,
+      "typeset": true
+    },
+    {
+      "tex": "T_{\\mathrm A;2\\pi/4}:\\quad y\\mapsto y+L/4\\pmod L",
+      "x": 108.421875,
+      "y": 338.1015625,
+      "fontSize": 24,
+      "anchor": "center",
+      "role": "operation",
+      "index": 6,
+      "width": 343.15625,
+      "height": 31.796875,
+      "typeset": true
+    },
+    {
+      "tex": "\\text{After: B fixed}",
+      "x": 203.5703125,
+      "y": 386.75,
+      "fontSize": 26,
+      "anchor": "center",
+      "role": "panel or encoding description",
+      "index": 7,
+      "width": 152.859375,
+      "height": 32.5,
+      "typeset": true
+    },
+    {
+      "tex": "y=L",
+      "x": 26.5,
+      "y": 403.5,
+      "fontSize": 25,
+      "anchor": "right",
+      "role": "periodic coordinate",
+      "index": 8,
+      "width": 63.5,
+      "height": 33,
+      "typeset": true
+    },
+    {
+      "tex": "y=0",
+      "x": 31.03125,
+      "y": 595.5,
+      "fontSize": 25,
+      "anchor": "right",
+      "role": "periodic coordinate",
+      "index": 9,
+      "width": 58.96875,
+      "height": 33,
+      "typeset": true
+    },
+    {
+      "tex": "\\mathrm A",
+      "x": 225.25,
+      "y": 502.75,
+      "fontSize": 26,
+      "anchor": "center",
+      "role": "region",
+      "index": 10,
+      "width": 19.5,
+      "height": 32.5,
+      "typeset": true
+    },
+    {
+      "tex": "\\mathrm B",
+      "x": 445.7890625,
+      "y": 502.75,
+      "fontSize": 26,
+      "anchor": "center",
+      "role": "region",
+      "index": 11,
+      "width": 18.421875,
+      "height": 32.5,
+      "typeset": true
+    },
+    {
+      "tex": "\\text{Physical left boundary}",
+      "x": 158.5,
+      "y": 631.375,
+      "fontSize": 25,
+      "anchor": "center",
+      "role": "boundary",
+      "index": 12,
+      "width": 243,
+      "height": 31.25,
+      "typeset": true
+    },
+    {
+      "tex": "\\text{Entanglement cut}",
+      "x": 182.9375,
+      "y": 677.375,
+      "fontSize": 25,
+      "anchor": "center",
+      "role": "boundary",
+      "index": 13,
+      "width": 194.125,
+      "height": 31.25,
+      "typeset": true
+    },
+    {
+      "tex": "y=0\\sim y=L",
+      "x": 202.1015625,
+      "y": 719.5,
+      "fontSize": 25,
+      "anchor": "center",
+      "role": "periodic coordinate",
+      "index": 14,
+      "width": 155.796875,
+      "height": 33,
+      "typeset": true
+    }
+  ],
+  "fonts": [
+    {
+      "family": "KaTeX_Main",
+      "style": "normal",
+      "weight": "400"
+    },
+    {
+      "family": "KaTeX_Math",
+      "style": "italic",
+      "weight": "400"
+    }
+  ]
+}

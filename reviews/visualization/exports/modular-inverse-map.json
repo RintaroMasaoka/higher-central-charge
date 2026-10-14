@@ -1,0 +1,190 @@
+{
+  "id": "modular-inverse-map",
+  "renderer": "KaTeX 0.16.22, Chrome screenshot at 2x",
+  "sourceSha256": "9a2366a83b0d2904f95327911caf54518750f1dbfe52a3caf4d4b8964c5df9ac",
+  "outputSha256": "368f05a8177480c6fbad0ff36aaa959744978afb34974f7459ee8ee6c31898b7",
+  "width": 560,
+  "height": 750,
+  "inventory": [
+    {
+      "tex": "n=2,\\quad\\xi_r/L=0.1",
+      "x": 169.5625,
+      "y": 13.40625,
+      "fontSize": 26,
+      "anchor": "center",
+      "role": "expression",
+      "index": 0,
+      "width": 220.875,
+      "height": 33.1875,
+      "typeset": true
+    },
+    {
+      "tex": "(ST^nS)^{-1}:\\ z\\mapsto\\frac{z}{1+nz}",
+      "x": 158.875,
+      "y": 77.7578125,
+      "fontSize": 26,
+      "anchor": "center",
+      "role": "expression",
+      "index": 1,
+      "width": 242.25,
+      "height": 34.484375,
+      "typeset": true
+    },
+    {
+      "tex": "\\mathrm{Im}",
+      "x": 285.671875,
+      "y": 129.6015625,
+      "fontSize": 24,
+      "anchor": "center",
+      "role": "expression",
+      "index": 2,
+      "width": 28.65625,
+      "height": 30.796875,
+      "typeset": true
+    },
+    {
+      "tex": "\\mathrm{Re}",
+      "x": 475.8359375,
+      "y": 502.6015625,
+      "fontSize": 24,
+      "anchor": "center",
+      "role": "expression",
+      "index": 3,
+      "width": 28.328125,
+      "height": 30.796875,
+      "typeset": true
+    },
+    {
+      "tex": "0",
+      "x": 257,
+      "y": 519.6015625,
+      "fontSize": 24,
+      "anchor": "center",
+      "role": "expression",
+      "index": 4,
+      "width": 12,
+      "height": 30.796875,
+      "typeset": true
+    },
+    {
+      "tex": "-1/2",
+      "x": 187.65625,
+      "y": 519.6015625,
+      "fontSize": 24,
+      "anchor": "center",
+      "role": "expression",
+      "index": 5,
+      "width": 54.6875,
+      "height": 30.796875,
+      "typeset": true
+    },
+    {
+      "tex": "1/2",
+      "x": 327,
+      "y": 519.6015625,
+      "fontSize": 24,
+      "anchor": "center",
+      "role": "expression",
+      "index": 6,
+      "width": 36,
+      "height": 30.796875,
+      "typeset": true
+    },
+    {
+      "tex": "1",
+      "x": 247,
+      "y": 354.6015625,
+      "fontSize": 24,
+      "anchor": "center",
+      "role": "expression",
+      "index": 7,
+      "width": 12,
+      "height": 30.796875,
+      "typeset": true
+    },
+    {
+      "tex": "2",
+      "x": 247,
+      "y": 224.6015625,
+      "fontSize": 24,
+      "anchor": "center",
+      "role": "expression",
+      "index": 8,
+      "width": 12,
+      "height": 30.796875,
+      "typeset": true
+    },
+    {
+      "tex": "-\\frac1n+\\frac{i\\xi_r}{L}",
+      "x": 131.421875,
+      "y": 578.3984375,
+      "fontSize": 26,
+      "anchor": "center",
+      "role": "expression",
+      "index": 9,
+      "width": 97.15625,
+      "height": 33.203125,
+      "typeset": true
+    },
+    {
+      "tex": "\\frac1n+\\frac{iL}{n^2\\xi_r}",
+      "x": 325.3203125,
+      "y": 636.75,
+      "fontSize": 26,
+      "anchor": "center",
+      "role": "expression",
+      "index": 10,
+      "width": 89.359375,
+      "height": 36.5,
+      "typeset": true
+    },
+    {
+      "tex": "-0.5+0.1i",
+      "x": 56.2734375,
+      "y": 393.40625,
+      "fontSize": 26,
+      "anchor": "center",
+      "role": "expression",
+      "index": 11,
+      "width": 127.453125,
+      "height": 33.1875,
+      "typeset": true
+    },
+    {
+      "tex": "0.5+2.5i",
+      "x": 371.390625,
+      "y": 113.40625,
+      "fontSize": 26,
+      "anchor": "center",
+      "role": "expression",
+      "index": 12,
+      "width": 107.21875,
+      "height": 33.1875,
+      "typeset": true
+    },
+    {
+      "tex": "\\text{Illustrative values}",
+      "x": 179.4140625,
+      "y": 703.75,
+      "fontSize": 26,
+      "anchor": "center",
+      "role": "annotation",
+      "index": 13,
+      "width": 201.171875,
+      "height": 32.5,
+      "typeset": true
+    }
+  ],
+  "fonts": [
+    {
+      "family": "KaTeX_Main",
+      "style": "normal",
+      "weight": "400"
+    },
+    {
+      "family": "KaTeX_Math",
+      "style": "italic",
+      "weight": "400"
+    }
+  ]
+}

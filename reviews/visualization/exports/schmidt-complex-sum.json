@@ -1,0 +1,255 @@
+{
+  "id": "schmidt-complex-sum",
+  "renderer": "KaTeX 0.16.22, Chrome screenshot at 2x",
+  "sourceSha256": "b33474c5a126653098cdcb939012f1e4f6b5062b5fd644f46d3c67db4c9520d2",
+  "outputSha256": "4a228529c677bfaf535a4e7e8b9e4b7a65e86049fb1b62d29dbc3d03e1e69e2b",
+  "width": 560,
+  "height": 1010,
+  "inventory": [
+    {
+      "tex": "\\text{Illustrative inputs}",
+      "x": 179.0390625,
+      "y": 9.75,
+      "fontSize": 26,
+      "anchor": "center",
+      "role": "panel or encoding description",
+      "index": 0,
+      "width": 201.921875,
+      "height": 32.5,
+      "typeset": true
+    },
+    {
+      "tex": "\\begin{array}{c}\\lambda_1^2=\\lambda_2^2=\\frac12\\\\(e^{ip_1L/n},e^{ip_2L/n})=(1,-1)\\end{array}",
+      "x": 143.453125,
+      "y": 44.796875,
+      "fontSize": 23,
+      "anchor": "center",
+      "role": "illustrative probability",
+      "index": 1,
+      "width": 273.09375,
+      "height": 56.40625,
+      "typeset": true
+    },
+    {
+      "tex": "\\operatorname{Im}",
+      "x": 317.0703125,
+      "y": 90.375,
+      "fontSize": 25,
+      "anchor": "center",
+      "role": "axis",
+      "index": 2,
+      "width": 29.859375,
+      "height": 31.25,
+      "typeset": true
+    },
+    {
+      "tex": "\\operatorname{Re}",
+      "x": 469.25,
+      "y": 232.375,
+      "fontSize": 25,
+      "anchor": "center",
+      "role": "axis",
+      "index": 3,
+      "width": 29.5,
+      "height": 31.25,
+      "typeset": true
+    },
+    {
+      "tex": "1",
+      "x": 410,
+      "y": 262.6015625,
+      "fontSize": 24,
+      "anchor": "center",
+      "role": "value or relation",
+      "index": 4,
+      "width": 12,
+      "height": 30.796875,
+      "typeset": true
+    },
+    {
+      "tex": "-1",
+      "x": 124.65625,
+      "y": 262.6015625,
+      "fontSize": 24,
+      "anchor": "center",
+      "role": "value or relation",
+      "index": 5,
+      "width": 30.6875,
+      "height": 30.796875,
+      "typeset": true
+    },
+    {
+      "tex": "\\frac12",
+      "x": 322.3359375,
+      "y": 198.515625,
+      "fontSize": 26,
+      "anchor": "center",
+      "role": "weight or contribution",
+      "index": 6,
+      "width": 15.328125,
+      "height": 32.96875,
+      "typeset": true
+    },
+    {
+      "tex": "-\\frac12",
+      "x": 204.21875,
+      "y": 198.515625,
+      "fontSize": 26,
+      "anchor": "center",
+      "role": "weight or contribution",
+      "index": 7,
+      "width": 35.5625,
+      "height": 32.96875,
+      "typeset": true
+    },
+    {
+      "tex": "\\mathcal T_1=0",
+      "x": 241.1015625,
+      "y": 413.5,
+      "fontSize": 28,
+      "anchor": "center",
+      "role": "observable value",
+      "index": 8,
+      "width": 77.796875,
+      "height": 35,
+      "typeset": true
+    },
+    {
+      "tex": "\\text{No phase at zero}",
+      "x": 187.4453125,
+      "y": 458.75,
+      "fontSize": 26,
+      "anchor": "center",
+      "role": "panel or encoding description",
+      "index": 9,
+      "width": 185.109375,
+      "height": 32.5,
+      "typeset": true
+    },
+    {
+      "tex": "\\begin{array}{c}\\lambda_1^2=\\frac34,\\quad\\lambda_2^2=\\frac14\\\\(e^{ip_1L/n},e^{ip_2L/n})=(1,i)\\end{array}",
+      "x": 154.1875,
+      "y": 519.796875,
+      "fontSize": 23,
+      "anchor": "center",
+      "role": "illustrative probability",
+      "index": 10,
+      "width": 251.625,
+      "height": 56.40625,
+      "typeset": true
+    },
+    {
+      "tex": "\\operatorname{Im}",
+      "x": 317.0703125,
+      "y": 565.375,
+      "fontSize": 25,
+      "anchor": "center",
+      "role": "axis",
+      "index": 11,
+      "width": 29.859375,
+      "height": 31.25,
+      "typeset": true
+    },
+    {
+      "tex": "\\operatorname{Re}",
+      "x": 469.25,
+      "y": 707.375,
+      "fontSize": 25,
+      "anchor": "center",
+      "role": "axis",
+      "index": 12,
+      "width": 29.5,
+      "height": 31.25,
+      "typeset": true
+    },
+    {
+      "tex": "1",
+      "x": 410,
+      "y": 737.6015625,
+      "fontSize": 24,
+      "anchor": "center",
+      "role": "value or relation",
+      "index": 13,
+      "width": 12,
+      "height": 30.796875,
+      "typeset": true
+    },
+    {
+      "tex": "i",
+      "x": 299.859375,
+      "y": 575.1015625,
+      "fontSize": 24,
+      "anchor": "center",
+      "role": "value or relation",
+      "index": 14,
+      "width": 8.28125,
+      "height": 31.796875,
+      "typeset": true
+    },
+    {
+      "tex": "\\frac34",
+      "x": 332.0390625,
+      "y": 747.84375,
+      "fontSize": 27,
+      "anchor": "center",
+      "role": "weight or contribution",
+      "index": 15,
+      "width": 15.921875,
+      "height": 34.3125,
+      "typeset": true
+    },
+    {
+      "tex": "\\frac{i}{4}",
+      "x": 230.0390625,
+      "y": 668.84375,
+      "fontSize": 27,
+      "anchor": "center",
+      "role": "weight or contribution",
+      "index": 16,
+      "width": 15.921875,
+      "height": 34.3125,
+      "typeset": true
+    },
+    {
+      "tex": "\\mathcal T_1=\\frac34+\\frac{i}{4}",
+      "x": 214.453125,
+      "y": 885.171875,
+      "fontSize": 28,
+      "anchor": "center",
+      "role": "observable value",
+      "index": 17,
+      "width": 131.09375,
+      "height": 35.65625,
+      "typeset": true
+    },
+    {
+      "tex": "|\\mathcal T_1|=\\frac{\\sqrt{10}}4<1",
+      "x": 196.40625,
+      "y": 933.3359375,
+      "fontSize": 27,
+      "anchor": "center",
+      "role": "basis state",
+      "index": 18,
+      "width": 167.1875,
+      "height": 37.328125,
+      "typeset": true
+    }
+  ],
+  "fonts": [
+    {
+      "family": "KaTeX_Caligraphic",
+      "style": "normal",
+      "weight": "400"
+    },
+    {
+      "family": "KaTeX_Main",
+      "style": "normal",
+      "weight": "400"
+    },
+    {
+      "family": "KaTeX_Math",
+      "style": "italic",
+      "weight": "400"
+    }
+  ]
+}

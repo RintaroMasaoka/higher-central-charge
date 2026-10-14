@@ -135,9 +135,9 @@ function createMarkdownComponents(equations: Map<string, string>, chapterId: str
   h4: ({ children }) => <h4 id={preview ? undefined : slugify(plainText(children))}>{children}</h4>,
   img: ({ src, alt, title }) => {
     if (typeof src === 'string' && src.startsWith('/diagrams/')) {
-      // Keep phrasing content valid inside Markdown paragraphs; keyboard focus enables scrolling. SVGs need no image optimization.
-      // oxlint-disable-next-line jsx-a11y/no-noninteractive-tabindex, jsx-a11y/prefer-tag-over-role, next/no-img-element
-      return <span className="concept-figure" tabIndex={0} role="region" aria-label="説明図。画面幅が狭い場合は横にスクロールできます。"><img src={sitePath(src)} alt={alt ?? ''} title={title} loading="lazy" /></span>;
+      // Keep phrasing content valid inside Markdown paragraphs.
+      // oxlint-disable-next-line jsx-a11y/prefer-tag-over-role, next/no-img-element
+      return <span className="concept-figure" role="region" aria-label="説明図"><img src={sitePath(src)} alt={alt ?? ''} title={title} loading="lazy" /></span>;
     }
     // Preserve the native Markdown image behavior for other authored images.
     // oxlint-disable-next-line next/no-img-element

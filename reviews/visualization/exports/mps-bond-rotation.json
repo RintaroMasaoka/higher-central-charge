@@ -1,0 +1,255 @@
+{
+  "id": "mps-bond-rotation",
+  "renderer": "KaTeX 0.16.22, Chrome screenshot at 2x",
+  "sourceSha256": "99d4e0da589f512b8b0c38cfe6cf441d74c13ae6fcfaf3b6d0dc692d1403c0ef",
+  "outputSha256": "4bf5914417326210b9e4b17544c8b50dbcb1f1d1d61c36d6909f798eacbfab01",
+  "width": 560,
+  "height": 945,
+  "inventory": [
+    {
+      "tex": "\\text{Source: right-half rotation}",
+      "x": 133.59375,
+      "y": 15.75,
+      "fontSize": 26,
+      "anchor": "center",
+      "role": "annotation",
+      "index": 0,
+      "width": 292.8125,
+      "height": 32.5,
+      "typeset": true
+    },
+    {
+      "tex": "\\mathrm A",
+      "x": 140.25,
+      "y": 68.75,
+      "fontSize": 26,
+      "anchor": "center",
+      "role": "region",
+      "index": 1,
+      "width": 19.5,
+      "height": 32.5,
+      "typeset": true
+    },
+    {
+      "tex": "\\mathrm B",
+      "x": 402.7890625,
+      "y": 68.75,
+      "fontSize": 26,
+      "anchor": "center",
+      "role": "region",
+      "index": 2,
+      "width": 18.421875,
+      "height": 32.5,
+      "typeset": true
+    },
+    {
+      "tex": "\\text{virtual bond}",
+      "x": 210.5859375,
+      "y": 173.75,
+      "fontSize": 26,
+      "anchor": "center",
+      "role": "annotation",
+      "index": 3,
+      "width": 138.828125,
+      "height": 32.5,
+      "typeset": true
+    },
+    {
+      "tex": "\\text{Right-half translation}",
+      "x": 291.734375,
+      "y": 229.625,
+      "fontSize": 23,
+      "anchor": "center",
+      "role": "annotation",
+      "index": 4,
+      "width": 216.53125,
+      "height": 28.75,
+      "typeset": true
+    },
+    {
+      "tex": "\\varphi=2\\pi/n",
+      "x": 227.5859375,
+      "y": 263.5,
+      "fontSize": 25,
+      "anchor": "center",
+      "role": "expression",
+      "index": 5,
+      "width": 104.828125,
+      "height": 33,
+      "typeset": true
+    },
+    {
+      "tex": "\\text{Bond-state contributions}",
+      "x": 139.5078125,
+      "y": 298.75,
+      "fontSize": 26,
+      "anchor": "center",
+      "role": "annotation",
+      "index": 6,
+      "width": 280.984375,
+      "height": 32.5,
+      "typeset": true
+    },
+    {
+      "tex": "\\lambda_\\alpha^2",
+      "x": 97.90625,
+      "y": 381.40625,
+      "fontSize": 26,
+      "anchor": "center",
+      "role": "weight",
+      "index": 7,
+      "width": 28.1875,
+      "height": 33.1875,
+      "typeset": true
+    },
+    {
+      "tex": "\\lambda_\\beta^2",
+      "x": 98.1328125,
+      "y": 456.5546875,
+      "fontSize": 26,
+      "anchor": "center",
+      "role": "weight",
+      "index": 8,
+      "width": 27.734375,
+      "height": 34.890625,
+      "typeset": true
+    },
+    {
+      "tex": "\\cdots",
+      "x": 96.7578125,
+      "y": 533.75,
+      "fontSize": 26,
+      "anchor": "center",
+      "role": "expression",
+      "index": 9,
+      "width": 30.484375,
+      "height": 32.5,
+      "typeset": true
+    },
+    {
+      "tex": "e^{-i\\varphi\\bar K_\\alpha}",
+      "x": 347.546875,
+      "y": 381.2265625,
+      "fontSize": 26,
+      "anchor": "center",
+      "role": "operation",
+      "index": 10,
+      "width": 70.90625,
+      "height": 33.546875,
+      "typeset": true
+    },
+    {
+      "tex": "e^{-i\\varphi\\bar K_\\beta}",
+      "x": 347.71875,
+      "y": 457.2265625,
+      "fontSize": 26,
+      "anchor": "center",
+      "role": "operation",
+      "index": 11,
+      "width": 70.5625,
+      "height": 33.546875,
+      "typeset": true
+    },
+    {
+      "tex": "\\cdots",
+      "x": 367.7578125,
+      "y": 533.75,
+      "fontSize": 26,
+      "anchor": "center",
+      "role": "expression",
+      "index": 12,
+      "width": 30.484375,
+      "height": 32.5,
+      "typeset": true
+    },
+    {
+      "tex": "\\text{inverse on the virtual bond}",
+      "x": 135.375,
+      "y": 589.375,
+      "fontSize": 25,
+      "anchor": "center",
+      "role": "annotation",
+      "index": 13,
+      "width": 289.25,
+      "height": 31.25,
+      "typeset": true
+    },
+    {
+      "tex": "\\sum_\\alpha\\lambda_\\alpha^2 e^{-i\\varphi\\bar K_\\alpha}",
+      "x": 202.546875,
+      "y": 643.5859375,
+      "fontSize": 28,
+      "anchor": "center",
+      "role": "expression",
+      "index": 14,
+      "width": 154.90625,
+      "height": 36.828125,
+      "typeset": true
+    },
+    {
+      "tex": "\\text{Calibrate the source labels}",
+      "x": 132.0859375,
+      "y": 713.75,
+      "fontSize": 26,
+      "anchor": "center",
+      "role": "annotation",
+      "index": 15,
+      "width": 295.828125,
+      "height": 32.5,
+      "typeset": true
+    },
+    {
+      "tex": "\\bar K_\\alpha\\mapsto\\bar K_\\alpha+x_1\\bar C_\\alpha+x_0",
+      "x": 156.7578125,
+      "y": 760.5,
+      "fontSize": 25,
+      "anchor": "center",
+      "role": "expression",
+      "index": 16,
+      "width": 246.484375,
+      "height": 33,
+      "typeset": true
+    },
+    {
+      "tex": "\\text{Physical A-generator convention}",
+      "x": 103.625,
+      "y": 832.375,
+      "fontSize": 25,
+      "anchor": "center",
+      "role": "annotation",
+      "index": 17,
+      "width": 352.75,
+      "height": 31.25,
+      "typeset": true
+    },
+    {
+      "tex": "K_\\alpha=\\frac{p_\\alpha L}{2\\pi},\\quad \\sum_\\alpha\\lambda_\\alpha^2e^{2\\pi iK_\\alpha/n}",
+      "x": 134.796875,
+      "y": 883.5,
+      "fontSize": 25,
+      "anchor": "center",
+      "role": "expression",
+      "index": 18,
+      "width": 290.40625,
+      "height": 33,
+      "typeset": true
+    }
+  ],
+  "fonts": [
+    {
+      "family": "KaTeX_Main",
+      "style": "normal",
+      "weight": "400"
+    },
+    {
+      "family": "KaTeX_Math",
+      "style": "italic",
+      "weight": "400"
+    },
+    {
+      "family": "KaTeX_Size1",
+      "style": "normal",
+      "weight": "400"
+    }
+  ]
+}

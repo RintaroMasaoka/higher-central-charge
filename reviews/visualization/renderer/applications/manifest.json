@@ -1,0 +1,12 @@
+{
+  "source": "content/applications.md",
+  "sha256": "dac0bc60b3c9613269a22808c6fc1355c2b8cc373d1ec59210ccfeb223681b6a",
+  "projectionSha256": "82ef9469e8e5c167dd8c71d1084832e39ccee86e57eb79c3732c4e7449ce87fd",
+  "packetsSha256": "2857e587eabb5edfd37e5d5c3b6acdf51a080d9ba0d667fdf26942745d331eff",
+  "removed": {
+    "disclosures": 1,
+    "mathHints": 0,
+    "stepPopups": 0
+  },
+  "units": 53
+}

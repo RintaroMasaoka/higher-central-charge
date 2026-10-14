@@ -1,0 +1,214 @@
+{
+  "id": "two-edge-density",
+  "renderer": "KaTeX 0.16.22, Chrome screenshot at 2x",
+  "sourceSha256": "338a7640e6aa81af1daefda9921471df0674c5da7746647597eb60f611ace0e4",
+  "outputSha256": "dd616929a2ed503ce0000d2a0fcabd6ce38ee79918adb3aefd25a9204f8ad5e2",
+  "width": 560,
+  "height": 965,
+  "inventory": [
+    {
+      "tex": "\\text{Two edges of A}",
+      "x": 194.3515625,
+      "y": 11.75,
+      "fontSize": 26,
+      "anchor": "center",
+      "role": "panel or encoding description",
+      "index": 0,
+      "width": 171.296875,
+      "height": 32.5,
+      "typeset": true
+    },
+    {
+      "tex": "\\mathrm A",
+      "x": 230.25,
+      "y": 157.75,
+      "fontSize": 26,
+      "anchor": "center",
+      "role": "region",
+      "index": 1,
+      "width": 19.5,
+      "height": 32.5,
+      "typeset": true
+    },
+    {
+      "tex": "\\mathrm B",
+      "x": 417.7890625,
+      "y": 157.75,
+      "fontSize": 26,
+      "anchor": "center",
+      "role": "region",
+      "index": 2,
+      "width": 18.421875,
+      "height": 32.5,
+      "typeset": true
+    },
+    {
+      "tex": "H_l",
+      "x": 90.65625,
+      "y": 53.40625,
+      "fontSize": 26,
+      "anchor": "center",
+      "role": "boundary",
+      "index": 3,
+      "width": 28.6875,
+      "height": 33.1875,
+      "typeset": true
+    },
+    {
+      "tex": "H_r",
+      "x": 359.1875,
+      "y": 53.40625,
+      "fontSize": 26,
+      "anchor": "center",
+      "role": "boundary",
+      "index": 4,
+      "width": 31.625,
+      "height": 33.1875,
+      "typeset": true
+    },
+    {
+      "tex": "\\text{Physical left edge}",
+      "x": 182.234375,
+      "y": 269.75,
+      "fontSize": 26,
+      "anchor": "center",
+      "role": "boundary",
+      "index": 5,
+      "width": 195.53125,
+      "height": 32.5,
+      "typeset": true
+    },
+    {
+      "tex": "\\text{Energy}",
+      "x": 30.5625,
+      "y": 318.6015625,
+      "fontSize": 24,
+      "anchor": "right",
+      "role": "axis",
+      "index": 6,
+      "width": 74.4375,
+      "height": 30.796875,
+      "typeset": true
+    },
+    {
+      "tex": "\\text{Ground-state dominance}",
+      "x": 146.109375,
+      "y": 444.375,
+      "fontSize": 25,
+      "anchor": "center",
+      "role": "panel or encoding description",
+      "index": 7,
+      "width": 267.78125,
+      "height": 31.25,
+      "typeset": true
+    },
+    {
+      "tex": "\\frac{e^{-\\beta_l H_l}}{\\operatorname{Tr}e^{-\\beta_l H_l}}\\quad(\\beta_l\\ \\text{large})",
+      "x": 171.7265625,
+      "y": 495.421875,
+      "fontSize": 27,
+      "anchor": "center",
+      "role": "density factor",
+      "index": 8,
+      "width": 216.546875,
+      "height": 39.15625,
+      "typeset": true
+    },
+    {
+      "tex": "\\otimes",
+      "x": 266.7734375,
+      "y": 546.75,
+      "fontSize": 34,
+      "anchor": "center",
+      "role": "value or relation",
+      "index": 9,
+      "width": 26.453125,
+      "height": 42.5,
+      "typeset": true
+    },
+    {
+      "tex": "\\text{Entanglement cut edge}",
+      "x": 150.53125,
+      "y": 593.75,
+      "fontSize": 26,
+      "anchor": "center",
+      "role": "boundary",
+      "index": 10,
+      "width": 258.9375,
+      "height": 32.5,
+      "typeset": true
+    },
+    {
+      "tex": "\\text{Energy}",
+      "x": 30.5625,
+      "y": 627.6015625,
+      "fontSize": 24,
+      "anchor": "right",
+      "role": "axis",
+      "index": 11,
+      "width": 74.4375,
+      "height": 30.796875,
+      "typeset": true
+    },
+    {
+      "tex": "\\text{Finite entanglement weights}",
+      "x": 126.625,
+      "y": 755.375,
+      "fontSize": 25,
+      "anchor": "center",
+      "role": "panel or encoding description",
+      "index": 12,
+      "width": 306.75,
+      "height": 31.25,
+      "typeset": true
+    },
+    {
+      "tex": "\\frac{e^{-\\beta_r H_r}}{\\operatorname{Tr}e^{-\\beta_r H_r}}",
+      "x": 236.8046875,
+      "y": 806.1015625,
+      "fontSize": 27,
+      "anchor": "center",
+      "role": "density factor",
+      "index": 13,
+      "width": 86.390625,
+      "height": 37.796875,
+      "typeset": true
+    },
+    {
+      "tex": "\\text{Schematic CFT weights}",
+      "x": 150.9453125,
+      "y": 884.375,
+      "fontSize": 25,
+      "anchor": "center",
+      "role": "panel or encoding description",
+      "index": 14,
+      "width": 258.109375,
+      "height": 31.25,
+      "typeset": true
+    },
+    {
+      "tex": "\\text{Bar length: relative weight}",
+      "x": 142.078125,
+      "y": 925.6015625,
+      "fontSize": 24,
+      "anchor": "center",
+      "role": "panel or encoding description",
+      "index": 15,
+      "width": 275.84375,
+      "height": 30.796875,
+      "typeset": true
+    }
+  ],
+  "fonts": [
+    {
+      "family": "KaTeX_Main",
+      "style": "normal",
+      "weight": "400"
+    },
+    {
+      "family": "KaTeX_Math",
+      "style": "italic",
+      "weight": "400"
+    }
+  ]
+}

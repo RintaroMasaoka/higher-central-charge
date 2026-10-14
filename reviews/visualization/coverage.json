@@ -1,0 +1,3739 @@
+{
+  "input_sha256": "35645a13c06f1a95b292a664a89551d283b5e49a47a88dd32988823e62e77e84",
+  "review_lines": [
+    1,
+    36
+  ],
+  "perspective": "Japanese disciplinary-name identity and explanatory wording; caption-only record completion",
+  "manual_sweep": {
+    "completed": true,
+    "reviewed_lines": [
+      1,
+      36
+    ]
+  },
+  "exposure_limitation": "Initial aggregate caption exposure is retained; this is not a first-encounter sequential gate.",
+  "naming_scope": "Existing global names are carried forward locally; missing preference evidence is explicitly deferred or UNVERIFIED, not supplied by manuscript repetition.",
+  "dispositions": [
+    {
+      "candidate_id": "s23",
+      "surface": "であり",
+      "occurrences": [
+        {
+          "line": 17,
+          "column": 96
+        },
+        {
+          "line": 20,
+          "column": 32
+        },
+        {
+          "line": 23,
+          "column": 56
+        },
+        {
+          "line": 29,
+          "column": 80
+        },
+        {
+          "line": 33,
+          "column": 87
+        },
+        {
+          "line": 35,
+          "column": 107
+        }
+      ],
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "reason": "述語を接続する連用形で、対象の名前ではない。"
+    },
+    {
+      "candidate_id": "s24",
+      "surface": "である",
+      "occurrences": [
+        {
+          "line": 14,
+          "column": 141
+        },
+        {
+          "line": 17,
+          "column": 105
+        },
+        {
+          "line": 23,
+          "column": 158
+        },
+        {
+          "line": 29,
+          "column": 124
+        },
+        {
+          "line": 32,
+          "column": 207
+        }
+      ],
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "reason": "文末の断定助動詞で、対象の名前ではない。"
+    },
+    {
+      "candidate_id": "s25",
+      "surface": "ではない",
+      "occurrences": [
+        {
+          "line": 14,
+          "column": 103
+        },
+        {
+          "line": 20,
+          "column": 132
+        },
+        {
+          "line": 29,
+          "column": 99
+        },
+        {
+          "line": 35,
+          "column": 114
+        },
+        {
+          "line": 35,
+          "column": 153
+        }
+      ],
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "reason": "模式図と測定値、線と境界を区別する否定構文。"
+    },
+    {
+      "candidate_id": "s33",
+      "surface": "になる",
+      "occurrences": [
+        {
+          "line": 5,
+          "column": 25
+        },
+        {
+          "line": 5,
+          "column": 75
+        },
+        {
+          "line": 11,
+          "column": 129
+        },
+        {
+          "line": 12,
+          "column": 156
+        },
+        {
+          "line": 20,
+          "column": 117
+        },
+        {
+          "line": 35,
+          "column": 189
+        }
+      ],
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "reason": "計算または図上の変化の結果を述べる動詞構文。"
+    },
+    {
+      "candidate_id": "s36",
+      "surface": "による",
+      "occurrences": [
+        {
+          "line": 11,
+          "column": 41
+        },
+        {
+          "line": 12,
+          "column": 25
+        },
+        {
+          "line": 12,
+          "column": 62
+        },
+        {
+          "line": 32,
+          "column": 144
+        }
+      ],
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "reason": "寄与の原因または操作への対応を示す助詞句。"
+    },
+    {
+      "candidate_id": "s51",
+      "surface": "エニオン",
+      "occurrences": [
+        {
+          "line": 5,
+          "column": 13
+        },
+        {
+          "line": 11,
+          "column": 91
+        },
+        {
+          "line": 12,
+          "column": 87
+        }
+      ],
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "anyon excitation",
+      "decision": "KEEP",
+      "reason": "既存のanyon名称を同じ物理的対象に使用する。",
+      "evidence": {
+        "locator": "reviews/wording/term-evidence.json#エニオン",
+        "usage": "Hashisaka and Kato use エニオン for two-dimensional quasiparticles and fusion."
+      },
+      "scope": "既出の名称の局所再出現。全体の名称選好を再認証しない。"
+    },
+    {
+      "candidate_id": "s53",
+      "surface": "エンタングルメント切断",
+      "occurrences": [
+        {
+          "line": 14,
+          "column": 130
+        },
+        {
+          "line": 23,
+          "column": 7
+        },
+        {
+          "line": 24,
+          "column": 21
+        }
+      ],
+      "role": "explanatory_gloss",
+      "impact": "high",
+      "referent": "entanglement cut between A and B",
+      "decision": "UNVERIFIED",
+      "reason": "A/Bの切断を明示する説明語。意味は固定されるが専門名としての日本語選好はこのレーンでは未確認。",
+      "comparison": {
+        "current": "エンタングルメント切断",
+        "english_or_not_applicable": "entanglement cut between A and B",
+        "alternatives_or_not_applicable": "エンタングルメント境界; entanglement cut",
+        "audience_reason": "同じ対象を扱う日本語の研究分野での使用比較を得ていない。推測による置換は行わない。"
+      },
+      "uncertainty_reason": "現在の資料は対象の意味を示すが、日本語での優先表現を確定する使用比較を供給しない。",
+      "missing_evidence": "同じ対象を扱う独立した日本語の分野資料二件、または明示的なプロジェクト採用規約。",
+      "blocks_whole_range_pass": true
+    },
+    {
+      "candidate_id": "s57",
+      "surface": "セミオン",
+      "occurrences": [
+        {
+          "line": 2,
+          "column": 1
+        },
+        {
+          "line": 2,
+          "column": 25
+        },
+        {
+          "line": 11,
+          "column": 1
+        }
+      ],
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "semion sector of the existing example",
+      "decision": "UNVERIFIED",
+      "reason": "既存のセミオン例の同じセクターを参照する。",
+      "evidence": {
+        "locator": "reviews/reader-depth/japanese/coverage.json#complex-phase; reviews/gate-repair/japanese-late-density/coverage.json",
+        "usage": "既存のセミオン例の同じセクターを参照する。",
+        "limitation": "新しい専門名選好の独立な文献調査ではない。"
+      },
+      "scope": "既出の名称の局所再出現。全体の名称選好を再認証しない。",
+      "uncertainty_reason": "本レーンは既存のセミオン名称の分野別日本語選好を再調査していない。",
+      "deferred_reason": "セクター、数値例、既存名称の対応が保たれ、新しい対象を命名せず、語の変種も導入しない。",
+      "blocks_whole_range_pass": false
+    },
+    {
+      "candidate_id": "s58",
+      "surface": "ゼロ",
+      "occurrences": [
+        {
+          "line": 17,
+          "column": 62
+        },
+        {
+          "line": 18,
+          "column": 75
+        },
+        {
+          "line": 21,
+          "column": 41
+        }
+      ],
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "reason": "数値0を表す通常の数の読みで、状態の新しい分類名ではない。"
+    },
+    {
+      "candidate_id": "s63",
+      "surface": "マイナス",
+      "occurrences": [
+        {
+          "line": 12,
+          "column": 28
+        },
+        {
+          "line": 12,
+          "column": 44
+        },
+        {
+          "line": 12,
+          "column": 65
+        },
+        {
+          "line": 12,
+          "column": 92
+        },
+        {
+          "line": 12,
+          "column": 147
+        }
+      ],
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "reason": "符号付き角度の負号を読み上げる語。"
+    },
+    {
+      "candidate_id": "s66",
+      "surface": "一",
+      "occurrences": [
+        {
+          "line": 9,
+          "column": 27
+        },
+        {
+          "line": 12,
+          "column": 38
+        },
+        {
+          "line": 12,
+          "column": 52
+        },
+        {
+          "line": 12,
+          "column": 75
+        },
+        {
+          "line": 12,
+          "column": 100
+        },
+        {
+          "line": 12,
+          "column": 115
+        },
+        {
+          "line": 12,
+          "column": 141
+        },
+        {
+          "line": 12,
+          "column": 155
+        }
+      ],
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "reason": "小数、分数、符号の付いた数の構成部分。"
+    },
+    {
+      "candidate_id": "s72",
+      "surface": "三十六分",
+      "occurrences": [
+        {
+          "line": 12,
+          "column": 33
+        },
+        {
+          "line": 12,
+          "column": 70
+        },
+        {
+          "line": 12,
+          "column": 136
+        }
+      ],
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "reason": "分母36を読む分数の構成部分。"
+    },
+    {
+      "candidate_id": "s75",
+      "surface": "上",
+      "occurrences": [
+        {
+          "line": 11,
+          "column": 62
+        },
+        {
+          "line": 20,
+          "column": 56
+        },
+        {
+          "line": 21,
+          "column": 1
+        },
+        {
+          "line": 36,
+          "column": 121
+        }
+      ],
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "reason": "図の上側、上段、または基準線の上方を指す位置語。"
+    },
+    {
+      "candidate_id": "s79",
+      "surface": "下",
+      "occurrences": [
+        {
+          "line": 6,
+          "column": 78
+        },
+        {
+          "line": 20,
+          "column": 83
+        },
+        {
+          "line": 21,
+          "column": 44
+        },
+        {
+          "line": 24,
+          "column": 47
+        }
+      ],
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "reason": "図の下側、下段、または基準線の下方を指す位置語。"
+    },
+    {
+      "candidate_id": "s80",
+      "surface": "下段",
+      "occurrences": [
+        {
+          "line": 5,
+          "column": 61
+        },
+        {
+          "line": 6,
+          "column": 47
+        },
+        {
+          "line": 26,
+          "column": 80
+        },
+        {
+          "line": 29,
+          "column": 67
+        },
+        {
+          "line": 30,
+          "column": 26
+        }
+      ],
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "reason": "図の配置段を指し、新しい物理的対象の分類ではない。"
+    },
+    {
+      "candidate_id": "s91",
+      "surface": "二",
+      "occurrences": [
+        {
+          "line": 3,
+          "column": 15
+        },
+        {
+          "line": 5,
+          "column": 1
+        },
+        {
+          "line": 6,
+          "column": 30
+        },
+        {
+          "line": 20,
+          "column": 36
+        },
+        {
+          "line": 20,
+          "column": 45
+        },
+        {
+          "line": 23,
+          "column": 131
+        },
+        {
+          "line": 24,
+          "column": 49
+        },
+        {
+          "line": 30,
+          "column": 14
+        },
+        {
+          "line": 32,
+          "column": 40
+        },
+        {
+          "line": 35,
+          "column": 10
+        }
+      ],
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "reason": "寄与や状態の個数または平方根の数値を示す。"
+    },
+    {
+      "candidate_id": "s98",
+      "surface": "五",
+      "occurrences": [
+        {
+          "line": 9,
+          "column": 21
+        },
+        {
+          "line": 9,
+          "column": 55
+        },
+        {
+          "line": 9,
+          "column": 61
+        }
+      ],
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "reason": "小数0.5または2.5の数値の構成部分。"
+    },
+    {
+      "candidate_id": "s102",
+      "surface": "位相",
+      "occurrences": [
+        {
+          "line": 2,
+          "column": 106
+        },
+        {
+          "line": 6,
+          "column": 89
+        },
+        {
+          "line": 11,
+          "column": 24
+        },
+        {
+          "line": 11,
+          "column": 72
+        },
+        {
+          "line": 11,
+          "column": 96
+        },
+        {
+          "line": 11,
+          "column": 171
+        },
+        {
+          "line": 26,
+          "column": 60
+        },
+        {
+          "line": 27,
+          "column": 60
+        }
+      ],
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "complex multiplicative phase, not phase of matter",
+      "decision": "KEEP",
+      "reason": "複素数の向きまたは乗法因子の位相を参照する既出の名称。相という物質の分類と区別される。",
+      "evidence": {
+        "locator": "reviews/reader-depth/japanese/coverage.json#complex-phase; reviews/gate-repair/japanese-late-density/coverage.json",
+        "usage": "複素数の向きまたは乗法因子の位相を参照する既出の名称。相という物質の分類と区別される。",
+        "limitation": "新しい専門名選好の独立な文献調査ではない。"
+      },
+      "scope": "既出の名称の局所再出現。全体の名称選好を再認証しない。"
+    },
+    {
+      "candidate_id": "s109",
+      "surface": "使",
+      "occurrences": [
+        {
+          "line": 8,
+          "column": 119
+        },
+        {
+          "line": 12,
+          "column": 8
+        },
+        {
+          "line": 17,
+          "column": 12
+        }
+      ],
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "reason": "使う、使ったという動詞の語幹。"
+    },
+    {
+      "candidate_id": "s110",
+      "surface": "例",
+      "occurrences": [
+        {
+          "line": 8,
+          "column": 69
+        },
+        {
+          "line": 14,
+          "column": 18
+        },
+        {
+          "line": 17,
+          "column": 15
+        },
+        {
+          "line": 20,
+          "column": 9
+        },
+        {
+          "line": 35,
+          "column": 106
+        }
+      ],
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "reason": "数値または状態の例示を示す普通名詞。"
+    },
+    {
+      "candidate_id": "s126",
+      "surface": "円筒",
+      "occurrences": [
+        {
+          "line": 14,
+          "column": 1
+        },
+        {
+          "line": 15,
+          "column": 5
+        },
+        {
+          "line": 29,
+          "column": 109
+        }
+      ],
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "reason": "試料の幾何形状を表す普通名詞で、独立した状態名ではない。"
+    },
+    {
+      "candidate_id": "s129",
+      "surface": "分",
+      "occurrences": [
+        {
+          "line": 29,
+          "column": 16
+        },
+        {
+          "line": 29,
+          "column": 63
+        },
+        {
+          "line": 30,
+          "column": 22
+        },
+        {
+          "line": 30,
+          "column": 73
+        }
+      ],
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "reason": "分けるという操作動詞の語幹。"
+    },
+    {
+      "candidate_id": "s131",
+      "surface": "切断",
+      "groups": [
+        {
+          "role": "ordinary_syntax",
+          "impact": "incidental",
+          "reason": "図の中央のA/B分割または既出のエンタングルメント切断を位置として参照する。",
+          "occurrences": [
+            {
+              "line": 15,
+              "column": 74
+            },
+            {
+              "line": 24,
+              "column": 86
+            }
+          ]
+        },
+        {
+          "role": "explanatory_gloss",
+          "impact": "high",
+          "referent": "MPS bond at the right-half division",
+          "decision": "UNVERIFIED",
+          "reason": "MPSの右半分の操作が表現されるボンドの位置。補助ボンド上の逆変換の用語範囲に含まれる。",
+          "comparison": {
+            "current": "切断",
+            "english_or_not_applicable": "MPS bond at the right-half division",
+            "alternatives_or_not_applicable": "ボンドの切断; MPS cut",
+            "audience_reason": "同じ対象を扱う日本語の研究分野での使用比較を得ていない。推測による置換は行わない。"
+          },
+          "uncertainty_reason": "現在の資料は対象の意味を示すが、日本語での優先表現を確定する使用比較を供給しない。",
+          "missing_evidence": "同じ対象を扱う独立した日本語の分野資料二件、または明示的なプロジェクト採用規約。",
+          "blocks_whole_range_pass": true,
+          "occurrences": [
+            {
+              "line": 26,
+              "column": 32
+            },
+            {
+              "line": 27,
+              "column": 22
+            }
+          ]
+        },
+        {
+          "role": "ordinary_syntax",
+          "impact": "incidental",
+          "reason": "軌道添字の分割と実空間の重みの分割を対比する通常の操作説明。",
+          "occurrences": [
+            {
+              "line": 29,
+              "column": 4
+            },
+            {
+              "line": 29,
+              "column": 24
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "candidate_id": "s146",
+      "surface": "単位円",
+      "occurrences": [
+        {
+          "line": 3,
+          "column": 38
+        },
+        {
+          "line": 20,
+          "column": 16
+        },
+        {
+          "line": 21,
+          "column": 94
+        }
+      ],
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "unit circle in the complex plane",
+      "decision": "KEEP",
+      "reason": "半径1の円という既出の初等数学対象を図で参照する。",
+      "evidence": {
+        "locator": "reviews/reader-depth/japanese/coverage.json#complex-phase; reviews/gate-repair/japanese-late-density/coverage.json",
+        "usage": "半径1の円という既出の初等数学対象を図で参照する。",
+        "limitation": "新しい専門名選好の独立な文献調査ではない。"
+      },
+      "scope": "既出の名称の局所再出現。全体の名称選好を再認証しない。"
+    },
+    {
+      "candidate_id": "s147",
+      "surface": "印",
+      "occurrences": [
+        {
+          "line": 14,
+          "column": 34
+        },
+        {
+          "line": 14,
+          "column": 74
+        },
+        {
+          "line": 15,
+          "column": 26
+        },
+        {
+          "line": 15,
+          "column": 47
+        }
+      ],
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "reason": "操作前後で追う図中の記号で、物理的励起の名称ではない。"
+    },
+    {
+      "candidate_id": "s148",
+      "surface": "原点",
+      "groups": [
+        {
+          "role": "disciplinary_name",
+          "impact": "incidental",
+          "referent": "origin of the complex plane",
+          "decision": "KEEP",
+          "reason": "複素平面で座標がゼロの点を指す。",
+          "evidence": {
+            "locator": "reviews/reader-depth/japanese/coverage.json#complex-phase; reviews/gate-repair/japanese-late-density/coverage.json",
+            "usage": "複素平面で座標がゼロの点を指す。",
+            "limitation": "新しい専門名選好の独立な文献調査ではない。"
+          },
+          "scope": "既出の名称の局所再出現。全体の名称選好を再認証しない。",
+          "occurrences": [
+            {
+              "line": 2,
+              "column": 100
+            },
+            {
+              "line": 21,
+              "column": 9
+            },
+            {
+              "line": 21,
+              "column": 38
+            }
+          ]
+        },
+        {
+          "role": "explanatory_gloss",
+          "impact": "high",
+          "referent": "origin of the MPS conserved-label calibration",
+          "decision": "UNVERIFIED",
+          "reason": "ここでは複素平面の点ではなく、運動量・電荷ラベルの原点を指す。校正語彙の日本語用例不足を保持する。",
+          "comparison": {
+            "current": "原点",
+            "english_or_not_applicable": "origin of the MPS conserved-label calibration",
+            "alternatives_or_not_applicable": "ラベルの原点; calibration of label origins",
+            "audience_reason": "同じ対象を扱う日本語の研究分野での使用比較を得ていない。推測による置換は行わない。"
+          },
+          "uncertainty_reason": "現在の資料は対象の意味を示すが、日本語での優先表現を確定する使用比較を供給しない。",
+          "missing_evidence": "同じ対象を扱う独立した日本語の分野資料二件、または明示的なプロジェクト採用規約。",
+          "blocks_whole_range_pass": true,
+          "occurrences": [
+            {
+              "line": 27,
+              "column": 80
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "candidate_id": "s151",
+      "surface": "右",
+      "occurrences": [
+        {
+          "line": 2,
+          "column": 47
+        },
+        {
+          "line": 3,
+          "column": 36
+        },
+        {
+          "line": 8,
+          "column": 1
+        },
+        {
+          "line": 23,
+          "column": 100
+        },
+        {
+          "line": 24,
+          "column": 16
+        },
+        {
+          "line": 24,
+          "column": 84
+        },
+        {
+          "line": 36,
+          "column": 134
+        }
+      ],
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "reason": "図の列、因子、端または矢印の向きを指す位置修飾。"
+    },
+    {
+      "candidate_id": "s159",
+      "surface": "各段",
+      "occurrences": [
+        {
+          "line": 3,
+          "column": 1
+        },
+        {
+          "line": 5,
+          "column": 127
+        },
+        {
+          "line": 11,
+          "column": 30
+        }
+      ],
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "reason": "繰り返された図の段を指す通常の数量表現。"
+    },
+    {
+      "candidate_id": "s163",
+      "surface": "同",
+      "occurrences": [
+        {
+          "line": 2,
+          "column": 56
+        },
+        {
+          "line": 8,
+          "column": 114
+        },
+        {
+          "line": 9,
+          "column": 84
+        },
+        {
+          "line": 11,
+          "column": 54
+        },
+        {
+          "line": 14,
+          "column": 30
+        },
+        {
+          "line": 15,
+          "column": 49
+        },
+        {
+          "line": 17,
+          "column": 19
+        },
+        {
+          "line": 18,
+          "column": 23
+        },
+        {
+          "line": 20,
+          "column": 59
+        },
+        {
+          "line": 30,
+          "column": 47
+        },
+        {
+          "line": 33,
+          "column": 13
+        }
+      ],
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "reason": "同じ、同一という一致関係の修飾語。"
+    },
+    {
+      "candidate_id": "s166",
+      "surface": "向",
+      "occurrences": [
+        {
+          "line": 2,
+          "column": 58
+        },
+        {
+          "line": 5,
+          "column": 120
+        },
+        {
+          "line": 6,
+          "column": 63
+        },
+        {
+          "line": 9,
+          "column": 67
+        },
+        {
+          "line": 21,
+          "column": 19
+        }
+      ],
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "reason": "向く、向きという図中の方向を述べる語幹。"
+    },
+    {
+      "candidate_id": "s167",
+      "surface": "含",
+      "occurrences": [
+        {
+          "line": 32,
+          "column": 64
+        },
+        {
+          "line": 32,
+          "column": 77
+        },
+        {
+          "line": 32,
+          "column": 121
+        },
+        {
+          "line": 33,
+          "column": 96
+        }
+      ],
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "reason": "整数が集合に含まれることを述べる動詞の語幹。"
+    },
+    {
+      "candidate_id": "s172",
+      "surface": "和",
+      "occurrences": [
+        {
+          "line": 2,
+          "column": 9
+        },
+        {
+          "line": 2,
+          "column": 42
+        },
+        {
+          "line": 2,
+          "column": 54
+        },
+        {
+          "line": 2,
+          "column": 98
+        },
+        {
+          "line": 3,
+          "column": 21
+        },
+        {
+          "line": 5,
+          "column": 18
+        },
+        {
+          "line": 6,
+          "column": 76
+        },
+        {
+          "line": 17,
+          "column": 100
+        },
+        {
+          "line": 20,
+          "column": 110
+        },
+        {
+          "line": 21,
+          "column": 36
+        },
+        {
+          "line": 21,
+          "column": 83
+        }
+      ],
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "sum of the displayed complex contributions or probabilities",
+      "decision": "KEEP",
+      "reason": "複素数の寄与または例示の確率を加えた量を指す既知の算術語。",
+      "evidence": {
+        "locator": "reviews/reader-depth/japanese/coverage.json#complex-phase; reviews/gate-repair/japanese-late-density/coverage.json",
+        "usage": "複素数の寄与または例示の確率を加えた量を指す既知の算術語。",
+        "limitation": "新しい専門名選好の独立な文献調査ではない。"
+      },
+      "scope": "既出の名称の局所再出現。全体の名称選好を再認証しない。"
+    },
+    {
+      "candidate_id": "s174",
+      "surface": "四分",
+      "occurrences": [
+        {
+          "line": 12,
+          "column": 49
+        },
+        {
+          "line": 12,
+          "column": 97
+        },
+        {
+          "line": 12,
+          "column": 152
+        }
+      ],
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "reason": "分母4を読む分数の構成部分。"
+    },
+    {
+      "candidate_id": "s177",
+      "surface": "因子",
+      "occurrences": [
+        {
+          "line": 11,
+          "column": 39
+        },
+        {
+          "line": 23,
+          "column": 134
+        },
+        {
+          "line": 24,
+          "column": 57
+        }
+      ],
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "reason": "表示済みの積に現れる各要素を参照し、新しい演算名ではない。"
+    },
+    {
+      "candidate_id": "s180",
+      "surface": "固定角",
+      "occurrences": [
+        {
+          "line": 35,
+          "column": 18
+        },
+        {
+          "line": 35,
+          "column": 170
+        },
+        {
+          "line": 36,
+          "column": 40
+        }
+      ],
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "reason": "nを固定して角度を変えないという既出の条件を短く参照する修飾。別の新しい物理量や操作の名前ではない。"
+    },
+    {
+      "candidate_id": "s186",
+      "surface": "境界",
+      "groups": [
+        {
+          "role": "ordinary_syntax",
+          "impact": "incidental",
+          "reason": "破線が試料の物理的な端ではないことを示す幾何的な境界。",
+          "occurrences": [
+            {
+              "line": 14,
+              "column": 101
+            }
+          ]
+        },
+        {
+          "role": "disciplinary_name",
+          "impact": "incidental",
+          "referent": "boundary of a physical phase in the gapped-boundary criterion",
+          "decision": "KEEP",
+          "reason": "Abelianな物理的相の境界についての既存判定問題を指す。",
+          "evidence": {
+            "locator": "reviews/reader-depth/japanese/coverage.json#complex-phase; reviews/gate-repair/japanese-late-density/coverage.json",
+            "usage": "Abelianな物理的相の境界についての既存判定問題を指す。",
+            "limitation": "新しい専門名選好の独立な文献調査ではない。"
+          },
+          "scope": "既出の名称の局所再出現。全体の名称選好を再認証しない。",
+          "occurrences": [
+            {
+              "line": 32,
+              "column": 171
+            }
+          ]
+        },
+        {
+          "role": "ordinary_syntax",
+          "impact": "incidental",
+          "reason": "近似の保証線と解釈してはいけない基準線を境界と呼ぶ否定文。物理的な境界状態の名称ではない。",
+          "occurrences": [
+            {
+              "line": 35,
+              "column": 151
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "candidate_id": "s197",
+      "surface": "実線",
+      "occurrences": [
+        {
+          "line": 14,
+          "column": 110
+        },
+        {
+          "line": 14,
+          "column": 127
+        },
+        {
+          "line": 15,
+          "column": 87
+        }
+      ],
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "reason": "図の線種を指定し、科学的対象の名前を代替しない。"
+    },
+    {
+      "candidate_id": "s198",
+      "surface": "実軸",
+      "occurrences": [
+        {
+          "line": 5,
+          "column": 117
+        },
+        {
+          "line": 6,
+          "column": 60
+        },
+        {
+          "line": 21,
+          "column": 13
+        }
+      ],
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "real axis of complex coordinates",
+      "decision": "KEEP",
+      "reason": "表示済みの複素座標の実数方向を指す。",
+      "evidence": {
+        "locator": "reviews/reader-depth/japanese/coverage.json#complex-phase; reviews/gate-repair/japanese-late-density/coverage.json",
+        "usage": "表示済みの複素座標の実数方向を指す。",
+        "limitation": "新しい専門名選好の独立な文献調査ではない。"
+      },
+      "scope": "既出の名称の局所再出現。全体の名称選好を再認証しない。"
+    },
+    {
+      "candidate_id": "s203",
+      "surface": "寄与",
+      "occurrences": [
+        {
+          "line": 2,
+          "column": 19
+        },
+        {
+          "line": 2,
+          "column": 30
+        },
+        {
+          "line": 3,
+          "column": 18
+        },
+        {
+          "line": 12,
+          "column": 23
+        },
+        {
+          "line": 12,
+          "column": 60
+        },
+        {
+          "line": 20,
+          "column": 48
+        },
+        {
+          "line": 20,
+          "column": 70
+        }
+      ],
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "reason": "表示された複素数の各項を指す説明語で、新しい励起種の名前ではない。"
+    },
+    {
+      "candidate_id": "s210",
+      "surface": "尺度",
+      "occurrences": [
+        {
+          "line": 9,
+          "column": 86
+        },
+        {
+          "line": 11,
+          "column": 56
+        },
+        {
+          "line": 35,
+          "column": 184
+        }
+      ],
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "reason": "軸や条件を比較するスケールを述べる普通の説明語。"
+    },
+    {
+      "candidate_id": "s212",
+      "surface": "左",
+      "occurrences": [
+        {
+          "line": 2,
+          "column": 11
+        },
+        {
+          "line": 3,
+          "column": 13
+        },
+        {
+          "line": 14,
+          "column": 108
+        },
+        {
+          "line": 23,
+          "column": 77
+        },
+        {
+          "line": 24,
+          "column": 8
+        },
+        {
+          "line": 24,
+          "column": 65
+        }
+      ],
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "reason": "図の列、実線、物理的端を指す位置修飾。"
+    },
+    {
+      "candidate_id": "s219",
+      "surface": "広",
+      "occurrences": [
+        {
+          "line": 29,
+          "column": 73
+        },
+        {
+          "line": 30,
+          "column": 35
+        },
+        {
+          "line": 33,
+          "column": 58
+        }
+      ],
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "reason": "軌道の広がり、または整数条件の広さを述べる形容・動詞語幹。"
+    },
+    {
+      "candidate_id": "s220",
+      "surface": "式",
+      "occurrences": [
+        {
+          "line": 27,
+          "column": 73
+        },
+        {
+          "line": 27,
+          "column": 98
+        },
+        {
+          "line": 35,
+          "column": 22
+        },
+        {
+          "line": 35,
+          "column": 46
+        }
+      ],
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "reason": "表示済みの数式を指す普通の参照語。"
+    },
+    {
+      "candidate_id": "s227",
+      "surface": "戻",
+      "occurrences": [
+        {
+          "line": 2,
+          "column": 103
+        },
+        {
+          "line": 11,
+          "column": 174
+        },
+        {
+          "line": 12,
+          "column": 144
+        },
+        {
+          "line": 14,
+          "column": 68
+        }
+      ],
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "reason": "和の原点への到達、角度補正または周期移動を述べる動詞語幹。"
+    },
+    {
+      "candidate_id": "s234",
+      "surface": "描",
+      "occurrences": [
+        {
+          "line": 5,
+          "column": 34
+        },
+        {
+          "line": 30,
+          "column": 44
+        },
+        {
+          "line": 36,
+          "column": 141
+        }
+      ],
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "reason": "図に描くという表現操作の動詞語幹。"
+    },
+    {
+      "candidate_id": "s239",
+      "surface": "整数",
+      "occurrences": [
+        {
+          "line": 32,
+          "column": 68
+        },
+        {
+          "line": 32,
+          "column": 82
+        },
+        {
+          "line": 32,
+          "column": 97
+        },
+        {
+          "line": 33,
+          "column": 10
+        },
+        {
+          "line": 33,
+          "column": 33
+        }
+      ],
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "integers n from 1 to 12",
+      "decision": "KEEP",
+      "reason": "明示された範囲の整数nを指す既知の数の分類。",
+      "evidence": {
+        "locator": "reviews/reader-depth/japanese/coverage.json#complex-phase; reviews/gate-repair/japanese-late-density/coverage.json",
+        "usage": "明示された範囲の整数nを指す既知の数の分類。",
+        "limitation": "新しい専門名選好の独立な文献調査ではない。"
+      },
+      "scope": "既出の名称の局所再出現。全体の名称選好を再認証しない。"
+    },
+    {
+      "candidate_id": "s253",
+      "surface": "条件",
+      "occurrences": [
+        {
+          "line": 32,
+          "column": 61
+        },
+        {
+          "line": 32,
+          "column": 113
+        },
+        {
+          "line": 33,
+          "column": 60
+        },
+        {
+          "line": 35,
+          "column": 174
+        }
+      ],
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "reason": "直前の整数条件または不等式を参照する説明語。"
+    },
+    {
+      "candidate_id": "s262",
+      "surface": "正",
+      "occurrences": [
+        {
+          "line": 20,
+          "column": 97
+        },
+        {
+          "line": 21,
+          "column": 47
+        },
+        {
+          "line": 21,
+          "column": 60
+        }
+      ],
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "reason": "座標軸の正の向きを指定する符号修飾。"
+    },
+    {
+      "candidate_id": "s265",
+      "surface": "残",
+      "occurrences": [
+        {
+          "line": 15,
+          "column": 54
+        },
+        {
+          "line": 17,
+          "column": 82
+        },
+        {
+          "line": 18,
+          "column": 100
+        },
+        {
+          "line": 24,
+          "column": 99
+        }
+      ],
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "reason": "操作後の状態、成分または重みの残存を述べる動詞語幹。"
+    },
+    {
+      "candidate_id": "s266",
+      "surface": "比",
+      "occurrences": [
+        {
+          "line": 36,
+          "column": 19
+        },
+        {
+          "line": 36,
+          "column": 60
+        },
+        {
+          "line": 36,
+          "column": 84
+        },
+        {
+          "line": 36,
+          "column": 132
+        }
+      ],
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "reason": "Lと有効長の商を参照する普通の数学的操作語。"
+    },
+    {
+      "candidate_id": "s267",
+      "surface": "比較",
+      "occurrences": [
+        {
+          "line": 23,
+          "column": 54
+        },
+        {
+          "line": 29,
+          "column": 97
+        },
+        {
+          "line": 32,
+          "column": 48
+        },
+        {
+          "line": 35,
+          "column": 6
+        },
+        {
+          "line": 35,
+          "column": 125
+        },
+        {
+          "line": 35,
+          "column": 177
+        }
+      ],
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "reason": "図中の条件、重み、値を比べる行為を述べる語。"
+    },
+    {
+      "candidate_id": "s271",
+      "surface": "添字",
+      "occurrences": [
+        {
+          "line": 17,
+          "column": 21
+        },
+        {
+          "line": 17,
+          "column": 57
+        },
+        {
+          "line": 18,
+          "column": 25
+        },
+        {
+          "line": 29,
+          "column": 10
+        }
+      ],
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "index of Schmidt states or orbitals",
+      "decision": "KEEP",
+      "reason": "状態または軌道のラベルに使う添字であり、意味の異なる新しい専門名を導入しない。",
+      "evidence": {
+        "locator": "reviews/reader-depth/japanese/coverage.json#complex-phase; reviews/gate-repair/japanese-late-density/coverage.json",
+        "usage": "状態または軌道のラベルに使う添字であり、意味の異なる新しい専門名を導入しない。",
+        "limitation": "新しい専門名選好の独立な文献調査ではない。"
+      },
+      "scope": "既出の名称の局所再出現。全体の名称選好を再認証しない。"
+    },
+    {
+      "candidate_id": "s278",
+      "surface": "点",
+      "occurrences": [
+        {
+          "line": 9,
+          "column": 31
+        },
+        {
+          "line": 9,
+          "column": 65
+        },
+        {
+          "line": 35,
+          "column": 75
+        }
+      ],
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "reason": "複素平面または条件図のプロット位置を指す幾何的普通名詞。"
+    },
+    {
+      "candidate_id": "s281",
+      "surface": "物理的",
+      "occurrences": [
+        {
+          "line": 14,
+          "column": 97
+        },
+        {
+          "line": 24,
+          "column": 10
+        },
+        {
+          "line": 24,
+          "column": 67
+        },
+        {
+          "line": 26,
+          "column": 108
+        },
+        {
+          "line": 27,
+          "column": 90
+        },
+        {
+          "line": 32,
+          "column": 165
+        }
+      ],
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "reason": "境界、端、運動量、相への限定を示す形容修飾で、単独の概念名ではない。"
+    },
+    {
+      "candidate_id": "s285",
+      "surface": "相",
+      "occurrences": [
+        {
+          "line": 5,
+          "column": 4
+        },
+        {
+          "line": 32,
+          "column": 139
+        },
+        {
+          "line": 32,
+          "column": 169
+        }
+      ],
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "phase of matter, including stacked phases",
+      "decision": "KEEP",
+      "reason": "積み重ねる相またはAbelian/non-Abelianな相を指す。複素数の位相ではない。",
+      "evidence": {
+        "locator": "reviews/reader-depth/japanese/coverage.json#complex-phase; reviews/gate-repair/japanese-late-density/coverage.json",
+        "usage": "積み重ねる相またはAbelian/non-Abelianな相を指す。複素数の位相ではない。",
+        "limitation": "新しい専門名選好の独立な文献調査ではない。"
+      },
+      "scope": "既出の名称の局所再出現。全体の名称選好を再認証しない。"
+    },
+    {
+      "candidate_id": "s287",
+      "surface": "真空",
+      "occurrences": [
+        {
+          "line": 2,
+          "column": 16
+        },
+        {
+          "line": 12,
+          "column": 20
+        },
+        {
+          "line": 12,
+          "column": 57
+        }
+      ],
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "vacuum sector or vacuum contribution",
+      "decision": "UNVERIFIED",
+      "reason": "既出の真空セクターまたは左右の真空の寄与を参照する。",
+      "evidence": {
+        "locator": "reviews/reader-depth/japanese/coverage.json#complex-phase; reviews/gate-repair/japanese-late-density/coverage.json",
+        "usage": "既出の真空セクターまたは左右の真空の寄与を参照する。",
+        "limitation": "新しい専門名選好の独立な文献調査ではない。"
+      },
+      "scope": "既出の名称の局所再出現。全体の名称選好を再認証しない。",
+      "uncertainty_reason": "真空セクターの日本語名称選好を本レーンでは再調査していない。",
+      "deferred_reason": "既存セクター名の再出現であり、修正後は左/右が寄与の場所の修飾と分かる。",
+      "blocks_whole_range_pass": false
+    },
+    {
+      "candidate_id": "s288",
+      "surface": "矢印",
+      "occurrences": [
+        {
+          "line": 3,
+          "column": 81
+        },
+        {
+          "line": 6,
+          "column": 22
+        },
+        {
+          "line": 6,
+          "column": 44
+        },
+        {
+          "line": 6,
+          "column": 65
+        },
+        {
+          "line": 8,
+          "column": 125
+        },
+        {
+          "line": 11,
+          "column": 33
+        },
+        {
+          "line": 12,
+          "column": 14
+        },
+        {
+          "line": 12,
+          "column": 127
+        },
+        {
+          "line": 20,
+          "column": 20
+        },
+        {
+          "line": 20,
+          "column": 115
+        },
+        {
+          "line": 21,
+          "column": 30
+        },
+        {
+          "line": 21,
+          "column": 73
+        },
+        {
+          "line": 36,
+          "column": 125
+        },
+        {
+          "line": 36,
+          "column": 138
+        }
+      ],
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "reason": "方向や寄与を表す図の記号で、独立の演算子名ではない。"
+    },
+    {
+      "candidate_id": "s289",
+      "surface": "破線",
+      "occurrences": [
+        {
+          "line": 8,
+          "column": 122
+        },
+        {
+          "line": 14,
+          "column": 84
+        },
+        {
+          "line": 20,
+          "column": 11
+        },
+        {
+          "line": 35,
+          "column": 119
+        }
+      ],
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "reason": "図の線種を指定する語。"
+    },
+    {
+      "candidate_id": "s291",
+      "surface": "確率",
+      "occurrences": [
+        {
+          "line": 17,
+          "column": 77
+        },
+        {
+          "line": 17,
+          "column": 88
+        },
+        {
+          "line": 20,
+          "column": 23
+        },
+        {
+          "line": 23,
+          "column": 65
+        }
+      ],
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "probability weights of the illustrated states",
+      "decision": "KEEP",
+      "reason": "例示の状態の重みとして確率を参照する初等的な名称。",
+      "evidence": {
+        "locator": "reviews/reader-depth/japanese/coverage.json#complex-phase; reviews/gate-repair/japanese-late-density/coverage.json",
+        "usage": "例示の状態の重みとして確率を参照する初等的な名称。",
+        "limitation": "新しい専門名選好の独立な文献調査ではない。"
+      },
+      "scope": "既出の名称の局所再出現。全体の名称選好を再認証しない。"
+    },
+    {
+      "candidate_id": "s292",
+      "surface": "示",
+      "occurrences": [
+        {
+          "line": 2,
+          "column": 44
+        },
+        {
+          "line": 5,
+          "column": 139
+        },
+        {
+          "line": 9,
+          "column": 44
+        },
+        {
+          "line": 9,
+          "column": 89
+        },
+        {
+          "line": 11,
+          "column": 59
+        },
+        {
+          "line": 14,
+          "column": 10
+        },
+        {
+          "line": 17,
+          "column": 85
+        },
+        {
+          "line": 21,
+          "column": 101
+        },
+        {
+          "line": 24,
+          "column": 108
+        },
+        {
+          "line": 26,
+          "column": 123
+        },
+        {
+          "line": 36,
+          "column": 110
+        }
+      ],
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "reason": "示すという表示・説明動詞の語幹。"
+    },
+    {
+      "candidate_id": "s295",
+      "surface": "積",
+      "occurrences": [
+        {
+          "line": 5,
+          "column": 6
+        },
+        {
+          "line": 5,
+          "column": 24
+        },
+        {
+          "line": 5,
+          "column": 113
+        },
+        {
+          "line": 6,
+          "column": 71
+        },
+        {
+          "line": 23,
+          "column": 137
+        }
+      ],
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "product of complex numbers or density-matrix factors",
+      "decision": "KEEP",
+      "reason": "掛け合わせた量という既知の数学的操作の名称。",
+      "evidence": {
+        "locator": "reviews/reader-depth/japanese/coverage.json#complex-phase; reviews/gate-repair/japanese-late-density/coverage.json",
+        "usage": "掛け合わせた量という既知の数学的操作の名称。",
+        "limitation": "新しい専門名選好の独立な文献調査ではない。"
+      },
+      "scope": "既出の名称の局所再出現。全体の名称選好を再認証しない。"
+    },
+    {
+      "candidate_id": "s296",
+      "surface": "端",
+      "occurrences": [
+        {
+          "line": 14,
+          "column": 116
+        },
+        {
+          "line": 23,
+          "column": 140
+        },
+        {
+          "line": 24,
+          "column": 14
+        },
+        {
+          "line": 24,
+          "column": 71
+        }
+      ],
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "reason": "試料または離れた端の空間位置を指し、独立したモード名ではない。"
+    },
+    {
+      "candidate_id": "s302",
+      "surface": "結",
+      "occurrences": [
+        {
+          "line": 8,
+          "column": 137
+        },
+        {
+          "line": 11,
+          "column": 194
+        },
+        {
+          "line": 18,
+          "column": 31
+        }
+      ],
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "reason": "入力出力、段の端点、またはシュミットの組を図上で結ぶ動詞語幹。"
+    },
+    {
+      "candidate_id": "s314",
+      "surface": "虚部",
+      "occurrences": [
+        {
+          "line": 9,
+          "column": 4
+        },
+        {
+          "line": 9,
+          "column": 23
+        },
+        {
+          "line": 9,
+          "column": 78
+        }
+      ],
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "imaginary component of complex argument",
+      "decision": "KEEP",
+      "reason": "表示された複素数の虚部を参照する。",
+      "evidence": {
+        "locator": "reviews/reader-depth/japanese/coverage.json#complex-phase; reviews/gate-repair/japanese-late-density/coverage.json",
+        "usage": "表示された複素数の虚部を参照する。",
+        "limitation": "新しい専門名選好の独立な文献調査ではない。"
+      },
+      "scope": "既出の名称の局所再出現。全体の名称選好を再認証しない。"
+    },
+    {
+      "candidate_id": "s317",
+      "surface": "表",
+      "occurrences": [
+        {
+          "line": 14,
+          "column": 94
+        },
+        {
+          "line": 17,
+          "column": 42
+        },
+        {
+          "line": 23,
+          "column": 72
+        },
+        {
+          "line": 23,
+          "column": 128
+        },
+        {
+          "line": 32,
+          "column": 85
+        }
+      ],
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "reason": "表すという動詞の語幹で、表という科学的分類の名前ではない。"
+    },
+    {
+      "candidate_id": "s323",
+      "surface": "複数",
+      "occurrences": [
+        {
+          "line": 23,
+          "column": 113
+        },
+        {
+          "line": 24,
+          "column": 90
+        },
+        {
+          "line": 27,
+          "column": 35
+        }
+      ],
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "reason": "状態または準位の個数が一つではないことを示す数量語。"
+    },
+    {
+      "candidate_id": "s330",
+      "surface": "角度",
+      "occurrences": [
+        {
+          "line": 5,
+          "column": 84
+        },
+        {
+          "line": 6,
+          "column": 73
+        },
+        {
+          "line": 11,
+          "column": 48
+        }
+      ],
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "signed angle of complex vectors",
+      "decision": "KEEP",
+      "reason": "表示された複素数の向きを角度として参照する。",
+      "evidence": {
+        "locator": "reviews/reader-depth/japanese/coverage.json#complex-phase; reviews/gate-repair/japanese-late-density/coverage.json",
+        "usage": "表示された複素数の向きを角度として参照する。",
+        "limitation": "新しい専門名選好の独立な文献調査ではない。"
+      },
+      "scope": "既出の名称の局所再出現。全体の名称選好を再認証しない。"
+    },
+    {
+      "candidate_id": "s338",
+      "surface": "負",
+      "occurrences": [
+        {
+          "line": 3,
+          "column": 60
+        },
+        {
+          "line": 5,
+          "column": 115
+        },
+        {
+          "line": 6,
+          "column": 58
+        }
+      ],
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "reason": "数または座標軸の符号修飾。"
+    },
+    {
+      "candidate_id": "s339",
+      "surface": "赤紫",
+      "occurrences": [
+        {
+          "line": 2,
+          "column": 22
+        },
+        {
+          "line": 15,
+          "column": 84
+        },
+        {
+          "line": 24,
+          "column": 18
+        }
+      ],
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "reason": "図の色指定で、エニオン種や切断の正式名ではない。"
+    },
+    {
+      "candidate_id": "s341",
+      "surface": "足",
+      "occurrences": [
+        {
+          "line": 2,
+          "column": 37
+        },
+        {
+          "line": 5,
+          "column": 109
+        },
+        {
+          "line": 26,
+          "column": 77
+        },
+        {
+          "line": 27,
+          "column": 70
+        }
+      ],
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "reason": "複素数または角度を足すという算術動詞の語幹。"
+    },
+    {
+      "candidate_id": "s342",
+      "surface": "軌道",
+      "occurrences": [
+        {
+          "line": 29,
+          "column": 1
+        },
+        {
+          "line": 29,
+          "column": 7
+        },
+        {
+          "line": 29,
+          "column": 42
+        },
+        {
+          "line": 29,
+          "column": 70
+        },
+        {
+          "line": 30,
+          "column": 7
+        },
+        {
+          "line": 30,
+          "column": 41
+        }
+      ],
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "Landau orbital, not a particle trajectory",
+      "decision": "UNVERIFIED",
+      "reason": "本文で導入されたLandau軌道を参照し、粒子の軌跡ではない。",
+      "evidence": {
+        "locator": "reviews/reader-depth/japanese/coverage.json#complex-phase; reviews/gate-repair/japanese-late-density/coverage.json",
+        "usage": "本文で導入されたLandau軌道を参照し、粒子の軌跡ではない。",
+        "limitation": "新しい専門名選好の独立な文献調査ではない。"
+      },
+      "scope": "既出の名称の局所再出現。全体の名称選好を再認証しない。",
+      "uncertainty_reason": "Landau軌道の既存名称選好はこの限定レーンで再調査していない。",
+      "deferred_reason": "同じLandau軌道の幅、添字、重みを描写し、対象の同一性や名称を変更しない。",
+      "blocks_whole_range_pass": false
+    },
+    {
+      "candidate_id": "s343",
+      "surface": "軸",
+      "occurrences": [
+        {
+          "line": 2,
+          "column": 80
+        },
+        {
+          "line": 5,
+          "column": 32
+        },
+        {
+          "line": 9,
+          "column": 70
+        }
+      ],
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "reason": "図に表示された座標軸の幾何的参照語。"
+    },
+    {
+      "candidate_id": "s357",
+      "surface": "重",
+      "occurrences": [
+        {
+          "line": 5,
+          "column": 8
+        },
+        {
+          "line": 23,
+          "column": 47
+        },
+        {
+          "line": 23,
+          "column": 92
+        },
+        {
+          "line": 23,
+          "column": 116
+        },
+        {
+          "line": 24,
+          "column": 96
+        },
+        {
+          "line": 26,
+          "column": 71
+        },
+        {
+          "line": 29,
+          "column": 60
+        },
+        {
+          "line": 30,
+          "column": 62
+        }
+      ],
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "reason": "積み重ねる、重み、重み付けの部分文字列。全語の対象を別途補足概念として確認する。"
+    },
+    {
+      "candidate_id": "s358",
+      "surface": "長",
+      "occurrences": [
+        {
+          "line": 5,
+          "column": 41
+        },
+        {
+          "line": 6,
+          "column": 4
+        },
+        {
+          "line": 6,
+          "column": 28
+        },
+        {
+          "line": 6,
+          "column": 50
+        },
+        {
+          "line": 6,
+          "column": 68
+        },
+        {
+          "line": 21,
+          "column": 22
+        },
+        {
+          "line": 23,
+          "column": 44
+        }
+      ],
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "reason": "長さという量の一部、または棒の長さの普通の説明。"
+    },
+    {
+      "candidate_id": "s361",
+      "surface": "集合",
+      "occurrences": [
+        {
+          "line": 32,
+          "column": 100
+        },
+        {
+          "line": 32,
+          "column": 116
+        },
+        {
+          "line": 33,
+          "column": 36
+        },
+        {
+          "line": 33,
+          "column": 63
+        }
+      ],
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "set of integers satisfying the specified predicate",
+      "decision": "KEEP",
+      "reason": "整数条件を満たす値の集合で、対比する条件は同じ文章に示される。",
+      "evidence": {
+        "locator": "reviews/reader-depth/japanese/coverage.json#complex-phase; reviews/gate-repair/japanese-late-density/coverage.json",
+        "usage": "整数条件を満たす値の集合で、対比する条件は同じ文章に示される。",
+        "limitation": "新しい専門名選好の独立な文献調査ではない。"
+      },
+      "scope": "既出の名称の局所再出現。全体の名称選好を再認証しない。"
+    },
+    {
+      "candidate_id": "s363",
+      "surface": "青緑",
+      "occurrences": [
+        {
+          "line": 15,
+          "column": 13
+        },
+        {
+          "line": 15,
+          "column": 81
+        },
+        {
+          "line": 24,
+          "column": 1
+        }
+      ],
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "reason": "図の色指定で、Aの自由度の新しい専門名ではない。"
+    },
+    {
+      "candidate_id": "h1",
+      "occurrences": [
+        {
+          "line": 1,
+          "column": 1
+        }
+      ],
+      "role": "ordinary_syntax",
+      "impact": "high",
+      "reason": "抽出用ID semion-sum-phase は審査資料の区切りで、読者に表示される見出しではない。",
+      "no_scientific_handle_reason": "この行はモジュールIDを機械的に付けたメタデータであり、原稿の科学的対象を命名しない。",
+      "heading_key_phrase": "semion-sum-phase",
+      "english_or_not_applicable": "Not applicable: extraction identifier",
+      "alternatives_or_not_applicable": "Not applicable: not reader-visible wording"
+    },
+    {
+      "candidate_id": "h2",
+      "occurrences": [
+        {
+          "line": 4,
+          "column": 1
+        }
+      ],
+      "role": "ordinary_syntax",
+      "impact": "high",
+      "reason": "抽出用ID stacked-phase-product は審査資料の区切りで、読者に表示される見出しではない。",
+      "no_scientific_handle_reason": "この行はモジュールIDを機械的に付けたメタデータであり、原稿の科学的対象を命名しない。",
+      "heading_key_phrase": "stacked-phase-product",
+      "english_or_not_applicable": "Not applicable: extraction identifier",
+      "alternatives_or_not_applicable": "Not applicable: not reader-visible wording"
+    },
+    {
+      "candidate_id": "h3",
+      "occurrences": [
+        {
+          "line": 7,
+          "column": 1
+        }
+      ],
+      "role": "ordinary_syntax",
+      "impact": "high",
+      "reason": "抽出用ID modular-inverse-map は審査資料の区切りで、読者に表示される見出しではない。",
+      "no_scientific_handle_reason": "この行はモジュールIDを機械的に付けたメタデータであり、原稿の科学的対象を命名しない。",
+      "heading_key_phrase": "modular-inverse-map",
+      "english_or_not_applicable": "Not applicable: extraction identifier",
+      "alternatives_or_not_applicable": "Not applicable: not reader-visible wording"
+    },
+    {
+      "candidate_id": "h4",
+      "occurrences": [
+        {
+          "line": 10,
+          "column": 1
+        }
+      ],
+      "role": "ordinary_syntax",
+      "impact": "high",
+      "reason": "抽出用ID three-phase-correction は審査資料の区切りで、読者に表示される見出しではない。",
+      "no_scientific_handle_reason": "この行はモジュールIDを機械的に付けたメタデータであり、原稿の科学的対象を命名しない。",
+      "heading_key_phrase": "three-phase-correction",
+      "english_or_not_applicable": "Not applicable: extraction identifier",
+      "alternatives_or_not_applicable": "Not applicable: not reader-visible wording"
+    },
+    {
+      "candidate_id": "h5",
+      "occurrences": [
+        {
+          "line": 13,
+          "column": 1
+        }
+      ],
+      "role": "ordinary_syntax",
+      "impact": "high",
+      "reason": "抽出用ID partial-rotation は審査資料の区切りで、読者に表示される見出しではない。",
+      "no_scientific_handle_reason": "この行はモジュールIDを機械的に付けたメタデータであり、原稿の科学的対象を命名しない。",
+      "heading_key_phrase": "partial-rotation",
+      "english_or_not_applicable": "Not applicable: extraction identifier",
+      "alternatives_or_not_applicable": "Not applicable: not reader-visible wording"
+    },
+    {
+      "candidate_id": "h6",
+      "occurrences": [
+        {
+          "line": 16,
+          "column": 1
+        }
+      ],
+      "role": "ordinary_syntax",
+      "impact": "high",
+      "reason": "抽出用ID schmidt-trace は審査資料の区切りで、読者に表示される見出しではない。",
+      "no_scientific_handle_reason": "この行はモジュールIDを機械的に付けたメタデータであり、原稿の科学的対象を命名しない。",
+      "heading_key_phrase": "schmidt-trace",
+      "english_or_not_applicable": "Not applicable: extraction identifier",
+      "alternatives_or_not_applicable": "Not applicable: not reader-visible wording"
+    },
+    {
+      "candidate_id": "h7",
+      "occurrences": [
+        {
+          "line": 19,
+          "column": 1
+        }
+      ],
+      "role": "ordinary_syntax",
+      "impact": "high",
+      "reason": "抽出用ID schmidt-complex-sum は審査資料の区切りで、読者に表示される見出しではない。",
+      "no_scientific_handle_reason": "この行はモジュールIDを機械的に付けたメタデータであり、原稿の科学的対象を命名しない。",
+      "heading_key_phrase": "schmidt-complex-sum",
+      "english_or_not_applicable": "Not applicable: extraction identifier",
+      "alternatives_or_not_applicable": "Not applicable: not reader-visible wording"
+    },
+    {
+      "candidate_id": "h8",
+      "occurrences": [
+        {
+          "line": 22,
+          "column": 1
+        }
+      ],
+      "role": "ordinary_syntax",
+      "impact": "high",
+      "reason": "抽出用ID two-edge-density は審査資料の区切りで、読者に表示される見出しではない。",
+      "no_scientific_handle_reason": "この行はモジュールIDを機械的に付けたメタデータであり、原稿の科学的対象を命名しない。",
+      "heading_key_phrase": "two-edge-density",
+      "english_or_not_applicable": "Not applicable: extraction identifier",
+      "alternatives_or_not_applicable": "Not applicable: not reader-visible wording"
+    },
+    {
+      "candidate_id": "h9",
+      "occurrences": [
+        {
+          "line": 25,
+          "column": 1
+        }
+      ],
+      "role": "ordinary_syntax",
+      "impact": "high",
+      "reason": "抽出用ID mps-bond-rotation は審査資料の区切りで、読者に表示される見出しではない。",
+      "no_scientific_handle_reason": "この行はモジュールIDを機械的に付けたメタデータであり、原稿の科学的対象を命名しない。",
+      "heading_key_phrase": "mps-bond-rotation",
+      "english_or_not_applicable": "Not applicable: extraction identifier",
+      "alternatives_or_not_applicable": "Not applicable: not reader-visible wording"
+    },
+    {
+      "candidate_id": "h10",
+      "occurrences": [
+        {
+          "line": 28,
+          "column": 1
+        }
+      ],
+      "role": "ordinary_syntax",
+      "impact": "high",
+      "reason": "抽出用ID orbital-realspace-cuts は審査資料の区切りで、読者に表示される見出しではない。",
+      "no_scientific_handle_reason": "この行はモジュールIDを機械的に付けたメタデータであり、原稿の科学的対象を命名しない。",
+      "heading_key_phrase": "orbital-realspace-cuts",
+      "english_or_not_applicable": "Not applicable: extraction identifier",
+      "alternatives_or_not_applicable": "Not applicable: not reader-visible wording"
+    },
+    {
+      "candidate_id": "h11",
+      "occurrences": [
+        {
+          "line": 31,
+          "column": 1
+        }
+      ],
+      "role": "ordinary_syntax",
+      "impact": "high",
+      "reason": "抽出用ID boundary-integer-membership は審査資料の区切りで、読者に表示される見出しではない。",
+      "no_scientific_handle_reason": "この行はモジュールIDを機械的に付けたメタデータであり、原稿の科学的対象を命名しない。",
+      "heading_key_phrase": "boundary-integer-membership",
+      "english_or_not_applicable": "Not applicable: extraction identifier",
+      "alternatives_or_not_applicable": "Not applicable: not reader-visible wording"
+    },
+    {
+      "candidate_id": "h12",
+      "occurrences": [
+        {
+          "line": 34,
+          "column": 1
+        }
+      ],
+      "role": "ordinary_syntax",
+      "impact": "high",
+      "reason": "抽出用ID asymptotic-regimes は審査資料の区切りで、読者に表示される見出しではない。",
+      "no_scientific_handle_reason": "この行はモジュールIDを機械的に付けたメタデータであり、原稿の科学的対象を命名しない。",
+      "heading_key_phrase": "asymptotic-regimes",
+      "english_or_not_applicable": "Not applicable: extraction identifier",
+      "alternatives_or_not_applicable": "Not applicable: not reader-visible wording"
+    }
+  ],
+  "supplemental_concepts": [
+    {
+      "id": "caption-term-1",
+      "surface": "単位ベクトル",
+      "occurrences": [
+        {
+          "line": 2,
+          "column": 61
+        }
+      ],
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "unit vector",
+      "decision": "KEEP",
+      "reason": "単位ベクトル は上記の既出対象を再参照し、このcaptionで新しい名称や別の意味を導入しない。",
+      "evidence": {
+        "locator": "reviews/reader-depth/japanese/coverage.json#complex-phase; reviews/gate-repair/japanese-late-density/coverage.json",
+        "usage": "単位ベクトル は上記の既出対象を再参照し、このcaptionで新しい名称や別の意味を導入しない。",
+        "limitation": "新しい専門名選好の独立な文献調査ではない。"
+      },
+      "scope": "既出の名称の局所再出現。全体の名称選好を再認証しない。"
+    },
+    {
+      "id": "caption-term-2",
+      "surface": "規格化",
+      "occurrences": [
+        {
+          "line": 2,
+          "column": 68
+        },
+        {
+          "line": 6,
+          "column": 84
+        }
+      ],
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "normalization to unit modulus",
+      "decision": "KEEP",
+      "reason": "規格化 は上記の既出対象を再参照し、このcaptionで新しい名称や別の意味を導入しない。",
+      "evidence": {
+        "locator": "reviews/reader-depth/japanese/coverage.json#complex-phase; reviews/gate-repair/japanese-late-density/coverage.json",
+        "usage": "規格化 は上記の既出対象を再参照し、このcaptionで新しい名称や別の意味を導入しない。",
+        "limitation": "新しい専門名選好の独立な文献調査ではない。"
+      },
+      "scope": "既出の名称の局所再出現。全体の名称選好を再認証しない。"
+    },
+    {
+      "id": "caption-term-3",
+      "surface": "複素数",
+      "occurrences": [
+        {
+          "line": 5,
+          "column": 20
+        },
+        {
+          "line": 20,
+          "column": 29
+        }
+      ],
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "complex number",
+      "decision": "KEEP",
+      "reason": "複素数 は上記の既出対象を再参照し、このcaptionで新しい名称や別の意味を導入しない。",
+      "evidence": {
+        "locator": "reviews/reader-depth/japanese/coverage.json#complex-phase; reviews/gate-repair/japanese-late-density/coverage.json",
+        "usage": "複素数 は上記の既出対象を再参照し、このcaptionで新しい名称や別の意味を導入しない。",
+        "limitation": "新しい専門名選好の独立な文献調査ではない。"
+      },
+      "scope": "既出の名称の局所再出現。全体の名称選好を再認証しない。"
+    },
+    {
+      "id": "caption-term-4",
+      "surface": "引数",
+      "occurrences": [
+        {
+          "line": 8,
+          "column": 6
+        },
+        {
+          "line": 8,
+          "column": 41
+        }
+      ],
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "argument of the character as a function",
+      "decision": "KEEP",
+      "reason": "引数 は上記の既出対象を再参照し、このcaptionで新しい名称や別の意味を導入しない。",
+      "evidence": {
+        "locator": "reviews/reader-depth/japanese/coverage.json#complex-phase; reviews/gate-repair/japanese-late-density/coverage.json",
+        "usage": "引数 は上記の既出対象を再参照し、このcaptionで新しい名称や別の意味を導入しない。",
+        "limitation": "新しい専門名選好の独立な文献調査ではない。"
+      },
+      "scope": "既出の名称の局所再出現。全体の名称選好を再認証しない。"
+    },
+    {
+      "id": "caption-term-5",
+      "surface": "指標",
+      "occurrences": [
+        {
+          "line": 8,
+          "column": 38
+        }
+      ],
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "CFT character",
+      "decision": "KEEP",
+      "reason": "指標 は上記の既出対象を再参照し、このcaptionで新しい名称や別の意味を導入しない。",
+      "evidence": {
+        "locator": "reviews/wording/term-evidence.json#指標",
+        "usage": "既存資料の独立した二つの使用記録がCFT characterの同じ名称を支持する。"
+      },
+      "scope": "既出の名称の局所再出現。全体の名称選好を再認証しない。"
+    },
+    {
+      "id": "caption-term-6",
+      "surface": "写像",
+      "occurrences": [
+        {
+          "line": 8,
+          "column": 128
+        },
+        {
+          "line": 9,
+          "column": 41
+        }
+      ],
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "displayed modular map",
+      "decision": "KEEP",
+      "reason": "写像 は上記の既出対象を再参照し、このcaptionで新しい名称や別の意味を導入しない。",
+      "evidence": {
+        "locator": "reviews/reader-depth/japanese/coverage.json#complex-phase; reviews/gate-repair/japanese-late-density/coverage.json",
+        "usage": "写像 は上記の既出対象を再参照し、このcaptionで新しい名称や別の意味を導入しない。",
+        "limitation": "新しい専門名選好の独立な文献調査ではない。"
+      },
+      "scope": "既出の名称の局所再出現。全体の名称選好を再認証しない。"
+    },
+    {
+      "id": "caption-term-7",
+      "surface": "実部",
+      "occurrences": [
+        {
+          "line": 9,
+          "column": 1
+        },
+        {
+          "line": 9,
+          "column": 13
+        },
+        {
+          "line": 9,
+          "column": 51
+        }
+      ],
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "real component",
+      "decision": "KEEP",
+      "reason": "実部 は上記の既出対象を再参照し、このcaptionで新しい名称や別の意味を導入しない。",
+      "evidence": {
+        "locator": "reviews/reader-depth/japanese/coverage.json#complex-phase; reviews/gate-repair/japanese-late-density/coverage.json",
+        "usage": "実部 は上記の既出対象を再参照し、このcaptionで新しい名称や別の意味を導入しない。",
+        "limitation": "新しい専門名選好の独立な文献調査ではない。"
+      },
+      "scope": "既出の名称の局所再出現。全体の名称選好を再認証しない。"
+    },
+    {
+      "id": "caption-term-8",
+      "surface": "逆モジュラー写像",
+      "occurrences": [
+        {
+          "line": 9,
+          "column": 35
+        }
+      ],
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "inverse of the specified modular transformation",
+      "decision": "KEEP",
+      "reason": "逆モジュラー写像 は上記の既出対象を再参照し、このcaptionで新しい名称や別の意味を導入しない。",
+      "evidence": {
+        "locator": "reviews/reader-depth/japanese/coverage.json#complex-phase; reviews/gate-repair/japanese-late-density/coverage.json",
+        "usage": "逆モジュラー写像 は上記の既出対象を再参照し、このcaptionで新しい名称や別の意味を導入しない。",
+        "limitation": "新しい専門名選好の独立な文献調査ではない。"
+      },
+      "scope": "既出の名称の局所再出現。全体の名称選好を再認証しない。"
+    },
+    {
+      "id": "caption-term-9",
+      "surface": "部分回転",
+      "occurrences": [
+        {
+          "line": 14,
+          "column": 13
+        },
+        {
+          "line": 26,
+          "column": 8
+        }
+      ],
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "the defined partial rotation of A",
+      "decision": "KEEP",
+      "reason": "部分回転 は上記の既出対象を再参照し、このcaptionで新しい名称や別の意味を導入しない。",
+      "evidence": {
+        "locator": "reviews/reader-depth/japanese/coverage.json#complex-phase; reviews/gate-repair/japanese-late-density/coverage.json",
+        "usage": "部分回転 は上記の既出対象を再参照し、このcaptionで新しい名称や別の意味を導入しない。",
+        "limitation": "新しい専門名選好の独立な文献調査ではない。"
+      },
+      "scope": "既出の名称の局所再出現。全体の名称選好を再認証しない。"
+    },
+    {
+      "id": "caption-term-10",
+      "surface": "周方向",
+      "occurrences": [
+        {
+          "line": 14,
+          "column": 46
+        },
+        {
+          "line": 29,
+          "column": 121
+        }
+      ],
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "circumferential direction of the cylinder",
+      "decision": "KEEP",
+      "reason": "周方向 は上記の既出対象を再参照し、このcaptionで新しい名称や別の意味を導入しない。",
+      "evidence": {
+        "locator": "reviews/reader-depth/japanese/coverage.json#complex-phase; reviews/gate-repair/japanese-late-density/coverage.json",
+        "usage": "周方向 は上記の既出対象を再参照し、このcaptionで新しい名称や別の意味を導入しない。",
+        "limitation": "新しい専門名選好の独立な文献調査ではない。"
+      },
+      "scope": "既出の名称の局所再出現。全体の名称選好を再認証しない。"
+    },
+    {
+      "id": "caption-term-11",
+      "surface": "周座標",
+      "occurrences": [
+        {
+          "line": 14,
+          "column": 90
+        }
+      ],
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "circumferential coordinate",
+      "decision": "KEEP",
+      "reason": "周座標 は上記の既出対象を再参照し、このcaptionで新しい名称や別の意味を導入しない。",
+      "evidence": {
+        "locator": "reviews/reader-depth/japanese/coverage.json#complex-phase; reviews/gate-repair/japanese-late-density/coverage.json",
+        "usage": "周座標 は上記の既出対象を再参照し、このcaptionで新しい名称や別の意味を導入しない。",
+        "limitation": "新しい専門名選好の独立な文献調査ではない。"
+      },
+      "scope": "既出の名称の局所再出現。全体の名称選好を再認証しない。"
+    },
+    {
+      "id": "caption-term-12",
+      "surface": "シュミット分解",
+      "occurrences": [
+        {
+          "line": 17,
+          "column": 1
+        }
+      ],
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "Schmidt decomposition",
+      "decision": "KEEP",
+      "reason": "シュミット分解 は上記の既出対象を再参照し、このcaptionで新しい名称や別の意味を導入しない。",
+      "evidence": {
+        "locator": "reviews/wording/term-evidence.json#シュミット分解",
+        "usage": "既存資料の独立した二つの使用記録がSchmidt decompositionの同じ名称を支持する。"
+      },
+      "scope": "既出の名称の局所再出現。全体の名称選好を再認証しない。"
+    },
+    {
+      "id": "caption-term-13",
+      "surface": "シュミット状態",
+      "occurrences": [
+        {
+          "line": 17,
+          "column": 32
+        },
+        {
+          "line": 18,
+          "column": 8
+        }
+      ],
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "Schmidt basis state",
+      "decision": "KEEP",
+      "reason": "シュミット状態 は上記の既出対象を再参照し、このcaptionで新しい名称や別の意味を導入しない。",
+      "evidence": {
+        "locator": "content/observable.md:47; https://cat.phys.s.u-tokyo.ac.jp/lecture/QM2_17/quantum_mechnics_II.pdf#section1.6",
+        "usage": "同じ基底ベクトルについて本文の既存名称シュミット状態を再使用。講義§1.6は両側の規格直交基底を用いてシュミット分解を記述する。",
+        "comparison": "基底状態(ground state)の誤った名称を避け、本文の採用済み照応を保つ。"
+      },
+      "scope": "既出の名称の局所再出現。全体の名称選好を再認証しない。"
+    },
+    {
+      "id": "caption-term-14",
+      "surface": "内積",
+      "occurrences": [
+        {
+          "line": 17,
+          "column": 48
+        }
+      ],
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "inner product of the B states",
+      "decision": "KEEP",
+      "reason": "内積 は上記の既出対象を再参照し、このcaptionで新しい名称や別の意味を導入しない。",
+      "evidence": {
+        "locator": "reviews/reader-depth/japanese/coverage.json#complex-phase; reviews/gate-repair/japanese-late-density/coverage.json",
+        "usage": "内積 は上記の既出対象を再参照し、このcaptionで新しい名称や別の意味を導入しない。",
+        "limitation": "新しい専門名選好の独立な文献調査ではない。"
+      },
+      "scope": "既出の名称の局所再出現。全体の名称選好を再認証しない。"
+    },
+    {
+      "id": "caption-term-15",
+      "surface": "対角成分",
+      "occurrences": [
+        {
+          "line": 17,
+          "column": 72
+        },
+        {
+          "line": 18,
+          "column": 70
+        },
+        {
+          "line": 18,
+          "column": 81
+        }
+      ],
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "diagonal matrix entries",
+      "decision": "KEEP",
+      "reason": "対角成分 は上記の既出対象を再参照し、このcaptionで新しい名称や別の意味を導入しない。",
+      "evidence": {
+        "locator": "reviews/reader-depth/japanese/coverage.json#complex-phase; reviews/gate-repair/japanese-late-density/coverage.json",
+        "usage": "対角成分 は上記の既出対象を再参照し、このcaptionで新しい名称や別の意味を導入しない。",
+        "limitation": "新しい専門名選好の独立な文献調査ではない。"
+      },
+      "scope": "既出の名称の局所再出現。全体の名称選好を再認証しない。"
+    },
+    {
+      "id": "caption-term-16",
+      "surface": "非対角成分",
+      "occurrences": [
+        {
+          "line": 18,
+          "column": 69
+        }
+      ],
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "off-diagonal matrix entries",
+      "decision": "KEEP",
+      "reason": "非対角成分 は上記の既出対象を再参照し、このcaptionで新しい名称や別の意味を導入しない。",
+      "evidence": {
+        "locator": "reviews/reader-depth/japanese/coverage.json#complex-phase; reviews/gate-repair/japanese-late-density/coverage.json",
+        "usage": "非対角成分 は上記の既出対象を再参照し、このcaptionで新しい名称や別の意味を導入しない。",
+        "limitation": "新しい専門名選好の独立な文献調査ではない。"
+      },
+      "scope": "既出の名称の局所再出現。全体の名称選好を再認証しない。"
+    },
+    {
+      "id": "caption-term-17",
+      "surface": "トレース",
+      "occurrences": [
+        {
+          "line": 18,
+          "column": 41
+        }
+      ],
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "trace over B",
+      "decision": "KEEP",
+      "reason": "トレース は上記の既出対象を再参照し、このcaptionで新しい名称や別の意味を導入しない。",
+      "evidence": {
+        "locator": "reviews/reader-depth/japanese/coverage.json#complex-phase; reviews/gate-repair/japanese-late-density/coverage.json",
+        "usage": "トレース は上記の既出対象を再参照し、このcaptionで新しい名称や別の意味を導入しない。",
+        "limitation": "新しい専門名選好の独立な文献調査ではない。"
+      },
+      "scope": "既出の名称の局所再出現。全体の名称選好を再認証しない。"
+    },
+    {
+      "id": "caption-term-18",
+      "surface": "正規直交性",
+      "occurrences": [
+        {
+          "line": 18,
+          "column": 52
+        }
+      ],
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "orthonormality of the B basis",
+      "decision": "KEEP",
+      "reason": "正規直交性 は上記の既出対象を再参照し、このcaptionで新しい名称や別の意味を導入しない。",
+      "evidence": {
+        "locator": "reviews/reader-depth/japanese/coverage.json#complex-phase; reviews/gate-repair/japanese-late-density/coverage.json",
+        "usage": "正規直交性 は上記の既出対象を再参照し、このcaptionで新しい名称や別の意味を導入しない。",
+        "limitation": "新しい専門名選好の独立な文献調査ではない。"
+      },
+      "scope": "既出の名称の局所再出現。全体の名称選好を再認証しない。"
+    },
+    {
+      "id": "caption-term-19",
+      "surface": "密度行列",
+      "occurrences": [
+        {
+          "line": 18,
+          "column": 64
+        },
+        {
+          "line": 23,
+          "column": 31
+        }
+      ],
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "density matrix",
+      "decision": "KEEP",
+      "reason": "密度行列 は上記の既出対象を再参照し、このcaptionで新しい名称や別の意味を導入しない。",
+      "evidence": {
+        "locator": "reviews/reader-depth/japanese/coverage.json#complex-phase; reviews/gate-repair/japanese-late-density/coverage.json",
+        "usage": "密度行列 は上記の既出対象を再参照し、このcaptionで新しい名称や別の意味を導入しない。",
+        "limitation": "新しい専門名選好の独立な文献調査ではない。"
+      },
+      "scope": "既出の名称の局所再出現。全体の名称選好を再認証しない。"
+    },
+    {
+      "id": "caption-term-20",
+      "surface": "複素平面",
+      "occurrences": [
+        {
+          "line": 21,
+          "column": 3
+        }
+      ],
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "complex plane",
+      "decision": "KEEP",
+      "reason": "複素平面 は上記の既出対象を再参照し、このcaptionで新しい名称や別の意味を導入しない。",
+      "evidence": {
+        "locator": "reviews/reader-depth/japanese/coverage.json#complex-phase; reviews/gate-repair/japanese-late-density/coverage.json",
+        "usage": "複素平面 は上記の既出対象を再参照し、このcaptionで新しい名称や別の意味を導入しない。",
+        "limitation": "新しい専門名選好の独立な文献調査ではない。"
+      },
+      "scope": "既出の名称の局所再出現。全体の名称選好を再認証しない。"
+    },
+    {
+      "id": "caption-term-21",
+      "surface": "虚軸",
+      "occurrences": [
+        {
+          "line": 20,
+          "column": 99
+        },
+        {
+          "line": 21,
+          "column": 62
+        }
+      ],
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "imaginary axis",
+      "decision": "KEEP",
+      "reason": "虚軸 は上記の既出対象を再参照し、このcaptionで新しい名称や別の意味を導入しない。",
+      "evidence": {
+        "locator": "reviews/reader-depth/japanese/coverage.json#complex-phase; reviews/gate-repair/japanese-late-density/coverage.json",
+        "usage": "虚軸 は上記の既出対象を再参照し、このcaptionで新しい名称や別の意味を導入しない。",
+        "limitation": "新しい専門名選好の独立な文献調査ではない。"
+      },
+      "scope": "既出の名称の局所再出現。全体の名称選好を再認証しない。"
+    },
+    {
+      "id": "caption-term-22",
+      "surface": "CFT",
+      "occurrences": [
+        {
+          "line": 23,
+          "column": 26
+        },
+        {
+          "line": 24,
+          "column": 53
+        }
+      ],
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "conformal field theory",
+      "decision": "UNVERIFIED",
+      "reason": "CFT は上記の既出対象を再参照し、このcaptionで新しい名称や別の意味を導入しない。",
+      "evidence": {
+        "locator": "reviews/reader-depth/japanese/coverage.json#complex-phase; reviews/gate-repair/japanese-late-density/coverage.json",
+        "usage": "CFT は上記の既出対象を再参照し、このcaptionで新しい名称や別の意味を導入しない。",
+        "limitation": "新しい専門名選好の独立な文献調査ではない。"
+      },
+      "scope": "既出の名称の局所再出現。全体の名称選好を再認証しない。",
+      "uncertainty_reason": "既存の名称の日本語選好をこのcaption限定レーンでは再調査していない。",
+      "deferred_reason": "既存名称・記号・対象の対応を保ち、名称を変更せず別の概念を導入しないため、局所修正の判定へ影響しない。",
+      "blocks_whole_range_pass": false
+    },
+    {
+      "id": "caption-term-23",
+      "surface": "準位間隔",
+      "occurrences": [
+        {
+          "line": 23,
+          "column": 60
+        }
+      ],
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "spacing between the shown levels",
+      "decision": "KEEP",
+      "reason": "準位間隔 は上記の既出対象を再参照し、このcaptionで新しい名称や別の意味を導入しない。",
+      "evidence": {
+        "locator": "reviews/reader-depth/japanese/coverage.json#complex-phase; reviews/gate-repair/japanese-late-density/coverage.json",
+        "usage": "準位間隔 は上記の既出対象を再参照し、このcaptionで新しい名称や別の意味を導入しない。",
+        "limitation": "新しい専門名選好の独立な文献調査ではない。"
+      },
+      "scope": "既出の名称の局所再出現。全体の名称選好を再認証しない。"
+    },
+    {
+      "id": "caption-term-24",
+      "surface": "逆温度",
+      "occurrences": [
+        {
+          "line": 23,
+          "column": 83
+        },
+        {
+          "line": 23,
+          "column": 124
+        }
+      ],
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "inverse temperature",
+      "decision": "KEEP",
+      "reason": "逆温度 は上記の既出対象を再参照し、このcaptionで新しい名称や別の意味を導入しない。",
+      "evidence": {
+        "locator": "reviews/reader-depth/japanese/coverage.json#complex-phase; reviews/gate-repair/japanese-late-density/coverage.json",
+        "usage": "逆温度 は上記の既出対象を再参照し、このcaptionで新しい名称や別の意味を導入しない。",
+        "limitation": "新しい専門名選好の独立な文献調査ではない。"
+      },
+      "scope": "既出の名称の局所再出現。全体の名称選好を再認証しない。"
+    },
+    {
+      "id": "caption-term-25",
+      "surface": "基底状態",
+      "occurrences": [
+        {
+          "line": 23,
+          "column": 87
+        }
+      ],
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "ground state of the left physical-edge Hamiltonian",
+      "decision": "KEEP",
+      "reason": "基底状態 は上記の既出対象を再参照し、このcaptionで新しい名称や別の意味を導入しない。",
+      "evidence": {
+        "locator": "reviews/reader-depth/japanese/coverage.json#complex-phase; reviews/gate-repair/japanese-late-density/coverage.json",
+        "usage": "基底状態 は上記の既出対象を再参照し、このcaptionで新しい名称や別の意味を導入しない。",
+        "limitation": "新しい専門名選好の独立な文献調査ではない。"
+      },
+      "scope": "既出の名称の局所再出現。全体の名称選好を再認証しない。"
+    },
+    {
+      "id": "caption-term-26",
+      "surface": "有効逆温度",
+      "occurrences": [
+        {
+          "line": 23,
+          "column": 122
+        }
+      ],
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "effective inverse temperature already defined in the body",
+      "decision": "KEEP",
+      "reason": "有効逆温度 は上記の既出対象を再参照し、このcaptionで新しい名称や別の意味を導入しない。",
+      "evidence": {
+        "locator": "reviews/reader-depth/japanese/coverage.json#complex-phase; reviews/gate-repair/japanese-late-density/coverage.json",
+        "usage": "有効逆温度 は上記の既出対象を再参照し、このcaptionで新しい名称や別の意味を導入しない。",
+        "limitation": "新しい専門名選好の独立な文献調査ではない。"
+      },
+      "scope": "既出の名称の局所再出現。全体の名称選好を再認証しない。"
+    },
+    {
+      "id": "caption-term-27",
+      "surface": "低エネルギー近似",
+      "occurrences": [
+        {
+          "line": 23,
+          "column": 150
+        }
+      ],
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "low-energy approximation",
+      "decision": "KEEP",
+      "reason": "低エネルギー近似 は上記の既出対象を再参照し、このcaptionで新しい名称や別の意味を導入しない。",
+      "evidence": {
+        "locator": "reviews/reader-depth/japanese/coverage.json#complex-phase; reviews/gate-repair/japanese-late-density/coverage.json",
+        "usage": "低エネルギー近似 は上記の既出対象を再参照し、このcaptionで新しい名称や別の意味を導入しない。",
+        "limitation": "新しい専門名選好の独立な文献調査ではない。"
+      },
+      "scope": "既出の名称の局所再出現。全体の名称選好を再認証しない。"
+    },
+    {
+      "id": "caption-term-28",
+      "surface": "並進",
+      "occurrences": [
+        {
+          "line": 26,
+          "column": 28
+        }
+      ],
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "translation acting on the right-hand tensors",
+      "decision": "KEEP",
+      "reason": "並進 は上記の既出対象を再参照し、このcaptionで新しい名称や別の意味を導入しない。",
+      "evidence": {
+        "locator": "reviews/reader-depth/japanese/coverage.json#complex-phase; reviews/gate-repair/japanese-late-density/coverage.json",
+        "usage": "並進 は上記の既出対象を再参照し、このcaptionで新しい名称や別の意味を導入しない。",
+        "limitation": "新しい専門名選好の独立な文献調査ではない。"
+      },
+      "scope": "既出の名称の局所再出現。全体の名称選好を再認証しない。"
+    },
+    {
+      "id": "caption-term-29",
+      "surface": "シュミット確率",
+      "occurrences": [
+        {
+          "line": 26,
+          "column": 63
+        },
+        {
+          "line": 27,
+          "column": 48
+        }
+      ],
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "Schmidt probability weights",
+      "decision": "KEEP",
+      "reason": "シュミット確率 は上記の既出対象を再参照し、このcaptionで新しい名称や別の意味を導入しない。",
+      "evidence": {
+        "locator": "reviews/reader-depth/japanese/coverage.json#complex-phase; reviews/gate-repair/japanese-late-density/coverage.json",
+        "usage": "シュミット確率 は上記の既出対象を再参照し、このcaptionで新しい名称や別の意味を導入しない。",
+        "limitation": "新しい専門名選好の独立な文献調査ではない。"
+      },
+      "scope": "既出の名称の局所再出現。全体の名称選好を再認証しない。"
+    },
+    {
+      "id": "caption-term-30",
+      "surface": "運動量",
+      "occurrences": [
+        {
+          "line": 26,
+          "column": 112
+        },
+        {
+          "line": 27,
+          "column": 94
+        }
+      ],
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "physical momentum of A",
+      "decision": "KEEP",
+      "reason": "運動量 は上記の既出対象を再参照し、このcaptionで新しい名称や別の意味を導入しない。",
+      "evidence": {
+        "locator": "reviews/reader-depth/japanese/coverage.json#complex-phase; reviews/gate-repair/japanese-late-density/coverage.json",
+        "usage": "運動量 は上記の既出対象を再参照し、このcaptionで新しい名称や別の意味を導入しない。",
+        "limitation": "新しい専門名選好の独立な文献調査ではない。"
+      },
+      "scope": "既出の名称の局所再出現。全体の名称選好を再認証しない。"
+    },
+    {
+      "id": "caption-term-31",
+      "surface": "Landau 軌道",
+      "occurrences": [
+        {
+          "line": 29,
+          "column": 35
+        }
+      ],
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "Landau orbital",
+      "decision": "UNVERIFIED",
+      "reason": "Landau 軌道 は上記の既出対象を再参照し、このcaptionで新しい名称や別の意味を導入しない。",
+      "evidence": {
+        "locator": "reviews/reader-depth/japanese/coverage.json#complex-phase; reviews/gate-repair/japanese-late-density/coverage.json",
+        "usage": "Landau 軌道 は上記の既出対象を再参照し、このcaptionで新しい名称や別の意味を導入しない。",
+        "limitation": "新しい専門名選好の独立な文献調査ではない。"
+      },
+      "scope": "既出の名称の局所再出現。全体の名称選好を再認証しない。",
+      "uncertainty_reason": "既存の名称の日本語選好をこのcaption限定レーンでは再調査していない。",
+      "deferred_reason": "既存名称・記号・対象の対応を保ち、名称を変更せず別の概念を導入しないため、局所修正の判定へ影響しない。",
+      "blocks_whole_range_pass": false
+    },
+    {
+      "id": "caption-term-32",
+      "surface": "実空間",
+      "occurrences": [
+        {
+          "line": 29,
+          "column": 20
+        },
+        {
+          "line": 30,
+          "column": 52
+        }
+      ],
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "real space as distinguished from orbital indices",
+      "decision": "KEEP",
+      "reason": "実空間 は上記の既出対象を再参照し、このcaptionで新しい名称や別の意味を導入しない。",
+      "evidence": {
+        "locator": "reviews/reader-depth/japanese/coverage.json#complex-phase; reviews/gate-repair/japanese-late-density/coverage.json",
+        "usage": "実空間 は上記の既出対象を再参照し、このcaptionで新しい名称や別の意味を導入しない。",
+        "limitation": "新しい専門名選好の独立な文献調査ではない。"
+      },
+      "scope": "既出の名称の局所再出現。全体の名称選好を再認証しない。"
+    },
+    {
+      "id": "caption-term-33",
+      "surface": "Abelian",
+      "occurrences": [
+        {
+          "line": 32,
+          "column": 104
+        },
+        {
+          "line": 32,
+          "column": 156
+        },
+        {
+          "line": 33,
+          "column": 49
+        }
+      ],
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "Abelian topological phase",
+      "decision": "UNVERIFIED",
+      "reason": "Abelian は上記の既出対象を再参照し、このcaptionで新しい名称や別の意味を導入しない。",
+      "evidence": {
+        "locator": "reviews/reader-depth/japanese/coverage.json#complex-phase; reviews/gate-repair/japanese-late-density/coverage.json",
+        "usage": "Abelian は上記の既出対象を再参照し、このcaptionで新しい名称や別の意味を導入しない。",
+        "limitation": "新しい専門名選好の独立な文献調査ではない。"
+      },
+      "scope": "既出の名称の局所再出現。全体の名称選好を再認証しない。",
+      "uncertainty_reason": "既存の名称の日本語選好をこのcaption限定レーンでは再調査していない。",
+      "deferred_reason": "既存名称・記号・対象の対応を保ち、名称を変更せず別の概念を導入しないため、局所修正の判定へ影響しない。",
+      "blocks_whole_range_pass": false
+    },
+    {
+      "id": "caption-term-34",
+      "surface": "non-Abelian",
+      "occurrences": [
+        {
+          "line": 32,
+          "column": 126
+        }
+      ],
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "non-Abelian topological phase",
+      "decision": "UNVERIFIED",
+      "reason": "non-Abelian は上記の既出対象を再参照し、このcaptionで新しい名称や別の意味を導入しない。",
+      "evidence": {
+        "locator": "reviews/reader-depth/japanese/coverage.json#complex-phase; reviews/gate-repair/japanese-late-density/coverage.json",
+        "usage": "non-Abelian は上記の既出対象を再参照し、このcaptionで新しい名称や別の意味を導入しない。",
+        "limitation": "新しい専門名選好の独立な文献調査ではない。"
+      },
+      "scope": "既出の名称の局所再出現。全体の名称選好を再認証しない。",
+      "uncertainty_reason": "既存の名称の日本語選好をこのcaption限定レーンでは再調査していない。",
+      "deferred_reason": "既存名称・記号・対象の対応を保ち、名称を変更せず別の概念を導入しないため、局所修正の判定へ影響しない。",
+      "blocks_whole_range_pass": false
+    },
+    {
+      "id": "caption-term-35",
+      "surface": "必要条件",
+      "occurrences": [
+        {
+          "line": 32,
+          "column": 147
+        }
+      ],
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "necessary condition",
+      "decision": "KEEP",
+      "reason": "必要条件 は上記の既出対象を再参照し、このcaptionで新しい名称や別の意味を導入しない。",
+      "evidence": {
+        "locator": "reviews/reader-depth/japanese/coverage.json#complex-phase; reviews/gate-repair/japanese-late-density/coverage.json",
+        "usage": "必要条件 は上記の既出対象を再参照し、このcaptionで新しい名称や別の意味を導入しない。",
+        "limitation": "新しい専門名選好の独立な文献調査ではない。"
+      },
+      "scope": "既出の名称の局所再出現。全体の名称選好を再認証しない。"
+    },
+    {
+      "id": "caption-term-36",
+      "surface": "位相条件",
+      "occurrences": [
+        {
+          "line": 32,
+          "column": 184
+        }
+      ],
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "the condition on higher-central-charge phases",
+      "decision": "KEEP",
+      "reason": "位相条件 は上記の既出対象を再参照し、このcaptionで新しい名称や別の意味を導入しない。",
+      "evidence": {
+        "locator": "reviews/reader-depth/japanese/coverage.json#complex-phase; reviews/gate-repair/japanese-late-density/coverage.json",
+        "usage": "位相条件 は上記の既出対象を再参照し、このcaptionで新しい名称や別の意味を導入しない。",
+        "limitation": "新しい専門名選好の独立な文献調査ではない。"
+      },
+      "scope": "既出の名称の局所再出現。全体の名称選好を再認証しない。"
+    },
+    {
+      "id": "caption-term-37",
+      "surface": "漸近領域",
+      "occurrences": [
+        {
+          "line": 35,
+          "column": 13
+        }
+      ],
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "asymptotic regime",
+      "decision": "KEEP",
+      "reason": "漸近領域 は上記の既出対象を再参照し、このcaptionで新しい名称や別の意味を導入しない。",
+      "evidence": {
+        "locator": "reviews/reader-depth/japanese/coverage.json#complex-phase; reviews/gate-repair/japanese-late-density/coverage.json",
+        "usage": "漸近領域 は上記の既出対象を再参照し、このcaptionで新しい名称や別の意味を導入しない。",
+        "limitation": "新しい専門名選好の独立な文献調査ではない。"
+      },
+      "scope": "既出の名称の局所再出現。全体の名称選好を再認証しない。"
+    },
+    {
+      "id": "caption-term-38",
+      "surface": "対数軸",
+      "occurrences": [
+        {
+          "line": 35,
+          "column": 1
+        }
+      ],
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "logarithmic axes",
+      "decision": "KEEP",
+      "reason": "対数軸 は上記の既出対象を再参照し、このcaptionで新しい名称や別の意味を導入しない。",
+      "evidence": {
+        "locator": "reviews/reader-depth/japanese/coverage.json#complex-phase; reviews/gate-repair/japanese-late-density/coverage.json",
+        "usage": "対数軸 は上記の既出対象を再参照し、このcaptionで新しい名称や別の意味を導入しない。",
+        "limitation": "新しい専門名選好の独立な文献調査ではない。"
+      },
+      "scope": "既出の名称の局所再出現。全体の名称選好を再認証しない。"
+    },
+    {
+      "id": "caption-term-39",
+      "surface": "有効エッジ長",
+      "occurrences": [
+        {
+          "line": 36,
+          "column": 12
+        }
+      ],
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "the previously defined effective edge length",
+      "decision": "UNVERIFIED",
+      "reason": "有効エッジ長 は上記の既出対象を再参照し、このcaptionで新しい名称や別の意味を導入しない。",
+      "evidence": {
+        "locator": "reviews/reader-depth/japanese/coverage.json#complex-phase; reviews/gate-repair/japanese-late-density/coverage.json",
+        "usage": "有効エッジ長 は上記の既出対象を再参照し、このcaptionで新しい名称や別の意味を導入しない。",
+        "limitation": "新しい専門名選好の独立な文献調査ではない。"
+      },
+      "scope": "既出の名称の局所再出現。全体の名称選好を再認証しない。",
+      "uncertainty_reason": "既存の名称の日本語選好をこのcaption限定レーンでは再調査していない。",
+      "deferred_reason": "既存名称・記号・対象の対応を保ち、名称を変更せず別の概念を導入しないため、局所修正の判定へ影響しない。",
+      "blocks_whole_range_pass": false
+    },
+    {
+      "id": "caption-term-40",
+      "surface": "テンソル",
+      "occurrences": [
+        {
+          "line": 26,
+          "column": 19
+        }
+      ],
+      "role": "disciplinary_name",
+      "impact": "incidental",
+      "referent": "tensor forming the previously defined MPS",
+      "decision": "KEEP",
+      "reason": "テンソル は上記の既出対象を再参照し、このcaptionで新しい名称や別の意味を導入しない。",
+      "evidence": {
+        "locator": "reviews/reader-depth/japanese/coverage.json#complex-phase; reviews/gate-repair/japanese-late-density/coverage.json",
+        "usage": "テンソル は上記の既出対象を再参照し、このcaptionで新しい名称や別の意味を導入しない。",
+        "limitation": "新しい専門名選好の独立な文献調査ではない。"
+      },
+      "scope": "既出の名称の局所再出現。全体の名称選好を再認証しない。"
+    },
+    {
+      "id": "caption-term-41",
+      "surface": "補助ボンド上の逆変換",
+      "occurrences": [
+        {
+          "line": 26,
+          "column": 35
+        }
+      ],
+      "role": "explanatory_gloss",
+      "impact": "high",
+      "referent": "inverse virtual-bond transform",
+      "decision": "UNVERIFIED",
+      "reason": "補助ボンド上の逆変換 はMPS操作の同じ対象を参照するが、本レーンには同じ操作・対象の日本語使用比較がない。科学レーンの意味の支持と名称選好を分ける。",
+      "comparison": {
+        "current": "補助ボンド上の逆変換",
+        "english_or_not_applicable": "inverse virtual-bond transform",
+        "alternatives_or_not_applicable": "仮想ボンド上の逆変換; ボンド上に作用する逆変換",
+        "audience_reason": "同じ対象を扱う日本語の研究分野での使用比較を得ていない。推測による置換は行わない。"
+      },
+      "uncertainty_reason": "現在の資料は対象の意味を示すが、日本語での優先表現を確定する使用比較を供給しない。",
+      "missing_evidence": "同じ対象を扱う独立した日本語の分野資料二件、または明示的なプロジェクト採用規約。",
+      "blocks_whole_range_pass": true
+    },
+    {
+      "id": "caption-term-42",
+      "surface": "ラベルの校正",
+      "occurrences": [
+        {
+          "line": 26,
+          "column": 88
+        }
+      ],
+      "role": "explanatory_gloss",
+      "impact": "high",
+      "referent": "calibration of conserved momentum/charge label origins",
+      "decision": "UNVERIFIED",
+      "reason": "ラベルの校正 はMPS操作の同じ対象を参照するが、本レーンには同じ操作・対象の日本語使用比較がない。科学レーンの意味の支持と名称選好を分ける。",
+      "comparison": {
+        "current": "ラベルの校正",
+        "english_or_not_applicable": "calibration of conserved momentum/charge label origins",
+        "alternatives_or_not_applicable": "ラベルの対応付け; 原点を定める",
+        "audience_reason": "同じ対象を扱う日本語の研究分野での使用比較を得ていない。推測による置換は行わない。"
+      },
+      "uncertainty_reason": "現在の資料は対象の意味を示すが、日本語での優先表現を確定する使用比較を供給しない。",
+      "missing_evidence": "同じ対象を扱う独立した日本語の分野資料二件、または明示的なプロジェクト採用規約。",
+      "blocks_whole_range_pass": true
+    },
+    {
+      "id": "caption-term-43",
+      "surface": "原点の校正",
+      "occurrences": [
+        {
+          "line": 27,
+          "column": 80
+        }
+      ],
+      "role": "explanatory_gloss",
+      "impact": "high",
+      "referent": "calibration of label origins",
+      "decision": "UNVERIFIED",
+      "reason": "原点の校正 はMPS操作の同じ対象を参照するが、本レーンには同じ操作・対象の日本語使用比較がない。科学レーンの意味の支持と名称選好を分ける。",
+      "comparison": {
+        "current": "原点の校正",
+        "english_or_not_applicable": "calibration of label origins",
+        "alternatives_or_not_applicable": "原点の較正; 原点を定める",
+        "audience_reason": "同じ対象を扱う日本語の研究分野での使用比較を得ていない。推測による置換は行わない。"
+      },
+      "uncertainty_reason": "現在の資料は対象の意味を示すが、日本語での優先表現を確定する使用比較を供給しない。",
+      "missing_evidence": "同じ対象を扱う独立した日本語の分野資料二件、または明示的なプロジェクト採用規約。",
+      "blocks_whole_range_pass": true
+    },
+    {
+      "id": "caption-term-44",
+      "surface": "ボンド状態",
+      "occurrences": [
+        {
+          "line": 26,
+          "column": 54
+        },
+        {
+          "line": 27,
+          "column": 38
+        }
+      ],
+      "role": "explanatory_gloss",
+      "impact": "high",
+      "referent": "states on the MPS auxiliary bond",
+      "decision": "UNVERIFIED",
+      "reason": "ボンド状態 はMPS操作の同じ対象を参照するが、本レーンには同じ操作・対象の日本語使用比較がない。科学レーンの意味の支持と名称選好を分ける。",
+      "comparison": {
+        "current": "ボンド状態",
+        "english_or_not_applicable": "states on the MPS auxiliary bond",
+        "alternatives_or_not_applicable": "仮想ボンド状態; auxiliary-bond states",
+        "audience_reason": "同じ対象を扱う日本語の研究分野での使用比較を得ていない。推測による置換は行わない。"
+      },
+      "uncertainty_reason": "現在の資料は対象の意味を示すが、日本語での優先表現を確定する使用比較を供給しない。",
+      "missing_evidence": "同じ対象を扱う独立した日本語の分野資料二件、または明示的なプロジェクト採用規約。",
+      "blocks_whole_range_pass": true
+    },
+    {
+      "id": "caption-term-45",
+      "surface": "MPS",
+      "occurrences": [
+        {
+          "line": 27,
+          "column": 1
+        }
+      ],
+      "role": "explanatory_gloss",
+      "impact": "high",
+      "referent": "matrix product state",
+      "decision": "UNVERIFIED",
+      "reason": "MPS はMPS操作の同じ対象を参照するが、本レーンには同じ操作・対象の日本語使用比較がない。科学レーンの意味の支持と名称選好を分ける。",
+      "comparison": {
+        "current": "MPS",
+        "english_or_not_applicable": "matrix product state",
+        "alternatives_or_not_applicable": "行列積状態; Matrix Product State",
+        "audience_reason": "同じ対象を扱う日本語の研究分野での使用比較を得ていない。推測による置換は行わない。"
+      },
+      "uncertainty_reason": "現在の資料は対象の意味を示すが、日本語での優先表現を確定する使用比較を供給しない。",
+      "missing_evidence": "同じ対象を扱う独立した日本語の分野資料二件、または明示的なプロジェクト採用規約。",
+      "blocks_whole_range_pass": true
+    },
+    {
+      "id": "caption-term-46",
+      "surface": "重み",
+      "occurrences": [
+        {
+          "line": 23,
+          "column": 47
+        },
+        {
+          "line": 23,
+          "column": 92
+        },
+        {
+          "line": 23,
+          "column": 116
+        },
+        {
+          "line": 24,
+          "column": 96
+        },
+        {
+          "line": 26,
+          "column": 71
+        },
+        {
+          "line": 29,
+          "column": 60
+        },
+        {
+          "line": 30,
+          "column": 62
+        }
+      ],
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "reason": "確率、準位または軌道の成分の重みを述べる説明語。独立の新しい保存量名ではない。"
+    },
+    {
+      "id": "caption-term-47",
+      "surface": "12 と互いに素",
+      "occurrences": [
+        {
+          "line": 32,
+          "column": 88
+        },
+        {
+          "line": 33,
+          "column": 24
+        }
+      ],
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "reason": "整数と12の間の関係を完全に指定した通常の算術説明。新しい集合の固有名ではない。"
+    },
+    {
+      "id": "caption-term-48",
+      "surface": "微小角",
+      "occurrences": [
+        {
+          "line": 35,
+          "column": 42
+        },
+        {
+          "line": 36,
+          "column": 74
+        }
+      ],
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "reason": "角度が小さい極限についての既出の条件修飾。新しい物理量の名称ではない。"
+    },
+    {
+      "id": "caption-term-49",
+      "surface": "符号付き角度",
+      "occurrences": [
+        {
+          "line": 11,
+          "column": 44
+        }
+      ],
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "reason": "角度の正負を保存して表示する説明語。別の専門的角度分類を導入しない。"
+    },
+    {
+      "id": "caption-term-50",
+      "surface": "中心電荷の位相",
+      "occurrences": [
+        {
+          "line": 11,
+          "column": 67
+        }
+      ],
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "reason": "中心電荷が寄与する位相因子を説明する関係句。新しい中心電荷の種類の名前ではない。"
+    },
+    {
+      "id": "caption-term-51",
+      "surface": "観測位相",
+      "occurrences": [
+        {
+          "line": 11,
+          "column": 113
+        }
+      ],
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "reason": "この図で合成された観測量の位相を指す説明句。独立した新しい観測量の正式名ではない。"
+    },
+    {
+      "id": "caption-term-52",
+      "surface": "左側の真空の寄与",
+      "occurrences": [
+        {
+          "line": 12,
+          "column": 17
+        }
+      ],
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "reason": "左側に対応する真空の寄与という展開した位置修飾。左真空という新しい種類を命名しない。"
+    },
+    {
+      "id": "caption-term-53",
+      "surface": "右側の真空の寄与",
+      "occurrences": [
+        {
+          "line": 12,
+          "column": 54
+        }
+      ],
+      "role": "ordinary_syntax",
+      "impact": "incidental",
+      "reason": "右側に対応する真空の寄与という展開した位置修飾。右真空という新しい種類を命名しない。"
+    }
+  ],
+  "verdict": "Mechanical candidate coverage complete subject to validator; no unconditional whole-range Japanese naming PASS."
+}

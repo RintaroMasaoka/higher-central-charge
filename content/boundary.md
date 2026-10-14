@@ -28,6 +28,10 @@ $$
 
 整数の条件の違いは、$N_{\mathrm{FS}}=12$ で確かめられる。$n=4$ は $12$ と互いに素ではないが、$\gcd(4,12)=4$ を取り除くと $\gcd(4,3)=1$ なので、Abelian の条件には含まれる。したがって、単に $N_{\mathrm{FS}}$ と互いに素な $n$ を全部調べることと、Abelian の十分条件を全部調べることは異なる。
 
+![1 から 12 の整数を同じ行に置いた比較表。12 と互いに素な整数の集合は 1、5、7、11。Abelian の広い条件の集合は 1、3、4、5、7、8、9、11、12 であり、前者を全て含む。](/diagrams/boundary-integer-membership.png)
+
+$N_{\mathrm{FS}}=12$、$1\le n\le12$ における二つの整数条件の比較。塗りつぶした丸はその条件に含まれる整数、白抜きの丸は含まれない整数を表す。12 と互いに素な整数の集合は Abelian の条件の集合に真に含まれる。non-Abelian な相には前者による必要条件を用いる。Abelian な物理的な相の境界を判定するには、後者の位相条件と実際の $c_-=0$ の両方が必要である。
+
 物理的な相に対しては、これに実際の $c_-=0$ を合わせて境界の判定に使う。エニオンデータの中心電荷は $8$ を法として決まるため、エニオンを増やさず中心電荷を加える可逆相の情報も必要になる。[原論文：Definition and properties；補足：Complete determination of edge gappability for bosonic Abelian phases](/references/#ref-criteria)
 
 ## $N_{\mathrm{FS}}$ を先に知らない場合

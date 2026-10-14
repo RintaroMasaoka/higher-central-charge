@@ -1,0 +1,250 @@
+{
+  "id": "stacked-phase-product",
+  "renderer": "KaTeX 0.16.22, Chrome screenshot at 2x",
+  "sourceSha256": "1e49f2a827460c0780c8ff71ce390677430643e4c0ccc19cee7a8b6cc53eaad6",
+  "outputSha256": "910596b801c95d065fa954e35b8082f3e1d753e7050dfcefa22413b69c2f4b1b",
+  "width": 560,
+  "height": 1200,
+  "inventory": [
+    {
+      "tex": "n=3",
+      "x": 248.359375,
+      "y": 8.40625,
+      "fontSize": 26,
+      "anchor": "center",
+      "role": "expression",
+      "index": 0,
+      "width": 63.28125,
+      "height": 33.1875,
+      "typeset": true
+    },
+    {
+      "tex": "\\mathrm U(1)_2",
+      "x": 248.421875,
+      "y": 48.75,
+      "fontSize": 26,
+      "anchor": "center",
+      "role": "expression",
+      "index": 1,
+      "width": 63.15625,
+      "height": 32.5,
+      "typeset": true
+    },
+    {
+      "tex": "1-i=\\sqrt2e^{-i\\pi/4}",
+      "x": 186.9140625,
+      "y": 348.40625,
+      "fontSize": 26,
+      "anchor": "center",
+      "role": "expression",
+      "index": 2,
+      "width": 186.171875,
+      "height": 33.1875,
+      "typeset": true
+    },
+    {
+      "tex": "\\mathrm{Re}",
+      "x": 463.8359375,
+      "y": 202.6015625,
+      "fontSize": 24,
+      "anchor": "center",
+      "role": "expression",
+      "index": 3,
+      "width": 28.328125,
+      "height": 30.796875,
+      "typeset": true
+    },
+    {
+      "tex": "\\mathrm{Im}",
+      "x": 295.671875,
+      "y": 94.6015625,
+      "fontSize": 24,
+      "anchor": "center",
+      "role": "expression",
+      "index": 4,
+      "width": 28.65625,
+      "height": 30.796875,
+      "typeset": true
+    },
+    {
+      "tex": "-\\pi/4",
+      "x": 344.3828125,
+      "y": 281.1015625,
+      "fontSize": 24,
+      "anchor": "center",
+      "role": "expression",
+      "index": 5,
+      "width": 57.234375,
+      "height": 31.796875,
+      "typeset": true
+    },
+    {
+      "tex": "\\mathrm U(1)_{-4}",
+      "x": 241.3359375,
+      "y": 388.75,
+      "fontSize": 26,
+      "anchor": "center",
+      "role": "expression",
+      "index": 6,
+      "width": 77.328125,
+      "height": 32.5,
+      "typeset": true
+    },
+    {
+      "tex": "2e^{-3i\\pi/4}",
+      "x": 237.3984375,
+      "y": 688.40625,
+      "fontSize": 26,
+      "anchor": "center",
+      "role": "expression",
+      "index": 7,
+      "width": 85.203125,
+      "height": 33.1875,
+      "typeset": true
+    },
+    {
+      "tex": "\\mathrm{Re}",
+      "x": 463.8359375,
+      "y": 542.6015625,
+      "fontSize": 24,
+      "anchor": "center",
+      "role": "expression",
+      "index": 8,
+      "width": 28.328125,
+      "height": 30.796875,
+      "typeset": true
+    },
+    {
+      "tex": "\\mathrm{Im}",
+      "x": 295.671875,
+      "y": 434.6015625,
+      "fontSize": 24,
+      "anchor": "center",
+      "role": "expression",
+      "index": 9,
+      "width": 28.65625,
+      "height": 30.796875,
+      "typeset": true
+    },
+    {
+      "tex": "-3\\pi/4",
+      "x": 338.3828125,
+      "y": 621.1015625,
+      "fontSize": 24,
+      "anchor": "center",
+      "role": "expression",
+      "index": 10,
+      "width": 69.234375,
+      "height": 31.796875,
+      "typeset": true
+    },
+    {
+      "tex": "\\mathrm U(1)_2\\times\\mathrm U(1)_{-4}",
+      "x": 193.875,
+      "y": 728.75,
+      "fontSize": 26,
+      "anchor": "center",
+      "role": "expression",
+      "index": 11,
+      "width": 172.25,
+      "height": 32.5,
+      "typeset": true
+    },
+    {
+      "tex": "-2\\sqrt2=2\\sqrt2e^{-i\\pi}",
+      "x": 182.4453125,
+      "y": 1028.40625,
+      "fontSize": 26,
+      "anchor": "center",
+      "role": "expression",
+      "index": 12,
+      "width": 195.109375,
+      "height": 33.1875,
+      "typeset": true
+    },
+    {
+      "tex": "\\mathrm{Re}",
+      "x": 463.8359375,
+      "y": 882.6015625,
+      "fontSize": 24,
+      "anchor": "center",
+      "role": "expression",
+      "index": 13,
+      "width": 28.328125,
+      "height": 30.796875,
+      "typeset": true
+    },
+    {
+      "tex": "\\mathrm{Im}",
+      "x": 295.671875,
+      "y": 774.6015625,
+      "fontSize": 24,
+      "anchor": "center",
+      "role": "expression",
+      "index": 14,
+      "width": 28.65625,
+      "height": 30.796875,
+      "typeset": true
+    },
+    {
+      "tex": "-\\pi",
+      "x": 356.3828125,
+      "y": 961.1015625,
+      "fontSize": 24,
+      "anchor": "center",
+      "role": "expression",
+      "index": 15,
+      "width": 33.234375,
+      "height": 31.796875,
+      "typeset": true
+    },
+    {
+      "tex": "\\sqrt2\\times2=2\\sqrt2",
+      "x": 199.125,
+      "y": 1063.75,
+      "fontSize": 26,
+      "anchor": "center",
+      "role": "expression",
+      "index": 16,
+      "width": 161.75,
+      "height": 32.5,
+      "typeset": true
+    },
+    {
+      "tex": "-\\pi/4-3\\pi/4=-\\pi",
+      "x": 170.421875,
+      "y": 1103.40625,
+      "fontSize": 26,
+      "anchor": "center",
+      "role": "expression",
+      "index": 17,
+      "width": 219.15625,
+      "height": 33.1875,
+      "typeset": true
+    },
+    {
+      "tex": "\\zeta_3=-1",
+      "x": 235.1484375,
+      "y": 1153.40625,
+      "fontSize": 26,
+      "anchor": "center",
+      "role": "expression",
+      "index": 18,
+      "width": 89.703125,
+      "height": 33.1875,
+      "typeset": true
+    }
+  ],
+  "fonts": [
+    {
+      "family": "KaTeX_Main",
+      "style": "normal",
+      "weight": "400"
+    },
+    {
+      "family": "KaTeX_Math",
+      "style": "italic",
+      "weight": "400"
+    }
+  ]
+}

@@ -94,8 +94,8 @@ button { cursor: pointer; }
 .note-content code:not(pre code) { padding: .12em .32em; border-radius: 3px; background: var(--code-bg); color: var(--code-ink); font: .87em ui-monospace, SFMono-Regular, monospace; }
 .note-content pre { overflow-x: auto; margin: 28px 0; padding: 18px; border: 1px solid var(--line); background: var(--soft); font: 12px/1.75 ui-monospace, SFMono-Regular, monospace; }
 .note-content hr { margin: 50px 0; border: 0; border-top: 1px solid var(--line); }
-.concept-figure { display: block; max-width: 100%; overflow-x: auto; margin: 24px 0; }
-.concept-figure img { display: block; width: 100%; min-width: 600px; height: auto; }
+.concept-figure { display: block; width: min(100%, 680px); margin: 24px auto; }
+.concept-figure img { display: block; width: 100%; min-width: 0; height: auto; }
 .concept-figure:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
 .note-content table { width: 100%; margin: 28px 0 34px; border-collapse: collapse; font-family: ui-sans-serif, system-ui, sans-serif; font-size: 12px; line-height: 1.6; }
 .note-content th { background: var(--table-head); font-weight: 700; text-align: left; }
